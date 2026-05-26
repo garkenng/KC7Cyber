@@ -8,7 +8,7 @@ Enter ready to get started!<br>
 ready
 ```
 <br>
-To start the investigation, I will be using the Azure Data Explorer (ADX) which contains top secret data from The Valdorian Times.Q2<br>Q2<br>
+To start the investigation, I will be using the Azure Data Explorer (ADX) which contains top secret data from The Valdorian Times.<br>br>
 Q2<br>
 Type done to earn credit for this question.<br>
 
