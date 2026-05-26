@@ -73,7 +73,7 @@ The query returned the columns.
 - verdict
 - link
 
-The 'sender' column can be used to run the next query.<br><br>
+The 'sender' column along with the doman name given in the question to run the next query.<br><br>
 
 ```
 Email
