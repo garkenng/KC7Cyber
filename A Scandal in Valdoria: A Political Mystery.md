@@ -54,4 +54,16 @@ Answer: 18.
 <br><br>
 
 Q6<br><br>
+How many distinct senders were seen in the email logs from the domain name "weprinturstuff.com"?<br><br>
+First we need to look at the schema for the Email table to determine what column we can use to search for distinct senders.
 
+```
+Email
+| take 10
+```
+<br>
+
+The query returned the columns.
+
+-timestamp 
+-sender, reply_to, receipient, subject, verdict and link
