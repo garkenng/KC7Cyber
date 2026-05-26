@@ -19,7 +19,7 @@ done
 ```
 <br>
 
-**Q3**<br<br>
+**Q3**<br><br>
 **How many employees work at the Valdorian Times?**<br>
 
 ```
@@ -41,8 +41,8 @@ Employees
 <br><br>
 From the previous inquiry, we can retrieve Nene Leaks email address: nene_leaks@valdoriantimes.news.<br><br>
 
-Q5<br><br>
-How many emails did Nene Leaks receive?<br>
+**Q5**<br><br>
+**How many emails did Nene Leaks receive?**<br>
 
 ```
 Email
@@ -50,11 +50,11 @@ Email
 | count
 ```
 <br>
-Answer: 18.
+**Answer: 18.**
 <br><br>
 
-Q6<br><br>
-How many distinct senders were seen in the email logs from the domain name "weprinturstuff.com"?<br><br>
+**Q6**<br><br>
+**How many distinct senders were seen in the email logs from the domain name "weprinturstuff.com"?**<br><br>
 First we need to look at the schema for the Email table to determine what column we can use to search for distinct senders.
 
 ```
@@ -81,8 +81,8 @@ Email
 | distinct sender
 | count
 ```
-Answer: 100.
+**Answer: 100**.
 <br><br>
 
-Q7<br><br>
-How many distinct URLs did “Lois Lane” visit?<br><br>
+**Q7**<br><br>
+**How many distinct URLs did “Lois Lane” visit?**<br><br>
