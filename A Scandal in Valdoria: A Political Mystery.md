@@ -66,4 +66,23 @@ Email
 The query returned the columns.
 
 - timestamp 
-- sender, reply_to, receipient, subject, verdict and link
+- sender
+- reply_to
+- receipient
+- subject
+- verdict
+- link
+
+The 'sender' column can be used to run the next query.<br><br>
+
+```
+Email
+| where sender has "weprinturstuff.com"
+| distinct sender
+| count
+```
+Answer: 100.
+<br><br>
+
+Q7<br><br>
+How many distinct URLs did “Lois Lane” visit?<br><br>
