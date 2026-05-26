@@ -184,3 +184,17 @@ PassiveDns
 **Answer: 191.7.248.112**<br><br>
 
 **Q10 How many distinct websites did employees with the first name "Mary" Visit?**<br><br>
+The site introduces the let statement. Which is essentially storing the result of a query into a variable. The KQL has been given to use, just need to fill in the "Employee Name" which is Mary and Count to return the number of records in the table OutboundNetworkEvents with Marys IP address.<br><br>
+
+```
+let mary_ips = 
+Employees
+| where name has "Mary"
+| distinct ip_addr;
+OutboundNetworkEvents
+| where src_ip in (mary_ips)
+| count
+```
+<br>
+
+**Answer: 58**<br><br>
