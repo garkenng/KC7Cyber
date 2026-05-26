@@ -27,7 +27,8 @@ Employees
 | count
 ```
 <br>
-**Answer: 100**<br><br>
+**Answer: 100**
+<br><br>
 
 **Q4**<br><br>
 **What is the Editorial Director's name?**<br>
