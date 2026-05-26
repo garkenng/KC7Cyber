@@ -28,6 +28,7 @@ Employees
 | count
 ```
 <br>
+
 **Answer: 100**
 <br><br>
 
