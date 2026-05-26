@@ -19,5 +19,9 @@ done
 Q3<br<br>
 How many employees work at the Valdorian Times?<br>
 
-
+```
+Employees
+| count
+```
+<br>
 Answer: 10<br><br>
