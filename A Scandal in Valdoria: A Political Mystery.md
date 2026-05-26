@@ -16,3 +16,8 @@ Type done to earn credit for this question.<br>
 done
 ```
 <br>
+Q3<br<br>
+How many employees work at the Valdorian Times?<br>
+
+
+Answer: 10<br><br>
