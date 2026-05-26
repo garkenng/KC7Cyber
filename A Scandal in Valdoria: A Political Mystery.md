@@ -20,6 +20,7 @@ done
 <br>
 
 **Q3**<br><br>
+
 **How many employees work at the Valdorian Times?**<br>
 
 ```
