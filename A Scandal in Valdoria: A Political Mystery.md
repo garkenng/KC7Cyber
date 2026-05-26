@@ -174,3 +174,10 @@ PassiveDns
 
 **Q9 What IPs did the domain “jobhire.org” resolve to (enter any one of them)?**<br><br>
 
+```
+PassiveDns
+| where domain == "jobhire.org"
+| distinct ip
+```
+<br>
+**Answer: 191.7.248.112**<br><br>
