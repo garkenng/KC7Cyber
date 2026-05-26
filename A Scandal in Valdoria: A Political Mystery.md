@@ -40,13 +40,18 @@ Employees
 Answer: Nene Leaks.
 <br><br>
 From the previous inquiry, we can retrieve Nene Leaks email address: nene_leaks@valdoriantimes.news.<br><br>
+
 Q5<br><br>
 How many emails did Nene Leaks receive?<br>
 
 ```
 Email
-| where recipient == "Nene's Email Address Here"
+| where recipient == "nene_leaks@valdoriantimes.news"
 | count
 ```
 <br>
-Answer:
+Answer: 18.
+<br><br>
+
+Q6<br><br>
+
