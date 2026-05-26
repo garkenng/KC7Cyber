@@ -10,6 +10,7 @@ ready
 ```
 <br>
 To start the investigation, I will be using the Azure Data Explorer (ADX) which contains top secret data from The Valdorian Times.<br><br>
+
 Q2<br>
 Type done to earn credit for this question.<br>
 
@@ -17,6 +18,7 @@ Type done to earn credit for this question.<br>
 done
 ```
 <br>
+
 Q3<br<br>
 How many employees work at the Valdorian Times?<br>
 
@@ -26,3 +28,25 @@ Employees
 ```
 <br>
 Answer: 100<br><br>
+
+Q4<br><br>
+What is the Editorial Director's name?<br>
+
+```
+Employees
+| where role == "Editorial Director"
+```
+<br>
+Answer: Nene Leaks.
+
+From the previous inquiry, we can retrieve Nene Leaks email address: nene_leaks@valdoriantimes.news.<br><br>
+Q5<br><br>
+How many emails did Nene Leaks receive?<br>
+
+```
+Email
+| where recipient == "Nene's Email Address Here"
+| count
+```
+<br>
+Answer:
