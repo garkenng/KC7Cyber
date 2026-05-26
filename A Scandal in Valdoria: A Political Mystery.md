@@ -65,5 +65,5 @@ Email
 
 The query returned the columns.
 
--timestamp 
--sender, reply_to, receipient, subject, verdict and link
+- timestamp 
+- sender, reply_to, receipient, subject, verdict and link
