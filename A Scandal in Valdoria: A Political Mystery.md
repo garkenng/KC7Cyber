@@ -123,8 +123,22 @@ The query returned the columns.
 
 <br>
 
+Can search using name 'Lois Lane' and it will return the column ip_addr which is the IP address (src_ip) we need to search the OutboundNetworkEvents table.
+
 ```
 Employees
 | where name == "Lois Lane"
 ```
 <br>
+Result: ip_addr = 10.10.0.22.
+<br><br>
+Passing the ip_addr to the OutboundNetworkEvents table. <br>
+
+```
+OutboundNetworkEvents
+| where src_ip == "10.10.0.22"
+| distinct url
+| count
+```
+<br>
+**Answer: 62**
