@@ -212,6 +212,7 @@ AuthenticationEvents
 | count
 ```
 <br>
+
 **Answer: 70**
 
 This is the end of section 1 and greeted with the message<br><br>
@@ -220,5 +221,10 @@ This is the end of section 1 and greeted with the message<br><br>
 Congratulations! 🥳 You've passed KQL 101! Let's dive into the investigation! 🔎
 
 Enter ready to earn credit for this question.
+```
+<br>
+
+```
+ready
 ```
 <br>
