@@ -14,4 +14,8 @@ Employees
 ```
 <br>
 
-**Result: Ronnie McLovin**<br><br>
+**Answer: Ronnie McLovin**<br><br>
+
+**Q3 When was the Editorial Intern hired at The Valdorian Times?**<br><br>
+From the previous query, we can find the hired date.<br><br>
+**Answer: 1/2/2024, 8:00:00 AM**<br><br>
