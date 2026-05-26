@@ -13,4 +13,5 @@ Employees
 | where role has "Editorial Intern"
 ```
 <br>
+
 **Result: Ronnie McLovin**<br><br>
