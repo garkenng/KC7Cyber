@@ -10,7 +10,7 @@ ready
 <br>
 To start the investigation, I will be using the Azure Data Explorer (ADX) which contains top secret data from The Valdorian Times.
 Q2<br>
-Type done to earn credit for this question.
+Type done to earn credit for this question.<br>
 
 ```
 done
