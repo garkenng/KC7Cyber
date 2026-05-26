@@ -100,7 +100,28 @@ The query returned the columns.
 - user_agent
 - url
 
+<br>
+Need to determine what IP address Lois Lane is using. From the Employees table, need to determine if there is a column we can pull this information from.
 
+```
+Employees
+| take 10
+```
+<br>
+
+The query returned the columns.
+
+- hire_date 
+- name
+- user_agent
+- ip_addr
+- email_addr
+- company_domain
+- username
+- role
+- hostname
+
+<br>
 
 ```
 Employees
