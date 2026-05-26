@@ -41,6 +41,7 @@ Employees
 | where role == "Editorial Director"
 ```
 <br>
+
 **Answer: Nene Leaks.**
 <br><br>
 From the previous inquiry, we can retrieve Nene Leaks email address: nene_leaks@valdoriantimes.news.<br><br>
