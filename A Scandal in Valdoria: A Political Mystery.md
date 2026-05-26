@@ -169,6 +169,8 @@ PassiveDns
 | count 
 ```
 <br>
+
 **Answer: 6**<br><br>
 
+**Q9 What IPs did the domain “jobhire.org” resolve to (enter any one of them)?**<br><br>
 
