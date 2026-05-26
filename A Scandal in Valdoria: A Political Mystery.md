@@ -1,5 +1,5 @@
 ## A Scandal in Valdoria: A Political Mystery<br>
-###**Section 1**###<br>
+###**Section 1**<br>
 ### **Summary**<br>
 The Valdorian Times has hired you as a cyber incident responder to help investigate the incident and get to the bottom of how the falsified article was published. The full background to the investigation can be found below.<br><br>
 
