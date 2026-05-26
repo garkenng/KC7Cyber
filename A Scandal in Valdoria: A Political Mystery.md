@@ -228,3 +228,4 @@ Enter ready to earn credit for this question.
 ready
 ```
 <br>
+Moving onto section 2.
