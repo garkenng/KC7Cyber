@@ -2,8 +2,8 @@
 ### **Summary**<br>
 The Valdorian Times has hired you as a cyber incident responder to help investigate the incident and get to the bottom of how the falsified article was published. The full background to the investigation can be found below.<br><br>
 
-Q1<br>
-Enter ready to get started!<br>
+**Q1**<br>
+**Enter ready to get started!**<br>
 
 ```
 ready
