@@ -143,3 +143,32 @@ OutboundNetworkEvents
 <br>
 
 **Answer: 62**
+
+<br><br>
+**Q8 How many distinct domains in the PassiveDns records contain the word “hire”?**<br><br>
+Viewing the schema for the PassiveDns table.<br><br>
+
+```
+PassiveDns
+| take 10
+```
+<br>
+
+The query returned the columns.
+
+- timestamp 
+- ip
+- domain
+
+Can search under the domain column for the word "hire".
+
+``` 
+PassiveDns
+| where domain contains "hire"
+| distinct domain
+| count 
+```
+<br>
+**Answer: 6**<br><br>
+
+
