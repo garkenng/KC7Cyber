@@ -2,8 +2,7 @@
 ### **Summary**<br>
 The Valdorian Times has hired you as a cyber incident responder to help investigate the incident and get to the bottom of how the falsified article was published. The full background to the investigation can be found below.<br><br>
 
-**Q1**<br>
-**Enter ready to get started!**<br>
+**Q1 Enter ready to get started!**<br>
 
 ```
 ready
@@ -11,17 +10,14 @@ ready
 <br>
 To start the investigation, I will be using the Azure Data Explorer (ADX) which contains top secret data from The Valdorian Times.<br><br>
 
-**Q2**<br>
-**Type done to earn credit for this question.**<br>
+**Q2 Type done to earn credit for this question.**<br>
 
 ```
 done
 ```
 <br>
 
-**Q3**<br><br>
-
-**How many employees work at the Valdorian Times?**<br>
+**Q3 How many employees work at the Valdorian Times?**<br>
 
 ```
 Employees
@@ -32,9 +28,7 @@ Employees
 **Answer: 100**
 <br><br>
 
-**Q4**<br><br>
-
-**What is the Editorial Director's name?**<br>
+**Q4 What is the Editorial Director's name?**<br>
 
 ```
 Employees
@@ -46,8 +40,7 @@ Employees
 <br><br>
 From the previous inquiry, we can retrieve Nene Leaks email address: nene_leaks@valdoriantimes.news.<br><br>
 
-**Q5**<br><br>
-**How many emails did Nene Leaks receive?**<br>
+**Q5 How many emails did Nene Leaks receive?**<br>
 
 ```
 Email
@@ -59,8 +52,7 @@ Email
 **Answer: 18.**
 <br><br>
 
-**Q6**<br><br>
-**How many distinct senders were seen in the email logs from the domain name "weprinturstuff.com"?**<br><br>
+**Q6 How many distinct senders were seen in the email logs from the domain name "weprinturstuff.com"?**<br><br>
 First we need to look at the schema for the Email table to determine what column we can use to search for distinct senders.
 
 ```
@@ -91,8 +83,7 @@ Email
 **Answer: 100**.
 <br><br>
 
-**Q7**<br><br>
-**How many distinct URLs did “Lois Lane” visit?**<br><br>
+**Q7 How many distinct URLs did “Lois Lane” visit?**<br><br>
 We have been given the table to pull the answer from, OutboundNetworkEvents. Lets inspect the schema of this table.<br><br>
 
 ```
