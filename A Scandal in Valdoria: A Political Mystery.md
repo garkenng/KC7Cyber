@@ -101,6 +101,16 @@ OutboundNetworkEvents
 ```
 <br>
 
+The query returned the columns.
+
+- timestamp 
+- method
+- src_ip
+- user_agent
+- url
+
+
+
 ```
 Employees
 | where name == "Lois Lane"
