@@ -180,4 +180,7 @@ PassiveDns
 | distinct ip
 ```
 <br>
+
 **Answer: 191.7.248.112**<br><br>
+
+**Q10 How many distinct websites did employees with the first name "Mary" Visit?**<br><br>
