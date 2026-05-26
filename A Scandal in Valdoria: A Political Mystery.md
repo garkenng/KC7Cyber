@@ -198,3 +198,16 @@ OutboundNetworkEvents
 <br>
 
 **Answer: 58**<br><br>
+
+**Q11 How many authentication attempts did we see to the accounts of employees with the first name Mary?**<br><br>
+The KQL has been given. Need to fill in the blanks. First is to rename the let statement to 'attempts', then add Mary as the Employee Name.<br><br>
+
+```
+let attempts = Employees
+| where name has "Mary"
+| distinct username;
+AuthenticationEvents
+| where username in (attempts)
+| count
+```
+<br>
