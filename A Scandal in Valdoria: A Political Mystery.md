@@ -93,3 +93,16 @@ Email
 
 **Q7**<br><br>
 **How many distinct URLs did “Lois Lane” visit?**<br><br>
+We have been given the table to pull the answer from, OutboundNetworkEvents. Lets inspect the schema of this table.<br><br>
+
+```
+OutboundNetworkEvents
+| take 10
+```
+<br>
+
+```
+Employees
+| where name == "Lois Lane"
+```
+<br>
