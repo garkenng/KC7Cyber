@@ -156,3 +156,7 @@ From the previous answer, can see the Execution Policy is set to Bypass.<br><br>
 
 **Answer: Bypass**<br><br>
 
+**Q21 What IP address is used when plink is executed?**<br><br>
+
+
+
