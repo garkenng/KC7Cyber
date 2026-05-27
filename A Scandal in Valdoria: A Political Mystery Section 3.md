@@ -23,6 +23,8 @@ Referring to the picture of an email on the website. The email addresa can be se
 
 **Q3 When was the email sent to Sonia Gose? Enter the exact timestamp from the logs.**<br><br>
 
+We know the sender and receipient email address. Can combine these two into a single query.<br><br>
+
 ```
 Email
 | where recipient has "sonia_gose@valdoriantimes.news" and sender has "newspaper_jobs@gmail.com"
@@ -30,3 +32,8 @@ Email
 <br>
 
 **Answer: 2024-01-05T09:42:05Z**<br><br>
+
+**Q4 What URL was included in the email?**<br><br>
+Using the query from question 3.<br><br>
+
+**Answer: https://promotionrecruit.com/published/Valdorian_Times_Editorial_Offer_Letter.docx**<br><br>
