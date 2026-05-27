@@ -12,3 +12,12 @@ Employees
 <br>
 
 **Answer: Senior Editor**<br><br>
+
+From ther website 'Sonia shows you a suspicious email she received a few weeks ago.'<br><br>
+
+**Q2 What email address was used to send this email?**<br><br>
+
+Referring to the picture of an email. The email addresa can be seen on the first line.<br><br>
+
+**Answer: newspaper_jobs@gmail.com**<br><br>
+
