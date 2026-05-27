@@ -59,3 +59,9 @@ OutboundNetworkEvents
 <br>
 
 **Answer: 1/5/2024, 10:23:17 AM**<br><br>
+
+**Q7 What was the name of the docx file in the link that Sonia clicked?**<br><br>
+
+Using the previous query, can pull the name of the docx file that was clicked under the url column.<br><br>
+
+**Answer: Valdorian_Times_Editorial_Offer_Letter.docx**<br><br>
