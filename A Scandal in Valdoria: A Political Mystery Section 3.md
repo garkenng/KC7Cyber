@@ -123,3 +123,8 @@ Using google, the file extension ps1 is a powershell script.
 Referring to the image on the website the answer is below the hash tag #let em know were here, a message is written to display to the user "lol ur bout 2 get pwnd..."<br><br>
 
 **Answer: lol ur bout 2 get pwnd...**<br><br>
+
+**Q16 According to the PowerShell script, what might be the hacker's favorite color?**<br><br>
+Under the hash tag "# green is a hackr color", the color green is hackers favorite color.<br><br>
+
+**Answer: Green**<br><br>
