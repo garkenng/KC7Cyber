@@ -38,7 +38,7 @@ Using the query from question 3.<br><br>
 
 **Answer: https://promotionrecruit.com/published/Valdorian_Times_Editorial_Offer_Letter.docx**<br><br>
 
-**What is Sonia Gose's IP address?**<br><br>
+**Q5 What is Sonia Gose's IP address?**<br><br>
 Pull the IP address from the Employees table.
 
 ```
@@ -49,3 +49,5 @@ Employees
 
 
 **Answer: 10.10.0.3**<br><br>
+
+**Q6 Did Sonia click on this link? If so, enter the timestamp when she clicked the link. If not, type "no".**<br><br>
