@@ -64,4 +64,13 @@ Using the query from question 5, able to retrieve the senders address.<br><br>
 Using the query from question 5, able to retrieve the .docx file name.<br><br>
 
 **Answer: OpEdFinal_to_print.docx**<br><br>
+From the website <br><br>
+
+'So, it looks like Ronnie did send the email. When you go back and talk to Ronnie, she is adamant that she never sent the draft. She thinks maybe someone else used her account to send it.'<br><br>
+
+'She doesn't recall getting any unusual emails or any other weird activity on her computer.'<br><br>
+
+'Do you think this needs further investigation (yes/no)? Choose wisely 😉'<br><br>
+
+**Answer: yes**
 
