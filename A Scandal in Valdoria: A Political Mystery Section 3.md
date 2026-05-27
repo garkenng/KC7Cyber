@@ -51,3 +51,11 @@ Employees
 **Answer: 10.10.0.3**<br><br>
 
 **Q6 Did Sonia click on this link? If so, enter the timestamp when she clicked the link. If not, type "no".**<br><br>
+
+```
+OutboundNetworkEvents
+| where url has "https://promotionrecruit.com/published/Valdorian_Times_Editorial_Offer_Letter.docx" and src_ip has "10.10.0.3"
+```
+<br>
+
+**Answer: 1/5/2024, 10:23:17 AM**<br><br>
