@@ -86,3 +86,34 @@ FileCreationEvents
 Using the query from the previous question, the full path of the docx can be found. <br><br>
 
 **Answer: C:\Users\sogose\Downloads\Valdorian_Times_Editorial_Offer_Letter.docx**<br><br>
+
+**Q11 What is the sha256 hash of the file that Sonia downloaded?**<br><br>
+Using the query from question 9, the sha256 can be found.
+
+**Answer: 60b854332e393a6a2f0015383969c3ac705126a6b7829b762057a3994967a61f**<br><br>
+
+**Q12 What is the name of the file (.ps1) that was written to disk immediately after the docx was downloaded?**<br><br>
+
+Search for files that were created right after the file was downloaded at 01/05/2024 10:24:04 along with the hostname of UL0M-MACHINE.<br><br>
+
+```
+FileCreationEvents
+| where timestamp > datetime(01/05/2024 10:24:04) and hostname contains "UL0M-MACHINE"
+```
+<br>
+
+The first result that comes back was recorded at 1/5/2024, 10:24:32 AM, 28 seconds after the file was downloaded. This is likely the file that was created under the path column.
+
+**Answer: hacktivist_manifesto.ps1**<br><br>
+
+**Q13 When was this new file created?**<br><br>
+
+From the previous query it shows in the timestamp when the file was created.<br><br>
+
+**Answer: 1/5/2024, 10:24:32 AM**<br><br>
+
+**Q14 Let's do some research! What type of file is this?**<br><br>
+
+Using google, the file extension ps1 is a powershell script.
+
+**Answer: Powershell**<br><br>
