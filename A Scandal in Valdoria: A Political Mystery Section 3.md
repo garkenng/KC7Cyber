@@ -152,4 +152,7 @@ From the previous query, can pull the full command from the process schtasks.exe
 **Answer: schtasks /create /sc hourly /mo 5 /tn "Hacktivist Manifesto" /tr "powershell.exe -ExecutionPolicy Bypass -File C:\ProgramData\hacktivist_manifesto.ps1"**<br><Br>
 
 **Q20 What ExecutionPolicy is set in the command?**<br><br>
+From the previous answer, can see the Execution Policy is set to Bypass.<br><br>
+
+**Answer: Bypass**<br><br>
 
