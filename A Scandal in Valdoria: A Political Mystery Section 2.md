@@ -55,3 +55,7 @@ One result is returned.
 
 **Answer: URGENT: Final OpEd Draft Edits (Please publish the following article in tomorrow's paper))**<br><br>
 
+**Q6 Who sent this email containing the final edits for the OpEd piece? Enter the sender's email address.**<br><br>
+Using the query from question 5, able to retrieve the senders address.<br><br>
+
+**Answer: ronnie_mclovin@valdoriantimes.news**<br><br>
