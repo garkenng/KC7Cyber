@@ -147,4 +147,6 @@ ProcessEvents
 
 **Q19 What is the full command used to create the scheduled task?**<br><br>
 
+From the previous query, can pull the full command from the process schtasks.exe, under process_commandline column<br><br>
+
 **Answer: schtasks /create /sc hourly /mo 5 /tn "Hacktivist Manifesto" /tr "powershell.exe -ExecutionPolicy Bypass -File C:\ProgramData\hacktivist_manifesto.ps1"**<br><Br>
