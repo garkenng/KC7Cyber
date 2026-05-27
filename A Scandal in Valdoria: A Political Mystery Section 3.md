@@ -21,3 +21,12 @@ Referring to the picture of an email on the website. The email addresa can be se
 
 **Answer: newspaper_jobs@gmail.com**<br><br>
 
+**Q3 When was the email sent to Sonia Gose? Enter the exact timestamp from the logs.**<br><br>
+
+```
+Email
+| where recipient has "sonia_gose@valdoriantimes.news" and sender has "newspaper_jobs@gmail.com"
+```
+<br>
+
+**Answer: 2024-01-05T09:42:05Z**<br><br>
