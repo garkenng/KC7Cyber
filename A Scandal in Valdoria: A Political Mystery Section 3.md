@@ -128,3 +128,12 @@ Referring to the image on the website the answer is below the hash tag #let em k
 Under the hash tag "# green is a hackr color", the color green is hackers favorite color.<br><br>
 
 **Answer: Green**<br><br>
+
+**Q17 The purpose of the script is to invoke ____ and uncover da truth**<br><br>
+From the image again, the word plink appears in the statement above.<br><br>
+
+**Answer: plink**<br><br>
+
+**Q18 How many Process Events are there related to this PowerShell script on Sonia's machine?**<br><br>
+
+
