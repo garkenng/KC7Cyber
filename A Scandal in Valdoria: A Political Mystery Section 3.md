@@ -65,3 +65,11 @@ OutboundNetworkEvents
 Using the previous query, can pull the name of the docx file that was clicked under the url column.<br><br>
 
 **Answer: Valdorian_Times_Editorial_Offer_Letter.docx**<br><br>
+
+**Q8 What is Sonia Gose's hostname?**<br><br>
+
+Using the query from question 1, the hostname can be pulled from the Employees table.<br><br>
+
+**Answer: UL0M-MACHINE**<br><br>
+
+**Q9 When did the downloaded docx file first show up on Sonia's machine?**<br><br>
