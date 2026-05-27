@@ -135,5 +135,16 @@ From the image again, the word plink appears in the statement above.<br><br>
 **Answer: plink**<br><br>
 
 **Q18 How many Process Events are there related to this PowerShell script on Sonia's machine?**<br><br>
+Using the powershell script name and Sonia's host machine name, can see how many process events there were related to the script.<br><br>
 
+```
+ProcessEvents
+| where process_commandline has "hacktivist_manifesto.ps1" and hostname contains "UL0M-MACHINE"
+```
+<br>
 
+**Answer: 3**<br><br>
+
+**Q19 What is the full command used to create the scheduled task?**<br><br>
+
+**Answer: schtasks /create /sc hourly /mo 5 /tn "Hacktivist Manifesto" /tr "powershell.exe -ExecutionPolicy Bypass -File C:\ProgramData\hacktivist_manifesto.ps1"**<br><Br>
