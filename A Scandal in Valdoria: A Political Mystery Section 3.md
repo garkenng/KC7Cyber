@@ -117,3 +117,9 @@ From the previous query it shows in the timestamp when the file was created.<br>
 Using google, the file extension ps1 is a powershell script.
 
 **Answer: Powershell**<br><br>
+
+**Q15 What does the attacker say to "let you know they are here"?**<br><br>
+
+Referring to the image on the website the answer is below the hash tag #let em know were here, a message is written to display to the user "lol ur bout 2 get pwnd..."<br><br>
+
+**Answer: lol ur bout 2 get pwnd...**<br><br>
