@@ -37,3 +37,15 @@ Email
 Using the query from question 3.<br><br>
 
 **Answer: https://promotionrecruit.com/published/Valdorian_Times_Editorial_Offer_Letter.docx**<br><br>
+
+**What is Sonia Gose's IP address?**<br><br>
+Pull the IP address from the Employees table.
+
+```
+Employees
+| where name contains "Sonia"
+```
+<br>
+
+
+**Answer: 10.10.0.3**<br><br>
