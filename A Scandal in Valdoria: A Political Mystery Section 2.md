@@ -21,3 +21,20 @@ From the previous query, we can find the hired date.<br><br>
 **Answer: 1/2/2024, 8:00:00 AM**<br><br>
 
 **Q4 How many total emails has Clark Kent received?**<br><br>
+Retrieve Clark Kent email from the Employees table.<br><br>
+
+```
+Employees
+| where name contains "Clark"
+```
+<br>
+Clark Kent email address is: clark_kent@valdoriantimes.news.
+<br><br>
+
+```
+Email
+| where recipient has "clark_kent@valdoriantimes.news"
+| count
+```
+<br>
+**Answer: 21**<br>
