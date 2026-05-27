@@ -59,3 +59,9 @@ One result is returned.
 Using the query from question 5, able to retrieve the senders address.<br><br>
 
 **Answer: ronnie_mclovin@valdoriantimes.news**<br><br>
+
+**Q7 What was the name of the .docx file that was sent in this email?**<br><br>
+Using the query from question 5, able to retrieve the .docx file name.<br><br>
+
+**Answer: OpEdFinal_to_print.docx**<br><br>
+
