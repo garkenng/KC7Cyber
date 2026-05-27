@@ -83,6 +83,6 @@ FileCreationEvents
 **Answer: 1/5/2024, 10:24:04 AM**<br><br>
 
 **Q10 What was the full path of the docx file that was downloaded to Sonia's machine?**<br><br>
-Using the query from the previous question, the full path of the docx can be found. <br><br?
+Using the query from the previous question, the full path of the docx can be found. <br><br>
 
 **Answer: C:\Users\sogose\Downloads\Valdorian_Times_Editorial_Offer_Letter.docx**<br><br>
