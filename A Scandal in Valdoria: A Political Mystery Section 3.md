@@ -73,3 +73,11 @@ Using the query from question 1, the hostname can be pulled from the Employees t
 **Answer: UL0M-MACHINE**<br><br>
 
 **Q9 When did the downloaded docx file first show up on Sonia's machine?**<br><br>
+
+```
+FileCreationEvents
+| where hostname has "UL0M-MACHINE" and path contains "Valdorian_Times_Editorial_Offer_Letter.docx"
+```
+<br>
+
+**Answer: 1/5/2024, 10:24:04 AM**<br><br>
