@@ -39,3 +39,14 @@ Email
 <br>
 
 **Answer: 21**<br>
+
+From the website 'Review the emails sent to Clark Kent for the one sent on January 31, 2024 containing the final edits for the election OpEd.'
+
+**Q5 What was the subject line of this email?**<br><br>
+Search for the date and receipient to narrow the results down.<br><br>
+
+```
+Email
+| where timestamp between (startofday(datetime(2024-01-31)) .. endofday(datetime(2024-02-01))) and  recipient has "clark_kent@valdoriantimes.news"
+```
+<br>
