@@ -200,7 +200,7 @@ The first result that comes back occurred at 1/6/2024, 7:30:44 AM. Under the col
 **Answer: whoami**<br><br>
 
 **Q25 How many discovery commands did the attackers run on this machine?**<br><br>
-The first 5 results from the previous query in question 24 show what discovery commands were ran.<br><br>
+The first 5 results from the previous query in question 24 show what discovery commands were ran under the process_commandline column.<br><br>
 
 - whoami - Shows information about the user, groups, and privileges
 - ipconfig - Displays all current TCP/IP network configuration values
@@ -209,3 +209,7 @@ The first 5 results from the previous query in question 24 show what discovery c
 - net view - Legacy Windows utility used to display a list of computers, domains, or network resources
 
 **Answer: 5**<br><br>
+
+**Q26 Do you think we can safely stop our investigation here? (yes/no)**<br><br>
+
+**Answer: no**
