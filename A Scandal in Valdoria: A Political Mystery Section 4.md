@@ -35,3 +35,6 @@ From the previous query, the domain can be pulled from the link column. <br><br>
 **Answer: promotionrecruit.org**<br><br>
 
 **Q4 What was the subject of that email?**<br><br>
+Using query from question 2, the subject line can be pulled from the column subject.<br><br>
+
+**Answer: [EXTERNAL] Breaking News: We're Hiring! Apply Now for Reporter Roles**<br><br>
