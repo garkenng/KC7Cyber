@@ -48,4 +48,8 @@ OutboundNetworkEvents
 ```
 <br>
 
-The first result 
+The first result shows when the link was clicked. Can cross reference this with the source IP address of 10.10.0.19, which is Ronnies user account.<br><br>
+
+**Answer: 1/10/2024, 8:55:07 AM**<br><br>
+
+**Q6 What was the name of the .docx file that was downloaded to Ronnie's machine?**<br><br>
