@@ -185,5 +185,12 @@ From the query in question 21, the password is shown after the username.<br><br>
 
 **Answer: thruthW!llS3tUfree**<br><br>
 
+**Q24 What six-letter command did the attackers run to figure out which user they are logged on as on the computer?**<br><br>
+From the query in question 21, the timestamp of when plink was executed was 1/6/2024, 2:39:35 AM. Can look for commands which were ran after that time on Sonia's machine.<br><br>
 
-
+```
+ProcessEvents
+| where hostname == "UL0M-MACHINE"
+| where timestamp > datetime(01/06/2024 2:39:35)
+```
+<br>
