@@ -174,5 +174,16 @@ The IP address is shown at the end of the line above.<br><br>
 
 **Answer: 136.130.190.181**<br><br>
 
+**Q22 What username did the attacker use when connecting via plink?**<br><br>
+
+From the previous query, the '-l $had0w' indicates he username of the attacker.<br><br>
+
+**Answer: $had0w**<br><br>
+
+**Q23 What password did the attacker use when connecting via plink?**<br><br>
+From the query in question 21, the password is shown after the username.<br><br>
+
+**Answer: thruthW!llS3tUfree**<br><br>
+
 
 
