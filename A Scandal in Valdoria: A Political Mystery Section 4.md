@@ -53,3 +53,8 @@ The first result shows when the link was clicked. Can cross reference this with 
 **Answer: 1/10/2024, 8:55:07 AM**<br><br>
 
 **Q6 What was the name of the .docx file that was downloaded to Ronnie's machine?**<br><br>
+From the query in question 5, the url for the first entry has the name of the docx file.<br>
+
+**Answer: Editorial_J0b_Openings_2024.docx**<br><br>
+
+**Q7 When was this docx file downloaded?**<br><br>
