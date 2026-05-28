@@ -194,3 +194,7 @@ ProcessEvents
 | where timestamp > datetime(01/06/2024 2:39:35)
 ```
 <br>
+
+The first result that comes back occurred at 1/6/2024, 7:30:44 AM. Under the column process_commandline it reads 'whoami'.<br><br>
+
+**Answer: whoami**<br><br>
