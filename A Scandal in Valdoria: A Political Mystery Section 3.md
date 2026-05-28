@@ -198,3 +198,14 @@ ProcessEvents
 The first result that comes back occurred at 1/6/2024, 7:30:44 AM. Under the column process_commandline it reads 'whoami'.<br><br>
 
 **Answer: whoami**<br><br>
+
+**Q25 How many discovery commands did the attackers run on this machine?**<br><br>
+The first 5 results from the previous query in question 24 show what discovery commands were ran.<br><br>
+
+- whoami - Shows information about the user, groups, and privileges
+- ipconfig - Displays all current TCP/IP network configuration values
+- arp -a - View and manage the Address Resolution Protocol (ARP) cache on a computer
+- tasklist /svc - Command Prompt to display all currently running processes
+- net view - Legacy Windows utility used to display a list of computers, domains, or network resources
+
+**Answer: 5**<br><br>
