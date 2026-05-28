@@ -59,3 +59,15 @@ From the query in question 5, the url for the first entry has the name of the do
 **Answer: Editorial_J0b_Openings_2024.docx**<br><br>
 
 **Q7 When was this docx file downloaded?**<br><br>
+Search for files created after the link was clicked and with the user of Ronnie.<br><br>
+
+```
+FileCreationEvents
+| where timestamp > datetime(1/10/2024 8:55:07)
+| where username == "romclovin"
+```
+<br>
+
+The first result that comes back shows the time when the file was downloaded.<br><br>
+
+**Answer: 1/10/2024, 8:55:17 AM**<br><br>
