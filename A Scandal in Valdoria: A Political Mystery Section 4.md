@@ -28,3 +28,10 @@ Email
 <br>
 
 **Answer: 1/10/2024, 8:48:16 AM**<br>
+
+**Q3 What domain was in the link from that email?**<br><br>
+From the previous query, the domain can be pulled from the link column. <br><br>
+
+**Answer: promotionrecruit.org**<br><br>
+
+**Q4 **<br><br>
