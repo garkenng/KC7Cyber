@@ -15,3 +15,16 @@ Email
 <br>
 
 **Answer: 18**<br><br>
+
+**Q2 When did valdorias_best_recruiter@gmail.com send an email to Ronnie McLovin?**<br><br>
+
+Can use the from and to email address in next query to find the timestamp.
+
+```
+Email
+| where sender == "valdorias_best_recruiter@gmail.com"
+| where recipient == "ronnie_mclovin@valdoriantimes.news"
+```
+<br>
+
+**Answer: 1/10/2024, 8:48:16 AM**<br>
