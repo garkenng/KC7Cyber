@@ -40,7 +40,7 @@ Using query from question 2, the subject line can be pulled from the column subj
 **Answer: [EXTERNAL] Breaking News: We're Hiring! Apply Now for Reporter Roles**<br><br>
 
 
-**Q5 When did Ronnie click on the link in the email from valdorias_best_recruiter@gmail.com ?
+**Q5 When did Ronnie click on the link in the email from valdorias_best_recruiter@gmail.com ?**<br><br>
 Search for the domain in the Outboundnetwork table. <br><br>
 
 ```
