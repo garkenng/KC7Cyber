@@ -6,3 +6,11 @@ We can apply what we've learned by investigating the activity affecting Sonia to
 I hope you took good notes. Another suspicious email address valdorias_best_recruiter@gmail.com was seen sending emails to intern Ronnie and a few others.
 <br><br>
 **Q1 How many total emails were sent by this email sender to users at The Valdorian Times?**<br><br>
+
+```
+Email
+| where sender == "valdorias_best_recruiter@gmail.com"
+| count
+```
+<br>
+**Answer: 18**<br><br>
