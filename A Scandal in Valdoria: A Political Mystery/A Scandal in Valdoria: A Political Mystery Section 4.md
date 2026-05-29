@@ -128,7 +128,7 @@ Referring back to question 8, the timestamp is when the .ps1 file was dropped. C
 ProcessEvents
 | where hostname == "A37A-DESKTOP"
 | where timestamp > datetime(01/10/2024 8:55:17)
-| where parent_process_name == "cmd.exe"
+| where process_name == "cmd.exe"
 ```
 <br>
 
