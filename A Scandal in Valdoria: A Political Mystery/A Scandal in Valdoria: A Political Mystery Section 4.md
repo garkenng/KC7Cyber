@@ -262,11 +262,32 @@ The third result from query.<br><br>
 7z.exe a -t7z C:\Users\romclovin\Documents\DankMemes.7z C:\Users\romclovin\Memes\*.jpg -p thruthW!llS3tUfree
 ```
 <br>
-The third result shows a command that involves compressing the meme jpg files into file called 'DankMemes.7z'.
+The command above involves compressing the meme jpg files into file called 'DankMemes.7z'.
 
 **Answer: DankMemes.7z**<br><br>
 
 **Q27 What is the name of the .7z file that contains files stolen from Ronnie's Documents folder?**<br><br>
+From the query in previous question, the first result returns the following.<br><br>
 
+```
+7z.exe a -t7z C:\Users\romclovin\Documents\MyStolenDataFromDocuments.7z C:\Users\romclovin\Documents\*.docx -p thruthW!llS3tUfree
+```
+<br>
 
+**Answer: MyStolenDataFromDocuments.7z**<br><br>
+
+**Q28 What is the name of the .7z file that contains files stolen from Ronnie's Desktop folder?**<br><br>
+The second result from the query in question 26.<br><br>
+
+```
+7z.exe a -t7z C:\Users\romclovin\Documents\MyStolenDataFromDesktop.7z C:\Users\romclovin\Desktop\*.docx -p thruthW!llS3tUfree
+```
+<br>
+
+**Answer: MyStolenDataFromDesktop.7z*<br><br>
+
+**Q29 What is the password the attackers used to encrypt all of the .7z files?**<br><br>
+The password is shown from the previous questions.<br><br>
+
+**Answer: thruthW!llS3tUfree**<br><br>
 
