@@ -115,6 +115,7 @@ From they query in question 9, the password is shown.<br><br>
 
 **Answer: thruthW!llS3tUfree**<br><br>
 
-**Q12 How many discovery commands were run on Ronnie's machine?**<br><br>
+**Q12 How many discovery commands were run on Ronnie's machine?**
+<br><br>
 
 **Answer: **<br><br>
