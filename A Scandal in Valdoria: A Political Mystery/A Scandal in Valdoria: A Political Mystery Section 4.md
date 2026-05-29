@@ -164,3 +164,19 @@ OutboundNetworkEvents
 From question 12.
 
 **Answer: A37A-DESKTOP**<br><br>
+
+**Q16 What is the sha256 hash of fakestory.docx on Ronnie's machine?**<br><br>
+
+```
+FileCreationEvents
+| where hostname == "A37A-DESKTOP"
+| where path has "fakestory.docx"
+```
+<br>
+
+**Answer:**<br>5f8a7b627533e22aa3e5c3594605dc6fe6f000b0cc2b845ece47ca60673ec7f<br>
+
+**Q17 When was fakestory.docx created on Ronnie's machine?**<br><br>
+From previous query, the timestamp of the file creation can be retrieved.<br><br>
+
+**Answer: 1/31/2024, 9:47:51 AM**<br><br>
