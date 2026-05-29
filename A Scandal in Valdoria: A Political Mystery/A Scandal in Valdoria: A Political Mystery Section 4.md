@@ -90,7 +90,7 @@ Employees
 ProcessEvents
 | where hostname in (host) and process_commandline has "plink"
 ```
-<br><br>
+<br>
 
 Under the Process Commandline column the following information is shown.
 
