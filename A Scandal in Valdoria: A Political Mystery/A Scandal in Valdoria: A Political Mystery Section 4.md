@@ -159,3 +159,8 @@ OutboundNetworkEvents
  In the url column is the answer. <br><br>
  
 **Answer: https://hire-recruit.org/files/fakescandal/2024/fakestory.docx**<br><br>
+
+**Q15 What is Ronnie's hostname?**<br><br>
+From question 12.
+
+**Answer: A37A-DESKTOP**<br><br>
