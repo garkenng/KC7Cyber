@@ -174,7 +174,7 @@ FileCreationEvents
 ```
 <br>
 
-**Answer:**<br>5f8a7b627533e22aa3e5c3594605dc6fe6f000b0cc2b845ece47ca60673ec7f<br>
+**Answer: 5f8a7b627533e22aa3e5c3594605dc6fe6f000b0cc2b845ece47ca60673ec7f**<br><br>
 
 **Q17 When was fakestory.docx created on Ronnie's machine?**<br><br>
 From previous query, the timestamp of the file creation can be retrieved.<br><br>
