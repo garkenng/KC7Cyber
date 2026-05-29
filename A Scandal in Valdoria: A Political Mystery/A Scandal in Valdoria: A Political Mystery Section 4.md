@@ -180,3 +180,7 @@ FileCreationEvents
 From previous query, the timestamp of the file creation can be retrieved.<br><br>
 
 **Answer: 1/31/2024, 9:47:51 AM**<br><br>
+
+**Q18 What is the new path for the document?**<br><br>
+
+
