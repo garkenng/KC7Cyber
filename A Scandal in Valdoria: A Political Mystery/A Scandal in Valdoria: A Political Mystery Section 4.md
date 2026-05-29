@@ -117,5 +117,19 @@ From they query in question 9, the password is shown.<br><br>
 
 **Q12 How many discovery commands were run on Ronnie's machine?**
 <br><br>
+Referring back to question 8, the timestamp is when the .ps1 file was dropped. Can search for discovery commands that could have been run afterwards.
+
+- A37A-DESKTOP - Ronnie's machine name
+- timestamp - 01/10/2024 8:55:17
+- cmd.exe - where the discovery commands would be run from
+<br>
+
+```
+ProcessEvents
+| where hostname == "A37A-DESKTOP"
+| where timestamp > datetime(01/10/2024 8:55:17)
+| where parent_process_name == "cmd.exe"
+```
+<br>
 
 **Answer: **<br><br>
