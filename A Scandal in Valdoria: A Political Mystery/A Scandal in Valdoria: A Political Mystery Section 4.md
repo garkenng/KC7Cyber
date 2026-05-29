@@ -205,3 +205,14 @@ From the previous query.<br><br>
 
 **Answer: 1/31/2024, 10:26:20 AM**<br><br>
 
+**Q20 When was OpEdFinal_to_print.docx emailed from Ronnie's account to Clark Kent?**<br><br>
+
+```
+Email
+| where link has "OpEdFinal_to_print.docx"
+```
+<br>
+
+**Answer: 1/31/2024, 11:11:12 AM**<br><br>
+
+
