@@ -221,4 +221,8 @@ Calcuate the minute difference from the timestamps from question 19 and 20.<br><
  
 **Answer: 44 minutes**<br><br>
 
+**Q22 What was the subject line of this email?**<br><br>
+From the query question 20, the subject line can be retrieved.<br><br>
+
+**Answer: URGENT: Final OpEd Draft Edits (Please publish the following article in tomorrow's paper))**<br><br>
 
