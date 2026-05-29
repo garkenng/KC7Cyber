@@ -256,7 +256,17 @@ ProcessEvents
 | where process_commandline has ".7z"
 ```
 <br>
+
+The third result from query.<br><br>
+```
+7z.exe a -t7z C:\Users\romclovin\Documents\DankMemes.7z C:\Users\romclovin\Memes\*.jpg -p thruthW!llS3tUfree
+```
+<br>
 The third result shows a command that involves compressing the meme jpg files into file called 'DankMemes.7z'.
 
 **Answer: DankMemes.7z**<br><br>
+
+**Q27 What is the name of the .7z file that contains files stolen from Ronnie's Documents folder?**<br><br>
+
+
 
