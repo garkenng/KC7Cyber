@@ -215,4 +215,7 @@ Email
 
 **Answer: 1/31/2024, 11:11:12 AM**<br><br>
 
+**Q21 How many minutes elapsed between when the file was moved/renamed on Ronnie machine and when the email was sent to Clark Kent?**<br><br>
+
+
 
