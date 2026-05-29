@@ -131,5 +131,6 @@ ProcessEvents
 | where process_name == "cmd.exe"
 ```
 <br>
+Same as question 25 from section 3. There are 5 discovery commands.<br><br>
 
-**Answer: **<br><br>
+**Answer: 5**<br><br>
