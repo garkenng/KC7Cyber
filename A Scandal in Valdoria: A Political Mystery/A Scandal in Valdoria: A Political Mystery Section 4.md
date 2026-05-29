@@ -74,7 +74,7 @@ The first result that comes back shows the time when the file was downloaded.<br
 
 **Q8 When was the .ps1 file dropped to Ronnie's machine?**<br><br>
 
-The second result from the previous query shows the file created on Ronnies computer. In the path column it shows 'C:\ProgramData\hacktivist_manifesto.ps1'. <br><br>
+The second result from the previous query shows the file created on Ronnies computer. In the path column it shows 'C:\ProgramData\hacktivist_manifesto.ps1'. <br>
 
 **Answer: 1/10/2024, 8:55:51 AM**<br><br>
 
