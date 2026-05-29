@@ -182,5 +182,21 @@ From previous query, the timestamp of the file creation can be retrieved.<br><br
 **Answer: 1/31/2024, 9:47:51 AM**<br><br>
 
 **Q18 What is the new path for the document?**<br><br>
+The file fakestory.docx timestamp of creation is known. Can search for processes after that timestamp with the file name.<br><br>
 
+```
+ProcessEvents
+|where timestamp > datetime(1/31/2024, 9:47:51 AM)
+| where process_commandline has "fakestory.docx"
+```
+<br>
+Under the process command line coloumn.<br><br>
+
+```
+move C:\Users\romclovin\Downloads\fakestory.docx C:\Users\romclovin\Documents\OpEdFinal_to_print.docx
+```
+<br>
+
+
+**Answer: C:\Users\romclovin\Documents\OpEdFinal_to_print.docx**<br><br>
 
