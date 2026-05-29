@@ -200,3 +200,8 @@ move C:\Users\romclovin\Downloads\fakestory.docx C:\Users\romclovin\Documents\Op
 
 **Answer: C:\Users\romclovin\Documents\OpEdFinal_to_print.docx**<br><br>
 
+**Q19 When was this command executed to rename and move the file?**<br><br>
+From the previous query.<br><br>
+
+**Answer: 1/31/2024, 10:26:20 AM**<br><br>
+
