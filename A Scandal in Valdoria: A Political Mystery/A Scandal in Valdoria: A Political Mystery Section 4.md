@@ -237,3 +237,26 @@ Fromt the email screenshot, the domain can be retrieved.<br><br>
 **Answer: hirerecruit.com**<br><br>
 
 **Q25 How many total commands were run in this timeframe?**<br><br>
+Can use timebound to analyse other actions that might have occured around the same time.
+
+```
+ProcessEvents
+| where timestamp between (datetime(2024-01-21 07:00:00) .. datetime(2024-01-21 12:00:00))
+| where hostname == "A37A-DESKTOP"
+| order by timestamp asc
+```
+<br>
+
+**Answer** 2<br><br>
+
+**Q26 What is the name of the .7z file that contains the stolen memes?**<br><br>
+
+```
+ProcessEvents
+| where process_commandline has ".7z"
+```
+<br>
+The third result shows a command that involves compressing the meme jpg files into file called 'DankMemes.7z'.
+
+**Answer: DankMemes.7z**<br><br>
+
