@@ -291,3 +291,6 @@ The password is shown from the previous questions.<br><br>
 
 **Answer: thruthW!llS3tUfree**<br><br>
 
+**Q30 After compressing all the stolen data into .7z files, the attackers exfiltrated the data by uploading it to a custom portal on their website. What is the full command the attackers ran to do this?**<br><br>
+
+
