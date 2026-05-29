@@ -216,6 +216,9 @@ Email
 **Answer: 1/31/2024, 11:11:12 AM**<br><br>
 
 **Q21 How many minutes elapsed between when the file was moved/renamed on Ronnie machine and when the email was sent to Clark Kent?**<br><br>
-
+Calcuate the minute difference from the timestamps from question 19 and 20.<br><br>
+11:11-10:26 = 44 minutes.<br><br>
+ 
+**Answer: 44 minutes**<br><br>
 
 
