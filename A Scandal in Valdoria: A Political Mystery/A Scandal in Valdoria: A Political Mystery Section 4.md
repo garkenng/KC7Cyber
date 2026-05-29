@@ -134,3 +134,28 @@ ProcessEvents
 Same as question 25 from section 3. There are 5 discovery commands.<br><br>
 
 **Answer: 5**<br><br>
+
+**Q13 What is Ronnie's IP address?**<br><br>
+Retrieve Ronnie's IP address from the Employees table.<br><br>
+
+```
+Employees
+| where name has "Ronnie"
+```
+<br>
+
+**Answer: 10.10.0.19**<br><br>
+
+**Q14 What is the full URL fakestory.docx was downloaded from?**<br><br>
+
+The name of the file is known and who downloaded it. Can use the file name and the IP address of Ronnie.<br><br>
+
+```
+OutboundNetworkEvents
+| where url has "fakestory.docx"
+| where src_ip == "10.10.0.19"
+```
+<br>
+ In the url column is the answer. <br><br>
+ 
+**Answer: https://hire-recruit.org/files/fakescandal/2024/fakestory.docx**<br><br>
