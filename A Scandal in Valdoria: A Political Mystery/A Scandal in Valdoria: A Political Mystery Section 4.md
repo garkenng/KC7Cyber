@@ -226,3 +226,7 @@ From the query question 20, the subject line can be retrieved.<br><br>
 
 **Answer: URGENT: Final OpEd Draft Edits (Please publish the following article in tomorrow's paper))**<br><br>
 
+**Q23 Do you think this is the only thing the attackers did on Ronnie's machine? (yes/no)**<br><br>
+
+**Answer: no**<br><br>
+
