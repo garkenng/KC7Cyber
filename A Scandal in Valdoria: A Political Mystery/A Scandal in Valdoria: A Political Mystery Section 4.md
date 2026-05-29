@@ -105,7 +105,16 @@ The IP address is shown that was used with plink on Ronnie's machine.<br><br>
 
 **Q10 What username was used with plink on Ronnie's machine?**<br><br>
 
-From the previous query, the username is shown when connectin via SSH.<br><br>
+From the previous query, the username is shown when connecting via SSH.<br><br>
 
 **Answer: $hadow**<br><br>
 
+**Q11 What password was used with plink on Ronnie's machine?**<br><br>
+
+From they query in question 9, the password is shown.<br><br>
+
+**Answer: thruthW!llS3tUfree**<br><br>
+
+**Q12 How many discovery commands were run on Ronnie's machine?**<br><br>
+
+**Answer: **<br><br>
