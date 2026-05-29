@@ -103,4 +103,9 @@ The IP address is shown that was used with plink on Ronnie's machine.<br><br>
 
 **Answer: 168.57.191.100**<br><br>
 
+**Q10 What username was used with plink on Ronnie's machine?**<br><br>
+
+From the previous query, the username is shown when connectin via SSH.<br><br>
+
+**Answer: $hadow**<br><br>
 
