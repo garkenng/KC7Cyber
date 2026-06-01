@@ -96,5 +96,17 @@ https://clouthaus.com/search=Afomiya's+Venmo+history+–+is+that+public??
 
 **Answer: Venmo**<br><br>
 
+**Q8 Based on another search, what shady and fake event were they pretending to plan as a way to lure Afomiya?**<br><br>
+
+```
+https://clouthaus.com/search=How+much+would+it+cost+to+hire+Afomiya+for+a+fake+birthday+party?
+```
+<br>
+
+**Answer: Birthday Party**<br><br>
+
+**Q9 What external email address received messages forwarded from Afomiya’s account?**<br><br>
+
+
 
 
