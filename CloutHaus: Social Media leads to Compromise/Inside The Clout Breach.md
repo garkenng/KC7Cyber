@@ -68,6 +68,10 @@ InboundNetworkEvents
 
 Scrolling through the results, one url search history is of interest.<br><br>
 
+**Q6 According to another search log, what kind of personal info were they sneakily trying to uncover (and pretending to ask “for a friend”)?**<br><br>
+
+
+
 ```
 https://clouthaus.com/search=How+to+hack+an+influencer's+location+from+their+Instagram+story
 ```
