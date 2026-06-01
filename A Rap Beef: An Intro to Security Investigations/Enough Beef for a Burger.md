@@ -126,3 +126,7 @@ Answer taken from question 9.<br<br>
 The code / output taken from question 9.<br><br>
 
 **Answer: https://owl-records.com/account/security-questions question_1=mother's+maiden+name&answer_1=Washington&question_2=first+pet's+name&answer_2=Fluffy**<br><br>
+
+**Q13 Type oh lawd to take credit**<br><br>
+
+**Answer: oh lawd**
