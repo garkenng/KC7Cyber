@@ -123,3 +123,39 @@ OutboundNetworkEvents
 <br>
 
 **Answer: 4/15/2024, 12:03:12 PM**<br><br>
+
+**Q17 What is written in the submit button for this login portal?**<br><br>
+From the image on website, there is a message on the submit button.<br><br>
+
+**Answer: login to speak with ghost writer**<br><br>
+
+**Q18 When did the adversaries attempt to login to Dwake's account?**<br><br>
+
+```
+AuthenticationEvents
+| where username == "dwaudrey"
+| where src_ip == "18.66.52.227"
+```
+<br>
+
+**Answer: 4/15/2024, 1:03:12 PM**<br><br>
+
+**Q19 What was the result of this authentication attempt?**<br><br>
+
+**Answer: Successful Login**<br><br>
+
+**Q20 How many results do we get?*<br><br>
+
+```
+InboundNetworkEvents
+| where timestamp between (datetime("2024-04-12T00:00:00") .. datetime("2024-05-01T00:00:00"))
+| where url has "dwaudrey" 
+| where src_ip has "18.66.52.227"
+```
+<br>
+
+**Answer: 10**<br><br>
+
+**Q21 What was the name of the zip file they used to steal information from Dwake's account?**<br><br>
+
+**Answer: DwakesDirtySecrets.zip**<br><br>
