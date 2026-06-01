@@ -57,4 +57,20 @@ The other email address listed from question 5 in the results is wemakebeatz@gma
 **Answer: wemakebeatz@gmail.com**<br><br>
 
 **Q8 Which role was targeted the most of all?**<br><br>
+A KQL query is given, run the query to get which role was targeted the most.<br><br>
 
+```
+let _targets = Email
+| where link has "betterlyrics4u.com"
+| distinct recipient;
+Employees
+| where email_addr in (_targets)
+```
+<br>
+
+**Answer: Rapper**<br><br>
+
+**Q9 Which role (other than Rapper) was targeted by this phishing campaign?**<br><br>
+There is another role shown in the results from previous question query.<br><br? 
+
+**Answer: Lead Rapper**<br><br>
