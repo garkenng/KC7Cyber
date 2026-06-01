@@ -71,6 +71,55 @@ Employees
 **Answer: Rapper**<br><br>
 
 **Q9 Which role (other than Rapper) was targeted by this phishing campaign?**<br><br>
-There is another role shown in the results from previous question query.<br><br? 
+There is another role shown in the results from previous question query.<br><br> 
 
 **Answer: Lead Rapper**<br><br>
+
+**Q10 And what is the name of the Lead Rapper?<br><br>
+The name is shown from the results from query in question 8.<br><br>
+
+**Answer: Dwake Audrey**<br><br>
+
+**Q11 What is Dwake's IP address?**<br><br>
+
+```
+Employees
+| where name == "Dwake Audrey"
+```
+<br>
+
+**Answer: 10.10.0.5**<br><br>
+
+**Q12 What was the subject of the email sent to Dwake?**<br><br>
+Looking at the emails again, the subject line can be retreived that was sent to Dwake.<br><br>
+
+```
+Email
+| where link has "betterlyrics4u.com"
+```
+<br>
+
+**Answer: [EXTERNAL] RE: Need a ghostwriter for your next hit?**<br><br>
+
+**Q13 What link did the adversaries include in their phishing email targeting Dwake?**<br><br>
+Answer retrieved from previous query under the link column.<br><br>
+
+**Answer http://betterlyrics4u.com/share/online/published/enter**<br><br>
+
+**Q14 What was the verdict of the email sent to Dwake?**<br><br>
+
+**Answer: CLEAN**<br><br>
+
+**Q15 What name (or nickname) did the aversaries sign the email with?**<br><br>
+**Answer: ghostwriter**<br><br>
+
+**Q16 When did Dwake click on the link in email? (copy and paste the time exactly)**<br><br> 
+
+```
+OutboundNetworkEvents
+| where url == "http://betterlyrics4u.com/share/online/published/enter"
+| where src_ip == "10.10.0.5"
+```
+<br>
+
+**Answer: 4/15/2024, 12:03:12 PM**<br><br>
