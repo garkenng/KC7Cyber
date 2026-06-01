@@ -86,3 +86,15 @@ https://clouthaus.com/search=Afomiya+Storm+home+address??+(asking+for+a+friend)
 <br>
 
 **Answer: home address**<br><br>
+
+**Q7  What kind of account or app does that log suggest they were targeting?**<br><br>
+
+```
+https://clouthaus.com/search=Afomiya's+Venmo+history+–+is+that+public??
+```
+<br>
+
+**Answer: Venmo**<br><br>
+
+
+
