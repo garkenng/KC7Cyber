@@ -112,3 +112,30 @@ PassiveDns
 <br>
 
 **Answer: 198.51.100.12**<br><br>
+
+**Q15 How many distinct domains are linked to the suspicious IP address?**<br><br>
+
+```
+PassiveDns
+| where ip contains "198.51.100.12"
+| distinct domain
+```
+<br>
+
+**Answer: 3**<br><br>
+
+**Q16 Enter: I have MFA setup for my Instagram!**<br><br>
+
+**Answer: I have MFA setup for my Instagram!**<br><br>
+
+**Q17 What are the followers really investing in: a great deal or a phishing scam?**<br><br>
+
+**Answer: phishing scam**<br><br>
+
+**Q18 Based on the images showing the apartment view and amenities from Afomiya’s Instagram post, use a reverse image search to identify the name of the apartment building.**<br><br>
+
+**Answer: City Center Apartments**<br><br>
+
+**Q19 ENTER: Unlocking trouble with a photo!**<br><br>
+
+**Answer:  Unlocking trouble with a photo!**<br><br>
