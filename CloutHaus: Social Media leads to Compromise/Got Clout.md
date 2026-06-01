@@ -21,3 +21,48 @@ But with all the glitter and glam comes a darker side… suddenly, her inbox is 
 **Answer: E. All of the above.**<br><br>
 
 **Q3 What technique is the threat actor using to manipulate her into revealing personal information that could compromise her email or Instagram account?**<br><br>
+
+**Answer: Social Engineering**<br><br>
+
+**Q4 What answer did the attacker enter to try and bypass the security questions? Enter one of the answers the attacker submitted.**<br><br>
+From the screenshot, two answers were used. Kidus and Lalibela.
+
+**Answer: Kidus or Lalibela**<br><br>
+
+**Q5 What security measure saved Afomiya's email account from being hacked, despite the threat actor having access to her security question answers?**<br><br>
+
+**Answer: Multifactor Authentication**<br><br>
+
+**Q6 According to CloutHaus internal employee logs, what is Afomiya’s designated professional email?**<br><br>
+Using the query below, the email address can be obtained for Afomiya.<br><br>
+
+```
+Employees
+| where name contains "afomiya"
+```
+<br>
+
+**Answer: afomiya_storm@clouthaus.com**<br><br>
+
+**Q7 What is Afomiya’s role with CloutHaus?**<br><br>
+The KQL query has been given. Run the query to find what role Afomiya holds.<br><br>
+
+```
+Employees
+| where name contains "Afomiya"
+| distinct role 
+```
+<br>
+
+**Answer: Influencer Partner**<br><br>
+
+**Q8 Based on the CloutHaus employee table, what is the status of Multi-Factor Authentication (MFA) for Afomiya’s account?**<br><br>
+
+```
+Employees
+| where name contains "Afomiya"
+| distinct mfa_enabled
+```
+<br>
+
+**Answer: False**<br><br>
