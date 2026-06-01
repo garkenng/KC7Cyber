@@ -307,3 +307,26 @@ Can run the query to see if the domain hirejob.com appears in any other command 
 ProcessEvents
 | where process_commandline has "hirejob.com"
 **Answer:  no.**<br><br>
+
+**Q33 Congratulations! You've completed your investigation.**<br>
+**To share your findings with The Valdorian Times leadership, you prepare this incident report summarizing what you discovered.**<br><br>
+
+**Type "wooo" to receive credit**<br><br>
+
+```
+wooo
+```
+<br>
+
+**Answer: wooo**<br><br>
+
+**Q34 Type "shadows" to finish this module. Stay tuned for the next module to learn more about what's lurking in the shadows 😱**<br><br>
+
+```
+shadows
+```
+<br><br>
+
+**Answer: shadow**
+
+
