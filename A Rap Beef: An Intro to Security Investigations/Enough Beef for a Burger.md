@@ -46,3 +46,26 @@ thanks dawg
 ```
 <br>
 
+**Q4 What is the name of the OWL Records CEO?**<br><br>
+
+```
+Employees
+| where role == "CEO"
+```
+<br>
+
+**Answer: Sean Crater**<br><br>
+
+**Q5 **<br><br>
+
+KQl statement has been given, have to run it to see how many results it returns.<br><br>
+
+```
+InboundNetworkEvents
+| where timestamp between (datetime("2024-04-10T00:00:00") .. datetime("2024-04-11T00:00:00"))
+| where src_ip has "18.66.52.227"
+```
+<br>
+
+**Answer: 19**<br><br>
+
