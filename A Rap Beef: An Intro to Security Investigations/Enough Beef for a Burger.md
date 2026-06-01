@@ -14,7 +14,7 @@ ready
 <br>
 
 **Q2 Type barz to continue**<br><br>
-After dropping this verse, Dwake had everyone on social media talking and laughing at Present.
+After dropping this verse, Dwake had everyone on social media talking and laughing at Present.<br><br>
 
 🎶
     Yo, Present, you don't know where I'm from,
@@ -26,7 +26,7 @@ After dropping this verse, Dwake had everyone on social media talking and laughi
     You say you're on top, but I'm breakin' all the rules.
     I'm on that next level, you're stuck in the past,
     with those weak beats you won't last.
-  🎶
+ 🎶
     
 ```
 barz
