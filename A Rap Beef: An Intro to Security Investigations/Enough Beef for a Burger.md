@@ -8,3 +8,28 @@ As a Security Analyst for OWL Records, your job is to keep the company's informa
 <br><br>
 **Q1 Enter ready to get started!**<br>
 
+```
+ready
+```
+<br>
+
+**Q2 Type barz to continue**<br><br>
+After dropping this verse, Dwake had everyone on social media talking and laughing at Present.
+
+🎶
+    Yo, Present, you don't know where I'm from,
+    Got the Washington name from my mom's side, son.
+    It makes sense why they call you present
+    Cause you're so easy to beat, its pretty much a gift
+
+    Used to play with little Fluffy, now I'm runnin' with the wolves,
+    You say you're on top, but I'm breakin' all the rules.
+    I'm on that next level, you're stuck in the past,
+    with those weak beats you won't last.
+  🎶
+    
+```
+barz
+```
+<br>
+
