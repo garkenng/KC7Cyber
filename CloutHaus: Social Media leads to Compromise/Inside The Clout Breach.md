@@ -2,9 +2,10 @@
 ### **Summary**<br><br>
 Okay team, things just got real. 😰
 <br><br>
-1 hour after Afomiya clicked a phishing link, someone logged into her company email.<br><br>
-Different device. Different country. Using an ancient Internet Explorer build (yes, really).<br><br>
-This isn’t casual snooping - it’s email compromise, recon, and possible data theft.<br><br>
+- 1 hour after Afomiya clicked a phishing link, someone logged into her company email.
+- Different device. Different country. Using an ancient Internet Explorer build (yes, really).
+- This isn’t casual snooping - it’s email compromise, recon, and possible data theft.
+
 Your mission: use the Authentication, Network, and Email logs to uncover what the intruder did, what they wanted, and what may be gone. Be methodical. Document everything 🕵️‍♀️
 <br><br>
 Start here:
