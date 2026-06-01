@@ -139,3 +139,11 @@ PassiveDns
 **Q19 ENTER: Unlocking trouble with a photo!**<br><br>
 
 **Answer:  Unlocking trouble with a photo!**<br><br>
+
+**Q20 What should you never reuse across different sites to protect your accounts?**<br><br>
+
+**Answer: Passwords**<br><br>
+
+**Q21 ENTER: Be the hunter, not the hunted!**<br><br>
+
+**Answer: Be the hunter, not the hunted!**<br><br>
