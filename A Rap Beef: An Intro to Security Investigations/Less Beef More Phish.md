@@ -51,4 +51,10 @@ Answer shown from previous question query.<br><br>
 
 **Answer: ghostwritersanonymous@protonmail.com**<br><br>
 
-**Q7 **<br><br>
+**Q7 What was the other email address used to send these phishing emails?**<br><br>
+The other email address listed from question 5 in the results is wemakebeatz@gmail.com.<br><br>
+
+**Answer: wemakebeatz@gmail.com**<br><br>
+
+**Q8 Which role was targeted the most of all?**<br><br>
+
