@@ -66,3 +66,49 @@ Employees
 <br>
 
 **Answer: False**<br><br>
+
+**Q9 What is the sender’s email address in the email Afomiya received from "Dior"?**<br><br>
+Fill in the email address and searching for references of 'Dior' in the subject or links sent via email.<br><br>
+
+```
+Email
+| where recipient == "afomiya_storm@clouthaus.com"
+| where subject contains "Dior" or links contains "Dior"
+```
+<br>
+
+**Answer: collabs@dior-partners.com**<br><br>
+
+**Q10 What is the subject line of the email Afomiya received from "Dior"?**<br><br>
+Answer retrieved from the previous query.<br><br>
+
+**Answer: [EXTERNAL] Exclusive Partnership Opportunity with Dior**<br><br>
+
+**Q11 What is the link provided in the email?**<br><br>
+
+**Answer: ["https://super-brand-offer.com/login"]**<br><br>
+
+**Q12 When did Afomiya click on the link? Paste the entire timestamp**<br><br>
+
+```
+OutboundNetworkEvents
+| where url contains "https://super-brand-offer.com/login"
+```
+<br>
+
+**Answer: 4/3/2025, 11:20:00 AM**<br><br>
+
+**Q13 What username did she enter?**<br><br>
+The second result from the previous query shows the username used.<br><br>
+
+**Answer: afstorm**<br><br>
+
+**Q14 What is the IP address associated with the domain?**<br><br>
+
+```
+PassiveDns
+| where domain contains "super-brand-offer.com"
+```
+<br>
+
+**Answer: 198.51.100.12**<br><br>
