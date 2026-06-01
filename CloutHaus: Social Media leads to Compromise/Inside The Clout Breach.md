@@ -29,3 +29,17 @@ AuthenticationEvents
 The first result that the query returns looks of interest. The IP address is not from a local machine and co-insides with the time frame of when the email login attempt would have been made.<br><br>
 
 **Answer: 182.45.67.89**<br><br>
+
+**Q2 What domains are associated with this IP? (enter one)**<br><br>
+
+```
+PassiveDns
+| where ip == "182.45.67.89"
+```
+<br>
+Two unqiue omains 
+
+**Answer: influencer-deals.net or dior-partners.com**<br><br>
+
+
+
