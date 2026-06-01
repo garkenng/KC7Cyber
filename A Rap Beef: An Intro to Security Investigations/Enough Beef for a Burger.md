@@ -17,9 +17,8 @@ ready
 Summary of question. <br><br>
 After dropping this verse, Dwake had everyone on social media talking and laughing at Present.<br><br>
 
-
-    Yo, Present, you don't know where I'm from,
-    Got the Washington name from my mom's side, son.
+Yo, Present, you don't know where I'm from,<br>
+Got the Washington name from my mom's side, son.
     It makes sense why they call you present
     Cause you're so easy to beat, its pretty much a gift
 
