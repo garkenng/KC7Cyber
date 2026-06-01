@@ -78,6 +78,8 @@ https://clouthaus.com/search=How+to+hack+an+influencer's+location+from+their+Ins
 **Q6 According to another search log, what kind of personal info were they sneakily trying to uncover (and pretending to ask “for a friend”)?**<br><br>
 Looking at the url search history again. The answer can be found.<br><br>
 
+**Answer: home address**<br><br>
+
 ```
 https://clouthaus.com/search=Afomiya+Storm+home+address??+(asking+for+a+friend)
 ```
