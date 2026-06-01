@@ -41,5 +41,7 @@ Two unqiue omains
 
 **Answer: influencer-deals.net or dior-partners.com**<br><br>
 
+**Q3 What part of the User-Agent string indicates the suspicious browser and operating system? (Submit either the browser name/version or the operating system name/version.)**<br><br>
+
 
 
