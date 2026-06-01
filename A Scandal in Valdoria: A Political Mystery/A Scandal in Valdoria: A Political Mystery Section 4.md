@@ -320,7 +320,7 @@ wooo
 
 **Answer: wooo**<br><br>
 
-**Q34 Type "shadows" to finish this module. Stay tuned for the next module to learn more about what's lurking in the shadows 😱**<br><br>
+**Q34 Type "shadows" to finish this module. Stay tuned for the next module to learn more about what's lurking in the shadows 😱**<br>
 
 ```
 shadows
