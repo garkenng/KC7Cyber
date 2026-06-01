@@ -69,3 +69,15 @@ InboundNetworkEvents
 
 **Answer: 19**<br><br>
 
+**Q6 What piece of information were they looking to get for Dwake? (two words - might be used for communication)**<br><br>
+
+The results from the prevoous query, under the url column we can see searches made to look for Dwake email address.<br><br>
+
+```
+https://owl-records.com/account/reset-password?username=dwaubrey&email=dwake_audrey@owl-records.com 
+https://owl-records.com/search=whats+Dwake%27s+email+address%3F
+```
+<br>
+
+**Answer: email address**<br><br>
+
