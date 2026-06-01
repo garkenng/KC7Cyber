@@ -23,3 +23,25 @@ PassiveDns
 <br>
 
 **Answer: betterlyrics4u.com**<br><br>
+
+**Q4 Which column in the email table is most likely to contain our domain?**<br><br>
+Can use the take command in the Email table to list the columns the table has.<br><br>
+
+```
+Email
+| take 10
+```
+<br>
+
+**Answer: link**<br><br>
+
+**Q5 How many results did we get from this query?**<br><br>
+A KQL query has been given, need to run it to see how many results it returns<br><br>
+
+```
+Email
+| where link has "betterlyrics4u.com"
+```
+<br>
+
+**Answer: 13**<br><br>
