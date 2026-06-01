@@ -112,4 +112,17 @@ https://owl-records.com/account/security-questions?question_1=mother's+maiden+na
 
 **Answer: What is your mother's maiden name? and What is your childhood pet's name?**<br><br>
 
+**Q10 What is Dwake's mother's maiden name?**<br><br>
+Answer taken from previous url output in question 9.<br<br>
 
+**Answer: Washington**<br><br>
+
+**Q11 What is the name of Dwake's childhood pet?**<br><br>
+Answer taken from question 9.<br<br>
+
+**Answer: Fluffy**<br><br>
+
+**Q12 Copy and paste the full URL that shows the operator resetting the password to Dwake’s account.**<br><br>
+The code / output taken from question 9.<br><br>
+
+**Answer: https://owl-records.com/account/security-questions question_1=mother's+maiden+name&answer_1=Washington&question_2=first+pet's+name&answer_2=Fluffy**<br><br>
