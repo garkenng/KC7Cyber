@@ -42,6 +42,18 @@ Two unqiue omains
 **Answer: influencer-deals.net or dior-partners.com**<br><br>
 
 **Q3 What part of the User-Agent string indicates the suspicious browser and operating system? (Submit either the browser name/version or the operating system name/version.)**<br><br>
+The query from question 1, the first result under user agent returns the folloing:<br><br>
+
+```
+Mozilla/5.0 (compatible; MSIE 5.0; Windows NT 5.2; Trident/4.1)
+```
+<br>
+
+Based on MSIE which is Microsoft Internet Explorer 5.0 released in 1999 and Windows NT 5.2 which is Windows XP released in 2003. The user is using an outdated browser and OS.<br><br>
+
+**Answer: MSIE 5.0 or Windows NT 5.2**<br><br>
+
+**Q4 What country did the login originate from?**<br><br>
 
 
 
