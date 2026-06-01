@@ -14,9 +14,10 @@ ready
 <br>
 
 **Q2 Type barz to continue**<br><br>
+Summary of question. <br><br>
 After dropping this verse, Dwake had everyone on social media talking and laughing at Present.<br><br>
 
-🎶
+
     Yo, Present, you don't know where I'm from,
     Got the Washington name from my mom's side, son.
     It makes sense why they call you present
