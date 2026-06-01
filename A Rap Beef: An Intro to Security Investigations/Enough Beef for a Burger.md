@@ -103,5 +103,13 @@ https://owl-records.com/account/reset-password?username=dwaubrey&email=dwake_aud
 
 **Q9 The operator then attempted to take over Dwake's account by resetting his password. We know this because of the reset-password parameter in that last url they accessed.<br><br>
 Which of the following did Dwake disclose in his verse? (pick all that apply)**<br><br>
+The results from query in question 5, under one url column it shows a password reset attempt<br><br>
+
+```
+https://owl-records.com/account/security-questions?question_1=mother's+maiden+name&answer_1=Washington&question_2=first+pet's+name&answer_2=Fluffy
+```
+<br>
+
+**Answer: What is your mother's maiden name? and What is your childhood pet's name?**<br><br>
 
 
