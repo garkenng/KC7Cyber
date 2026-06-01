@@ -56,7 +56,7 @@ Employees
 
 **Answer: Sean Crater**<br><br>
 
-**Q5 **<br><br>
+**Q5 How many results (rows) did you get back?**<br><br>
 
 KQl statement has been given, have to run it to see how many results it returns.<br><br>
 
