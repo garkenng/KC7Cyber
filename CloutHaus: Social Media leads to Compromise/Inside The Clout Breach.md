@@ -54,6 +54,7 @@ Based on MSIE which is Microsoft Internet Explorer 5.0 released in 1999 and Wind
 **Answer: MSIE 5.0 or Windows NT 5.2**<br><br>
 
 **Q4 What country did the login originate from?**<br><br>
+Using website iplocation.net with the IP address from question 2. The IP address originates from Shandong, China.<br><br>
 
-
+**Answer: China**<br><br>
 
