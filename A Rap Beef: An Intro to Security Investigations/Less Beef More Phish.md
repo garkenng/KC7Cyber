@@ -45,3 +45,10 @@ Email
 <br>
 
 **Answer: 13**<br><br>
+
+**Q6 Which email address was used to send most of these emails?**<br><br>
+Answer shown from previous question query.<br><br>
+
+**Answer: ghostwritersanonymous@protonmail.com**<br><br>
+
+**Q7 **<br><br>
