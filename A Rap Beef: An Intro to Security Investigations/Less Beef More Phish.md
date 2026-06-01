@@ -157,5 +157,19 @@ InboundNetworkEvents
 **Answer: 10**<br><br>
 
 **Q21 What was the name of the zip file they used to steal information from Dwake's account?**<br><br>
+The last result from the previous query shows the name of the zip file.<br><br>
+
+```
+https://owl-records.com/mail/readmail?user=dwaudrey%40owl-records.com&mailbox_folder=Drafts&download=true&output=DwakesDirtySecrets.zip
+```
+<br>
 
 **Answer: DwakesDirtySecrets.zip**<br><br>
+
+**Q22 Enter less hack more love to finish**<br><br>
+
+**Answer: less hack more love**<br><br>
+
+**Q23 Enter keep going**<br><br>
+
+**Answer: keep going**<br><br>
