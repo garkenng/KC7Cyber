@@ -58,3 +58,19 @@ Using website iplocation.net with the IP address from question 2. The IP address
 
 **Answer: China**<br><br>
 
+**Q5 According to the attacker's web search history on the site, what were they trying to hack?**<br><br>
+
+```
+InboundNetworkEvents
+| where src_ip == "182.45.67.89"
+```
+<br>
+
+Scrolling through the results, one url search history is of interest.<br><br>
+
+```
+https://clouthaus.com/search=How+to+hack+an+influencer's+location+from+their+Instagram+story
+```
+<br>
+
+**Answer: Location**<br><br>
