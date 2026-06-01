@@ -81,3 +81,24 @@ https://owl-records.com/search=whats+Dwake%27s+email+address%3F
 
 **Answer: email address**<br><br>
 
+**Q7 The operator is wondering why Dwake's music is so _**<br><br>
+The results from query in question 5, one of the url gives the answer to the question.<br><br>
+
+```
+https://owl-records.com/search=why+is+Dwake+music+much+soo+trasshhhh
+```
+<br>
+
+**Answer: trasshhhh**<br><br>
+
+**Q8 What is Dwake's email address?**<br><br>
+The results from query in question 5, the email address of Dwake is shown.<br><br>
+
+```
+https://owl-records.com/account/reset-password?username=dwaubrey&email=dwake_audrey@owl-records.com
+```
+<br>
+
+**Answer: dwake_audrey@owl-records.com**<br><br>
+
+
