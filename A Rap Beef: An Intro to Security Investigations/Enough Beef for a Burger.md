@@ -101,4 +101,7 @@ https://owl-records.com/account/reset-password?username=dwaubrey&email=dwake_aud
 
 **Answer: dwake_audrey@owl-records.com**<br><br>
 
+**Q9 The operator then attempted to take over Dwake's account by resetting his password. We know this because of the reset-password parameter in that last url they accessed.<br><br>
+Which of the following did Dwake disclose in his verse? (pick all that apply)**<br><br>
+
 
