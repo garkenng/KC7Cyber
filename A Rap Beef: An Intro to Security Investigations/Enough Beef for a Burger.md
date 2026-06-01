@@ -18,17 +18,31 @@ Summary of question. <br><br>
 After dropping this verse, Dwake had everyone on social media talking and laughing at Present.<br><br>
 
 Yo, Present, you don't know where I'm from,<br>
-Got the Washington name from my mom's side, son.
-    It makes sense why they call you present
-    Cause you're so easy to beat, its pretty much a gift
+Got the Washington name from my mom's side, son.<br>
+It makes sense why they call you present<br>
+Cause you're so easy to beat, its pretty much a gift<br><br>
 
-    Used to play with little Fluffy, now I'm runnin' with the wolves,
-    You say you're on top, but I'm breakin' all the rules.
-    I'm on that next level, you're stuck in the past,
-    with those weak beats you won't last.
+Used to play with little Fluffy, now I'm runnin' with the wolves,<br>
+You say you're on top, but I'm breakin' all the rules.<br>
+I'm on that next level, you're stuck in the past,<br>
+with those weak beats you won't last.<br><br>
      
 ```
 barz
+```
+<br>
+
+**Q3 Type thanks dawg to continue**<br><br>
+Summary of question. <br><br>
+
+In a fit of anger, Present asked his label, Dollar Currency Records (DCR), to dig up some dirt on Dwake that he could use to retaliate.<br><br>
+
+Your homeboy (who works in the cyber underground) gave you a tip that you might see nefarious cyber activity as a result.<br><br>
+
+After sliding him a crisp $20 bill, he recounted a rumor he heard that DCR had hired a hacker who used the IP 18.66.52.227 to poke around your website in early April.<br><br>
+
+```
+thanks dawg
 ```
 <br>
 
