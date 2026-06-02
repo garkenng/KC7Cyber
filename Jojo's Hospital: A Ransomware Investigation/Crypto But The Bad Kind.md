@@ -21,3 +21,10 @@ From the ransom note on the website, the slogan can be found.<br><br>
 From the ransom note on the website, the amount demanded can be found.<br><br>
 
 **Answer: $10,000**<br><br>
+
+**Q5. What very important unique identifier number did the ransomware operators threaten to release?**<br><br>
+From the ransom note on the website list 3 categories of data, health history, medical info and social security number.
+<br><br>
+The most unique identifier out of the above is the social security number.<br><br>
+
+**Answer: social security number**<br><br>
