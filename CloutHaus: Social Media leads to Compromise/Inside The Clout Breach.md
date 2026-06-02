@@ -124,3 +124,10 @@ Using the query from previous question, search through subject lines which would
 
 **Answer: [EXTERNAL] [FORWARD] Afomiya's payment details – direct deposit form**<br><br>
 
+**Q11 What forwarded email subject included a passport scan?**<br><br>
+Using the query from question 9, searching for subject line referencing passport.<br>br<
+
+**Answer: [EXTERNAL] [FORWARD] Afomiya's passport scan – confidential**<br><br>
+
+Which forwarded email subject contained either Afomiya’s bank statement or year-end tax documents?
+
