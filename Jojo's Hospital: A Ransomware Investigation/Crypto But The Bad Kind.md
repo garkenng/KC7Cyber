@@ -273,3 +273,18 @@ From the previous query.<br><br>
 
 **Answer: 203.0.113.1**<br><br>
 
+**Q26. Which one of these IPs ends with the digit 2?**<br><br>
+From the query in question 24.<br><br>
+
+**Answer: 203.0.113.2**<br><br>
+
+**Q27. What additional domain name is associated with these IP addresses?**<br><br>
+Using the two IP's from question 25 and 26.<br><br>
+
+```
+PassiveDns
+| where ip in ("203.0.113.1", "203.0.113.2")
+```
+<br>
+
+**Answer: emr-help.net**<br><br>
