@@ -17,4 +17,7 @@ From the ransom note on the website, the slogan can be found.<br><br>
 
 **Answer: you don't have to**<br><br>
 
-**Q4. **<br><br>
+**Q4. How much did the hackers ask the patients to pay?**<br><br>
+From the ransom note on the website, the amount demanded can be found.<br><br>
+
+**Answer: $10,000*<br><br>
