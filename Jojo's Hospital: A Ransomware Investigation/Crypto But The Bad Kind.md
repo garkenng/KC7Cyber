@@ -101,3 +101,44 @@ ProcessEvents
 <br>
 
 **Answer: 14**<br><br>
+
+**Q14. What was the name of the ransomer file mentioned?**<br><br>
+
+```
+ProcessEvents
+| where process_commandline contains "ransomer"
+```
+<br>
+
+Under the process comandline column, the file name can be obtained.<br><br>
+
+```
+cmd.exe /c copy C:\\Users\\andavis\\Downloads\\lockbyte_ransomer.exe \\jojos-hospital.org\\shared\\spread_ransomware.exe
+```
+<br>
+
+**Answer:  lockbyte_ransomer.exe**<br><br>
+
+**Q15. When the attackers copied the ransomer file to the network share, what new name did they give it?**<br><br>
+From the previous query the lockbyte_ransomer.exe was copied over the jojos hospital but renamed.<br><br>
+
+**Answer: spread_ransomware.exe**<br><br>
+
+**Q16. What tool did the attackers use to steal the data? This will be a .exe file**<br><br>
+
+```
+ProcessEvents
+| where hostname == "AMFB-MACHINE"
+| where timestamp between (datetime(2024-06-17) ..  datetime(2024-06-18))
+```
+<br>
+
+Looking through the results, one exe file looks of interest that is likely responsible for sealing the data.<br><br>
+
+```
+C:\Users\andavis\Downloads\patient_data_exporter.exe /export C:\Users\andavis\Documents\patient_data_2.zip /source \\jojos-hospital-server\important_data\archive\patient-records
+```
+<br>
+
+**Answer: spread_ransomware.exe**<br><br>
+
