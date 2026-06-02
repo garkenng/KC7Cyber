@@ -54,3 +54,50 @@ FileCreationEvents
 
 **Answer: 321**<br><br>
 
+**Q8. What was the Sha256 hash of this ransom file?**<br><br>
+Using the query, the sha256 can be obtained for this file.<br><br>
+
+```
+FileCreationEvents
+| where filename == "We_Have_Your_Data_Pay_Up.txt"
+```
+<br>
+
+**Answer: 97c348e95c8a8aeb8808f76434d73a92bbcb6b4586788365762b22624990b018**<br><br>
+
+**Q9. What was the full path of this ransom file?**<br><br>
+Obtained from the previous query.<br><br>
+
+**Answer: C:\Users\andavis\Documents\We_Have_Your_Data_Pay_Up.txt**<br><br>
+
+**Q10. On how many hosts (machines) was this ransom file seen?**<br><br>
+Only 1 result is returned from the query in question 8.<br><br>
+
+**Answer: 1**<br><br>
+
+**Q11. What hostname was the ransom note seen on?**<br><br>
+Obtained from the  query in question 8.<br><br>
+
+**Answer: AMFB-MACHINE**<br><br>
+
+**Q12. What is the name of the employee whose host has the ransom note?**<br><br>
+
+```
+Employees
+| where hostname == "AMFB-MACHINE"
+```
+<br>
+
+**Answer: Anthony Davis**<br><br>
+
+**Q13. Run the query above. How many process events were executed on Anthony's machine during this time period?**<br><br>
+
+```
+ProcessEvents
+| where hostname == "AMFB-MACHINE"
+| where timestamp between (datetime(2024-06-17) ..  datetime(2024-06-18))
+| count
+```
+<br>
+
+**Answer: 14**<br><br>
