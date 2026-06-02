@@ -119,6 +119,8 @@ Email
 
 **Answer: noreply@influencer-deals.net**<br><br>
 
+**Q10 Which forwarded email contained Afomiya’s payment details or direct deposit form?**<br><br>
+Using the query from previous question, search through subject lines which would indicate payment details or direct depoist form.<br><br>
 
-
+**Answer: [EXTERNAL] [FORWARD] Afomiya's payment details – direct deposit form**<br><br>
 
