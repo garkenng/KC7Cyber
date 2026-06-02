@@ -288,3 +288,48 @@ PassiveDns
 <br>
 
 **Answer: emr-help.net**<br><br>
+
+**Q28. How many requests did the hackers make to our website from these IPs?**<br><br>
+
+```
+InboundNetworkEvents
+| where src_ip in ("203.0.113.1", "203.0.113.2")
+| count
+```
+<br>
+
+**Answer: 37**<br><br>
+
+**Q29. The hackers were curious about how to bypass ___ at Jojo's hospital**<br><br>
+
+```
+InboundNetworkEvents
+| where src_ip  in ("203.0.113.1", "203.0.113.2")
+| where url has "bypass"
+```
+<br>
+
+One result is returned, showing search terms used to query how to bypass security.<br><br>
+
+```
+https://jojoshospital.org/search=how+to+bypass+security+JoJo%27s+Hospital
+```
+<br>
+
+**Answer: security**<br><br>
+
+**Q30. What was the first web request the hackers made using the term patient? (hint: it was a search). Paste the full url.**<br><br>
+
+```
+InboundNetworkEvents
+| where src_ip  in ("203.0.113.1", "203.0.113.2")
+| where url has "patient"
+```
+<br>
+
+The first result came in at 5/20/2024, 12:00:00 AM<br><br>
+
+**Answer: https://jojoshospital.org/search=JoJo%27s+Hospital+patient+records**<br><br>
+
+
+
