@@ -28,3 +28,16 @@ From the ransom note on the website list 3 categories of data, health history, m
 The most unique identifier out of the above is the social security number.<br><br>
 
 **Answer: social security number**<br><br>
+
+**Q6. How many total files were encrypted at the hospital?**<br><br>
+Running the query from the website returns the total files that were encrypted. <br><br>
+
+```
+FileCreationEvents
+| where filename endswith ".encrypted"
+| count
+```
+<br>
+
+**Answer: 6420**<br><br>
+
