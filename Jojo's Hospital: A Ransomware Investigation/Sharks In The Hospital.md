@@ -58,4 +58,12 @@ https://nothing-to-see-here.net/images/public/Raisin_Kane_Promo_Offer.docx
 
 **Q7. Which of the malicious domains used for redirection starts with the word "totally"?**<br><br>
 
-**Answer:**<br><br>
+```
+OutboundNetworkEvents
+| where url contains "totally"
+```
+<br>
+
+**Answer: totally-legit-domain.com**<br><br>
+
+**Q8. What is the name of the docx file they are redirected to?**<br><br>
