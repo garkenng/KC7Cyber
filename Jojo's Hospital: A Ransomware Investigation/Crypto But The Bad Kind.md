@@ -41,3 +41,16 @@ FileCreationEvents
 
 **Answer: 6420**<br><br>
 
+**Q7. How many unique hostnames had files encrypted on them?**<br><br>
+Using the query given, add hostname as the distinct field and count to total the number of hostnames.<br><br>
+
+```
+FileCreationEvents
+| where filename endswith ".encrypted"
+| distinct hostname
+| count 
+```
+<br>
+
+**Answer: 321**<br><br>
+
