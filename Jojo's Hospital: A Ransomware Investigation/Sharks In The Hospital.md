@@ -67,3 +67,36 @@ OutboundNetworkEvents
 **Answer: totally-legit-domain.com**<br><br>
 
 **Q8. What is the name of the docx file they are redirected to?**<br><br>
+
+```
+OutboundNetworkEvents
+| where url contains "totally" 
+| where url contains "docx"
+```
+<br>
+
+Retrieving the first result, under the url column. <br><br>
+
+```
+https://totally-legit-domain.com/published/Raisin_Kane_Promo_Offer.docx
+```
+<br>
+
+**Answer: Raisin_Kane_Promo_Offer.docx**<br><br>
+
+**Q9. What is the name of the pdf file they are redirected to?**<br><br>
+
+```
+OutboundNetworkEvents
+| where url contains "pdf"
+```
+<br>
+
+The first result, under the url column has the name of the pdf file.<br><br>
+
+```
+https://nothing-to-see-here.net/search/published/Raisin_Kane_Free_Meal_Voucher.pdf
+```
+<br>
+
+**Answer: Raisin_Kane_Free_Meal_Voucher.pdf**<br><br>
