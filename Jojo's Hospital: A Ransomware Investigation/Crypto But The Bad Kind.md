@@ -8,7 +8,13 @@ Watch the YouTube video an website, approximately 41 seconds in, the states how 
 **Answer: 72**<br><br>
 
 **Q2. What was the name of the ransomware group?**<br><br>
+From the ransom note on the website, find the name of the ransomware group.<br><br>
 
 **Answer: lock byte**<br><br>
 
 **Q3. The slogan was: we spend your money, so ____**<br><br>
+From the ransom note on the website, the slogan can be found.<br><br>
+
+**Answer: you don't have to**<br><br>
+
+**Q4. **<br><br>
