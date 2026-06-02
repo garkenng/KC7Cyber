@@ -106,6 +106,18 @@ https://clouthaus.com/search=How+much+would+it+cost+to+hire+Afomiya+for+a+fake+b
 **Answer: Birthday Party**<br><br>
 
 **Q9 What external email address received messages forwarded from Afomiya’s account?**<br><br>
+To search for email addresses that were forwarded from Afomiya account, there are four fields that can be searched to narrow the result done. The email was sent externally, sent from Afomiya, external email address is not internal (will not contain the domain clouthaus) and sent after the phising email was clicked on 04/03/2025 12:20.
+
+```
+Email
+| where subject has "external"
+| where sender contains "afomiya"
+| where recipient !contains "clouthaus.com"
+| where timestamp >= datetime(4/3/2025, 12:20:00)
+```
+<br>
+
+**Answer: noreply@influencer-deals.net**<br><br>
 
 
 
