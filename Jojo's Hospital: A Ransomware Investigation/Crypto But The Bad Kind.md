@@ -318,7 +318,7 @@ https://jojoshospital.org/search=how+to+bypass+security+JoJo%27s+Hospital
 
 **Answer: security**<br><br>
 
-**Q30. What was the first web request the hackers made using the term patient? (hint: it was a search). Paste the full url.**<br><br>
+**Q30. What was the first web request the hackers made using the term patient? (hint: it was a search). Paste the full url**<br><br>
 
 ```
 InboundNetworkEvents
@@ -331,5 +331,33 @@ The first result came in at 5/20/2024, 12:00:00 AM<br><br>
 
 **Answer: https://jojoshospital.org/search=JoJo%27s+Hospital+patient+records**<br><br>
 
+**Q31. When did this login occur?**<br><br>
+
+```
+AuthenticationEvents
+| where src_ip  in ("203.0.113.1", "203.0.113.2")
+```
+<br>
+
+**Answer: 5/20/2024, 12:00:00 AM**<br><br>
+
+**Q32. Which IP address did the actors use for the login?**<br><br>
+From the previous query, the IP address can be obtained.<br><br>
+
+**Answer: 203.0.113.1**<br><br>
 
 
+**Q33. Whose account did the hackers login to? (provide a first and last name)**<br><br>
+From the previous query, we are given the username for the account. The first and last name can be retrieved from the Employees table.<br><br>
+
+```
+Employees
+| where username == "andavis"
+```
+<br>
+
+**Answer: Anthony Davis**<br><br>
+
+**Q34. Enter yikes to finish with this section**<br><br>
+
+**Answer: yikes**<br><br>
