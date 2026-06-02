@@ -100,3 +100,56 @@ https://nothing-to-see-here.net/search/published/Raisin_Kane_Free_Meal_Voucher.p
 <br>
 
 **Answer: Raisin_Kane_Free_Meal_Voucher.pdf**<br><br>
+
+**Q10. What is the hostname of the first person to download the suspicious docx file?**<br><br>
+
+```
+FileCreationEvents
+| where filename == "Raisin_Kane_Promo_Offer.docx"
+```
+
+The first result retrieved from the above query.<br><br>
+<br>
+
+**Answer: RQJQ-MACHINE**<br><br>
+
+**Q11. When did this download occur? (copy and paste the timestamp)**<br><br>
+Retrieved from the previous query.<br><br>
+
+**Answer: 5/1/2024, 9:56:50 AM**<br><br>
+
+**Q12. What was the Sha256 hash of the file?**<br><br>
+Retrieved from the query in question 10.<br><br>
+
+**Answer: bd886046266b909a8ca5f19f16e5606baf73194a70632c81fdc44ef39ba29712**<br><br>
+
+**Q13. Which browser was used to download this file? (look at the process_name)**<br><br>
+Retrieved from the query in question 10.<br><br>
+
+**Answer: chrome.exe**<br><br>
+
+**Q14. What was the name of the malicious file dropped by the attackers?**<br><br>
+
+```
+FileCreationEvents
+| where hostname == "RQJQ-MACHINE"
+| where path contains ".exe"
+```
+<br>
+
+A file was dropped 27 seconds after the download, with the timestamp of 5/1/2024, 9:57:17 AM.<br><br>
+
+**Answer: cobaltstrike.exe**<br><br>
+
+**Q15. Which command (process_commandline) shows the execution of the Raisin_Kane_Promo_Offer.docx file? (copy and paste the whole command)**<br><br>
+
+```
+ProcessEvents
+| where hostname == "RQJQ-MACHINE"
+| where timestamp between (datetime(2024-05-01) .. datetime(2024-05-02))
+| where process_commandline contains "raisin"
+```
+<br>
+Only one result is returned.<br><br>
+
+**Answer: "C:\Program Files\Microsoft Office\Office16\WINWORD.EXE" "C:\Users\evbrowne\Downloads\Raisin_Kane_Promo_Offer.docx"**<br><br>
