@@ -134,3 +134,7 @@ Using the query from question 9, searching for subject line referencing bank sta
 
 **Answer: [EXTERNAL] [FORWARD] Re: Re: Re: Afomiya's bank statement – confidential**<br><br>
 
+**Q13 Based on everything you’ve discovered, what do you think the attacker’s true objective was?**<br><br>
+
+**Answer: All of the above - it's a cyber buffet and the attacker's hungry**
+
