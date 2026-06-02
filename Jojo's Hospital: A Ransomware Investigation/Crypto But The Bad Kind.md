@@ -241,3 +241,35 @@ cmd.exe /c del C:\Users\andavis\Documents\patient_data_*.zip
 
 **Answer: cmd.exe /c del C:\Users\andavis\Documents\patient_data_*.zip**<br><br>
 
+**Q22. What domain was the patient data exporter file downloaded from?**<br><br>
+Running the given query.<br><br>
+
+```
+OutboundNetworkEvents
+| where url has "patient_data_exporter.exe"
+```
+<br>
+
+**Answer: secure-health-access.com**<br><br>
+
+**Q23. When was the patient data exporter file downloaded? (copy and paste the exact timestamp)*<br><br>
+Timestamp retrieved from previous query.<br><br>
+
+**Answer: 6/17/2024, 2:22:29 PM**<br><br>
+
+**Q24. How many distinct IPs does the domain secure-health-access.com resolve to?**<br><br>
+
+```
+PassiveDns
+| where domain == "secure-health-access.com"
+| distinct ip
+```
+<br>
+
+**Answer: 2**<br><br>
+
+**Q25. Which one of these IPs ends with the digit 1?**<br><br>
+From the previous query.<br><br>
+
+**Answer: 203.0.113.1**<br><br>
+
