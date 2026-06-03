@@ -21,3 +21,25 @@ Organizations that pay for access can download uploaded files. As a result, do n
 <br>
 
 **Answer: 0**<br><br>
+
+**Q4. Who is the distributor of this file?**<br><br>
+On top of the screen, it shows in green text the file distributor.<br><br>
+
+```
+File distributed by Microsoft
+```
+<br>
+
+**Answer: Microsoft**<br><br>
+
+**Q5. What is the MITRE ATT&CK Technique ID for masquerading?**<br><br>
+Searching for the term 'masquerading' on https://attack.mitre.org/, the technique number can be found.<br><br>
+
+**Answer: T1036**<br><br>
+
+**Q6. What is the MITRE ATT&CK Technique ID for DLL Search Order Hijacking?
+Under Hijack Execution Flow ID T1574, a sub category, DLL can be found.T1574.001<br><br>
+
+**Answer: T1574.001**<br><br>
+
+**Q7.
