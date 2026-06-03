@@ -112,4 +112,4 @@ A certificate was explicitly revoked by its issuer.
 ```
 <br>
 
-**Answer: revoked **<br><br>
+**Answer: revoked**<br><br>
