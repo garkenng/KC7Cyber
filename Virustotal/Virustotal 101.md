@@ -42,4 +42,11 @@ Under Hijack Execution Flow ID T1574, a sub category, DLL can be found.T1574.001
 
 **Answer: T1574.001**<br><br>
 
-**Q7.
+**Q7. In 2023, a creator of Voice Over IP (VOIP) phones and software was found to be compromised and used to distribute malicious files. What was the name of the affected company?**<br><br>
+Running a Google search, the answer can be found.<br><br>
+
+**Answer: 3CX**<br><br>
+
+**Q8. What is the file type of this file?**<br><br>
+
+**Answer: **<br><br>
