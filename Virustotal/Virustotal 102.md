@@ -74,5 +74,6 @@ This technique is known as 'Acquire Infrastructure: Malvertising'.<br><br>
 **Answer: T1583.008**<br><br>
 
 **Q11. To complete this question, provide the other file name.**<br><br>
+Another SOC analyst contacted us to let us know they found yet another file with the same Certificate signer as in Question 3, but its behavior is different. This file has the file hash 0221bf1e1bd171c17527a863531518a95bcc025c87888e66b9512a5651073d16. Let's take a look at it.<br><br>
 
-**Answer: **<br><br>
+**Answer: IRS_form_Package_17-01-2023_19-25-53.exe**<br><br>
