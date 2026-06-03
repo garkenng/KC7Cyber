@@ -72,3 +72,7 @@ MITRE ATT&CK describes the technique from the last question like this:
 This technique is known as 'Acquire Infrastructure: Malvertising'.<br><br>
 
 **Answer: T1583.008**<br><br>
+
+**Q11. To complete this question, provide the other file name.**<br><br>
+
+**Answer: **<br><br>
