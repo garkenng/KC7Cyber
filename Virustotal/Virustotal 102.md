@@ -77,3 +77,31 @@ This technique is known as 'Acquire Infrastructure: Malvertising'.<br><br>
 Another SOC analyst contacted us to let us know they found yet another file with the same Certificate signer as in Question 3, but its behavior is different. This file has the file hash 0221bf1e1bd171c17527a863531518a95bcc025c87888e66b9512a5651073d16. Let's take a look at it.<br><br>
 
 **Answer: IRS_form_Package_17-01-2023_19-25-53.exe**<br><br>
+
+**Q12. Enter the malware family name to complete this question.**<br><br>
+The first comment shows the family of the malware.<br><br>
+
+**Answer: icedid**<br><br>
+
+**Q13. According to the relations tab, what domain was contacted by this file?**<br><br>
+
+**Answer: plivetrakoy.com**<br><br>
+
+**Q14. What IP address resolved to this domain on the date closest to when the file was submitted to VirusTotal?**<br><br>
+
+**Answer: 193.149.180.175**<br><br>
+
+**Q15. What is the general disposition of the files? Answer with one of the following: The files look OK , Mixed Results, or All bad**<br><br>
+
+**Answer: All bad**<br><br>
+
+**Q16. What is the name of this file’s execution parent?**<br><br>
+
+**Answer: IRS_form_Package_17-01-2023_19-25-53 (1).zip**<br><br>
+
+**Q17. To complete this question, provide the SHA-1 hash for the ZIP file.**<br><br>
+In the Details tab, the SHA-1 can be found.<br><br>
+
+**Answer: 85d1e350486fea5945f46842685f248340fbf7dc**<br><br>
+
+**Q18. **<br><br>
