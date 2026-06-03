@@ -193,3 +193,14 @@ The first discovery command happened at 5/2/2024, 3:45:54 PM.
 - net view
 
 **Answer: 6**<br><br>
+
+**Q20. What is Anthony Davis' hostname?**<br><br>
+
+```
+Employees
+| where name == "Anthony Davis"
+```
+<br>
+
+**Answer: AMFB-MACHINE**<br><br>
+
