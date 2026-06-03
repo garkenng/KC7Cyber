@@ -48,5 +48,29 @@ Running a Google search, the answer can be found.<br><br>
 **Answer: 3CX**<br><br>
 
 **Q8. What is the file type of this file?**<br><br>
+Clicking on the Details tab in Virustotal, the file type can be obtained.<br><br>
+
+**Answer: exe**<br><br>
+
+**Q9. To finish this question, type Nothing can hold me back.**<br><br>
+
+**Answer: Nothing can hold me back**<br><br>
+
+**Q10. To complete this question, provide the whole timestamp for the First Submission.**<br><br>
+In Details tab, under History, the First Submission time and date can be obtained.<br><br>
+
+**Answer: 2021-06-18 09:31:41 UTC**<br><br>
+
+**Q11. Submit the file's creation time to complete this question.**<br><br>
+In Details tab, under History, the creation time and date can be obtained.<br><br>
+
+**Answer: 2040-03-02 02:49:27 UTC**<br><br>
+
+**Q12. Enter rKpPlCbFgHgAfYwYlYjWu to complete this question.**<br><br>
+
+**Answer: rKpPlCbFgHgAfYwYlYjWu**<br><br>
+
+**Q13. Enter the name of the technique to complete this question.**<br><br>
 
 **Answer: **<br><br>
+
