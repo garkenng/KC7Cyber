@@ -38,4 +38,37 @@ Under the heading Crowdsourced YARA rules, the name of the ruleset that identifi
 **Answer: INDICATOR_EXE_DotNET_Encrypted**<br><br>
 
 **Q5. What is the popular threat label for a50bcbf0ef744f6b7780685cfd2f41a13be4c921d4b401384efd85c6109d7c00?**<br><br>
-**Answer: **<br><br>
+
+**Answer: trojan.stealer/msil**<br><br>
+
+**Q6. According to some of the Contained in Collections groups and the comments, what threat actor used this file?**<br><br>
+
+**Answer: JuiceLedger**<br><br>
+
+**Q7. What malware does colinc_sophos claim this file is?**<br><br>
+Searching the details for a new hash.<br><br>
+
+```
+a54ca708c3bbef76dbaec817a9bb36d8b52e492b293d2127cd5be284caabb6d1
+```
+<br>
+
+**Answer: Batloader Malware**<br><br>
+
+**Q8. What is the name of the user posting as colinc_sophos?**<br><br>
+Click on username colinc_sophos, the users name will be displayed.<br><br>
+
+**Answer: Colin Cowie**<br><br>
+
+**Q9. According to colinc_sophos, how is this malware distributed?**<br><br>
+
+**Answer: fake software websites & malvertizing**<br><br>
+
+**Q10. What is the MITRE ATT&CK technique ID for this technique?**<br><br>
+MITRE ATT&CK describes the technique from the last question like this:
+<br><br>
+"Adversaries may purchase online advertisements that can be abused to distribute malware to victims. Ads can be purchased to plant as well as favorably position artifacts in specific locations online, such as prominently placed within search engine results. These ads may make it more difficult for users to distinguish between actual search results and advertisements. Purchased ads may also target specific audiences using the advertising network’s capabilities, potentially further taking advantage of the trust inherently given to search engines and popular websites."<br><br>
+
+This technique is known as 'Acquire Infrastructure: Malvertising'.<br><br>
+
+**Answer: T1583.008**<br><br>
