@@ -204,3 +204,34 @@ Employees
 
 **Answer: AMFB-MACHINE**<br><br>
 
+**Q21. When did the attackers connect to their IP address using cobalt strike on Anthony Davis' machine?**<br><br>
+
+```
+ProcessEvents
+| where hostname == "AMFB-MACHINE"
+| where process_commandline contains "cobalt"
+```
+<br>
+
+**Answer: 5/14/2024, 12:24:45 PM**<br><br>
+
+**Q22. What was the name of this scanning tool?**<br><br>
+
+```
+ProcessEvents
+| where hostname == "AMFB-MACHINE"
+| where timestamp between (datetime(2024-05-13) .. datetime(2024-05-17))
+| where parent_process_name contains "cmd"
+```
+<br>
+
+Result came in at 5/16/2024, 10:00:05 AM<br><br>
+
+```
+C:\Users\andavis\Downloads\advanced-ip-scanner.exe /silent
+```
+<br>
+
+**Answer: advanced-ip-scanner.exe**<br><br>
+
+
