@@ -71,6 +71,11 @@ In Details tab, under History, the creation time and date can be obtained.<br><b
 **Answer: rKpPlCbFgHgAfYwYlYjWu**<br><br>
 
 **Q13. Enter the name of the technique to complete this question.**<br><br>
+Referring back to question 5, the name of this technique is shown.<br><br>
 
-**Answer: **<br><br>
+**Answer: Masquerading**<br><br>
+
+**Q14. To complete this question, type Do not block!**<br><br>
+
+**Answer: Do not block!**<br><br>
 
