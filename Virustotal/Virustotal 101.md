@@ -9,4 +9,15 @@ Organizations that pay for access can download uploaded files. As a result, do n
 
 **Answer: upload with care**<br><br>
 
+**Q2. To complete this question, create a free VirusTotal account, then type and submit Ready to go.**<br>
 
+**Answer: Ready to go**<br><br>
+
+**Q3. How many detection engines flagged this file?**<br><br>
+
+```
+60517f898bfac156cd298fd0a45f2e06cecee232a54667213458b99dc8d80de7 
+```
+<br>
+
+**Answer: 0**<br><br>
