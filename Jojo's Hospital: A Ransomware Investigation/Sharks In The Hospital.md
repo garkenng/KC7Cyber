@@ -177,3 +177,19 @@ From previous query result, the post can be obtained.<br><br>
 
 **Answer: 50050**<br><br>
 
+**Q18. What was the first discovery command issued by the hackers? (hint: it has to do with a system)**<br><br>
+The first discovery command happened at 5/2/2024, 3:45:54 PM.
+
+**Answer: systeminfo**<br><br>
+
+**Q19. How many of these short discovery commands did the attackers run?**<br><br>
+6 Discover commands found on the command line.<br><br>
+
+- systeminfo
+- ipconfig /all
+- netstat -an
+- net user
+- net localgroup administrators
+- net view
+
+**Answer: 6**<br><br>
