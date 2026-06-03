@@ -79,3 +79,8 @@ Referring back to question 5, the name of this technique is shown.<br><br>
 
 **Answer: Do not block!**<br><br>
 
+**Q15. To complete this question, enter the version number of the C/C++ compiler according to the details in the Basic Properties**<br><br> section.
+In Details tab, the DetectItEasy section shows the C/C++ version.<br><br>
+
+**Answer: 19.28.29395**<br><br>
+
