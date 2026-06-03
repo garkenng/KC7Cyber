@@ -104,4 +104,12 @@ In the Details tab, the SHA-1 can be found.<br><br>
 
 **Answer: 85d1e350486fea5945f46842685f248340fbf7dc**<br><br>
 
-**Q18. **<br><br>
+**Q18. What is the status of the certificate of this file?**<br><br>
+Under the Signature info, Signature verification, a message shows the status of the certificate.<br><br>
+
+```
+A certificate was explicitly revoked by its issuer.
+```
+<br>
+
+**Answer: revoked **<br><br>
