@@ -6,5 +6,6 @@ The hash of the file is 2bf0a64fe7aea262c96fc7d52b1e28486ff607caa9513fd88583e194
 <br><br>
 
 **Q1. What is the status of the certificate of this file?**<br><br>
+Under the Signature info, Signature verification, a message shows the status of the certificate.<br><br>
 
 **Answer: revoked**<br><br>
