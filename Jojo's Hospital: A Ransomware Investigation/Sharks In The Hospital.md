@@ -183,7 +183,7 @@ The first discovery command happened at 5/2/2024, 3:45:54 PM.
 **Answer: systeminfo**<br><br>
 
 **Q19. How many of these short discovery commands did the attackers run?**<br><br>
-6 Discover commands found on the command line.<br><br>
+6 Discover commands found on the command line.<br>
 
 - systeminfo
 - ipconfig /all
