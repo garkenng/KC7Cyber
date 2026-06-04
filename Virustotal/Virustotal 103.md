@@ -43,7 +43,9 @@ Under the File system actions, Files Written, searching through the file paths w
 
 **Answer: HKEY_CURRENT_USER**<br><br>
 
-**Q9. **<br><br>
-**Answer: What program will the registry key execute when called? This is the first word written to the registry key.**<br><br>
+**Q9. What program will the registry key execute when called? This is the first word written to the registry key.**<br><br>
+Under the Registry Keys Set, there are 4 paths which have shell\open\command. Expanding the first one shows that the application powershell is executed.<br><br>
+
+**Answer: powershell**<br><br>
 
 
