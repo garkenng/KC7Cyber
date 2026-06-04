@@ -39,5 +39,5 @@ Under the File system actions, Files Written, searching through the file paths w
 
 **Answer: %APPDATA%\microsoft\windows\start menu\programs\startup\**<br><br>
 
-**Q8.**<br><br>
+**Q8. What is the full name of the registry hive?**<br><br>
 
