@@ -106,6 +106,36 @@ The first result that came through from the previous query is.**<br><br>
 
 **Answer: 5/1/2024, 12:00:00 AM**<br><br>
 
-**Q11. **<br><br>
+**Q11. Which product did the threat actors research before the day that they sent the malicious web requests?**<br><br>
+Searching throughthe urls, searches made for product called docks-ics.<br><br>
 
-**Answer: **<br><br>
+```
+https://www.solvisystems.com/products/docks-ics/features
+```
+<br>
+
+**Answer: docks-ics**<br><br>
+
+**Q12. How many distinct domains do the ip addresses used by the threat actor resolve to?**<br><br>
+Using all the IP addresses at are associated with the malicious attacker.<br><br>
+
+```
+PassiveDns
+| where ip == "13.201.46.208"  or ip == "105.78.23.64" or ip == "56.6.30.190" or ip == "105.78.23.64" or ip == "98.117.26.236"
+| distinct domain
+```
+<br>
+
+**Answer: 3**<br><br>
+
+**Q13. Did we receive any emails containing these domains? (yes/no)**<br><br>
+
+```
+Email
+| where link contains "eco-awareness-update.net" or link contains "news-on-industry.com" or link contains "energy-trends4u.net"
+```
+<br>
+Since results are produced containing the malicious domains, then emails were received by employees.<br><br>
+
+**Answer: yes**<br><br>
+
