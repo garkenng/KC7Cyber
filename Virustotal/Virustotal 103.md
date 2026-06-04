@@ -37,9 +37,13 @@ From the Yomi Hunter sandbox report, the file size can be obtained.<br><br>
 **Q7. To complete this question, provide the full filepath. (Note: leave the filename off as it may change if this file is re-analyzed.)**<br><br>
 Under the File system actions, Files Written, searching through the file paths with a lnk file.<br><br>
 
-
-
-
+**Answer: %APPDATA%\microsoft\windows\start menu\programs\startup** **\\** <br><br>
 
 **Q8. What is the full name of the registry hive?**<br><br>
+
+**Answer: HKEY_CURRENT_USER**<br><br>
+
+**Q9. **<br><br>
+**Answer: What program will the registry key execute when called? This is the first word written to the registry key.**<br><br>
+
 
