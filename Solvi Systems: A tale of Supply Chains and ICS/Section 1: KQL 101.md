@@ -28,7 +28,7 @@ Employees
 
 **Answer: 500**<br><br>
 
-**Q4. What is the CTO's name? **<br><br>
+**Q4. What is the CTO's name?**<br><br>
 
 ```
 Employees
@@ -37,3 +37,64 @@ Employees
 <br>
 
 **Answer: Alexis Khoza**<br><br>
+
+**Q5. How many emails did Alexis Khoza receive?**<br><br>
+The email address can be retrieved from the previous query.<br><br>
+
+```
+Email
+| where recipient == "alexis_khoza@solvisystems.com"
+| count
+```
+<br>
+
+**Answer: 31**<br><br>
+
+**Q6. How many distinct senders were seen in the email logs from eskom.co.za?**<br><br>
+
+```
+Email
+| where sender has "eskom.co.za"
+| distinct sender
+| count
+```
+<br>
+
+**Answer: 745**<br><br>
+
+**Q7. How many distinct websites did “Alexis Khoza” visit?**<br><br>
+Alexis IP address found from question 4.<br><br>
+
+```
+OutboundNetworkEvents
+| where src_ip == "10.10.0.7"
+| distinct url
+| count
+```
+<br>
+
+**Answer: 72**<br><br>
+
+**Q8. How many distinct domains in the PassiveDns records contain the word “real”?**<br><br>
+
+```
+PassiveDns
+| where domain contains "real"
+| distinct domain
+| count
+```
+<br>
+
+**Answer: 19**<br><br>
+
+**Q9. What IPs did the domain “bit.ly” resolve to (enter any one of them)?**<br><br>
+
+```
+PassiveDns
+| where domain == "bit.ly"
+| distinct ip
+```
+<br>
+
+**Answer: 30.99.71.8**<br><br>
+
