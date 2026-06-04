@@ -48,4 +48,18 @@ Under the Registry Keys Set, there are 4 paths which have shell\open\command. Ex
 
 **Answer: powershell**<br><br>
 
+**Q10. What type of encryption algorithm is mentioned and used by the registry key?**<br><br>
+First part of the expanded content for path shell\open\command.<br><br>
+
+```
+System.Security.Cryptography.AesCryptoServiceProvider
+```
+<br>
+
+**Answer: AES**<br><br>
+
+**Q11. What is the child process of our file?**<br><br>
+
+**Answer: powershell.exe**<br><br>
+
 
