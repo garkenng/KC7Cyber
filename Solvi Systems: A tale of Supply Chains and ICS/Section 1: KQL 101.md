@@ -129,3 +129,9 @@ AuthenticationEvents
 
 **Answer: 1150**<br><br>
 
+**Q12. Enter "ready" to earn credit for this question.**<br><br>
+Congratulations! 🥳 You've passed KQL 101! Let's dive into the investigation! 🔎<br><br>
+
+**Answer: ready**<br><br>
+
+
