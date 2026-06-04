@@ -15,5 +15,6 @@ Under the Signature info, Signature verification, a message shows the status of 
 **Answer: 1992-06-19 22:22:17 UTC**<br><br>
 
 **Q3. What is the name of the compiler of this file?**<br><br>
+The compiler can be found on the Basic properties section, next to DetectItEasy.<br><br>
 
-**Answer:**<br><br>
+**Answer: Borland Delphi**<br><br>
