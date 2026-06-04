@@ -25,5 +25,14 @@ In the Relations tab, Graph Summary, clicked on the link for '9 communicating fi
 **Answer: WABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZoYDHNFTTPDJL50NWXNEWCHBUDCPJOeEZNbd**<br><br>
 
 **Q5. What is the file's size?**<br><br>
+Under the Details tab, the File Size is shown.<br><br>
 
-**Answer: **<br><br>
+**Answer: 301.35 MB**<br><br>
+
+**Q6. What is the size of the deflated file?**<br><br>
+From the Yomi Hunter sandbox report, the file size can be obtained.<br><br>
+
+**Answer: 2.52 MB**<br><br>
+
+
+
