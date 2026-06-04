@@ -98,3 +98,24 @@ PassiveDns
 
 **Answer: 30.99.71.8**<br><br>
 
+**Q10. How many distinct URLs did employees with the first name "Mary" Visit?**<br><br>
+Passing Mary's IP address into OutboundNetworkEvents table, search for distinct URL's and count them.<br><br>
+
+```
+let mary_ips = 
+Employees
+| where name has "Mary"
+| distinct ip_addr;
+OutboundNetworkEvents
+| where src_ip in (mary_ips)
+| distinct url
+| count
+```
+<br>
+
+**Answer: 847**<br><br>
+
+**Q11. How many authentication attempts did we see to the accounts of employees with the first name Mary?**<br><br>
+
+**Answer: **<br><br>
+
