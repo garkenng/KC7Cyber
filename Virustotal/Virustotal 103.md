@@ -18,3 +18,12 @@ Under the Signature info, Signature verification, a message shows the status of 
 The compiler can be found on the Basic properties section, next to DetectItEasy.<br><br>
 
 **Answer: Borland Delphi**<br><br>
+
+**Q4. What is the name of the DLL file which was observed connecting to this IP address on 2025-02-12?**<br><br>
+In the Relations tab, Graph Summary, clicked on the link for '9 communicating files'. Looking through the communicating files, 'PEDLL', there are two Win32 DLL files. Can see it connected to the C2 IP: 146.70.161.126, however unable to confirm the date.<br><br>
+
+**Answer: WABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZoYDHNFTTPDJL50NWXNEWCHBUDCPJOeEZNbd**<br><br>
+
+**Q5. What is the file's size?**<br><br>
+
+**Answer: **<br><br>
