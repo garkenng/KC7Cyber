@@ -34,5 +34,10 @@ From the Yomi Hunter sandbox report, the file size can be obtained.<br><br>
 
 **Answer: 2.52 MB**<br><br>
 
+**Q7. To complete this question, provide the full filepath. (Note: leave the filename off as it may change if this file is re-analyzed.)**<br><br>
+Under the File system actions, Files Written, searching through the file paths with lnk file.<br><br>
 
+**Answer: %APPDATA%\microsoft\windows\start menu\programs\startup\**<br><br>
+
+**Q8.**<br><br>
 
