@@ -64,3 +64,22 @@ The timestamp from the query in question 2 is.
 **Answer: 2024-05-03**<br><br>
 
 **Q6. How many malicious requests did the attacker make in total?**<br><br>
+The full user agent information pulled from query in question 2.<br><br>
+
+```
+InboundNetworkEvents
+| where user_agent == "Opera/8.64.(X11; Linux x86_64; kok-IN) Presto/2.9.165 Version/10.00"
+| where timestamp between (datetime("2024-05-03") .. datetime("2024-05-05"))
+```
+<br>
+
+**Answer: 9**<br><br>
+
+**Q7. Were any of these attacks successful? (yes/no)**<br><br>
+No attacks were successful as all the response code from the malicious requests returned a 404 Not Found.<br><br>
+
+**Answer: no**<br><br>
+
+**Q8. What IP addresses did the requests originate from? (Enter any of them.)**<br><br>
+
+**Answer: **<br><br>
