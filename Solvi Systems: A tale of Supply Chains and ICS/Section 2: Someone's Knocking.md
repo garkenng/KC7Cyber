@@ -81,5 +81,31 @@ No attacks were successful as all the response code from the malicious requests 
 **Answer: no**<br><br>
 
 **Q8. What IP addresses did the requests originate from? (Enter any of them.)**<br><br>
+Taking first result from query in question 6.<br><br>
+
+**Answer: 98.117.26.236**<br><br>
+
+**Q9. How many total records do we have of them browsing Solvi Systems?**<br><br>
+
+```
+InboundNetworkEvents
+| where user_agent == "Opera/8.64.(X11; Linux x86_64; kok-IN) Presto/2.9.165 Version/10.00"
+```
+<br>
+
+
+**Answer: 64**<br><br>
+
+**Q10. What is the timestamp of the first web request the threat actor sent to Solvi System's website?**<br><br>
+The first result that came through from the previous query is.**<br><br>
+
+```
+5/1/2024, 12:00:00 AM
+```
+<br>
+
+**Answer: 5/1/2024, 12:00:00 AM**<br><br>
+
+**Q11. **<br><br>
 
 **Answer: **<br><br>
