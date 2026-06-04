@@ -13,3 +13,27 @@ Given this key role, Solvi Systems is a prime target for cyber adversaries. You'
 **Q1 Enter ready to get started.**<br><br>
 
 **Answer: ready**<br><br>
+
+**Q2 Type "done" to earn credit for this question.**<br><br>
+
+**Answer: done**<br><br>
+
+**Q3 How many employees work at Solvi Systems?**<br><br>
+
+```
+Employees
+| count
+```
+<br>
+
+**Answer: 500**<br><br>
+
+**Q4. What is the CTO's name? **<br><br>
+
+```
+Employees
+| where role == "CTO"
+```
+<br>
+
+**Answer: Alexis Khoza**<br><br>
