@@ -117,5 +117,15 @@ OutboundNetworkEvents
 
 **Q11. How many authentication attempts did we see to the accounts of employees with the first name Mary?**<br><br>
 
-**Answer: **<br><br>
+```
+let attempts = Employees
+| where name has "Mary"
+| distinct username;
+AuthenticationEvents
+| where username in (attempts)
+| count
+```
+<br>
+
+**Answer: 1150**<br><br>
 
