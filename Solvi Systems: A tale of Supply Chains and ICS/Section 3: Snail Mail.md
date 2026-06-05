@@ -38,7 +38,7 @@ Email
 **Answer: 3**<br><br>
 
 **Q4. How many different roles were targeted with these emails?**<br><br>
-This question requires to break it down in two queries. First need to search for email addresses that contain the filenames / links what are malicious. Then these email addresses are passed into the Employees table to determine what roles they hold.<br><br>
+This question requires to break it down in two queries. First need to search for email addresses that contain the filenames / links that are malicious. Then these email addresses are passed into the Employees table to determine what roles they hold.<br><br>
 
 ```
 let EmailWithBadLinks = 
@@ -58,5 +58,48 @@ Employees
 **Answer: 5**<br><br>
 
 **Q5. How many Customer Support Specialist employees received malicious emails?**<br><br>
+Using the previous query and modify the second query to show only customer support specialist.<br><br>
+
+```
+let EmailWithBadLinks = 
+Email
+| where link contains "eco-awareness-update.net" or link contains "news-on-industry.com" or link contains "energy-trends4u.net"
+| extend ParsedFileName = parse_path(link).Filename
+| extend ParsedFileName = parse_path(tostring(ParsedFileName)).Filename
+| where link contains ParsedFileName
+| distinct recipient;
+Employees
+| where email_addr in (EmailWithBadLinks)
+| where role == "Customer Support Specialist"
+| count 
+```
+<br>
 
 **Answer: 27**<br><br>
+
+**Q6. Among these job roles, which word is shared by three of them?**<br><br>
+
+```
+Employees
+| extend JobKeywords = split(role, " ") 
+| mv-expand JobKeywords to typeof(string)        
+| summarize 
+    Count = count(), 
+    DifferentRoles = make_set(role) 
+    by JobKeyword = tolower(JobKeywords)
+| where Count == 3
+```
+<br>
+Results produced by above query.<br><br>
+
+```
+["DOCKS ICS Security Lead","Project Manager for Docks ICS","Docks Customer Success Manager"]
+```
+<br>
+
+**Answer: Docks**<br><br>
+
+**Q7. What was the timestamp of the first email the threat actor sent?**<br><br>
+
+**Answer: **<br><br>
+
