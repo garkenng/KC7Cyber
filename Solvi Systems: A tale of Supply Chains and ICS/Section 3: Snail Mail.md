@@ -40,4 +40,11 @@ Email
 
 **Q4. How many different roles were targeted with these emails?**<br><br>.
 
+
+Email
+| where link contains "eco-awareness-update.net" or link contains "news-on-industry.com" or link contains "energy-trends4u.net"
+| extend ParsedFileName = parse_path(link).Filename
+| extend ParsedFileName = parse_path(tostring(ParsedFileName)).Filename
+| where link contains ParsedFileName
+| distinct recipient
 **Answer: **<br><br>
