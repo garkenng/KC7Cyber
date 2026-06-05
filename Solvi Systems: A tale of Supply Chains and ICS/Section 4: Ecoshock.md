@@ -82,6 +82,14 @@ NetworkFlow
 
 **Answer: 38**<br><br>
 
-**Q9. What is the name of the newly created user?**<br><br>
+**Q9. We've gained some pretty good information on how the malware communicated with the threat actor's infrastructure. Let's go back to the malware to see what actions it performed on the victims' machines.
+<br><br>
+A day after the malware is first executed the threat actor attempts to create a new user and add that user to the local administrators group.
+<br><br>
+What is the name of the newly created user?**<br><br>
+
+A day after
+
+5/1/2024, 3:57:41 PM
 **Answer: **<br><br>
 
