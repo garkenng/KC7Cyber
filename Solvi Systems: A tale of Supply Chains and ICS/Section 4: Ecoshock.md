@@ -69,3 +69,19 @@ NetworkFlow
 <br>
 
 **Answer: 470**<br><br>
+
+**Q8. How many distinct employee machines are involved in those connections?**<br><br>
+
+```
+NetworkFlow
+| where dest_ip == "98.117.26.236"
+| distinct src_ip
+| count
+```
+<br>
+
+**Answer: 38**<br><br>
+
+**Q9. What is the name of the newly created user?**<br><br>
+**Answer: **<br><br>
+
