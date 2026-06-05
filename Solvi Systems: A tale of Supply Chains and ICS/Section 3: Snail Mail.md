@@ -25,5 +25,19 @@ Email
 **Answer: 3**<br><br>
 
 **Q3. How many distinct filenames were observed in the links in these emails?**<br><br>
+The hint for this question is to use parse_path. This command allows you to extract parts of a directory path. In this case we need the file name in the link from the email.<br><br>
+
+```
+Email
+| where link contains "eco-awareness-update.net" or link contains "news-on-industry.com" or link contains "energy-trends4u.net"
+| extend ParsedFileName = parse_path(link).Filename
+| extend ParsedFileName = parse_path(tostring(ParsedFileName)).Filename
+| distinct tostring(ParsedFileName)
+```
+<br>
 
 **Answer: 3**<br><br>
+
+**Q4. How many different roles were targeted with these emails?**<br><br>.
+
+**Answer: **<br><br>
