@@ -100,6 +100,41 @@ Results produced by above query.<br><br>
 **Answer: Docks**<br><br>
 
 **Q7. What was the timestamp of the first email the threat actor sent?**<br><br>
+Running a modified query from question 5.<br><br>
 
-**Answer: **<br><br>
+```
+Email
+| where link contains "eco-awareness-update.net" or link contains "news-on-industry.com" or link contains "energy-trends4u.net"
+| extend ParsedFileName = parse_path(link).Filename
+| extend ParsedFileName = parse_path(tostring(ParsedFileName)).Filename
+| where link contains ParsedFileName
+```
+<br>
+First result is the timestamp of the first email sent by the threat actor.<br><br>
+
+**Answer: 5/1/2024, 3:51:41 PM**<br><br>
+
+**Q8. What is the recipient's email address?**<br><br>
+Answer retrieved from previous query.<br><br>
+
+**Answer: carla_wharton@solvisystems.com**<br><br>
+
+**Q9. What is that employee's name?**<br><br>
+
+```
+Employees
+| where email_addr == "carla_wharton@solvisystems.com"
+```
+<br>
+
+**Answer: Carla Wharton**<br><br>
+
+**Q10. What was the sender address of that email?**<br><br>
+Using the query from question 7, the senders address can be found.<br><br>\
+
+**Answer: news@eco-awareness-updates.net**<br><br>
+
+**Q11. What was the reply to address?**<br><br>
+**Answer: electric_updates@gmail.com**<br><br>
+
 
