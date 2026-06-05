@@ -130,11 +130,25 @@ Employees
 **Answer: Carla Wharton**<br><br>
 
 **Q10. What was the sender address of that email?**<br><br>
-Using the query from question 7, the senders address can be found.<br><br>\
+Using the query from question 7, the senders address can be found.<br><br>
 
 **Answer: news@eco-awareness-updates.net**<br><br>
 
-**Q11. What was the reply to address?**<br><br>
+**Q11. What was the reply to address?**<br><br
+Using the query from question 7.<br><br>
+
 **Answer: electric_updates@gmail.com**<br><br>
 
+**Q12. What was the subject of that email?**<br><br>
+Using the query from question 7.<br><br>
 
+**Answer: [EXTERNAL] Business Opportunity: Two major energy companies merging**<br><br>
+
+**Q13. What link was observed in the email?**<br><br>
+Using the query from question 7.<br><br>
+
+**Answer: http://news-on-industry.com/search/online/files/public/Energy_Industry_Trends_2024_4_Solvi.docx**<br><br>
+
+**Q14. Did Carla click on the link in email? If so when?**<br><br>
+
+**Answer: **<br><br>
