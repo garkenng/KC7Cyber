@@ -38,13 +38,26 @@ Email
 
 **Answer: 3**<br><br>
 
-**Q4. How many different roles were targeted with these emails?**<br><br>.
+**Q4. How many different roles were targeted with these emails?**<br><br>
+This question requires to break it down in two queries. First need to search for email addresses that contain the filenames / links what are malicious. Then these email addresses are passed into the Employees table to determine what roles they hold.<br><br>
 
-
+```
+let EmailWithBadLinks = 
 Email
 | where link contains "eco-awareness-update.net" or link contains "news-on-industry.com" or link contains "energy-trends4u.net"
 | extend ParsedFileName = parse_path(link).Filename
 | extend ParsedFileName = parse_path(tostring(ParsedFileName)).Filename
 | where link contains ParsedFileName
-| distinct recipient
-**Answer: **<br><br>
+| distinct recipient;
+Employees
+| where email_addr in (EmailWithBadLinks)
+| distinct role
+| count
+```
+<br>
+
+**Answer: 5**<br><br>
+
+**Q5. How many Customer Support Specialist employees received malicious emails?**<br><br>
+
+**Answer: 27**<br><br>
