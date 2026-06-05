@@ -152,5 +152,37 @@ Using the query from question 7.<br><br>
 **Q14. Did Carla click on the link in email? If so when?**<br><br>
 The url for the link can be used from question 13 and full name from question 9. Can find Carla IP address using this information by querying the OutboundNetworkEvents table.<br><br>
 
+```
+let CarlaClickLink = 
+Employees
+| where name contains "Carla Wharton"
+| distinct ip_addr;
+OutboundNetworkEvents
+| where src_ip in (CarlaClickLink)
+| where url == "http://news-on-industry.com/search/online/files/public/Energy_Industry_Trends_2024_4_Solvi.docx"
+```
+<br>
 
-**Answer: **<br><br>
+**Answer: 5/1/2024, 3:57:41 PM**<br><br>
+
+
+**Q15. What file was observed on Carla's machine shortly after she executed the docx file?**<br><br>
+
+```
+let CarlaMachineFileObserved = 
+Employees
+| where name contains "Carla Wharton"
+| distinct hostname;
+FileCreationEvents
+| where hostname in (CarlaMachineFileObserved)
+| where timestamp > datetime(5/1/2024, 3:57:41 PM)
+```
+<br>
+At  5/1/2024, 3:58:29, the file PM Energy_Industry_Trends_2024_4_Solvi.docx was opened. Then at 5/1/2024, 3:59:25 PM, the file ecobug.exe appeared.<br><br>
+
+**Answer: ecobug.exe**<br><br>
+
+**Q16. What was the hash of the file?**<br><br>
+From the previous query, the sha256 or hash can be found.<br><br>
+
+**Answer: 1c3ef0407d5714037504c52f7abfa86c081fd7a021b52e2abe8a669f92413252**<br><br>
