@@ -70,6 +70,8 @@ NetworkFlow
 
 **Answer: 470**<br><br>
 
+
+
 **Q8. How many distinct employee machines are involved in those connections?**<br><br>
 
 ```
@@ -88,8 +90,37 @@ A day after the malware is first executed the threat actor attempts to create a 
 <br><br>
 What is the name of the newly created user?**<br><br>
 
-A day after
+A day after the malware was click would be 5/2/2024 at 5:38 PM. Search for events on the process command line that references anything to do with creating a new usser.<br><br>
 
-5/1/2024, 3:57:41 PM
-**Answer: **<br><br>
+```
+ProcessEvents
+| where timestamp >= datetime(5/2/2024, 5:38 PM)
+| where process_commandline contains "user"
+```
+<br>
+The first result returned is.<br><Br
+                                   
+```
+net users /add gu@rd!an abc1toothree
+```
+<br>
 
+The command above is to add a new user with a specified username and password.<br>
+
+**Answer: gu@rd!an**<br><br>
+
+**Q10. What is that user's password?**<br><br>
+Retrieved from previous question.<br><br>
+
+**Answer: abc1toothree**<br><br>
+
+**Q11. What was the last discovery command that the adversaries ran?**<br><br>
+
+```
+ProcessEvents
+| where timestamp >= datetime(5/2/2024, 5:38 PM)
+| where username == "cawharton"
+```
+The first result that comes back from the query is the last discovery command the adversaries ran.<br><br>
+
+**Answer: net use**<br><br>
