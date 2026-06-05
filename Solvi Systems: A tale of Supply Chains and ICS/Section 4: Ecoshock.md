@@ -33,5 +33,12 @@ From previous query, port number can be found.<br><br>
 
 **Q4. How many times does Carla's machine connect to the suspicious IP address?**<br><br>
 
-**Answer: **<br><br>
+```
+NetworkFlow
+| where src_ip == "10.10.0.164" // Carla's IP address
+| where dest_ip == "98.117.26.236" // Suspicious IP address
+```
+<br>
+
+**Answer: 24**<br><br>
 
