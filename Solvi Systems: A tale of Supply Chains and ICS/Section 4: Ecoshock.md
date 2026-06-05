@@ -42,3 +42,30 @@ NetworkFlow
 
 **Answer: 24**<br><br>
 
+**Q5. How many times a day does Carla's machine make its recurring connection to the suspicious IP?
+Looking at the timestamps from the query. Carla machine makes one connection per day at the exact same time.<br><br>
+
+```
+5/1/2024, 5:38:25 PM
+5/2/2024, 5:38:25 PM
+5/3/2024, 5:38:25 PM
+```
+<br>
+
+**Answer: 1**<br><br>
+
+**Q6. At what time does this connection take place? (format hh:mm:ss)**<br><br>
+Obtain answer from previous question.<br><br>
+
+**Answer: 5:38:25 PM**<br><br>
+
+**Q7. How many total connections do we see between this IP and Solvi Systems employee machines?**<br><br>
+
+```
+NetworkFlow
+| where dest_ip == "98.117.26.236"
+| count
+```
+<br>
+
+**Answer: 470**<br><br>
