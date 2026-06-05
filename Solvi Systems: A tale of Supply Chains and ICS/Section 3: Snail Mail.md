@@ -150,5 +150,7 @@ Using the query from question 7.<br><br>
 **Answer: http://news-on-industry.com/search/online/files/public/Energy_Industry_Trends_2024_4_Solvi.docx**<br><br>
 
 **Q14. Did Carla click on the link in email? If so when?**<br><br>
+The url for the link can be used from question 13 and full name from question 9. Can find Carla IP address using this information by querying the OutboundNetworkEvents table.<br><br>
+
 
 **Answer: **<br><br>
