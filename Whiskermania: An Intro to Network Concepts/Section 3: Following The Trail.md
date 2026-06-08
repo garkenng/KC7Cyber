@@ -181,3 +181,8 @@ ProxyEvents
 <br>
 
 **Answer: 200**<br><br>
+
+**Q22. What happens first when browsing to a website: the DNS lookup or the TCP connection?**<br><br>
+
+**Answer: **<br><br>
+
