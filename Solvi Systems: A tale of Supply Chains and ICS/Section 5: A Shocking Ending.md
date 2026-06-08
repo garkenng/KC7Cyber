@@ -151,7 +151,10 @@ Searching from the results, the subject column, can see multiple emails sent usi
 
 **Answer: Do you know where the DOCKS software documentation is stored? 🤪**<br><br>
 
-**Q14.Congratulations! You've completed your investigation. Type "wooo" to receive credit**<br><br>
+**Q14. Congratulations! You've completed your investigation. Type "wooo" to receive credit**<br><br>
 
-**Answer:wooo**<br><br>
+**Answer: wooo**<br><br>
 
+**Q15. Type "guardians" to finish this module. Stay tuned for the next module to see what the guardians might do next! 😱**<br><br>
+
+**Answer: guardians**<br><br>
