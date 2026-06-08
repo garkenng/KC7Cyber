@@ -14,3 +14,8 @@ Morgan doesn't look entirely convinced, but they're too busy to dig deeper. "Gre
 **Q1. Type definitely ready to continue.**<br><br>
 
 **Answer: definitely ready**<br><br>
+
+**Q2. Type no pressure to continue.**<br><br>
+
+**Answer: no pressure**<br><br>
+
