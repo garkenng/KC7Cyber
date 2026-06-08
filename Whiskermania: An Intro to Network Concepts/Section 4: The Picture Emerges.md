@@ -267,6 +267,58 @@ DnsEvents
 **Answer: they want the money**<br><br>
 
 **Q25. What domain should be blocked at DNS?**<br><br>
-**Answer: **<br><br>
+Answer obtained from question 20.<br><br>
 
+**Answer: update-cdn-service.xyz**<br><br>
+
+**Q26. What IP address should be blocked at the firewall?**<br><br>
+Answer obtained from question 21.<br><br>
+
+**Answer: 185.174.137.42**<br><br>
+
+**Q27. What URL path pattern should be blocked at the proxy?**<br><br>
+Answer obtained from question 6.<br><br>
+
+**Answer: /api/v1**<br><br>
+
+**Q28. What table should you query to detect C2 domain lookups?**<br><br>
+
+**Answer: DnsEvents**<br><br>
+
+**Q29. What table should you query to detect network connections to the C2 IP?**<br><br>
+
+**Answer: NetworkFlow**<br><br>
+
+**Q30. What table should you query to detect the /api/v1/status beaconing pattern?**<br><br>
+
+**Answer: ProxyEvents**<br><br>
+
+**Q31. Type almost there to continue.**<br><br>
+
+**Answer: almost there**<br><br>
+
+**Q32. Approximately how many days has the C2 been active?**<br><br>
+
+```
+let c2_domain = "update-cdn-service.xyz";
+let compromised_ips = DnsEvents
+| where query_name contains c2_domain
+| distinct client_ip;
+DnsEvents
+| where client_ip in (compromised_ips)
+| where query_name contains c2_domain
+| summarize
+    first_beacon = min(timestamp),
+    last_beacon = max(timestamp),
+    total_queries = count()
+  by client_ip
+```
+<br>
+
+**Answer: 5**<br><br>
+
+
+**Q33. Type thank you jamie to complete the investigation.**<br><br>
+
+**Answer: thank you jamie**
 
