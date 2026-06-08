@@ -184,5 +184,26 @@ ProxyEvents
 
 **Q22. What happens first when browsing to a website: the DNS lookup or the TCP connection?**<br><br>
 
-**Answer: **<br><br>
+**Answer: DNS lookup**<br><br>
 
+**Q23. What column contains the full URL?**<br><br>
+
+```
+ProxyEvents
+| take 5
+| project src_ip, url, method, status_code
+```
+<br>
+
+**Answer: url**<br><br>
+
+**Q24. What status code indicates a successful request?**<br><br>
+**Answer: 200**<br><br>
+
+**Q25. What HTTP method is used to submit form data?**<br><br>
+
+**Answer: POST**<br><br>
+
+**Q26. Type time to investigate to continue.**<br><br>
+
+**Answer: time to investigate**<br><br>
