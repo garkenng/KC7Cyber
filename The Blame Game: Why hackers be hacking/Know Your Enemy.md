@@ -17,7 +17,7 @@ KillNet looks like hacktivists. But their behavior raises a question.
 
 **Q2. What is the term for planting misleading evidence in malware to make it appear to come from a different attacker?**<br><br>
 
-**Answer: False flag**<br><br>
+**Answer: False**<br><br>
 
 **Q3. True or false: a defender's primary job during an active incident is to determine which nation-state is responsible.**<br><br>
 
