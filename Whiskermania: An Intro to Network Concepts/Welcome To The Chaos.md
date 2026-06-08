@@ -1,4 +1,4 @@
-## Whiskermania: An Intro to Network Concepts: Welcome To The Chaos<br>
+## Whiskermania: An Intro to Network Concepts: Section 1: Welcome To The Chaos<br>
 ### **Summary**<br>
 VirusTotal is a website that scans files, webpages, domains, and IPs, against a large number of antivirus scanners. This allows a user to get feedback from a large number of sources and helps them determine if something is known to be malicious or known to be benign.
 <br><br>
