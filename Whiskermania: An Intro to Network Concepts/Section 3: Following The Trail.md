@@ -51,3 +51,54 @@ NetworkFlow
 <br>
 
 **Answer: 25**<br><br>
+
+**Q7. What does SMTP stand for?**<br><br>
+
+**Answer: Simple Mail Transfer Protocol**<br><br>
+
+**Q8. What does TCP stand for?**<br><br>
+
+**Answer: Transmission Control Protocol**<br><br>
+
+**Q9. What does UDP stand for?**<br><br>
+
+**Answer: User Datagram Protocol**<br><br>
+
+**Q10. What protocol does DNS primarily use?**<br><br>
+
+```
+NetworkFlow
+| where dest_port == 53
+| summarize count() by protocol
+```
+<br>
+
+**Answer: UDP**<br><br>
+
+**Q11. What protocol carries the majority of network traffic on this network?**<br><br>
+
+```
+NetworkFlow
+| summarize count() by protocol
+| order by count_ desc
+```
+<br>
+
+**Answer: TCP**<br><br>
+
+**Q12. Morgan pokes their head back in. "Still alive in here?"
+<br><br>
+"Just reviewing the network architecture," you say, which is technically true.
+<br><br>
+"Uh huh." Morgan doesn't look entirely convinced, but they're too busy to press. "Holler if you need anything. I'll be dealing with the new kitten intake."
+<br><br>
+Biscuits, still on the desk, yawns.
+<br><br>
+Type totally normal to continue.
+<br><br>
+
+**Answer: totally normal**<br><br>
+
+**Q13. What does DNS stand for?**<br><br>
+**Answer: totally normal**<br><br>
+
