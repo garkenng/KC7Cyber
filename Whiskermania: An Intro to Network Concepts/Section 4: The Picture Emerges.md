@@ -73,4 +73,84 @@ ProxyEvents
 
 **Q7. What does C2 stand for?**<br><br>
 
-**Answer: Command and Control**<br>
+**Answer: Command and Control**<br><br>
+
+**Q8. What is the term for malware regularly checking in with its C2 server?**<br><br>
+
+**Answer: beaconing**<br><br>
+
+**Q9. Type all good here to continue.**<br><br>
+
+**Answer: all good here**<br><br>
+
+**Q10. What domain in the sender address is impersonating the sanctuary?**<br><br>
+
+```
+Email
+| where sender !endswith "@whiskersandwonders.org"
+| where sender contains "whiskersandwonders"
+| project timestamp, sender, recipient, subject
+```
+<br>
+
+**Answer: whiskersandwonders-hr.com**<br><br>
+
+**Q11. What was the subject line of the phishing email?**<br><br>
+
+```
+Email
+| where sender contains "whiskersandwonders-hr.com"
+| project timestamp, sender, recipient, subject
+```
+<br>
+
+**Answer: [EXTERNAL] Important: Employee Benefits Update Required**<br><br>
+
+**Q12. How many employees received the phishing email?**<br><br>
+
+```
+Email
+| where sender contains "whiskersandwonders-hr.com"
+| distinct recipient
+```
+<br>
+
+**Answer: 3**<br><br>
+
+**Q13. Did all three phishing recipients become compromised? (yes/no)**<br><br>
+Using the queries provided.<br><br>
+
+```
+// Get phishing recipients
+Email
+| where sender contains "whiskersandwonders-hr.com"
+| distinct recipient
+```
+<br>
+3 emails are returned from the above query
+
+- alex_rivera@whiskersandwonders.org
+- jessica_huang@whiskersandwonders.org
+- david_okonkwo@whiskersandwonders.org
+
+
+```
+// Compare to C2 DNS queries
+DnsEvents
+| where query_name contains "update-cdn-service.xyz"
+| distinct client_ip
+```
+<br>
+3 IP addresses are returned that contacted the C2.<br><br>
+
+- 10.10.16.14
+- 10.10.16.7
+- 10.10.16.24
+
+Comapre these IP addresses to the emails / users from the first query using the Employee table. Can see that the IP addreses match the email addresses.<br><br>
+
+**Answer: yes**<br><br>
+
+**Q14. Type jamie was right to continue.<br><br>
+
+**Answer: jamie was right**<br><br>
