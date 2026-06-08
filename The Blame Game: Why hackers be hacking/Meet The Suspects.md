@@ -13,7 +13,7 @@ In this module, you'll learn to tell four types of threat actors apart, understa
 By the end, you won't just know the categories. You'll know why they're hard to apply and what to do with that uncertainty.
 <br><br>
 
-**Q1. Type let's hunt to get started.*<br><br>
+**Q1. Type let's hunt to get started.**<br><br>
 
 **Answer: let's hunt**<br><br>
 
