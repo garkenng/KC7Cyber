@@ -100,5 +100,60 @@ Type totally normal to continue.**
 **Answer: totally normal**<br><br>
 
 **Q13. What does DNS stand for?**<br><br>
-**Answer: totally normal**<br><br>
 
+**Answer: Domain Name System**<br><br>
+
+**Q14. What column contains the domain name that was looked up?**<br><br>
+
+```
+DnsEvents
+| take 5
+| project timestamp, client_ip, query_name, resolved_ips, dns_server
+```
+<br>
+
+**Answer: query_name**<br><br>
+
+**Q15. What type of DNS record maps a domain to an IPv4 address?**<br><br>
+
+**Answer: A**<br><br>
+
+**Q16. What does TTL stand for?**<br><br>
+
+**Answer: Time To Live**<br><br>
+
+**Q17. Type following the breadcrumbs to continue.**<br><br>
+
+**Answer: following the breadcrumbs**<br><br>
+
+**Q18. What IP address did docs.google.com resolve to?**<br><br>
+
+```
+DnsEvents
+| where query_name == "docs.google.com"
+| where query_type == "A"
+| project timestamp, client_ip, query_name, resolved_ips
+| take 1
+```
+<br>
+
+**Answer: 152.52.146.99**<br><br>
+
+**Q19. What protocol was this DNS query using?**<br><br>
+
+```
+NetworkFlow
+| where src_ip == "10.10.16.14"
+| where timestamp between (
+    datetime(6/3/2025, 8:39:19 AM) .. datetime(6/3/2025, 8:59:19 AM)
+)
+| where dest_port == "53"
+| project timestamp, src_ip, dest_ip, dest_port, protocol
+| limit 10
+```
+<br>
+
+**Answer: UDP**<br><br>
+
+**Q20. **<br><br>
+**Answer: **<br><br>
