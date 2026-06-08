@@ -28,5 +28,21 @@ Identify anomalies and patterns—spot unusual activity before it becomes a bigg
 
 **Q5. Which table would tell us if an employee received a suspicious email?**<br><br>
 From the picture of the tables in the database, the Email table would be the one to tell if an employee received a suspicious email.<br><br>
+
 **Answer: Email**<br><br>
 
+**Q6. Which table would tell us if they went to their bank website to see how much money they had?**<br><br>
+
+**Answer: OutboundNetworkEvents**<br><br>
+
+**Q7. Which table would tell us if an employee saved a malicious file on his computer?**<br><br>
+
+**Answer: FileCreationEvents**<br><br>
+
+**Q8. Which table would tell us if that employee opened that malicious file that was saved on his computer?**<br><br>
+
+**Answer: ProcessEvents**<br><br>
+
+**Q9. Which table would you look in to see if that malicious file was detected on an employee's machine?**<br><br>
+
+**Answer: SecurityAlerts**<br><br>
