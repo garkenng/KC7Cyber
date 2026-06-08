@@ -226,6 +226,47 @@ Email
 **Answer: whiskersandwonders-hr.com**<br><br>
 
 **Q21. What destination port is the C2 traffic using?**<br><br>
+Using the IP address from  question 19.<br><br>
 
+```
+NetworkFlow
+| where dest_ip == "185.174.137.42"
+```
+<br>
+
+**Answer: 443**<br><br>
+
+**Q22. What is the name of the compromised Development Officer?**<br><br>
+
+```
+DnsEvents
+| where query_name contains "update-cdn-service.xyz"
+| distinct client_ip
+| join kind=inner (Employees | project ip_addr, name, username, role) on $left.client_ip == $right.ip_addr
+| project name, username, role
+```
+<br>
+
+**Answer: Alex Rivera**<br><br>
+
+**Q23. What role do two of the compromised users share?**<br><br>
+
+```
+DnsEvents
+| where query_name contains "update-cdn-service.xyz"
+| distinct client_ip
+| join kind=inner (Employees | project ip_addr, name, role) on $left.client_ip == $right.ip_addr
+| project name, role
+```
+<br>
+
+**Answer: Adoption Coordinator**<br><br>
+
+**Q24. Type they want the money to continue.**<br><br>
+
+**Answer: they want the money**<br><br>
+
+**Q25. What domain should be blocked at DNS?**<br><br>
 **Answer: **<br><br>
+
 
