@@ -32,3 +32,35 @@ From previous query, a new command is shownn.<br><br>
 
 **Answer: net use /PERSISTENT:YES**<br><br>
 
+**Q3. How many distinct hosts was this command run on?**<br><br>
+
+```
+ProcessEvents
+| where process_commandline == "net use /PERSISTENT:YES"
+| distinct hostname
+| count
+```
+<br>
+
+**Answer: 3**<br><br>
+
+**Q4. What is the timestamp for the first time this command was run?**<br><br>
+
+```
+ProcessEvents
+| where process_commandline == "net use /PERSISTENT:YES"
+```
+<br>
+
+**Answer: 5/27/2024, 4:23:10 PM**<br><br>
+
+**Q5. What is the hostname from that timestamp?**<br><br>
+Obtained from previous query.<br><br>
+
+**Answer: SJ9V-MACHINE**<br><br>
+
+**Q6. Who is the employee associated with that hostname?**<br><br>
+
+**Answer: **<br><br>
+
+
