@@ -216,5 +216,16 @@ DnsEvents
 
 **Q20. What is the phishing sender domain?**<br><br>
 
+```
+Email 
+| where sender contains "whiskersandwonders-hr" 
+| distinct sender
+```
+<br>
+
+**Answer: whiskersandwonders-hr.com**<br><br>
+
+**Q21. What destination port is the C2 traffic using?**<br><br>
+
 **Answer: **<br><br>
 
