@@ -9,7 +9,7 @@ We build our queries by starting with the Table name. On the next line, we use a
 Let’s try it!
 <br><br>
 
-**Q1: Do a take 10 on a table of your choice and enter when in doubt take 10.**<br><br>
+**Q1. Do a take 10 on a table of your choice and enter when in doubt take 10.**<br><br>
 
 **Answer: when in doubt take 10**<br><br>
 
