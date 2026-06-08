@@ -27,4 +27,13 @@ FBI Director Christopher Wray described Volt Typhoon as"the defining threat of o
 
 **Q4. Which attacker categories best describes FAMOUS CHOLLIMA?**<br><br>
 
-**Answer:  Ransomware**<br><br>
+**Answer:  State Sponsored Actor and Insider Threat**<br><br>
+
+**Q5. Which attacker category best describes SiegedSec?**<br><br>
+
+**Answer:  Hacktivist**<br><br>
+
+**Q1 (6). Type on it to close out.**<br><br>
+
+**Answer:  on it**<br><br>
+
