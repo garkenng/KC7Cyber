@@ -15,4 +15,16 @@ FBI Director Christopher Wray described Volt Typhoon as"the defining threat of o
 
 **Q1. Which attacker category best describes Volt Typhoon?**<br><br>
 
-**Answer: Hacktivist**<br><br>
+**Answer: State Sponsored Actor**<br><br>
+
+**Q2. Which attacker category best describes Salt Typhoon?**<br><br>
+
+**Answer:  State Sponsored Actor**<br><br>
+
+**Q3. Which attacker category best describes Scattered Spider?**<br><br>
+
+**Answer:  Ransomware**<br><br>
+
+**Q4. Which attacker categories best describes FAMOUS CHOLLIMA?**<br><br>
+
+**Answer:  Ransomware**<br><br>
