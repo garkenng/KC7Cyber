@@ -8,3 +8,7 @@ You're alone with the data, Jamie's notes, and Biscuits, who has curled up on th
 <br><br>
 Let's start where Jamie left off: that suspicious external IP. If anyone connected to 185.174.137.42, they had to look up the domain first. DNS will tell us what domain points to that IP.
 <br><br>
+
+**Q1. **<br><br>
+
+**Answer: **<br>
