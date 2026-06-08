@@ -155,5 +155,29 @@ NetworkFlow
 
 **Answer: UDP**<br><br>
 
-**Q20. **<br><br>
-**Answer: **<br><br>
+**Q20. What destination port was used for the HTTPS connection?**<br><br>
+
+```
+NetworkFlow
+| where src_ip == "10.10.16.14"
+| where dest_ip == "152.52.146.99"
+| project timestamp, src_ip, dest_ip, dest_port, protocol
+| take 1
+```
+<br>
+
+**Answer: 443**<br><br>
+
+**Q21. What HTTP status code was returned?**<br><br>
+
+```
+ProxyEvents
+| where src_ip == "10.10.16.14"
+| where domain == "docs.google.com"
+| where timestamp between (datetime(2025-06-03 08:50:00) .. datetime(2025-06-03 09:00:00))
+| project timestamp, src_ip, url, status_code
+| take 1
+```
+<br>
+
+**Answer: 200**<br><br>
