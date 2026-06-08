@@ -1,5 +1,3 @@
-
-
 ## Solvi Systems: A tale of Supply Chains and ICS: Section 1: KQL 101<br>
 ### **Summary**<br>
 Welcome to Solvi Systems!
