@@ -132,4 +132,26 @@ https://devportal.solvisystems.com/development_lifecycle/internal_process.pdf
 **Answer:devportal**<br><br>
 
 **Q13. What was the subject of those emails?**<br><br>
-**Answer: **<br><br>
+From question 3, there were 3 distinct hosts that the 'net use /PERSISTENT:YES' command was run on. These are"
+
+- SJ9V-MACHINE - alexei_petrov@solvisystems.com
+- UPLM-DESKTOP - jamie_lee@solvisystems.com
+- JP4D-MACHINE - taylor_green@solvisystems.com
+
+The email address for the hostname has been pulled from the employees table.
+
+```
+Email
+| where subject contains "software"
+| where sender == "alexei_petrov@solvisystems.com" or sender == "jamie_lee@solvisystems.com" or sender == "taylor_green@solvisystems.com"
+```
+<br>
+
+Searching from the results, the subject column, can see multiple emails sent using the same subject line asking where DOCKS software documentation are stored.<br><br>
+
+**Answer: Do you know where the DOCKS software documentation is stored? 🤪**<br><br>
+
+**Q14.Congratulations! You've completed your investigation. Type "wooo" to receive credit**<br><br>
+
+**Answer:wooo**<br><br>
+
