@@ -151,6 +151,70 @@ Comapre these IP addresses to the emails / users from the first query using the 
 
 **Answer: yes**<br><br>
 
-**Q14. Type jamie was right to continue.<br><br>
+**Q14. Type jamie was right to continue.**<br><br>
 
 **Answer: jamie was right**<br><br>
+
+**Q15. What date was the first phishing email sent? (copy and paste)**<br><br>
+
+```
+Email
+| where sender contains "whiskersandwonders-hr.com"
+| project timestamp, recipient
+| order by timestamp asc
+```
+<br>
+
+**Answer: 6/2/2025, 4:00:00 PM**<br><br>
+
+**Q16. Approximately how many hours between the phishing email and the first C2 beacon?**<br><br>
+
+```
+DnsEvents
+| where query_name contains "update-cdn-service.xyz"
+| summarize first_query=min(timestamp) by client_ip
+| order by first_query asc
+```
+<br>
+The C2 traffic started at 6/2/2025, 11:52:31 PM, compare it with when the first phising email was sent at 6/2/2025, 4:00:00 PM.<br><br>
+
+**Answer: 7**<br><br>
+
+**Q17. How many requests did the victim computer make to the malicious domain?**<br><br>
+
+```
+ProxyEvents
+| where domain == "update-cdn-service.xyz"
+| project timestamp, src_ip
+| order by timestamp asc
+```
+<br>
+
+**Answer: 6**<br><br>
+
+**Q18. What is the C2 domain?**<br><br>
+
+```
+DnsEvents 
+| where query_name contains "update-cdn-service.xyz" 
+| distinct query_name
+```
+<br>
+
+**Answer: update-cdn-service.xyz**<br><br>
+
+**Q19. What is the C2 IP address?**<br><br>
+
+```
+DnsEvents 
+| where query_name == "update-cdn-service.xyz" 
+| distinct tostring(resolved_ips)
+```
+<br>
+
+**Answer: 185.174.137.42**<br><br>
+
+**Q20. What is the phishing sender domain?**<br><br>
+
+**Answer: **<br><br>
+
