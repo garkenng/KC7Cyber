@@ -21,3 +21,12 @@ Identify anomalies and patterns—spot unusual activity before it becomes a bigg
 **Q3. Enter show me the data to continue.**<br><br>
 
 **Answer: show me the data**<br><br>
+
+**Q4. Enter table it up to contine.**<br><br>
+
+**Answer: table it up**<br><br>
+
+**Q5. Which table would tell us if an employee received a suspicious email?**<br><br>
+From the picture of the tables in the database, the Email table would be the one to tell if an employee received a suspicious email.<br><br>
+**Answer: Email**<br><br>
+
