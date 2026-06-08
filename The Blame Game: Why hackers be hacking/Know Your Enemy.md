@@ -11,6 +11,14 @@ Their operations aligned precisely with Russian strategic interests. They target
 KillNet looks like hacktivists. But their behavior raises a question.
 <br><br>
 
-**Q1.Based on the description above, what is the most accurate label for KillNet?**<br><br>
+**Q1. Based on the description above, what is the most accurate label for KillNet?**<br><br>
 
-**Answer: let's hunt**<br><br>
+**Answer: Hacktivist**<br><br>
+
+**Q2. What is the term for planting misleading evidence in malware to make it appear to come from a different attacker?**<br><br>
+
+**Answer: False flag**<br><br>
+
+**Q3. True or false: a defender's primary job during an active incident is to determine which nation-state is responsible.**<br><br>
+
+**Answer: **<br><br>
