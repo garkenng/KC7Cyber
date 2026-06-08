@@ -15,4 +15,24 @@ By the end, you won't just know the categories. You'll know why they're hard to 
 
 **Q1. Type let's hunt to get started.*<br><br>
 
-**Answer: hunt**<br><br>
+**Answer: let's hunt**<br><br>
+
+**Q2. Which of the following is NOT a primary motivation category used to classify threat actors?**<br><br>
+
+**Answer: script kiddie**<br><br>
+
+**Q3. What does the "P" in APT stand for?**<br><br>
+
+**Answer: Persistent**<br><br>
+
+**Q4. Lazarus Group is described as state-sponsored. Who sponsors them?**<br><br>
+
+**Answer: North Korea**<br><br>
+
+**Q5. What does RaaS stand for?**<br><br>
+
+**Answer: Ransomware as a Service**<br><br>
+
+**Q6. What is the tactic called where an attacker both encrypts your data AND threatens to publish it?**<br><br>
+
+**Answer: **<br><br>
