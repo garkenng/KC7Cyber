@@ -1,1 +1,23 @@
+## Whiskermania: An Intro to Network Concepts: Section 3: The Following The Trail<br>
+### **Summary**<br>
+With Morgan gone, you have time to dig into Jamie's notebook properly.
+<br><br>
+There's a page titled "Network Flow Analysis" with a note at the top: "Every connection has two endpoints: source IP + port → destination IP + port"
+<br><br>
+You know about IP addresses now. But what's a port?
+<br><br>
+Think of it this way: the IP address gets you to the right building, but the port gets you to the specific apartment. A server might run multiple services, and each service listens on a different port.
+<br><br>
 
+          SERVER: 142.250.80.46
+     ┌─────────────────────────────┐
+     │  ┌─────┐ ┌─────┐ ┌─────┐   │
+     │  │ :22 │ │ :80 │ │:443 │   │
+     │  │ SSH │ │HTTP │ │HTTPS│   │
+     │  └─────┘ └─────┘ └─────┘   │
+     └─────────────────────────────┘
+<br><br>
+
+**Q1. What does IP stand for?**<br><br>
+
+**Answer: Internet Protocol**<br><br>
