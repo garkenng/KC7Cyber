@@ -10,6 +10,14 @@ Search logs in seconds—because speed matters when investigating threats
 Filter and analyze events—cut through the noise and focus on what’s important
 Identify anomalies and patterns—spot unusual activity before it becomes a bigger problem
 <br><br>
-**Q1: Enter KQL ftw to continue.**<br><br>
+**Q1. Enter KQL ftw to continue.**<br><br>
 
 **Answer: KQL ftw**<br><br>
+
+**Q2. Enter uncover the clues to continue.**<br><br>
+
+**Answer: uncover the clues**<br><br>
+
+**Q3. Enter show me the data to continue.**<br><br>
+
+**Answer: show me the data**<br><br>
