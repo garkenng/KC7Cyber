@@ -1,4 +1,4 @@
-## The Blame Game: Why hackers be hacking: Meet The Suspects<br>
+## The Blame Game: Why hackers be hacking: Know Your Enemy<br>
 ### **Summary**<br>
 You just learned four attacker categories. But of course, real life is a lot more messy: the categories often blur.
 <br><br>
