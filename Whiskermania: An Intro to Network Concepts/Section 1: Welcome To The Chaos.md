@@ -19,3 +19,8 @@ Morgan doesn't look entirely convinced, but they're too busy to dig deeper. "Gre
 
 **Answer: no pressure**<br><br>
 
+**Q3. Type let's learn to continue.**<br><br>
+
+**Answer: let's learn**<br><br>
+
+
