@@ -16,8 +16,29 @@ Think of it this way: the IP address gets you to the right building, but the por
      │  │ SSH │ │HTTP │ │HTTPS│   │
      │  └─────┘ └─────┘ └─────┘   │
      └─────────────────────────────┘
-<br><br>
+<br>
 
-**Q1. What does IP stand for?**<br><br>
+Port numbers range from 0 to 65535.
 
-**Answer: Internet Protocol**<br><br>
+**Q1. What is the maximum port number?**<br><br>
+
+**Answer: 65535**<br><br>
+
+**Q2. What port number is used for HTTPS?**<br><br>
+
+**Answer: 443**<br><br>
+
+**Q3. What port number is used for DNS?**<br><br
+
+**Answer: 53**<br><br>
+
+**Q4. What port number is used for SSH?**<br><br
+
+**Answer: 22**<br><br>
+
+**Q5. What port number is used for RDP?**<br><br
+
+**Answer: 3389**<br><br>
+
+**Q6. What destination port has the most traffic?**<br><br
+**Answer: **<br><br>
