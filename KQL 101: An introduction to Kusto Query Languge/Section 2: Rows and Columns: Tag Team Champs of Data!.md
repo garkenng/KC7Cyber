@@ -8,7 +8,7 @@ Each table is made up of columns and rows.
 Knowing how tables are structured helps us ask the right questions and quickly find the answers we need.
 <br><br>
 
-**Q1: Enter row row row to continue.**<br><br>
+**Q1. Enter row row row to continue.**<br><br>
 
 **Answer: row row row**<br><br>
 
