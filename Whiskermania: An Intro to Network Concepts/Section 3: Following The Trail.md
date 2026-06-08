@@ -40,5 +40,14 @@ Port numbers range from 0 to 65535.
 
 **Answer: 3389**<br><br>
 
-**Q6. What destination port has the most traffic?**<br><br
-**Answer: **<br><br>
+**Q6. What destination port has the most traffic?**<br><br>
+
+```
+NetworkFlow
+| summarize traffic=count() by dest_port
+| order by traffic desc
+| take 5
+```
+<br>
+
+**Answer: 25**<br><br>
