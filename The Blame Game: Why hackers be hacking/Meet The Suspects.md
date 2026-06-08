@@ -35,4 +35,18 @@ By the end, you won't just know the categories. You'll know why they're hard to 
 
 **Q6. What is the tactic called where an attacker both encrypts your data AND threatens to publish it?**<br><br>
 
-**Answer: **<br><br>
+**Answer: double extortion**<br><br>
+
+**Q7. How many days was Colonial Pipeline shut down?**<br><br>
+
+**Answer: 5**<br><br>
+
+**Q8. How can insider threats be categorized based on intent?**<br><br>
+
+**Answer: negligent and malicious**<br><br>
+
+**Q9. Anonymous is described as decentralized. What does that mean in this context?**<br><br>
+
+**Answer: They have no central leadership **<br><br>
+
+
