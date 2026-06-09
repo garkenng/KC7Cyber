@@ -12,3 +12,27 @@ Knowing how tables are structured helps us ask the right questions and quickly f
 
 **Answer: row row row**<br><br>
 
+**Q2. How many rows of data did that query return?**<br><br>.
+
+```
+Employees
+| take 10
+```
+<br>
+
+**Answer: 10**<br><br>
+
+**Q3. What column contains information about an employee's job title?**<br><br>
+Information found from previous query.<br><br>
+
+**Answer: role**<br><br>
+
+**Q4. How many pharmacists work at our company?**<br><br>
+
+```
+Employees
+| where role == "Pharmacist"
+```
+<br>
+
+**Answer: 19**<br><br>
