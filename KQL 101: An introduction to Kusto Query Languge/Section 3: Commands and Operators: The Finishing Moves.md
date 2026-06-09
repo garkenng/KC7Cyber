@@ -143,3 +143,52 @@ OutboundNetworkEvents
 
 **Answer: 80**<br><br>
 
+**Q13. Enter //noted to continue.**<br><br>
+Example of adding comments.<br><br
+
+```
+// Find all IT support employees
+Employees
+| where role contains "IT support"
+```
+<br>
+
+**Answer: //noted**<br><br>
+
+**Q14. Enter rhymes with junk to continue.**<br><br>
+
+**Answer: rhymes with junk**<br><br>
+
+**Q15. How many websites did employees with the first name Mary visit?**<br><br>
+
+```
+let mary_ips = 
+Employees
+| where name has "Mary"
+| distinct ip_addr;
+OutboundNetworkEvents
+| where src_ip in (mary_ips)
+```
+<br>
+
+**Answer: 668**<br><br>
+
+**Q16. How many authentication attempts did we see to the accounts of employees with the first name Mary?**<br><br>
+
+```
+let maryName = Employees
+| where name has "Mary"
+| distinct username;
+AuthenticationEvents
+| where username in (maryName)
+| count
+```
+<br>
+
+**Answer: 810**<br><br>
+
+**Q17. Enter threat actors fear me to complete this module.**<br><br>
+
+**Answer: threat actors fear me**<br><br>
+
+
