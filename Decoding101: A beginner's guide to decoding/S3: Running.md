@@ -36,6 +36,7 @@ Can do a reverse look up and use To Base64 using the value 01.<br><br>
 3d 3d 77 50 6c 31 47 49 79 39 6d 5a 67 49 58 5a 6b 4a 58 59 6f 42 79 5a 75 6c 47 61 30 56 57 62 76 4e 48 49 6c 5a 58 59 6f 42 53 64 76 6c 48 49 30 64 69 62 76 52 45 49 2f 55 47 62 77 6c 6d 63 30 42 53 51
 ```
 <br>
+Above has been encoded 3 times. HEX then Reverse then Base64.<br><br>
 
-**Answer: **<br><br>
+**Answer: A triple? Don't you have something harder for me?**<br><br>
 
