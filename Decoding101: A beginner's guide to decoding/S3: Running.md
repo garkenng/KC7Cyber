@@ -1,6 +1,8 @@
-
-
+## Decoding101: A beginner's guide to decoding: S3: Running<br>
+### **Summary**<br>
 Let's put into practice all you've learned so far by solving some challenges!
+<br><br>
+
 **Q1. First, can you recognise this encoding?**<br><br>
 
 ```
