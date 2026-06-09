@@ -1,4 +1,4 @@
-## Decoding101: A beginner's guide to decoding: S1 Baby Steps<br>
+## Decoding101: A beginner's guide to decoding: S1: Baby Steps<br>
 ### **Summary**<br>
 Welcome to Decoding101, the module in which we'll learn to turn what looks like gibberish into perfectly normal words 🤓
 <br><br>
