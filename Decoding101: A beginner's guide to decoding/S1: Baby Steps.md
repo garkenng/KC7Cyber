@@ -58,5 +58,11 @@ Select From Hex in Operations window and drag to Recipe column. <br><br>
 **Answer: Oh no! You've been hexed!**<br><br>
 
 **Q5. What recipe was used?**<br><br>
+Pasting the below and selecting the magic wand will auto detect the encoding.<br><br>
 
-**Answer: Oh no! You've been hexed!**<br><br>
+```
+00110101 00110000 00100000 00110111 00110101 00100000 00110111 00110010 00100000 00110110 00110101 00100000 00110010 00110000 00100000 00110110 01100100 00100000 00110110 00110001 00100000 00110110 00110111 00100000 00110110 00111001 00100000 00110110 00110011 00100000 00110010 00110001
+```
+<br>
+
+**Answer: from binary from hex**<br><br>
