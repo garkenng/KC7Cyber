@@ -12,6 +12,10 @@ Before you start worrying, no, you do not need to have any coding skills. There 
 Let's dive in, shall we? 🤿
 <br><br>
 
-**Q0 Type future secret master to start your learning journey!**<br><br>
+**Q0. Type future secret master to start your learning journey!**<br><br>
 
 **Answer: future secret master**<br><br>
+
+**Q1. Which symbol is used as an example in the "Url Decode" operation?**<br><br>
+
+**Answer: **<br><br>
