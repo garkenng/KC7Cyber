@@ -119,3 +119,27 @@ AuthenticationEvents
 <br>
 
 **Answer: 169**<br><br>
+
+**Q12. How many distinct websites(urls) did Nancy Roberts visit?**<br><br>
+Find Nancy's IP address.<br><br>
+
+```
+Employees
+| where name == "Nancy Roberts" 
+```
+<br>
+Nancy's IP address: 10.10.0.30.
+<br><br>
+Use that IP address to check her browsing activity.
+<br><br>
+
+```
+OutboundNetworkEvents
+| where src_ip == "10.10.0.30"
+| distinct url
+| count
+```
+<br>
+
+**Answer: 80**<br><br>
+
