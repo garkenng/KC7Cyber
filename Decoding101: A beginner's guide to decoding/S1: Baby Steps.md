@@ -27,3 +27,36 @@ Percent-encodingopen_in_new on Wikipedia
 <br><br>
 
 **Answer: =**<br><br>
+
+**Q2. What does this binary string say?**<br><br>
+Select From Binary in Operations window and drag to Recipe column. <br><br>
+
+```
+01100010 01100101 01100101 01110000 00100000 01100010 01101111 01101111 01110000 00100000 01110100 01101000 01101001 01110011 00100000 01101001 01110011 00100000 01100010 01101001 01101110 01100001 01110010 01111001 00101110
+```
+<br>
+
+**Answer: beep boop this is binary.**<br><br>
+
+**Q3. What does the decimal encoded string says?**<br><br>
+Select From Decimal in Operations window and drag to Recipe column. <br><br>
+
+```
+73 32 104 97 116 101 32 109 97 116 104 115 32 232 45 233
+```
+<br>
+
+**Answer: I hate maths è-é**<br><br>
+
+**Q4. What is the decoded message?**<br><br>
+Select From Hex in Operations window and drag to Recipe column. <br><br>
+```
+4f 68 20 6e 6f 21 20 59 6f 75 27 76 65 20 62 65 65 6e 20 68 65 78 65 64 21
+```
+<br>
+
+**Answer: Oh no! You've been hexed!**<br><br>
+
+**Q5. What recipe was used?**<br><br>
+
+**Answer: Oh no! You've been hexed!**<br><br>
