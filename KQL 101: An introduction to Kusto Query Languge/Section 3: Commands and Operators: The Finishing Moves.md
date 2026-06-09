@@ -13,3 +13,35 @@ Let’s try it!
 
 **Answer: when in doubt take 10**<br><br>
 
+**Q2. How many employees work at our company?**<br><br>
+
+```
+Employees
+| count
+```
+<br>
+
+**Answer: 321**<br><br>
+
+**Q3. How many distinct employee roles do we have at our company?**<br><br>
+
+```
+Employees
+| distinct role
+| count 
+```
+<br>
+
+**Answer: 23**<br><br>
+
+**Q4. How many Radiologists with the name Richard do we have at our company?**<br><br>
+
+```
+Employees
+| where name contains "Richard"
+| where role == "Radiologist"
+```
+<br>
+
+**Answer: 2**<br><br>
+
