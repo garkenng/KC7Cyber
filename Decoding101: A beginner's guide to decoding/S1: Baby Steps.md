@@ -17,5 +17,13 @@ Let's dive in, shall we? 🤿
 **Answer: future secret master**<br><br>
 
 **Q1. Which symbol is used as an example in the "Url Decode" operation?**<br><br>
+Hover the mouse over URL Decode an example pop up appears and shows the following:
+<br><br>
+Converts URI/URL percent-encoded characters back to their raw values.
+<br><br>
+e.g. %3d becomes =
+<br><br>
+Percent-encodingopen_in_new on Wikipedia
+<br><br>
 
-**Answer: **<br><br>
+**Answer: =**<br><br>
