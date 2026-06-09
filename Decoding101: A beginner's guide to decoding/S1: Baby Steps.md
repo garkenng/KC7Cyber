@@ -11,6 +11,7 @@ Before you start worrying, no, you do not need to have any coding skills. There 
 <br><br>
 Let's dive in, shall we? 🤿
 <br><br>
+
 **Q0 Type future secret master to start your learning journey!**<br><br>
 
 **Answer: future secret master**<br><br>
