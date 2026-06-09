@@ -21,5 +21,43 @@ Gwc axqv um zqopb zwcvl jijg
 ```
 <br>
 
-**Answer: rearview mirror**<br><br>
+**Answer: 18**<br><br>
+
+**Q3. What is the decoded version of that string?**<br><br>
+
+```
+SSdtIGFsbCBhYm91dCB0aGF0IGJhc2UsICdib3V0IHRoYXQgYmFzZQ==
+```
+<br>
+
+**Answer: I'm all about that base, 'bout that base**<br><br>
+
+**Q4. What does it say?**<br><br>
+Enter BEEF as the key in the link provided to finish the recipe.<br><br>
+
+```
+SSdtIGFsbCBhYm91dCB0aGF0IGJhc2UsICdib3V0IHRoYXQgYmFzZQ==
+```
+<br>
+
+**Answer: This is XORcery x.x**<br><br>
+
+**Q5. What is the key used here?**<br><br>
+Using XOR Brute Force, search through the results for the key.<br><br>
+
+String to brute force.<br><br>
+
+```
+W>}s{>wp>rwu{>>il{}uwpy>|rr0
+```
+<br>
+One result is human readable.<br><br>
+
+```
+Key = 1e: I came in like a wrecking ball.
+```
+<br>
+
+**Answer: This is XORcery x.x**<br><br>
+
 
