@@ -10,6 +10,16 @@ It's like if you were reading the sentence in a mirror.
 In CyberChef, look for the Reverse operation.
 <br><br>
 
-**Q1. Type future secret master to start your learning journey!**<br><br>
+**Q1. What does rorrim weivraer spell out?**<br><br>
 
-**Answer: future secret master**<br><br>
+**Answer: rearview mirror**<br><br>
+
+**Q2. CyberChef prints out the amount of rotations it did by default. How many times did it do it here?**<br><br>
+
+```
+Gwc axqv um zqopb zwcvl jijg
+```
+<br>
+
+**Answer: rearview mirror**<br><br>
+
