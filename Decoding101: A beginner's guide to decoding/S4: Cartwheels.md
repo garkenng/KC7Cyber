@@ -48,3 +48,26 @@ AAAAA BAAAB AABBB AAAAA ABABB AABAA BABBA ABBAB BAABB AAABA AAAAA ABBAA ABBAA AB
 Search on decode.fr, the Bacon Cipher is detected.<br><br>
 
 **Answer: A SHAME YOU CANNOT EAT THIS ONE ALSO LOOKS BINARY**<br><br>
+
+**Q5. 🎉Congratulations🎉
+<br><br>
+You've made it to the end of this module.
+<br><br>
+You've learned to recognise common encoding:
+<br><br>
+binary
+decimal
+hexadecimal
+base64
+And also basic transformations:
+reverse
+ROT13
+You've also seen the evil XOR.
+You know they can be mixed together to make it more difficult for you to figure out.
+<br><br>
+You've learned how to use CyberChef, and you've practiced a bit on dcode.fr.
+<br><br>
+And finally, you've handled CTF-like challenges, not something useful on the day-to-day of a cybersecurity analyst, but nice to have when you want to compete for fun on your downtime ;)
+<br><br>
+Type I feel stronger now to finish the module.
+**<br><br>
