@@ -27,17 +27,38 @@ From previous query.<br><br>
 
 **Answer: 12,716**<br><br>
 
-**Q3. **<br><br>
-**Answer: **<br><br>
-**Q4. **<br><br>
-**Answer: **<br><br>
-**Q5. **<br><br>
-**Answer: **<br><br>
+**Q3. When was data first sent to this IP? (paste the full timestamp)**<br><br>
 
-**Q6. **<br><br>
-**Answer: **<br><br>
+```
+NetworkFlow
+| where dest_ip == "182.56.23.121"
+```
+<br>
 
-**Q7. **<br><br>
+**Answer: 1/21/2024, 1:28:33 PM**<br><br>
+
+**Q4. On how many distinct days have we sent data to this IP?**<br><br>
+Using query in question 3.<br><br>
+
+**Answer: 27**<br><br>
+
+**Q5. What service is used for the port to which this data is being transferred?**<br><br>
+Port Number (dest_port) 21 is for FTP.<br><br>
+
+**Answer: FTP**<br><br>
+
+**Q6. What is the total amount of data transferred to this IP address?**<br><br>
+
+```
+NetworkFlow
+| where dest_ip == "182.56.23.121"
+| summarize sum(bytes)
+```
+<br>
+
+**Answer: 208,138**<br><br>
+
+**Q7. How many distinct employees have sent data to this IP address?**<br><br>
 **Answer: **<br><br>
 
 **Q8. **<br><br>
