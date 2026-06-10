@@ -240,17 +240,54 @@ Email
 
 **Answer: got it**<br><br>
 
-**Q25. What IP was used to sign into Barry's account on February 1st?
+**Q25. What IP was used to sign into Barry's account on February 1st?**<br><br>
 
-**<br><br>
-**Answer: **<br><br>
-**Q. **<br><br>
-**Answer: **<br><br>
-**Q. **<br><br>
-**Answer: **<br><br>
-**Q. **<br><br>
-**Answer: **<br><br>
-**Q. **<br><br>
+```
+AuthenticationEvents
+| where timestamp >= datetime(02/01/2024)
+| where username == "bashmelly"
+```
+<br>
+
+**Answer: 143.38.175.105**<br><br>
+
+**Q26. How many other accounts did that IP log into?**<br><br>
+No other results are returned when using the IP address from previous question.<br><br>
+
+```
+AuthenticationEvents
+| where src_ip == "143.38.175.105"
+```
+<br>
+
+**Answer: 0**<br><br>
+
+**Q27. How many IPs logged in to all 8 devices where the attacker ran systeminfo?**<br><br>
+
+```
+let hosts = ProcessEvents
+| where process_commandline has "systeminfo"
+| distinct hostname;
+AuthenticationEvents
+| where hostname in (hosts)
+| summarize dcount(hostname) by src_ip
+| order by dcount_hostname desc
+```
+<br>
+
+**Answer: 2**<br><br>
+**Q28. Let's just focus on one of those IPs 10.10.0.138. What is the role of the employee who this IP address belongs to?**<br><br>
+
+```
+Employees
+| where ip_addr == "10.10.0.138"
+```
+<br>
+
+**Answer: System Administrator**<br><br>
+
+
+**Q29. How many successful logins were made from this IP?**<br><br>
 **Answer: **<br><br>
 **Q. **<br><br>
 **Answer: **<br><br>
