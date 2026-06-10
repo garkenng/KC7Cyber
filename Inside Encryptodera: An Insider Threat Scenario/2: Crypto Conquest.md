@@ -1,4 +1,4 @@
-## Inside Encryptodera: An Insider Threat Scenario: 0: KQL 101<br>
+## Inside Encryptodera: An Insider Threat Scenario: 2: Crypto Conquest<br>
 ### **Summary**<br>
 Some employees have said that they can't use their computers. One employee mentioned that they saw this suspicious file show up on their system.
 <br><br>
