@@ -288,9 +288,30 @@ Employees
 
 
 **Q29. How many successful logins were made from this IP?**<br><br>
-**Answer: **<br><br>
-**Q. **<br><br>
-**Answer: **<br><br>
-**Q. **<br><br>
-**Answer: **<br><br>
+
+```
+AuthenticationEvents
+| where src_ip == "10.10.0.138"
+| where result == "Successful Login"
+| count
+```
+<br>
+
+**Answer: 554**<br><br>
+
+**Q30. One of the hosts logged into from this IP is especially concerning. This host is a server (and it's not the mail server)! What is the hostname of the server the attackers logged into?**<br><br>
+
+```
+AuthenticationEvents
+| where src_ip == "10.10.0.138"
+| where result == "Successful Login"
+| distinct hostname
+```
+<br>
+
+**Answer: DOMAIN_CONTROLLER_SERVER**<br><br>
+
+**Q31. Oh no! The attackers logged into the domain controller 😭. In the next section, we'll investigate how they got there. Type f in chat to pay respect and continue to the next section!**<br><br>
+
+**Answer: f**<br><br>
 
