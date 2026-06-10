@@ -159,4 +159,4 @@ ProcessEvents
 
 **Q15. Type gotheem to take credit**<br><br>
 
-**Answer: gotheem **<br><br>
+**Answer: gotheem**<br><br>
