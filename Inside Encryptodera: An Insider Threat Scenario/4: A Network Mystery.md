@@ -103,8 +103,21 @@ https://encryptoderafinancial.com/search=Location+of+company%27s+cold+storage+cr
 
 **Answer: cold storage crypto wallets**<br><br>
 
-**Q11. **<br><br>
-**Answer: **<br><br>
+**Q11. Who was Jane having a suspicious conversation with? (email address)**<br><br>
+
+```
+Email
+| where sender == "jane_smith@encryptoderafinancial.com"
+```
+<br>
+Searching through subject lines in the emails. One subject line is of interest.<br><br>
+
+```
+I have infiltrated the company 👀
+```
+<br>
+
+**Answer: elboss@westealurcrypto.com**<br><br>
 
 **Q12. **<br><br>
 **Answer: **<br><br>
