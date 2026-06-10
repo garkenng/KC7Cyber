@@ -135,8 +135,3 @@ Email
 
 **Q13. Type letsgo to move on!**<br><br>
 **Answer: letsgo**<br><br>
-
-**Q14. **<br><br>
-**Answer: **<br><br>
-
-**Q15. **<br><br>
