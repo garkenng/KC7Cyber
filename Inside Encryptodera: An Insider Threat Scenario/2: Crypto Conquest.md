@@ -13,19 +13,65 @@ From the image on website, the filename can be seen.<br><br>
 **Answer: Ransomware**<br><br>
 
 **Q3.On how many machines was this .txt file seen?**<br><br>
-**Answer: **<br><br>
-**Q4. **<br><br>
-**Answer: **<br><br>
-**Q5. **<br><br>
-**Answer: **<br><br>
 
-**Q6. **<br><br>
-**Answer: **<br><br>
+```
+FileCreationEvents
+| where path contains "YOU_GOT_CRYTOED_SO_GIMME_CRYPTO.txt"
+| distinct hostname
+```
+<br>
 
-**Q7. **<br><br>
-**Answer: **<br><br>
+**Answer: 306**<br><br>
 
-**Q8. **<br><br>
+**Q4. What time was the ransom note first seen?**<br><br>
+
+```
+FileCreationEvents
+| where path contains "YOU_GOT_CRYTOED_SO_GIMME_CRYPTO.txt"
+| order by timestamp asc
+```
+<br>
+
+**Answer: 2/17/2024, 2:34:54 AM**<br><br>
+
+**Q5. What is the hostname of the system where the ransom note was first seen?**<br><br>
+From previous query.<br><br>
+
+**Answer: UL8R-MACHINE**<br><br>
+
+**Q6. How many files were encrypted on this machine?**<br><br>
+Start by looking for command to encrypt files.<br>
+
+```
+ProcessEvents
+| where hostname == "UL8R-MACHINE"
+| where process_commandline contains "encrypt"
+```
+<br>
+Result:<br><br>
+
+```
+start /b C:\\ProgramData\\files_go_byebye.exe -encrypt -target C:\\Users\\ -ext .umadbro
+```
+<br>
+See that files encrpted were given the extension .umadbro.<br><br>
+
+```
+FileCreationEvents
+| where hostname == "UL8R-MACHINE"
+| where filename contains "umadbro"
+| count
+```
+<br>
+
+**Answer: 50**<br><br>
+
+**Q7. What is the extension that was used on the encrypted files?**<br><br>
+From previous question.<br><br>
+
+**Answer: umadbro**<br><br>
+
+**Q8. What command was run that references the ransomware extension?**<br><br>
 **Answer: **<br><br>
 
 **Q9. **<br><br>
