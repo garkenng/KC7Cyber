@@ -102,9 +102,6 @@ AuthenticationEvents
 
 **Answer: 10**<br><br>
 
-**Q11. **<br><br>
-**Answer: **<br><br>
-
 **Q11. Which user NOT in an IT role was improperly using the systadmi_local_admin credentials? (This is likely a sign of compromise)**<br><br>
 
 ```
