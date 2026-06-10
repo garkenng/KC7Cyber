@@ -119,10 +119,24 @@ I have infiltrated the company 👀
 
 **Answer: elboss@westealurcrypto.com**<br><br>
 
-**Q12. **<br><br>
-**Answer: **<br><br>
+**Q12. What IP address did the boss man provide to help with smuggling the data?**<br><br>
 
-**Q13. **<br><br>
+```
+Email
+| where recipient == "jane_smith@encryptoderafinancial.com" 
+| where sender == "elboss@westealurcrypto.com"
+```
+<br>
+The second result.<br><br>
+
+```
+[EXTERNAL]🔐 FTP Server IP: 182.56.23.121
+```
+<br>
+
+**Answer: 182.56.23.121**<br><br>
+
+**Q13. What is the name of the data exfil tool Jane downloads to help with her operation?**<br><br>
 **Answer: **<br><br>
 
 **Q14. **<br><br>
