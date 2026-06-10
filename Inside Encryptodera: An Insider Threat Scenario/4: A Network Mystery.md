@@ -11,12 +11,22 @@ During this debugging process, he noticed an unusually large amount of data bein
 
 **Q1. Which IP address received the largest amount of data on Feb 5th?**<br><br>
 
-**Answer: **<br><br>
+```
+NetworkFlow
+| where timestamp >= datetime(02/05/2024)
+| where timestamp < datetime(02/06/2024)
+```
+<br>
+
+**Answer: 182.56.23.121**<br><br>
 
 
 
-**Q2. **<br><br>
-**Answer: **<br><br>
+**Q2. How many bytes of data were sent to that IP on the 5th?**<br><br>
+From previous query.<br><br>
+
+**Answer: 12,716**<br><br>
+
 **Q3. **<br><br>
 **Answer: **<br><br>
 **Q4. **<br><br>
@@ -46,6 +56,15 @@ During this debugging process, he noticed an unusually large amount of data bein
 **Answer: **<br><br>
 
 **Q13. **<br><br>
+**Answer: **<br><br>
+
+**Q14. **<br><br>
+**Answer: **<br><br>
+
+**Q14. **<br><br>
+**Answer: **<br><br>
+
+**Q14. **<br><br>
 **Answer: **<br><br>
 
 **Q14. **<br><br>
