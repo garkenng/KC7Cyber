@@ -150,7 +150,7 @@ First discovery command occured on 2/2/2024, running the command 'net user'. The
 **Answer: 15**<br><br>
 
 
-**Q.17 What is the hostname of the device on which the attackers first ran systeminfo? **<br><br>
+**Q17. What is the hostname of the device on which the attackers first ran systeminfo?**<br><br>
 
 ```
 ProcessEvents
