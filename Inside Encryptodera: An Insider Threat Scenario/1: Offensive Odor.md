@@ -129,11 +129,34 @@ ProcessEvents
 
 **Answer: Encryptodera_Proprietary_Algorithms.zip**<br><br>
 
-**Q13. Do you know the password he used to zip the files?**<br><br>
-**Answer: **<br><br>
+**Q13. Do you know the password he used to zip the files?**<br><br>\
 
-**Q14. **<br><br>
-**Answer: **<br><br>
+```
+ProcessEvents
+| where hostname == "IGOY-DESKTOP"
+| where timestamp >= datetime(1/16/2024)
+| where process_commandline contains "-p"
+```
+<br>
+Taking the first result.<br><br>
 
-**Q15. **<br><br>
-**Answer: **<br><br>
+```
+7z.exe a -t7z C:\Users\bashmelly\Documents\To_Take\Company_Secrets.7z C:\Users\bashmelly\Documents\To_Take\*.docx -p securePass123
+```
+<br>
+
+**Answer: securePass123**<br><br>
+
+**Q14. What is the name of the drive on which Barry stored the final files?**<br><br>
+
+```
+ProcessEvents
+| where process_commandline has "Encryptodera_Proprietary_Algorithms.zip"
+```
+<br>
+
+**Answer: SchmellyDrive**<br><br>
+
+**Q15. Type gotheem to take credit**<br><br>
+
+**Answer: gotheem **<br><br>
