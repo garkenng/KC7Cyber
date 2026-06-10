@@ -1,4 +1,4 @@
-## Inside Encryptodera: An Insider Threat Scenario: 0: KQL 101<br>
+## Inside Encryptodera: An Insider Threat Scenario: 0: Offensive Odor<br>
 ### **Summary**<br>
 Now, we're getting started with the investigation!
 <br><br>
