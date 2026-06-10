@@ -59,9 +59,18 @@ NetworkFlow
 **Answer: 208,138**<br><br>
 
 **Q7. How many distinct employees have sent data to this IP address?**<br><br>
-**Answer: **<br><br>
 
-**Q8. **<br><br>
+```
+NetworkFlow
+| where dest_ip == "182.56.23.121"
+| distinct src_ip
+| count
+```
+<br>
+
+**Answer: 1**<br><br>
+
+**Q8. Whose name is linked to that IP address? Provide the employee's name.**<br><br>
 **Answer: **<br><br>
 
 **Q9. **<br><br>
