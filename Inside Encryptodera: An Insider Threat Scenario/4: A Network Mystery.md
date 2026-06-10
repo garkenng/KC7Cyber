@@ -64,19 +64,28 @@ NetworkFlow
 NetworkFlow
 | where dest_ip == "182.56.23.121"
 | distinct src_ip
-| count
 ```
 <br>
 
 **Answer: 1**<br><br>
 
 **Q8. Whose name is linked to that IP address? Provide the employee's name.**<br><br>
-**Answer: **<br><br>
+Take the src_ip from previous query and run it in the employee table.<br><br>
 
-**Q9. **<br><br>
-**Answer: **<br><br>
+```
+Employees
+| where ip_addr == "10.10.0.2"
+```
+<br>
 
-**Q10. **<br><br>
+**Answer: Jane Smith**<br><br>
+
+**Q9. What is that employee's role?**<br><br>
+Using previous query.<br><br>
+
+**Answer: Cryto Bruh (Blockchain Contractor)**<br><br>
+
+**Q10. We see her looking for the location of the company's __ __ __ __ (4 words)**<br><br>
 **Answer: **<br><br>
 
 **Q11. **<br><br>
