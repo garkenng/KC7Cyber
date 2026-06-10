@@ -252,7 +252,7 @@ OutboundNetworkEvents
 
 **Answer: secure-health-access.com**<br><br>
 
-**Q23. When was the patient data exporter file downloaded? (copy and paste the exact timestamp)*<br><br>
+**Q23. When was the patient data exporter file downloaded? (copy and paste the exact timestamp)**<br><br>
 Timestamp retrieved from previous query.<br><br>
 
 **Answer: 6/17/2024, 2:22:29 PM**<br><br>
