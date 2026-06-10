@@ -79,23 +79,65 @@ No results are returned.<br><br>
 
 **Answer: No**<br><br>
 
-**Q8. **<br><br>
-**Answer: **<br><br>
+**Q9. How many different user accounts logged into Valerie's machine?**<br><br>
 
-**Q9. **<br><br>
-**Answer: **<br><br>
+```
+AuthenticationEvents
+| where hostname == "GJ95-LAPTOP"
+| distinct username
+```
+<br>
 
-**Q10. **<br><br>
-**Answer: **<br><br>
+**Answer: 3**<br><br>
+
+**Q10. How many unique hosts did this user account attempt to log into?**<br><br>
+
+```
+AuthenticationEvents
+| where username == "systadmi_local_admin"
+| distinct hostname
+| count
+```
+<br>
+
+**Answer: 10**<br><br>
 
 **Q11. **<br><br>
 **Answer: **<br><br>
 
-**Q12. **<br><br>
-**Answer: **<br><br>
+**Q11. Which user NOT in an IT role was improperly using the systadmi_local_admin credentials? (This is likely a sign of compromise)**<br><br>
 
-**Q13. **<br><br>
-**Answer: **<br><br>
+```
+let hosts = FileCreationEvents
+| where filename has "screenconnect"
+| distinct hostname;
+AuthenticationEvents
+| where hostname in (hosts)
+| where username has "systadmi"
+| where result has "Successful"
+| join (
+    Employees 
+    | project ip_addr,role,email_addr,name
+) on $left.src_ip==$right.ip_addr
+| project SourceIpName=name, a="who is a", SourceIpUserRole=role, b="logged onto",hostname, c="using", username, d="at",timestamp
+```
+<br>
+
+**Answer: Robin Kirby**<br><br>
+
+**Q12. When was Robin phished by Barry Shmelly's account?**<br><br>
+
+```
+Email
+| where recipient == "robin_kirby@encryptoderafinancial.com"
+| where sender == "barry_shmelly@encryptoderafinancial.com"
+```
+<br>
+
+**Answer: 2/1/2024, 3:59:30 AM**<br><br>
+
+**Q13. Type letsgo to move on!**<br><br>
+**Answer: letsgo**<br><br>
 
 **Q14. **<br><br>
 **Answer: **<br><br>
