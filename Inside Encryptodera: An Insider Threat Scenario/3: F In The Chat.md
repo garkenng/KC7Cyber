@@ -12,15 +12,35 @@ AuthenticationEvents
 
 **Q2. What laptop did the lihenry_domain_admin account sign into? (Enter the hostname)**<br><br>
 
+```
+AuthenticationEvents
+| where username == "lihenry_domain_admin"
+```
+<br>
 
-**Answer: ready**<br><br>
+**Answer: GJ95-LAPTOP**<br><br>
 
-**Q3. **<br><br>
+**Q3. What is the MITRE ATT&CK ID for mimikatz?**<br><br>
+Run a Google search for the ID.<br><br>
+
+**Answer: S0002**<br><br>
+
+
+**Q4. Let's check to see if the threat actor ran mimikatz on GJ95-LAPTOP. Did the threat actor run mimikatz on this device? If so, enter the command line the attacker ran. If not, enter no.**<br><br>
+
+```
+ProcessEvents
+| where hostname == "GJ95-LAPTOP"
+| where process_commandline contains "mimikatz"
+```
+<br>
+
+**Answer: totally_not_mimikatz.exe "sekurlsa::logonpasswords"**<br><br>
+
+**Q5. Who does this device belong to? (Enter the employee's name)**<br><br>
 **Answer: **<br><br>
-**Q3. **<br><br>
-**Answer: **<br><br>
-**Q4. **<br><br>
-**Answer: **<br><br>
+
+
 **Q5. **<br><br>
 **Answer: **<br><br>
 
