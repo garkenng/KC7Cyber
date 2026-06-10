@@ -224,7 +224,7 @@ Email
 | where timestamp >= datetime(01/02/2024)
 ```
 <br>
-Looking through the results, links start to appear with the domain 'update-finance-security.biz' and the subject of the emails are 'Urgent: Network Security Vulnerability Detected'. Using the link as a further search filter.<br>
+Looking through the results, links start to appear with the domain 'update-finance-security.biz' and the subject of the emails are 'Urgent: Network Security Vulnerability Detected'. Using the link as a further search filter.<br><br>
 
 ```
 Email
