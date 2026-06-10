@@ -49,13 +49,35 @@ Employees
 
 
 **Q6. Was Valerie Orozco targeted in the phishing emails sent from Barry Shmelly?**<br><br>
-**Answer: **<br><br>
 
-**Q6. **<br><br>
-**Answer: **<br><br>
+```
+Email
+| where sender == "barry_shmelly@encryptoderafinancial.com"
+| where timestamp >= datetime(01/02/2024)
+| where link contains "update"
+| where recipient == "valerie_orozco@encryptoderafinancial.co
+```
+<br>
 
-**Q7. **<br><br>
-**Answer: **<br><br>
+One result is returned.<br><br>
+
+**Answer: yes**<br><br>
+
+**Q7. What is the name of the file that was sent to Valerie in the phishing email?**<br><br>
+From previous query.<br><br>
+
+**Answer: Employee_Contact_List_Updated_March_2024.docx.exe**<br><br>
+
+**Q8. Did Valerie click the link? If so, enter the timestamp when she clicked the link. If not, enter 'no'**<br><br>
+```
+OutboundNetworkEvents
+| where src_ip == "10.10.0.18"
+| where url contains "http://update-finance-security.biz/public/images/files/Employee_Contact_List_Updated_March_2024.docx.exe"
+```
+<br>
+No results are returned.<br><br>
+
+**Answer: No**<br><br>
 
 **Q8. **<br><br>
 **Answer: **<br><br>
