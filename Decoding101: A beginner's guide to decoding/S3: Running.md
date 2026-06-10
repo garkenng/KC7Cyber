@@ -99,6 +99,20 @@ Write-Host $msg
 Remove-Item $MyInvocation.MyCommand.Path -Force -ErrorAction SilentlyContinue
 ```
 <br>
+Reverse the payload.<br><br>
 
-**Answer:**<br><br>
+```
+9uru56/Gr+j66vz8r/vn5vyv4OHqr/ju/K/ur+3m+6/q+ebj
+```
+<br>
 
+Encode to Base34.<br><br>
+
+```
+öêîç¯Æ¯èúêüü¯ûçæü¯àáê¯øîü¯î¯íæû¯êùæã
+```
+<br>
+
+XOR using the key 0x8F.<br><br>
+
+**Answer: yeah I guess this one was a bit evil**<br><br>
