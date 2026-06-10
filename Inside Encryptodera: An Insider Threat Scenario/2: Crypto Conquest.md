@@ -144,23 +144,57 @@ From the previous query.<br><br>
 
 **Answer: 2/2/2024, 3:32:36 AM**<br><br>
 
-**Q.16 How many days elapsed between when the attackers ran discovery commands and when the ransomware attack started?**<br><br>
+**Q16. How many days elapsed between when the attackers ran discovery commands and when the ransomware attack started?**<br><br>
 First discovery command occured on 2/2/2024, running the command 'net user'. Then on 2/17/2024, files started to be encrypted.<br><br>
 
 **Answer: 15**<br><br>
 
 
-**Q.16 What is the hostname of the device on which the attackers first ran systeminfo? **<br><br>
-**Answer: **<br><br>
+**Q.17 What is the hostname of the device on which the attackers first ran systeminfo? **<br><br>
+
+```
+ProcessEvents
+| where process_commandline contains "systeminfo"
+```
+<br>
+
+**Answer: 41QI-LAPTOP**<br><br>
 
 
-**Q. **<br><br>
-**Answer: **<br><br>
-**Q. **<br><br>
-**Answer: **<br><br>
-**Q. **<br><br>
-**Answer: **<br><br>
-**Q. **<br><br>
+**Q18. What was the full commandline used by the threat actor when running nltest /dclist? (paste the full commandline)**<br><br>
+
+```
+ProcessEvents
+| where process_commandline contains "nltest "
+```
+<br>
+
+**Answer: cmd.exe /C nltest /dclist:encryptoderafinancial.com**<br><br>
+
+
+**Q19. What is the full name of the .xlsx.exe file on 41QI-LAPTOP?**<br><br>
+
+```
+FileCreationEvents
+| where hostname contains "41QI-LAPTOP"
+| where path contains ".xlsx.exe"
+```
+<br>
+
+**Answer: Company_Financials_Q1_2024_Review.xlsx.exe**<br><br>
+
+**Q20. What file shows up a few seconds after the .xlsx.exe file?**<br><br>
+
+```
+FileCreationEvents
+| where hostname contains "41QI-LAPTOP"
+| where timestamp >= datetime(2/1/2024, 8:50:12 AM)
+```
+<br>
+
+**Answer: screenconnect_client.exe**<br><br>
+
+**Q21. How many devices does screenconnect_client.exe appear on?**<br><br>
 **Answer: **<br><br>
 **Q. **<br><br>
 **Answer: **<br><br>
