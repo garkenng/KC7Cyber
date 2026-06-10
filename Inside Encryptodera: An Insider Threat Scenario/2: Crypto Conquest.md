@@ -145,11 +145,15 @@ From the previous query.<br><br>
 **Answer: 2/2/2024, 3:32:36 AM**<br><br>
 
 **Q.16 How many days elapsed between when the attackers ran discovery commands and when the ransomware attack started?**<br><br>
+First discovery command occured on 2/2/2024, running the command 'net user'. Then on 2/17/2024, files started to be encrypted.<br><br>
+
+**Answer: 15**<br><br>
+
+
+**Q.16 What is the hostname of the device on which the attackers first ran systeminfo? **<br><br>
 **Answer: **<br><br>
 
 
-**Q. **<br><br>
-**Answer: **<br><br>
 **Q. **<br><br>
 **Answer: **<br><br>
 **Q. **<br><br>
