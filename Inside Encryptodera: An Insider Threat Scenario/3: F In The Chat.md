@@ -5,10 +5,10 @@
 ```
 AuthenticationEvents
 | where hostname == "DOMAIN_CONTROLLER_SERVER"
-**Answer: lihenry_domain_adminready**<br><br>
 ```
+<br>
 
-**Answer: ready**<br><br>
+**Answer: lihenry_domain_adminready**<br><br>
 
 **Q2. What laptop did the lihenry_domain_admin account sign into? (Enter the hostname)**<br><br>
 
