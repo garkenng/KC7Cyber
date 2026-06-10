@@ -1,22 +1,18 @@
 ## Inside Encryptodera: An Insider Threat Scenario: 0: KQL 101<br>
 ### **Summary**<br>
-Welcome to Encryptodera!
-<br><br>
-Encryptodera Financial Solutions is a financial services company that provides payment gateways, digital wallets, and blockchain solutions.
-<br><br>
-Given the recent economic downturn, rumors about upcoming layoffs at Encryptodera have understandably made employees nervous. Days after the layoff rumors started, confidential documents were leaked to the media. Encryptodera has hired you as an incident responder to investigate what happened.
+Some employees have said that they can't use their computers. One employee mentioned that they saw this suspicious file show up on their system.
 <br><br>
 
-**Q1. Enter ready to get started.**<br><br>
+**Q1. What is the filename of this note?**<br><br>
+From the image on website, the filename can be seen.<br><br>
 
-**Answer: ready**<br><br>\
+**Answer: YOU_GOT_CRYTOED_SO_GIMME_CRYPTO.txt**<br><br>
 
-**Q1. Enter ready to get started.**<br><br>
+**Q2. What kind of attack is this?**<br><br>
 
-**Answer: ready**<br><br>
-**Q2. **<br><br>
-**Answer: **<br><br>
-**Q3. **<br><br>
+**Answer: Ransomware**<br><br>
+
+**Q3.On how many machines was this .txt file seen?**<br><br>
 **Answer: **<br><br>
 **Q4. **<br><br>
 **Answer: **<br><br>
@@ -51,3 +47,38 @@ Given the recent economic downturn, rumors about upcoming layoffs at Encryptoder
 **Answer: **<br><br>
 
 **Q15. **<br><br>
+**Answer: **<br><br>
+
+**Q. **<br><br>
+**Answer: **<br><br>
+**Q. **<br><br>
+**Answer: **<br><br>
+**Q. **<br><br>
+**Answer: **<br><br>
+**Q. **<br><br>
+**Answer: **<br><br>
+**Q. **<br><br>
+**Answer: **<br><br>
+**Q. **<br><br>
+**Answer: **<br><br>
+**Q. **<br><br>
+**Answer: **<br><br>
+**Q. **<br><br>
+**Answer: **<br><br>
+**Q. **<br><br>
+**Answer: **<br><br>
+**Q. **<br><br>
+**Answer: **<br><br>
+**Q. **<br><br>
+**Answer: **<br><br>
+**Q. **<br><br>
+**Answer: **<br><br>
+**Q. **<br><br>
+**Answer: **<br><br>
+**Q. **<br><br>
+**Answer: **<br><br>
+**Q. **<br><br>
+**Answer: **<br><br>
+**Q. **<br><br>
+**Answer: **<br><br>
+
