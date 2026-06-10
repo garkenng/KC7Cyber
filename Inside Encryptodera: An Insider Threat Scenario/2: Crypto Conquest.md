@@ -195,14 +195,54 @@ FileCreationEvents
 **Answer: screenconnect_client.exe**<br><br>
 
 **Q21. How many devices does screenconnect_client.exe appear on?**<br><br>
-**Answer: **<br><br>
-**Q. **<br><br>
-**Answer: **<br><br>
-**Q. **<br><br>
-**Answer: **<br><br>
-**Q. **<br><br>
-**Answer: **<br><br>
-**Q. **<br><br>
+
+```
+FileCreationEvents
+| where path contains "screenconnect_client.exe"
+| count
+```
+<br>
+
+**Answer: 3**<br><br>
+
+**Q22. Check the Email logs to see if the .xlsx.exe file was sent in a link. What email address was used to send this file?**<br><br>
+
+```
+Email
+| where link contains "Company_Financials_Q1_2024_Review.xlsx.exe"
+```
+<br>
+
+**Answer: barry_shmelly@encryptoderafinancial.com**<br><br>
+
+**Q23. Starting on 2024-02-01, it looks like Barry's account is used to send unusual emails. How many unusual emails were sent by Barry?**<br><br>
+Search for emails from Barry.<br><br>
+
+```
+Email
+| where sender == "barry_shmelly@encryptoderafinancial.com"
+| where timestamp >= datetime(01/02/2024)
+```
+<br>
+Looking through the results, links start to appear with the domain 'update-finance-security.biz' and the subject of the emails are 'Urgent: Network Security Vulnerability Detected'. Using the link as a further search filter.<br>
+
+```
+Email
+| where sender == "barry_shmelly@encryptoderafinancial.com"
+| where timestamp >= datetime(01/02/2024)
+| where link contains "update"
+```
+<br>
+
+**Answer: 9**<br><br>
+
+**Q24. Type got it once you've made a note of these recipients**<br><br>
+
+**Answer: got it**<br><br>
+
+**Q25. What IP was used to sign into Barry's account on February 1st?
+
+**<br><br>
 **Answer: **<br><br>
 **Q. **<br><br>
 **Answer: **<br><br>
