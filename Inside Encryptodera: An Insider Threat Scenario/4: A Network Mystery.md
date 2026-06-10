@@ -1,20 +1,20 @@
-## Inside Encryptodera: An Insider Threat Scenario: 0: KQL 101<br>
+## Inside Encryptodera: An Insider Threat Scenario: 4: A Network Mystery<br>
 ### **Summary**<br>
-Welcome to Encryptodera!
+⚠️ This section is a little bit more of a challenge. You got this! 💪
 <br><br>
-Encryptodera Financial Solutions is a financial services company that provides payment gateways, digital wallets, and blockchain solutions.
+Encrytodera has decided to switch from Email to Tiktok as their primary work communication platform. That's right, all communications in the future of Encryptodera will be recorded in 12 second videos - complete with fun dances 💃🏻.
 <br><br>
-Given the recent economic downturn, rumors about upcoming layoffs at Encryptodera have understandably made employees nervous. Days after the layoff rumors started, confidential documents were leaked to the media. Encryptodera has hired you as an incident responder to investigate what happened.
+In order to make sure there is enough bandwidth for this transition, the network administrator was tasked to do some research to see how much more traffic the network could handle without failing (tiktoks take a lot of bandwith you know!).
+<br><br>
+During this debugging process, he noticed an unusually large amount of data being sent to one IP address on February 5th
 <br><br>
 
-**Q1. Enter ready to get started.**<br><br>
+**Q1. Which IP address received the largest amount of data on Feb 5th?**<br><br>
 
-**Answer: ready**<br><br>
+**Answer: **<br><br>
 
 
-**Q1. Enter ready to get started.**<br><br>
 
-**Answer: ready**<br><br>
 **Q2. **<br><br>
 **Answer: **<br><br>
 **Q3. **<br><br>
