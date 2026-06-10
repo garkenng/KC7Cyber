@@ -86,7 +86,22 @@ Using previous query.<br><br>
 **Answer: Cryto Bruh (Blockchain Contractor)**<br><br>
 
 **Q10. We see her looking for the location of the company's __ __ __ __ (4 words)**<br><br>
-**Answer: **<br><br>
+
+```
+InboundNetworkEvents
+| where url contains "encryptoderafinancial"
+| where url contains "location"
+| where src_ip == "10.10.0.2"
+```
+<br>
+The first result that comes back.<br>
+
+```
+https://encryptoderafinancial.com/search=Location+of+company%27s+cold+storage+crypto+wallets
+```
+<br>
+
+**Answer: cold storage crypto wallets**<br><br>
 
 **Q11. **<br><br>
 **Answer: **<br><br>
