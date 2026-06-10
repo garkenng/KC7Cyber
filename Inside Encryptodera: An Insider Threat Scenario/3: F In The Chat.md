@@ -38,10 +38,17 @@ ProcessEvents
 **Answer: totally_not_mimikatz.exe "sekurlsa::logonpasswords"**<br><br>
 
 **Q5. Who does this device belong to? (Enter the employee's name)**<br><br>
-**Answer: **<br><br>
+
+```
+Employees
+| where hostname == "GJ95-LAPTOP"
+```
+<br>
+
+**Answer: Valerie Orozco**<br><br>
 
 
-**Q5. **<br><br>
+**Q6. Was Valerie Orozco targeted in the phishing emails sent from Barry Shmelly?**<br><br>
 **Answer: **<br><br>
 
 **Q6. **<br><br>
