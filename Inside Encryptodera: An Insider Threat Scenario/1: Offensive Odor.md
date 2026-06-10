@@ -129,7 +129,7 @@ ProcessEvents
 
 **Answer: Encryptodera_Proprietary_Algorithms.zip**<br><br>
 
-**Q13. Do you know the password he used to zip the files?**<br><br>\
+**Q13. Do you know the password he used to zip the files?**<br><br>
 
 ```
 ProcessEvents
