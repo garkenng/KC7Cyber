@@ -45,11 +45,12 @@ FileCreationEvents
 
 **Answer: 1**<br><br>
 
-**Q6. **<br><br>
+**Q6. What is the SHA256 hash of this file?**<br><br>
+From prevous query.<br><br>
 
-**Answer: ready**<br><br>
+**Answer: 56554117d96d12bd3504ebef2a8f28e790dd1fe583c33ad58ccbf614313ead8c**<br><br>
 
-**Q. **<br><br>
+**Q7. **<br><br>
 
 **Answer: ready**<br><br>
 
