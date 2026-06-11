@@ -15,3 +15,35 @@ Anyways… let's get to work investigating this!
 **Q1. Enter ready to continue**<br><br>
 
 **Answer: ready**<br><br>
+
+**Q. **<br><br>
+
+**Answer: ready**<br><br>
+**Q. **<br><br>
+
+**Answer: ready**<br><br>
+
+**Q. **<br><br>
+
+**Answer: ready**<br><br>
+
+**Q. **<br><br>
+
+**Answer: ready**<br><br>
+
+**Q. **<br><br>
+
+**Answer: ready**<br><br>
+
+**Q. **<br><br>
+
+**Answer: ready**<br><br>
+
+**Q. **<br><br>
+
+**Answer: ready**<br><br>
+
+**Q. **<br><br>
+
+**Answer: ready**<br><br>
+
