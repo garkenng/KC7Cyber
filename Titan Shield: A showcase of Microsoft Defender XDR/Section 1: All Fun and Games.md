@@ -24,15 +24,28 @@ Anyways… let's get to work investigating this!
 
 **Answer: DeTankWar**<br><br>
 
-**Q. **<br><br>
+**Q4. What is James' hostname?**<br><br>
 
-**Answer: ready**<br><br>
+```
+Employees
+| where name == "James Douglas"
+```
+<br>
 
-**Q. **<br><br>
+**Answer: UB9I-DESKTOP**<br><br>
 
-**Answer: ready**<br><br>
+**Q5. How many results did this query return?**<br><br>
 
-**Q. **<br><br>
+```
+FileCreationEvents
+| where hostname == "UB9I-DESKTOP"
+| where filename has "DeTankWar"
+```
+<br>
+
+**Answer: 1**<br><br>
+
+**Q6. **<br><br>
 
 **Answer: ready**<br><br>
 
