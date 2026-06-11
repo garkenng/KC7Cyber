@@ -165,6 +165,14 @@ C:\\Users\\jasmith\\Downloads\\crypto_stealer.exe
 **Answer: crypto_stealer.exe**<br><br>
 
 **Q15. To what path does Jane point her data exfiltration tool?**<br><br>
+
+```
+ProcessEvents
+| where timestamp >= datetime(1/21/2024, 1:20:33 PM)
+| where username == "jasmith"
+```
+<br>
+
 **Answer: C:\\Users\\jasmith\\ToTheMoon\\;tothemoon**<br><br>
 
 **Q16. At what tempo does she set the tool to run? (one word)**<br><br>
