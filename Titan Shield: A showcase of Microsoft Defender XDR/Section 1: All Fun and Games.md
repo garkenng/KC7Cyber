@@ -55,10 +55,11 @@ From prevous query.<br><br>
 **Answer: done**<br><br>
 
 **Q8. What is the score assigned to this file?**<br><br>
+Referring to image on website.<br><br>
 
-**Answer: ready**<br><br>
+**Answer: 100**<br><br>
 
-**Q. **<br><br>
+**Q9. Which threat actor is this file attributed to?**<br><br>
 
-**Answer: ready**<br><br>
+**Answer: Moonstone Sleet**<br><br>
 
