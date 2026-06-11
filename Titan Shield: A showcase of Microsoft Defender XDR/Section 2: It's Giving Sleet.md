@@ -32,14 +32,36 @@
 
 **Answer:  detankwar.com**<br><br>
 
-**Q. **<br><br>
+**Q9. How many emails were seen in the logs?**<br><br>
 
-**Answer: ready**<br><br>
+```
+Email
+| where link has "detankwar.com"
+```
+<br>
 
-**Q. **<br><br>
+**Answer: 6**<br><br>
 
-**Answer: ready**<br><br>
+**Q10. How many distinct TitanShield employees were targeted?**<br><br>
 
-**Q. **<br><br>
+```
+Email
+| where link has "DeTankWar"
+| distinct recipient
+```
+<br>
 
-**Answer: ready**<br><br>
+**Answer: 6**<br><br>
+
+**Q11. Which role did most of the employees have?**<br><br>
+
+```
+Email
+| where link has "DeTankWar"
+| distinct recipient
+| join kind=inner Employees on $left.recipient==$right.email_addr
+| distinct email_addr, name, role
+```
+<br>
+
+**Answer: Defense Engineer**<br><br>
