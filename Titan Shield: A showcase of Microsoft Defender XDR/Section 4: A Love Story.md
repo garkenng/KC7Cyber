@@ -144,24 +144,89 @@ ProcessEvents
 
 **Answer: 7/17/2024, 10:47:43 AM**<br><br>
 
-**Q14. What was that full command?**<br><br>
+**Q14. Right before that, we saw a suspicious macro getting run on the same machine. What was that full command?**<br><br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
+```
+ProcessEvents
+| where hostname == "IL5M-DESKTOP"
+| where process_commandline contains "macro"
+```
+From process commandline column.<br><br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
+```
+C:\temp\macro.xlsm
+```
+The result occured at 7/17/2024, 10:11:43 AM, therefore ties in with the question.<br><br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
+**Answer: C:\temp\macro.xlsm**<br><br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
+**Q15. Right before the macro command, we see an xlsx file getting executed on Taylor's machine. What was the name of that file?**<br><br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
+```
+ProcessEvents
+| where hostname == "IL5M-DESKTOP"
+| where process_commandline contains "xlsx"
+```
+<br>
+From process commandline column.<br><br>
 
-**Answer: ready**<br><br>
+```
+"C:\Program Files\Microsoft Office\Office16\EXCEL.EXE" "C:\Users\chtaylor\Downloads\New_Diet_Plan_For_My_Love.xlsx"
+```
+<br>
+
+This occured at 7/17/2024, 10:11:42 AM, therefore ties in with the question.<br><br>
+
+**Answer: New_Diet_Plan_For_My_Love.xlsx**<br><br>
+
+
+
+**Q16. What is the sha256 hash of the file?**<br><br>
+
+```
+FileCreationEvents
+| where hostname == "IL5M-DESKTOP"
+| where filename  == "New_Diet_Plan_For_My_Love.xlsx"
+```
+<br>
+
+**Answer: 6aeef036eb85a470dbd6d039250172a510a8627b873e8b3b79fae5a7dd767e73**<br><br>
+
+**Q17. What is the process data associated with the creation of that file?**<br><br>
+From previous query.<br><br>
+
+**Answer: Edge.exe**<br><br>
+
+
+**Q18. Which column are we most likely to find our filename in?**<br><br>
+
+```
+OutboundNetworkEvents
+| take 10
+```
+<br>
+
+**Answer: url**<br><br>
+
+
+**Q19. What is Taylor's IP address?**<br><br>
+
+```
+Employees
+| where hostname == "IL5M-DESKTOP"
+```
+<br>
+
+**Answer: 10.10.0.79**<br><br>
+
+**Q20. What URL did Taylor download this file from?**<br><br>
+
+```
+OutboundNetworkEvents
+| where src_ip == "10.10.0.79"
+| where url has "New_Diet_Plan_For_My_Love.xlsx"
+```
+<br>
+
+**Answer: https://healthylifestyle.com/share/New_Diet_Plan_For_My_Love.xlsx**<br><br>
