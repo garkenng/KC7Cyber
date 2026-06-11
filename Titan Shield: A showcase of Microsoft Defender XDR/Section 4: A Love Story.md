@@ -119,13 +119,32 @@ The first 3 results, the hostname was taken and passed through the employee tabl
 
 **Q12. What other job role do we see?**<br><br>
 
+```
+let EmployeeRole = 
+ProcessEvents
+| where process_commandline has_all("echo", ">>", "logs.txt")
+| distinct hostname;
+Employees
+| where hostname in (EmployeeRole)
+| distinct role
+```
+<br>
+
 **Answer: Senior Network Engineer**<br><br>
 
 
-**Q. **<br><br>
+**Q13. What was the earliest time we saw one of these suspicious commands getting run on Taylor's computer?**<br><br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
+```
+ProcessEvents
+| where hostname == "IL5M-DESKTOP"
+| where process_commandline contains "logs.txt"
+```
+<br>
+
+**Answer: 7/17/2024, 10:47:43 AM**<br><br>
+
+**Q14. What was that full command?**<br><br>
 
 **Answer: ready**<br><br>
 **Q. **<br><br>
