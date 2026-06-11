@@ -81,8 +81,21 @@ AuthenticationEvents
 
 
 **Q10. Enter time is relative to continue.**<br><br>
-**Answer: **<br><br>
+**Answer: time is relative**<br><br>
 
 **Q11. On May 12, 2024, which hour saw the most failed logins? (#am or #pm)**<br><br>
-**Answer: **<br><br>
+
+```
+AuthenticationEvents
+| where result == "Failed Login"
+| summarize hourly_failures = count() by bin(timestamp, 1h)
+| order by timestamp asc
+```
+<br>
+
+**Answer: 2pm**<br><br>
+
+**Q12. Enter show me the numbers to continue.**<br><br>
+
+**Answer: show me the numbers**<br><br>
 
