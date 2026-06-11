@@ -60,10 +60,27 @@ AuthenticationEvents
 **Answer: 2584**<br><br>
 
 **Q7. How many login attempts failed on or before June 19, 2024?**<br><br>
-**Answer: **<br><br>
+
+```
+AuthenticationEvents
+| where timestamp <= endofday(datetime(2024-06-19))
+| where result == "Failed Login"
+```
+<br>
+
+**Answer: 17884**<br><br>
 
 
 **Q.**<br><br>
+
+```
+AuthenticationEvents
+| where timestamp between (datetime(2024-05-01) .. datetime(2024-05-07))
+| where result == "Failed Login"
+```
+<br>
+
+
 **Answer: **<br><br>
 **Q.**<br><br>
 **Answer: **<br><br>
