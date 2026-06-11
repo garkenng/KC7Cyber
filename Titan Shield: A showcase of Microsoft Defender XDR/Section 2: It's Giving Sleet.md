@@ -16,21 +16,21 @@
 
 **Answer: espionage**<br><br>
 
-**Q. **<br><br>
+**Q5. Moonstone Sleet has demonstrated a significant overlap with which other North Korean threat actor?**<br><br>
 
-**Answer: ready**<br><br>
+**Answer: Diamond Sleet**<br><br>
 
-**Q. **<br><br>
+**Q6. According to the article, when did this campaign begin?**<br><br>
 
-**Answer: ready**<br><br>
+**Answer: February 2024**<br><br>
 
-**Q. **<br><br>
+**Q7. According to the article, the initial access vectors used in this campaign include messaging platforms and**<br><br>
 
-**Answer: ready**<br><br>
+**Answer: email**<br><br>
 
-**Q. **<br><br>
+**Q8. What is the domain name included in that email?**<br><br>
 
-**Answer: ready**<br><br>
+**Answer:  detankwar.com**<br><br>
 
 **Q. **<br><br>
 
