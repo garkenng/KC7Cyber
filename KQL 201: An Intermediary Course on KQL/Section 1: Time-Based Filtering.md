@@ -48,8 +48,16 @@ AuthenticationEvents
 **Answer: 673**<br><br>
 
 
-**Q6. How many rows are returned?**<br><br>
-**Answer: **<br><br>
+**Q6. The endofday() function rounds timestamps up to 11:59:59.999 PM. Combined with <=, you can include the entire final day in a range. This finds all failed logins on or before May 07, 2024. How many rows are returned?**<br><br>
+
+```
+AuthenticationEvents
+| where timestamp <= endofday(datetime(2024-05-07))
+| where result == "Failed Login"
+```
+<br>
+
+**Answer: 2584**<br><br>
 
 
 **Q.**<br><br>
