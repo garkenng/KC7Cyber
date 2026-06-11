@@ -137,18 +137,18 @@ The second result.<br><br>
 **Answer: 182.56.23.121**<br><br>
 
 **Q13. What is the name of the data exfil tool Jane downloads to help with her operation?**<br><br>
+**Answer: ftp_client.exe**<br><br>
+
+**Q14. What is the name of the crypto theft tool Jane downloads to help with her operation?**<br><br>
+**Answer: crypto_stealer.exe**<br><br>
+
+**Q15. To what path does Jane point her data exfiltration tool?**<br><br>
+**Answer: C:\\Users\\jasmith\\ToTheMoon\\;tothemoon**<br><br>
+
+**Q16. At what tempo does she set the tool to run? (one word)**<br><br>
 **Answer: **<br><br>
 
-**Q14. **<br><br>
-**Answer: **<br><br>
-
-**Q14. **<br><br>
-**Answer: **<br><br>
-
-**Q14. **<br><br>
-**Answer: **<br><br>
-
-**Q14. **<br><br>
+**Q17. What password does Jane use for the tool?**<br><br>
 **Answer: **<br><br>
 
 **Q15. **<br><br>
