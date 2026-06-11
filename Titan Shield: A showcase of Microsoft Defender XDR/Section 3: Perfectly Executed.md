@@ -19,3 +19,20 @@ FileCreationEvents
 <br>
 
 **Answer: 6**<br><br>
+
+**Q. **<br><br>
+
+**Answer: ready**<br><br>
+
+**Q. **<br><br>
+
+**Answer: ready**<br><br>
+**Q. **<br><br>
+
+**Answer: ready**<br><br>
+**Q. **<br><br>
+
+**Answer: ready**<br><br>
+**Q. **<br><br>
+
+**Answer: ready**<br><br>
