@@ -69,10 +69,17 @@ PassiveDns
 
 **Answer: InboundNetworkEvents**<br><br>
 
-**Q9. **<br><br>
+**Q9. Let's use this query to investigate the activity in this table. How many results did you find?**<br><br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
+```
+InboundNetworkEvents
+| where src_ip in ("208.199.30.154","202.241.233.180")
+```
+<br>
+
+**Answer: 47**<br><br>
+
+**Q10. When did the recon from threat actor IPs begin? (copy and paste the full timestamp from the logs)**<br><br>
 
 **Answer: ready**<br><br>
 **Q. **<br><br>
