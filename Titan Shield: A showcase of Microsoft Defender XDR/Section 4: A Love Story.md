@@ -12,24 +12,58 @@ Let's query our logs to see if either of those files show up in our environment.
 
 **Q1. What is chtaylor's hostname?**<br><br>
 
+```
+Employees
+| where username == "chtaylor"
+```
+<br>
 
-**Answer: 6**<br><br>
+**Answer: IL5M-DESKTOP**<br><br>
 
-**Q. **<br><br>
+**Q2. When was this process executed on Taylor's machine? (Copy and paste the exact time.)**<br><br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
+```
+ProcessEvents
+| where hostname == "IL5M-DESKTOP"
+| where process_commandline has "whoami"
+```
+<br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
+**Answer: 7/20/2024, 3:58:19 AM**<br><br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
+**Q3. What was the exact process that was executed?**<br><br>
+From previous query.<br><br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
+**Answer: cmd.exe /c echo PC and User Names -------- >>%temp%\Logs.txt && whoami >>%temp%\Logs.txt**<br><br>
 
-**Answer: ready**<br><br>
+**Q4. How many similar processes do we find on Taylor's machine?**<br><br>
+
+```
+ProcessEvents
+| where hostname == "IL5M-DESKTOP"
+| where process_commandline has_all("echo", ">>", "logs.txt")
+```
+<br>
+
+**Answer: 39**<br><br>
+
+
+**Q5. What is the path, including the filename, where these commands are being dumped?**<br><br>
+From previous query.<br><br>
+
+```
+cmd.exe /c echo Date and Time -------- >>%temp%\Logs.txt && date /t >>%temp%\Logs.txt && time /t >>%temp%\Logs.txt
+```
+<br>
+
+**Answer: %temp%\Logs.txt**<br><br>
+
+
+**Q6. Which domain is this?**<br><br>
+
+**Answer: yandex.com**<br><br>
+
+
 **Q. **<br><br>
 
 **Answer: ready**<br><br>
