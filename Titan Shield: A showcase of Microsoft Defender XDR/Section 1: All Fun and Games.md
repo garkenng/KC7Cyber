@@ -16,12 +16,13 @@ Anyways… let's get to work investigating this!
 
 **Answer: ready**<br><br>
 
-**Q. **<br><br>
+**Q2. Enter LinkedIn TMI to continue**<br><br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
+**Answer: LinkedIn TMI**<br><br>
 
-**Answer: ready**<br><br>
+**Q3. What was the name of the game that James mentioned in his LinkedIn post?**<br><br>
+
+**Answer: DeTankWar**<br><br>
 
 **Q. **<br><br>
 
