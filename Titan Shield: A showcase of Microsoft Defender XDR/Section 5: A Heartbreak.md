@@ -131,15 +131,35 @@ OutboundNetworkEvents
 
 **Q16. On which days of the week does David's girlfriend not talk to him? (Enter your answer in order of the days, separated by a comma - example: Sunday,Funday)**<br><br>
 
-**Answer: ready**<br><br>
+```
+OutboundNetworkEvents
+| where url contains "girlfriend"
+| where src_ip == "10.10.0.8"
+```
+<br>
+Looking through the Google search history.<br><br>
+
+```
+https://www.google.com/search?q=why+doesn%27t+my+girlfriend+talk+to+me+on+Thursdays+or+Fridays
+```
+<br>
+
+**Answer: Thursday,Friday**<br><br>
 
 
+**Q17. How many total Google searches did David make?**<br><br>
+
+```
+OutboundNetworkEvents
+| where url contains "Google.com/search"
+| where src_ip == "10.10.0.8"
+```
+<br>
+
+**Answer: 6**<br><br>
 
 
-**Q. **<br><br>
+**Q18. Type Open For Work to finish the module.**<br><br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
-
-**Answer: ready**<br><br>
+**Answer: Open For Work**<br><br>
 
