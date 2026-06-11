@@ -1,4 +1,4 @@
-## Titan Shield: A showcase of Microsoft Defender XDR:Section 3: Perfectly Executed<br>
+## Titan Shield: A showcase of Microsoft Defender XDR: Section 3: Perfectly Executed<br>
 ### **Summary**<br>
 Now that we've identified how the attackers got in (phishing email), we need to figure out what they did once they got here.
 <br><br>
