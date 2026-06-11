@@ -59,9 +59,10 @@ AuthenticationEvents
 
 **Answer: 2584**<br><br>
 
-
-**Q.**<br><br>
+**Q7. How many login attempts failed on or before June 19, 2024?**<br><br>
 **Answer: **<br><br>
+
+
 **Q.**<br><br>
 **Answer: **<br><br>
 **Q.**<br><br>
