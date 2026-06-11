@@ -4,3 +4,42 @@
 
 **Answer: ready**<br><br>
 
+**Q. **<br><br>
+
+**Answer: ready**<br><br>
+
+**Q. **<br><br>
+
+**Answer: ready**<br><br>
+
+**Q. **<br><br>
+
+**Answer: ready**<br><br>
+
+**Q. **<br><br>
+
+**Answer: ready**<br><br>
+
+**Q. **<br><br>
+
+**Answer: ready**<br><br>
+
+**Q. **<br><br>
+
+**Answer: ready**<br><br>
+
+**Q. **<br><br>
+
+**Answer: ready**<br><br>
+
+**Q. **<br><br>
+
+**Answer: ready**<br><br>
+
+**Q. **<br><br>
+
+**Answer: ready**<br><br>
+
+**Q. **<br><br>
+
+**Answer: ready**<br><br>
