@@ -19,5 +19,47 @@ Along the way, we'll investigate a password spray attack and use these technique
 
 **Answer: level up**<br><br>
 
+**Q2. Enter timing is everything to continue.**<br><br>
+**Answer: timing is everything**<br><br>
+
+**Q3. How many rows are returned from the query above?**<br><br>
+
+```
+ProcessEvents
+| where timestamp > datetime(2024-06-17T14:49:02Z)
+```
+<br>
+
+**Answer: 382**<br><br>
+
+**Q4. Enter start of day to continue.**<br><br>
+
+**Answer: start of day**<br><br>
+
+**Q5. How many authentication attempts were made on May 1, 2024?**<br><br>
+
+```
+AuthenticationEvents
+| where timestamp >= datetime(05/01/2024)
+| where timestamp <= datetime(05/02/2024)
+```
+<br>
+
+**Answer: 673**<br><br>
+
+
+**Q6. How many rows are returned?**<br><br>
+**Answer: **<br><br>
+
+
 **Q.**<br><br>
 **Answer: **<br><br>
+**Q.**<br><br>
+**Answer: **<br><br>
+**Q.**<br><br>
+**Answer: **<br><br>
+**Q.**<br><br>
+**Answer: **<br><br>
+**Q.**<br><br>
+**Answer: **<br><br>
+
