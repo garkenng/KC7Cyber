@@ -50,11 +50,11 @@ From prevous query.<br><br>
 
 **Answer: 56554117d96d12bd3504ebef2a8f28e790dd1fe583c33ad58ccbf614313ead8c**<br><br>
 
-**Q7. **<br><br>
+**Q7. Enter done once you've looked it up!**<br><br>
 
-**Answer: ready**<br><br>
+**Answer: done**<br><br>
 
-**Q. **<br><br>
+**Q8. What is the score assigned to this file?**<br><br>
 
 **Answer: ready**<br><br>
 
