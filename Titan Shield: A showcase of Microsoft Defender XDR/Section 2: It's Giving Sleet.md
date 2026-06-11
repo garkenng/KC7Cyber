@@ -4,17 +4,17 @@
 
 **Answer: Moonstone Sleet using malicious tank game to infect devices**<br><br>
 
-**Q. **<br><br>
+**Q2. Which country is Moonstone Sleet based out of?**<br><br>
 
-**Answer: ready**<br><br>
+**Answer: North Korea**<br><br>
 
-**Q. **<br><br>
+**Q3. Moonstone Sleet targets individuals and organizations within the software development, information technology, education, and __ _ sectors.**<br><br>
 
-**Answer: ready**<br><br>
+**Answer: defense industrial base**<br><br>
 
-**Q. **<br><br>
+**Q4. Moonstone Sleet's attacks are focused on the goals of __ and revenue generation.**<br><br>
 
-**Answer: ready**<br><br>
+**Answer: espionage**<br><br>
 
 **Q. **<br><br>
 
