@@ -80,24 +80,50 @@ InboundNetworkEvents
 **Answer: 47**<br><br>
 
 **Q10. When did the recon from threat actor IPs begin? (copy and paste the full timestamp from the logs)**<br><br>
+First result from previous query.<br><br>
+
+**Answer: 7/5/2024, 12:00:00 AM**<br><br>
+
+**Q11. Which social media platform were they using to conduct this recon?**<br><br>
+Looking at the referrer column from query 9.<br><br>
+
+**Answer: LinkedIn**<br><br>
+
+
+**Q12. Which employee did the threat actor exfiltrate data from?**<br><br>
+
+```
+Email
+| where subject contains "data exfiltration"
+```
+<br>
+The sender email address that exfiltrate date is david_jackson@titanshield.com.
+
+**Answer: David Jackson**<br><br>
+
+
+**Q13. What address did the actor send the exfiltrated data to?**<br><br>
+From previous query.<br><br>
+
+**Answer: exfilbucket93@gmail.com**<br><br>
+
+**Q14. What is this user's IP address?**<br><br>
+
+```
+Employees
+| where name contains "David jackson"
+```
+<br>
+
+**Answer: 10.10.0.8**<br><br>
+
+**Q15. The browsing logs might help us better understand what happened with this user. When (enter full timestamp) did David Jackson make a google search about EDR alerts?**<br><br>
 
 **Answer: ready**<br><br>
-**Q. **<br><br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
-
-**Answer: ready**<br><br>
-**Q. **<br><br>
-
-**Answer: ready**<br><br>
-**Q. **<br><br>
+**Q16. **<br><br>
 
 **Answer: ready**<br><br>
 **Q. **<br><br>
