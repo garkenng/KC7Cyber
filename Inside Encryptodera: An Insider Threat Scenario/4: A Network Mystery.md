@@ -165,10 +165,13 @@ C:\\Users\\jasmith\\Downloads\\crypto_stealer.exe
 **Answer: crypto_stealer.exe**<br><br>
 
 **Q15. To what path does Jane point her data exfiltration tool?**<br><br>
+The exfiltration tool was downloaded at 1/21/2024, 12:36:03 PM. The first exfiltrated data happened at 1/21/2024, 1:28:33 PM. So somewhere in between those times, Jane used the exfiltration tool.
+<br>
 
 ```
 ProcessEvents
-| where timestamp >= datetime(1/21/2024, 1:20:33 PM)
+| where timestamp >= datetime(1/21/2024, 12:36:03 PM)
+| where timestamp <= datetime(1/21/2024, 1:28:33 PM)
 | where username == "jasmith"
 ```
 <br>
