@@ -155,6 +155,13 @@ C:\\Users\\jasmith\\Downloads\\ftp_client.exe
 **Answer: ftp_client.exe**<br><br>
 
 **Q14. What is the name of the crypto theft tool Jane downloads to help with her operation?**<br><br>
+From previous query, the second result.<br><br>
+
+```
+C:\\Users\\jasmith\\Downloads\\crypto_stealer.exe
+```
+<br>
+
 **Answer: crypto_stealer.exe**<br><br>
 
 **Q15. To what path does Jane point her data exfiltration tool?**<br><br>
