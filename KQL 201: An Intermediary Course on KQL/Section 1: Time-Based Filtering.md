@@ -76,7 +76,15 @@ AuthenticationEvents
 **Answer: between the dates**<br><br>
 
 **Q9. How many login attempts failed between June 1, 2024 and June 7, 2024?**<br><br>
-**Answer: **<br><br>
+
+```
+AuthenticationEvents
+| where timestamp between (datetime(2024-06-01) .. datetime(2024-06-07))
+| where result == "Failed Login"
+```
+<br>
+
+**Answer: 2259**<br><br>
 
 
 
