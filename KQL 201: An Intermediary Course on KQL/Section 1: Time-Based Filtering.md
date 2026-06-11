@@ -71,21 +71,18 @@ AuthenticationEvents
 **Answer: 17884**<br><br>
 
 
-**Q.**<br><br>
+**Q8. Enter between the dates to continue.**<br><br>
 
-```
-AuthenticationEvents
-| where timestamp between (datetime(2024-05-01) .. datetime(2024-05-07))
-| where result == "Failed Login"
-```
-<br>
+**Answer: between the dates**<br><br>
+
+**Q9. How many login attempts failed between June 1, 2024 and June 7, 2024?**<br><br>
+**Answer: **<br><br>
 
 
+
+**Q10. Enter time is relative to continue.**<br><br>
 **Answer: **<br><br>
-**Q.**<br><br>
-**Answer: **<br><br>
-**Q.**<br><br>
-**Answer: **<br><br>
-**Q.**<br><br>
+
+**Q11. On May 12, 2024, which hour saw the most failed logins? (#am or #pm)**<br><br>
 **Answer: **<br><br>
 
