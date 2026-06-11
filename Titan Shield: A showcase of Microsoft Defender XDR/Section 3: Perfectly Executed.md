@@ -66,5 +66,6 @@ Copy-Item -Path \\company_share\confidential\defense\project_omega\* -Destinatio
 
 **Answer: \\company_share\confidential\defense\project_omega\***<br><br>
 
-**Q7. **<br><br>
-**Answer:**<br><br>
+**Q7. Type hooray to complete the Moonstone Sleet investigation!**<br><br>
+
+**Answer: hooray**<br><br>
