@@ -137,6 +137,21 @@ The second result.<br><br>
 **Answer: 182.56.23.121**<br><br>
 
 **Q13. What is the name of the data exfil tool Jane downloads to help with her operation?**<br><br>
+
+```
+FileCreationEvents
+| where username contains "jasmith"
+| where path contains "Download"
+```
+<br>
+
+First result that is returned.<br><br>
+
+```
+C:\\Users\\jasmith\\Downloads\\ftp_client.exe
+```
+<br>
+
 **Answer: ftp_client.exe**<br><br>
 
 **Q14. What is the name of the crypto theft tool Jane downloads to help with her operation?**<br><br>
