@@ -119,13 +119,23 @@ Employees
 
 **Q15. The browsing logs might help us better understand what happened with this user. When (enter full timestamp) did David Jackson make a google search about EDR alerts?**<br><br>
 
+```
+OutboundNetworkEvents
+| where src_ip == "10.10.0.8"
+| where url contains "edr"
+```
+<br>
+
+**Answer: 8/3/2024, 7:09:23 AM**<br><br>
+
+
+**Q16. On which days of the week does David's girlfriend not talk to him? (Enter your answer in order of the days, separated by a comma - example: Sunday,Funday)**<br><br>
+
 **Answer: ready**<br><br>
 
 
 
-**Q16. **<br><br>
 
-**Answer: ready**<br><br>
 **Q. **<br><br>
 
 **Answer: ready**<br><br>
