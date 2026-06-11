@@ -59,7 +59,12 @@ cmd.exe /c echo Date and Time -------- >>%temp%\Logs.txt && date /t >>%temp%\Log
 **Answer: %temp%\Logs.txt**<br><br>
 
 
-**Q6. Which domain is this?**<br><br>
+**Q6. In one of the commands, they are pinging the domain of a russian email provider. Which domain is this?**<br><br>
+
+```
+cmd.exe /c echo Ping Status -------- >>%temp%\Logs.txt && ping yandex.com -n 1 >>%temp%\Logs.txt
+```
+<br>
 
 **Answer: yandex.com**<br><br>
 
