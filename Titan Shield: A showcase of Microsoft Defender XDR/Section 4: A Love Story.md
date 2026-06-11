@@ -69,24 +69,59 @@ cmd.exe /c echo Ping Status -------- >>%temp%\Logs.txt && ping yandex.com -n 1 >
 **Answer: yandex.com**<br><br>
 
 
-**Q. **<br><br>
+**Q7. What command do they execute? (not the full command line, just the relevant wmic part)**<br><br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
+```
+cmd.exe /c echo Software -------- >>%temp%\Logs.txt && wmic product get name,version >>%temp%\Logs.txt
+```
+<br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
+**Answer: wmic product get name,version**<br><br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
+**Q8. What is Taylor's job role?**<br><br>
 
-**Answer: ready**<br><br>
-**Q. **<br><br>
+```
+Employees
+| where name contains "Taylor"
+```
+<br>
 
-**Answer: ready**<br><br>
+**Answer: Network Engineer**<br><br>
+
+
+**Q9. How many total hits do we get?**<br><br>
+
+```
+ProcessEvents
+| where process_commandline has_all("echo", ">>", "logs.txt")
+```
+<br>
+
+**Answer: 663**<br><br>
+
+**Q10. On how many distinct hostnames do we see these commands running?**<br><br>
+
+```
+ProcessEvents
+| where process_commandline has_all("echo", ">>", "logs.txt")
+| distinct hostname
+```
+<br>
+
+**Answer: 15**<br><br>
+
+**Q11. What is the most prevalent job role for these employees?**<br><br>
+The first 3 results, the hostname was taken and passed through the employee table.<br><br>
+
+**Answer: Network Engineer**<br><br>
+
+
+**Q12. What other job role do we see?**<br><br>
+
+**Answer: Senior Network Engineer**<br><br>
+
+
 **Q. **<br><br>
 
 **Answer: ready**<br><br>
