@@ -66,12 +66,47 @@ AuthenticationEvents
 **Answer: 10.10.0.75**<br><br>
 
 
-**Q19.**<br><br>
-**Answer:**<br><br>
-**Q.**<br><br>
-**Answer:**<br><br>
-**Q.**<br><br>
-**Answer:**<br><br>
+**Q19. How many unique passwords were used in failed logins between May 1-7, 2024?**<br><br>
+
+```
+AuthenticationEvents
+| where timestamp between (datetime(2024-05-01) .. datetime(2024-05-07))
+| where result == "Failed Login"
+| summarize count() by password_hash
+```
+<br>
+
+**Answer: 2050**<br><br>
+
+**Q20. On hostname 48NM-LAPTOP, how many unique passwords were used in failed logins between May 1-7, 2024?**<br><br>
+
+```
+AuthenticationEvents
+| where timestamp between (datetime(2024-05-01) .. datetime(2024-05-07))
+| where hostname == "48NM-LAPTOP"
+| where result == "Failed Login"
+| summarize count() by password_hash
+```
+<br>
+
+**Answer: 2**<br><br>
+
+
+**Q21. How many passwords were used 10 or more times?**<br><br>
+
+```
+AuthenticationEvents
+| where timestamp between (datetime(2024-05-01) .. datetime(2024-05-07))
+| where result == "Failed Login"
+| summarize count() by password_hash
+| sort by count_ desc
+| where count_ >= 10
+```
+<br>
+
+**Answer: 5**<br><br>
+
+
 **Q.**<br><br>
 **Answer:**<br><br>
 **Q.**<br><br>
