@@ -10,17 +10,35 @@
 
 **Q3. How many employees clicked the phishing link?**<br><br>
 
-**Answer: **<br><br>
+```
+let victim_ips =     
+    ProxyEvents
+    | where domain in ("api-sync-updates.top", "update-cdn-service.xyz")
+    | distinct src_ip;
+Employees
+| where ip_addr in (victim_ips)
+```
+<br>
 
-**Q. **<br><br>
+**Answer: 3**<br><br>
 
-**Answer: **<br><br>
+**Q4. Who was the first person to click on a link to the malcious domain? (name)**<br><br>
 
-**Q. **<br><br>
+```
+ProxyEvents
+| where domain in ("api-sync-updates.top", "update-cdn-service.xyz")
+| lookup Employees on $left.src_ip == $right.ip_addr
+| project-reorder timestamp, src_ip, name
+```
+<br>
 
-**Answer: **<br><br>
+**Answer: David Okonkwo**<br><br>
 
-**Q. **<br><br>
+**Q5. No question**<br><br>
+
+**Answer: Nothing to answer**<br><br>
+
+**Q6. You are joining Employees data (your enrichment data) against Authentication data (you main) data to see the names of accounts that were compromised. Which table is the left table?**<br><br>
 
 **Answer: **<br><br>
 
