@@ -20,6 +20,7 @@ We'll put these skills to work investigating a phishing attack from the first em
 **Q3. Enter start the hunt to continue.**<br><br>
 
 **Answer: start the hunt**<br><br>
-**Q.**<br><br>
+
+**Q4. How many phishing emails were sent?**<br><br>
 
 **Answer:**<br><br>
