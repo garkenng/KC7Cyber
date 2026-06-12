@@ -121,9 +121,9 @@ AuthenticationEvents
 
 **Answer: 2018**<br><br>
 
-**Q23. Enter spray detected to continue.**<br><br>
+**Q23. Enter spray detected to continue**<br><br>
 
-**Answer: spray detected **<br><br>
+**Answer: spray detected**<br><br>
 
 **Q24. How many distinct passwords were used against more than 10 accounts?**<br><br>
 
