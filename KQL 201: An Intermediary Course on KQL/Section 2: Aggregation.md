@@ -215,6 +215,15 @@ AuthenticationEvents
 
 **Answer: 15**<br><br>
 
-**Q32.**<br><br>
-**Answer:**<br><br>
+**Q32. What is the name of the fifth most executed process?**<br><br>
+
+```
+ProcessEvents
+| summarize execution_count = count() by process_name
+| top 10 by execution_count
+```
+<br>
+
+**Answer: msedgewebview2.exe**<br><br>
+
 
