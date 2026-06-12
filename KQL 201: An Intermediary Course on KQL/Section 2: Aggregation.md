@@ -54,10 +54,19 @@ AuthenticationEvents
 
 
 **Q18. Which IP was seen successfully logging into the most accounts?**<br><br>
-**Answer:**<br><br>
+
+```
+AuthenticationEvents
+| where result == "Successful Login"
+| summarize unique_accounts = dcount(username) by src_ip
+| where unique_accounts > 1
+```
+<br>
+
+**Answer: 10.10.0.75**<br><br>
 
 
-**Q.**<br><br>
+**Q19.**<br><br>
 **Answer:**<br><br>
 **Q.**<br><br>
 **Answer:**<br><br>
