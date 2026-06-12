@@ -203,8 +203,17 @@ https://nothing-to-see-here.net/tools/advanced-ip-scanner.exe
 **Answer: advanced-ip-scanner.exe**<br><br>
 
 
-**Q31. How many accounts are logged into from more than 5 IPs?**<br><br>
-**Answer:**<br><br>
+**Q31. How many accounts are logged into from more than 5 IPs?**<br><br>\
+
+```
+AuthenticationEvents
+| where result == "Successful Login"
+| summarize IPList = make_set(src_ip), UniqueIPCount = dcount(src_ip) by username
+| where UniqueIPCount > 5
+```
+<br>
+
+**Answer: 15**<br><br>
 
 **Q32.**<br><br>
 **Answer:**<br><br>
