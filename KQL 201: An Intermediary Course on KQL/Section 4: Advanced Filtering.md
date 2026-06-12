@@ -23,7 +23,15 @@ Email
 
 **Q40. Using the query below as a template, how many unique sender domains were observed that were not one of the following?**<br><br>
 
-**Answer: **<br><br>
+```
+Email
+| extend  sender_domain = tostring(split(sender, "@")[-1])
+| where sender_domain !in ("jojoshospital.org", "kentuckypharmasupply.com")
+| distinct sender_domain
+```
+<br>
+
+**Answer: 10**<br><br>
 
 **Q41.**<br><br>
 
