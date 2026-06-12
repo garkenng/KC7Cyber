@@ -23,4 +23,10 @@ We'll put these skills to work investigating a phishing attack from the first em
 
 **Q4. How many phishing emails were sent?**<br><br>
 
-**Answer:**<br><br>
+```
+Email
+| where sender == "noreply@whiskersandwonders-hr.com"
+```
+<br>
+
+**Answer: 9**<br><br>
