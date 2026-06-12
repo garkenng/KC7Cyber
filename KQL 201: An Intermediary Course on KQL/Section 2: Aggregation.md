@@ -174,13 +174,38 @@ Email
 
 
 **Q29. When were all the files encrypted? (copy and paste)**<br><br>
-**Answer:**<br><br>
+
+```
+FileCreationEvents
+| where hostname == "ENRQ-LAPTOP"
+| where path contains ".encrypted"
+| summarize first_seen = min(timestamp), last_seen = max(timestamp) by hostname
+```
+<br>
+
+**Answer: 6/17/2024, 2:49:30 PM**<br><br>
 
 
-**Q.**<br><br>
+**Q30. What was the name of the tool?**<br><br>
+
+```
+OutboundNetworkEvents
+| where url has "nothing-to-see-here.net"
+| summarize url = make_set(url) by src_ip
+```
+<br>
+
+```
+https://nothing-to-see-here.net/tools/advanced-ip-scanner.exe
+```
+<bR>
+
+**Answer: advanced-ip-scanner.exe**<br><br>
+
+
+**Q31. How many accounts are logged into from more than 5 IPs?**<br><br>
 **Answer:**<br><br>
-**Q.**<br><br>
-**Answer:**<br><br>
-**Q.**<br><br>
+
+**Q32.**<br><br>
 **Answer:**<br><br>
 
