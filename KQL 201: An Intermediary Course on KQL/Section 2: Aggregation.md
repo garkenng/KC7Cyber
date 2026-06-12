@@ -140,16 +140,43 @@ AuthenticationEvents
 **Answer: 0**<br><br>
 
 
-**Q25.**<br><br>
+**Q25. Enter //got it to continue.**<br><br>
+
+**Answer: //got it**<br><br>
+
+**Q26. Enter multiple aggregations to continue.**<br><br>
+
+**Answer: multiple aggregations**<br><br>
+
+
+**Q27. Who send the sixth most number of emails?**<br><br>
+
+```
+Email
+| summarize TotalEmails = count(), UniqueRecipients = dcount(recipient) by sender
+```
+<br>
+
+**Answer: jamie_baydal@jojoshospital.org**<br><br>
+
+
+**Q28. When was a "docs.google.com" link first sent by user raul_wilson@jojoshospital.org?**<br><br>
+
+```
+Email
+| where link has "docs.google.com"
+| where sender == "raul_wilson@jojoshospital.org"
+| summarize first_seen = min(timestamp), last_seen = max(timestamp) by sender
+```
+<br>
+
+**Answer: 5/1/2024, 7:31:56 AM**<br><br>
+
+
+**Q29. When were all the files encrypted? (copy and paste)**<br><br>
 **Answer:**<br><br>
-**Q.**<br><br>
-**Answer:**<br><br>
-**Q.**<br><br>
-**Answer:**<br><br>
-**Q.**<br><br>
-**Answer:**<br><br>
-**Q.**<br><br>
-**Answer:**<br><br>
+
+
 **Q.**<br><br>
 **Answer:**<br><br>
 **Q.**<br><br>
