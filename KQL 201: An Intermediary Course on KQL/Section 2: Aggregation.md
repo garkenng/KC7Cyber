@@ -107,13 +107,40 @@ AuthenticationEvents
 **Answer: 5**<br><br>
 
 
-**Q.**<br><br>
-**Answer:**<br><br>
-**Q.**<br><br>
-**Answer:**<br><br>
-**Q.**<br><br>
-**Answer:**<br><br>
-**Q.**<br><br>
+**Q22. How many passwords were used only once?**<br><br>
+
+```
+AuthenticationEvents
+| where timestamp between (datetime(2024-05-01) .. datetime(2024-05-07))
+| where result == "Failed Login"
+| summarize count() by password_hash
+| sort by count_ desc
+| where count_ == 1
+```
+<br>
+
+**Answer: 2018**<br><br>
+
+**Q23. Enter spray detected to continue.**<br><br>
+
+**Answer: spray detected **<br><br>
+
+**Q24. How many distinct passwords were used against more than 10 accounts?**<br><br>
+
+```
+AuthenticationEvents
+| where timestamp between (datetime(2024-05-01) .. datetime(2024-05-07))
+| where result == "Failed Login"
+| summarize unique_accounts = dcount(username) by password_hash
+| sort by unique_accounts desc
+| where unique_accounts > 10
+```
+<br>
+
+**Answer: 0**<br><br>
+
+
+**Q25.**<br><br>
 **Answer:**<br><br>
 **Q.**<br><br>
 **Answer:**<br><br>
