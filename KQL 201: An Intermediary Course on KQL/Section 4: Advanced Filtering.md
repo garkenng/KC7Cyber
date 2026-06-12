@@ -33,10 +33,16 @@ Email
 
 **Answer: 10**<br><br>
 
-**Q41.**<br><br>
+**Q41. How many processes contains either "regedit", "spotify", or "cobaltstrike"?**<br><br>
 
-**Answer: **<br><br>
+```
+ProcessEvents
+| where process_commandline has_any ("regedit", "spotify", "cobaltstrike")
+```
+<br>
 
-**Q42.**<br><br>
+**Answer: 6020**<br><br>
 
-**Answer: **<br><br>
+**Q42. Enter level 201 complete to finish.**<br><br>
+
+**Answer: level 201**<br><br>
