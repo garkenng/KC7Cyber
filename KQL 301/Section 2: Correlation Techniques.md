@@ -44,17 +44,33 @@ ProxyEvents
 
 **Q7. Two employees received links to update-cdn-service.xyz. What is the first email recipient's IP address?**<br><br>
 
+```
+Email
+| where sender == "noreply@whiskersandwonders-hr.com"
+| lookup Employees on $left.recipient == $right.email_addr
+| project-reorder timestamp, sender, recipient, ip_addr
+```
+<br>
+
+**Answer: 10.10.16.7**<br><br>
+
+**Q8. What is the hostname of the last employee to receive an email matching this pattern?**<br><br>
+
+```
+Email
+| where links has "aspca.org"
+| lookup Employees on $left.recipient== $right.email_addr
+| project timestamp, hostname
+```
+<br>
+
+**Answer: IIHO-DESKTOP**<br><br>
+
+**Q9. Which role received the most emails from aspca.org**<br><br>
+
 **Answer: **<br><br>
 
-**Q. **<br><br>
-
-**Answer: **<br><br>
-
-**Q. **<br><br>
-
-**Answer: **<br><br>
-
-**Q. **<br><br>
+**Q10. **<br><br>
 
 **Answer: **<br><br>
 
