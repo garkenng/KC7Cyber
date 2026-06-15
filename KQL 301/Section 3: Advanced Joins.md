@@ -41,22 +41,46 @@ Email
 
 **Q5. What percent of users clicked on the link?**<br><br>
 
-**Answer: **<br><br>
+```
+Email
+| where links has "update-cdn-service.xyz"
+| mv-expand links to typeof(string)
+| join kind=leftouter Employees on $left.recipient == $right.email_addr
+| join kind=leftouter (    
+    ProxyEvents
+    | where url has "update-cdn-service.xyz"
+) on $left.ip_addr == $right.src_ip, $left.links == $right.url
+| project timestamp, sender, recipient, links, clicked_at = timestamp1
+| where isempty(clicked_at)
+```
+<br>
+
+**Answer: 0**<br><br>
+
+**Q6. How many employees received an email but did not click on the attached link?**<br><br>
+
+```
+Email
+| where links has "api-sync-updates.top"
+| mv-expand links to typeof(string)
+| join kind=leftouter Employees on $left.recipient == $right.email_addr
+| join kind=leftouter (    
+    ProxyEvents
+    | where url has "api-sync-updates.top"
+) on $left.ip_addr == $right.src_ip, $left.links == $right.url
+| project timestamp, sender, recipient, links, clicked_at = timestamp1
+```
+<br>
+
+**Answer: 2**<br><br>
+
+**Q7. Click Next to Continue**<br><br>
+
+**Q8. Enter anti join to continue.**<br><br>
+
+**Answer: anti join**<br><br>
 
 
-
-
-
-
-**Q6. **<br><br>
-
-**Answer: **<br><br>
-**Q7. **<br><br>
-
-**Answer: **<br><br>
-**Q8. **<br><br>
-
-**Answer: **<br><br>
 **Q. **<br><br>
 
 **Answer: **<br><br>
