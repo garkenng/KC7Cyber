@@ -88,11 +88,27 @@ ProxyEvents
 
 **Answer: 12*<br><br>
 
-**Q. **<br><br>
+**Q11. When did Alex click on a link?**<br><br>
 
-**Answer: **<br><br>
+```
+Email
+| where sender == "noreply@whiskersandwonders-hr.com"
+| lookup Employees on $left.recipient == $right.email_addr
+| project-reorder timestamp, sender, recipient, ip_addr
+| mv-expand links to typeof(string)
+| lookup 
+    (
+        ProxyEvents 
+    )
+    on $left.ip_addr == $right.src_ip, $left.links == $right.url
+| project email_sent_at=timestamp, sender, recipient, ip_addr, links, link_clicked_at=timestamp1
+```
+<br>
 
-**Q. **<br><br>
+**Answer: 6/5/2025, 4:33:00 PM**<br><br>
 
-**Answer: **<br><br>
+**Q12. When did Jessica click on a link? (copy paste)**<br><br>
+FRom previous query.<br><br>
+
+**Answer: 6/5/2025, 4:58:00 PM**<br><br>
 
