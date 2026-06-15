@@ -2,9 +2,6 @@
 
 **Q1. Click Submit to continue**<br><br>
 
-**Answer: join the hunt**<br><br>
-
-
 **Q2. How many results do we get back after the join?**<br><br>
 
 ```
