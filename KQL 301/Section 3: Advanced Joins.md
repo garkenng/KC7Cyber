@@ -80,16 +80,37 @@ Email
 
 **Answer: anti join**<br><br>
 
+**Q9. What is the name of the employee with no auth data?**<br><br>
 
-**Q. **<br><br>
+```
+Employees
+| join kind=leftanti (
+    AuthenticationEvents
+) on $left.username == $right.username
+```
+<br>
 
-**Answer: **<br><br>
-**Q. **<br><br>
+**Answer: Jason Chen**<br><br>
 
-**Answer: **<br><br>
-**Q. **<br><br>
 
-**Answer: **<br><br>
-**Q. **<br><br>
+**Q10. How many emails were received where the recipients did not click the link?**<br><br>
 
-**Answer: **<br><br>
+**Answer: 6**<br><br>
+
+
+**Q11. Enter semi join to continue.**<br><br>
+
+**Answer: semi join**<br><br>
+
+**Q12. What roles do the clickers belong to? (List all of them)**<br><br>
+
+```
+Employees
+| join kind=leftsemi (
+    Email
+    | where links has "update-cdn-service.xyz"
+) on $left.email_addr == $right.recipient
+```
+<br>
+
+**Answer: Development Officer and Adoption Coordinator**<br><br>
