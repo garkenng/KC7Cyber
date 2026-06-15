@@ -68,11 +68,25 @@ Email
 
 **Q9. Which role received the most emails from aspca.org**<br><br>
 
-**Answer: **<br><br>
+```
+Email
+| where links has "aspca.org"
+| lookup Employees on $left.recipient== $right.email_addr
+| project role
+```
+<br>
 
-**Q10. **<br><br>
+**Answer: Adoption Coordinator**<br><br>
 
-**Answer: **<br><br>
+**Q10. How many results do we get?**<br><br>
+
+```
+ProxyEvents
+| where domain in ("api-sync-updates.top", "update-cdn-service.xyz")
+```
+<br>
+
+**Answer: 12*<br><br>
 
 **Q. **<br><br>
 
