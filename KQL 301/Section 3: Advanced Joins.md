@@ -17,13 +17,32 @@ Email
 
 **Answer: 15**<br><br>
 
-**Q. **<br><br>
+**Q3. How many results do we get back now?**<br><br>
 
-**Answer: **<br><br>
-**Q. **<br><br>
+```
+Email
+| where sender == "diego_hernandez@whiskersandwonders.org"
+| join kind=inner Employees on $left.recipient == $right.email_addr
+| project-reorder timestamp, sender, recipient, ip_addr
+```
+<br>
 
-**Answer: **<br><br>
-**Q. **<br><br>
+**Answer: 7**<br><br>
+
+**Q4. How many results do we get back this time?**<br><br>
+
+```
+Email
+| where sender == "diego_hernandez@whiskersandwonders.org"
+| join kind=rightouter Employees on $left.recipient == $right.email_addr
+| where isempty(sender)
+| project name, email_addr
+```
+<br>
+
+**Answer: 30**<br><br>
+
+**Q5. **<br><br>
 
 **Answer: **<br><br>
 **Q. **<br><br>
