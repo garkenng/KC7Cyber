@@ -40,9 +40,9 @@ ProxyEvents
 
 **Q6. You are joining Employees data (your enrichment data) against Authentication data (you main) data to see the names of accounts that were compromised. Which table is the left table?**<br><br>
 
-**Answer: **<br><br>
+**Answer: Authentication**<br><br>
 
-**Q. **<br><br>
+**Q7. Two employees received links to update-cdn-service.xyz. What is the first email recipient's IP address?**<br><br>
 
 **Answer: **<br><br>
 
