@@ -49,16 +49,32 @@ ProcessEvents
 
 **Q6. When was the first image uploaded? (Paste the full timestamp.)**<br>
 
-**Answer: **<br><br>
+```
+ProcessEvents
+| where hostname == 'MYZB-LAPTOP'
+| where process_commandline contains 'frog_mall_meme'
+```
+<br>
+
+**Answer: 7/10/2024, 10:53:37 AM**<br><br>
+
+**Q7. What is the Sha256 hash of the first meme that was uploaded to the webserver?**<br>
+
+```
+FileCreationEvents
+| where hostname == 'MYZB-LAPTOP'
+| where filename startswith 'frog_mall_meme'
+```
+<br>
+
+**Answer: 9880c2d74afb2e57c7de7b9d6d0976112887502bb80344d35df34e774628dba0**<br><br>
+
+**Q8. What domain were the images downloaded from? **<br>
+
+**Answer: ronniesdankmemes.com**<br><br>
 
 
-**Q2. **<br>
-
-**Answer: **<br><br>
-**Q2. **<br>
-
-**Answer: **<br><br>
-**Q2. **<br>
+**Q9. **<br>
 
 **Answer: **<br><br>
 **Q2. **<br>
