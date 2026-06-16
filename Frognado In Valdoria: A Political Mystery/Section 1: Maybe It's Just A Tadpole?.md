@@ -189,15 +189,32 @@ Email
 
 
 **Q17. What is the link attached to that email?**<br>
+From previous query.<br><br>
 
-**Answer: **<br><br>
+**Answer: https://greenprojectnews.net/share/modules/files/share/enter**<br><br>
 
-**Q18. **<br>
+**Q18. When did Anita click on the link? (Paste the full timestamp.)**<br>
 
-**Answer: **<br><br>
-**Q19. **<br>
+```
+OutboundNetworkEvents
+| where src_ip == '10.10.0.8'
+| where url == 'https://greenprojectnews.net/share/modules/files/share/enter'
+```
+<br>
 
-**Answer: **<br><br>
+**Answer: 6/26/2024, 3:24:20 PM**<br><br>
+
+**Q19. What is the full url showing her doing just that?**<br>
+
+```
+OutboundNetworkEvents
+| where src_ip == '10.10.0.8'
+| where url startswith 'https://greenprojectnews.net/share/modules/files/share/enter'
+| where url has 'username'
+```
+<br>
+
+**Answer: https://greenprojectnews.net/share/modules/files/share/enter?username=anbath&password=************<br><br>
 **Q20. **<br>
 
 **Answer: **<br><br>
