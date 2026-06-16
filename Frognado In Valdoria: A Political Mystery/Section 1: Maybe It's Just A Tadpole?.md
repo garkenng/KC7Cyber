@@ -133,15 +133,24 @@ PassiveDns
 
 **Q13. Do the IPs found in Q11 resolve to other domains? If they do, answer with the domain. If not, type no.**<br>
 
-**Answer: **<br><br>
+```
+PassiveDns
+| where domain == 'newdevelopmentupdates.org'
+| distinct ip
+| lookup PassiveDns on ip
+| distinct domain
+```
+<br>
 
-**Q14. **<br>
+**Answer: greenprojectnews.net**<br><br>
+
+**Q14. What version of Firefox is the threat actor using?**<br>
 
 **Answer: **<br><br>
-**Q2. **<br>
+**Q15. **<br>
 
 **Answer: **<br><br>
-**Q2. **<br>
+**Q16. **<br>
 
 **Answer: **<br><br>
 **Q2. **<br>
