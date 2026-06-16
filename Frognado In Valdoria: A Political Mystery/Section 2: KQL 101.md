@@ -49,12 +49,32 @@ Employees
 
 **Q6. How many emails did Mona Hunter receive?**<br><br>
 
+```
+let MonaEmails = 
+    Employees
+    | where name == "Mona Hunter"
+    | distinct email_addr;
+Email
+| where recipient in (MonaEmails)
+| count
+```
+<br>
+
 **Answer: 24**<br><br>
 
 
-**Q7.**<br><br>
+**Q7. How many distinct senders were seen in the email logs from techinnovators.io?**<br><br>
 
-**Answer: **<br><br>
+```
+Email
+| where sender has "techinnovators.io"
+| distinct sender
+| count
+```
+<br>
+
+**Answer: 675**<br><br>
+
 **Q8.**<br><br>
 
 **Answer: **<br><br>
