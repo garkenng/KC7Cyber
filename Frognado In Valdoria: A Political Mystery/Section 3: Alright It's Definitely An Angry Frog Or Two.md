@@ -14,4 +14,56 @@ Thanks to your work on Anita’s case, you have an idea of how it all started, y
 
 **Q1. What is the name of Erik Bjorn’s colleague?**<br><br>
 
-**Answer: let's do this**<br><br>
+```
+Employees
+| where role == "Chief Architect"
+```
+<br>
+
+**Answer: Sofia Lindgren**<br><br>
+
+**Q2. You check to see if the Chief Architects received emails from the same internal address you found when investigating Anita. What is the subject of these emails?**<br><br>
+
+
+
+**Answer: **<br><br>
+
+**Q3. What is the subject of these emails?**<br><br>
+
+**Answer:**<br><br>
+**Q.**<br><br>
+
+**Answer:**<br><br>
+**Q.**<br><br>
+
+**Answer:**<br><br>
+**Q.**<br><br>
+
+**Answer:**<br><br>
+**Q.**<br><br>
+
+**Answer:**<br><br>
+**Q.**<br><br>
+
+**Answer:**<br><br>
+**Q.**<br><br>
+
+**Answer:**<br><br>
+**Q.**<br><br>
+
+**Answer:**<br><br>
+**Q.**<br><br>
+
+**Answer:**<br><br>
+**Q.**<br><br>
+
+**Answer:**<br><br>
+**Q.**<br><br>
+
+**Answer:**<br><br>
+**Q.**<br><br>
+
+**Answer:**<br><br>
+**Q.**<br><br>
+
+**Answer:**<br><br>
