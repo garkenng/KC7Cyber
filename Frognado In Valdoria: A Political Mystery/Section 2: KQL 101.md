@@ -92,9 +92,11 @@ OutboundNetworkEvents
 **Answer: 46**<br><br>
 
 
-**Q9.**<br><br>
+**Q9. How many distinct domains in the PassiveDns records contain the word green?**<br><br>
 
-**Answer: **<br><br>
+**Answer: 11**<br><br>
+
+
 **Q10.**<br><br>
 
 **Answer: **<br><br>
