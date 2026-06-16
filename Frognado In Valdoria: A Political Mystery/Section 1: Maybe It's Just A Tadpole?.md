@@ -69,7 +69,7 @@ FileCreationEvents
 
 **Answer: 9880c2d74afb2e57c7de7b9d6d0976112887502bb80344d35df34e774628dba0**<br><br>
 
-**Q8. What domain were the images downloaded from? **<br>
+**Q8. What domain were the images downloaded from?**<br>
 
 ```
 let AnitaIpAddress = 
