@@ -45,35 +45,81 @@ From previous query.<br>
 
 **Q5. How many distinct pages on the company’s website did the threat actor browse to?**<br><br>
 
+```
+let WebPagesVisited = PassiveDns
+    | where domain == "newdevelopmentupdates.org"
+    | distinct ip;
+InboundNetworkEvents
+| where src_ip in (WebPagesVisited)
+| distinct url
+```
+<br>
+
 **Answer: 78**<br><br>
 
-**Q6.**<br><br>
+**Q6. Which job related referrer returned the most results?**<br><br>
+
+```
+let WebPagesVisited = PassiveDns
+    | where domain == "newdevelopmentupdates.org"
+    | distinct ip;
+InboundNetworkEvents
+| where src_ip in (WebPagesVisited)
+| where referrer contains "https://"
+| summarize total = count() by referrer
+```
+<br>
+
+**Answer: https://www.valdorianjobs.com**<br><br>
+
+
+**Q7. Did any of them try to log in to that actor controlled page? If only one of them did, answer with their name, if both did, type both.**<br><br>
+
+```
+OutboundNetworkEvents
+| where src_ip in ("10.10.0.18", "10.10.0.3")
+| where url contains "greenprojectnews.net"
+| distinct src_ip
+```
+<br>
+
+**Answer: both**<br><br>
+
+
+**Q8. What time did they manage to log in to Sofia’s machine?**<br><br>
+
+```
+let SofiaLogin = PassiveDns
+    | where domain == "greenprojectnews.net"
+    | distinct ip;
+AuthenticationEvents
+| where src_ip in (SofiaLogin)
+| where username == "solindgren"
+| where result == "Successful Login"
+```
+<br>
+
+**Answer: 6/27/2024, 10:41:38 AM**<br><br>
+
+**Q9. What is the first Powershell cmdlet used to delete something from Erik and Sofia’s machines?**<br><br>
 
 **Answer:**<br><br>
-**Q.**<br><br>
+
+**Q10.**<br><br>
 
 **Answer:**<br><br>
-**Q.**<br><br>
+**Q11.**<br><br>
 
 **Answer:**<br><br>
-**Q.**<br><br>
+**Q12.**<br><br>
 
 **Answer:**<br><br>
-**Q.**<br><br>
+**Q13.**<br><br>
 
 **Answer:**<br><br>
-**Q.**<br><br>
+**Q14.**<br><br>
 
 **Answer:**<br><br>
-**Q.**<br><br>
-
-**Answer:**<br><br>
-**Q.**<br><br>
-
-**Answer:**<br><br>
-**Q.**<br><br>
-
-**Answer:**<br><br>
-**Q.**<br><br>
+**Q15.**<br><br>
 
 **Answer:**<br><br>
