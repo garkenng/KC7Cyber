@@ -17,6 +17,7 @@ Thanks to your work on Anita’s case, you have an idea of how it all started, y
 ```
 Employees
 | where role == "Chief Architect"
+| where name !contains "Erik"
 ```
 <br>
 
