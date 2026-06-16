@@ -215,9 +215,12 @@ OutboundNetworkEvents
 <br>
 
 **Answer: https://greenprojectnews.net/share/modules/files/share/enter?username=anbath&password=************<br><br>
-**Q20. **<br>
 
-**Answer: **<br><br>
-**Q21. **<br>
+**Q20. Who sent Anita the mail?**<br>
+From question 16.<br><br>
 
-**Answer: **<br><br>
+**Answer: alex_johnson@framtidxdevcorp.com**<br><br>
+
+**Q21. Type in ribbit to finish this section.**<br>
+
+**Answer: ribbit**<br><br>
