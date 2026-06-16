@@ -15,18 +15,29 @@ Type let’s do this to begin your KQL training.
 
 **Q1. Type let’s do this to begin your KQL training.**<br><br>
 
+**Answer: let's do this**<br><br>
+
+
+**Q2. Once you've looked at all the tables type when in doubt take 10 to continue.**<br><br>
+
+**Answer: when in doubt take 10**<br><br>
+
+**Q3. How many employees work at FramtidX?**<br><br>
+
+```
+Employees
+| count
+```
+<br>
+
+**Answer: 755**<br><br>
+
+**Q4. What is the CEO’s name?**<br><br>
+
 **Answer: **<br><br>
 
 
-**Q2.**<br><br>
 
-**Answer: **<br><br>
-**Q3.**<br><br>
-
-**Answer: **<br><br>
-**Q4.**<br><br>
-
-**Answer: **<br><br>
 **Q5.**<br><br>
 
 **Answer: **<br><br>
