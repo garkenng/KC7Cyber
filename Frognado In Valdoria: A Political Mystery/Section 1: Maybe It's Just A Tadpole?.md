@@ -99,10 +99,23 @@ ProcessEvents
 **Answer: Get-ChildItem -Path C:\Users\anbath\Documents\* -Include *password* -Recurse**<br><br>
 
 
-**Q2. **<br>
+**Q10. What is the name of the file containing passwords?**<br>
 
-**Answer: **<br><br>
-**Q2. **<br>
+```
+ProcessEvents
+| where hostname == 'MYZB-LAPTOP'
+| where process_commandline contains 'passwords'
+```
+<br>
+
+```
+curl.exe -o C:\ProgramData\Heartburn\mypasswordsnstuff.txt https://newdevelopmentupdates.org/mypasswordsnstuff.txt
+```
+<br>
+
+**Answer: mypasswordsnstuff.txt**<br><br>
+
+**Q11. What is the name of that domain?**<br>
 
 **Answer: **<br><br>
 **Q2. **<br>
