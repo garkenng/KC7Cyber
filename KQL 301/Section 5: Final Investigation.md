@@ -20,7 +20,17 @@ Now trace the complete attack chain.
 
 **Q2. Challenge 1: Identify all phishing recipients. Find all employees who received the phishing email from noreply@whiskersandwonders-hr.com with their names and roles.How many unique employees received the phishing email?**<br><br>
 
-**Answer: **<br><br>
+```
+let PhisingEmail = 
+    Email
+    | where sender == "noreply@whiskersandwonders-hr.com"
+    | distinct recipient;
+Employees
+| where email_addr in (PhisingEmail)
+```
+<br>
+
+**Answer: 3**<br><br>
 
 **Q1. **<br><br>
 
