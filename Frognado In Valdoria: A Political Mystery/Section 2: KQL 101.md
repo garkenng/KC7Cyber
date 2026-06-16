@@ -47,9 +47,11 @@ Employees
 **Answer: operator, operator**<br><br>
 
 
-**Q6.**<br><br>
+**Q6. How many emails did Mona Hunter receive?**<br><br>
 
-**Answer: **<br><br>
+**Answer: 24**<br><br>
+
+
 **Q7.**<br><br>
 
 **Answer: **<br><br>
