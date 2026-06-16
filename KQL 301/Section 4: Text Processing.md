@@ -13,15 +13,38 @@ Employees
 
 **Q2. What is the first filename created on pawilson's machine?**<br><br>
 
-**Answer: **<br><br>
+```
+FileCreationEvents
+| where username == 'pawilson'
+| extend parts = split(path, "\\")
+| extend lastURL = array_length(parts) - 1
+| extend lastURLValue = parts[LastIndex]
+```
+<br>
+
+**Answer: spotify.exe**<br><br>
 
 
-**Q3. **<br><br>
+**Q3. What domain sent the most emails?**<br><br>
 
-**Answer: **<br><br>
+```
+Email
+| extend sender_domain = split(sender, "@")[1]
+| summarize count() by tostring(sender_domain)
+| sort by count_ desc
+```
+<br>
+
+**Answer: whiskersandwonders.org**<br><br>
 
 
-**Q4. **<br><br>
+**Q4. How many unique domains were visited?**<br><br>
 
-**Answer: **<br><br>
+```
+ProxyEvents
+| distinct domain
+```
+<br>
+
+**Answer: 488**<br><br>
 
