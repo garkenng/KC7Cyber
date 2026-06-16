@@ -34,13 +34,19 @@ Employees
 
 **Q4. What is the CEO’s name?**<br><br>
 
-**Answer: **<br><br>
+```
+Employees
+| where role == "CEO"
+```
+<br>
+
+**Answer: Johanna Karlsson**<br><br>
+
+**Q5. Enter operator, operator to continue.**<br><br>
+
+**Answer: operator, operator**<br><br>
 
 
-
-**Q5.**<br><br>
-
-**Answer: **<br><br>
 **Q6.**<br><br>
 
 **Answer: **<br><br>
