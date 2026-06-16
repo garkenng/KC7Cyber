@@ -11,12 +11,9 @@ Kell greets you with a friendly smile and leads you to their workstation. “KQL
 Ready to become a KQL detective and continue the investigation?
 <br><br>
 
-Type let’s do this to begin your KQL training.
-
 **Q1. Type let’s do this to begin your KQL training.**<br><br>
 
 **Answer: let's do this**<br><br>
-
 
 **Q2. Once you've looked at all the tables type when in doubt take 10 to continue.**<br><br>
 
