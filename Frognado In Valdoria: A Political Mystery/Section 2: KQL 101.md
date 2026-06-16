@@ -75,9 +75,23 @@ Email
 
 **Answer: 675**<br><br>
 
-**Q8.**<br><br>
+**Q8. How many distinct websites did Mona Hunter visit?**<br><br>
 
-**Answer: **<br><br>
+```
+let MonaIP = 
+    Employees  
+    | where name == "Mona Hunter"
+    | distinct ip_addr;
+OutboundNetworkEvents
+| where src_ip in (MonaIP)
+| distinct url
+| count
+```
+<br>
+
+**Answer: 46**<br><br>
+
+
 **Q9.**<br><br>
 
 **Answer: **<br><br>
