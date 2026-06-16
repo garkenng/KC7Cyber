@@ -71,12 +71,34 @@ FileCreationEvents
 
 **Q8. What domain were the images downloaded from? **<br>
 
+```
+let AnitaIpAddress = 
+Employees
+| where name has "Anita"
+| distinct ip_addr;
+OutboundNetworkEvents
+| where src_ip in (AnitaIpAddress)
+| where url contains 'frog_mall_meme'
+| extend domain = parse_url(url).Host
+| distinct tostring(domain)
+```
+<br>
+
 **Answer: ronniesdankmemes.com**<br><br>
 
 
-**Q9. **<br>
+**Q9. Which command did the attacker use to look for files containing passwords?**<br>
 
-**Answer: **<br><br>
+```
+ProcessEvents
+| where hostname == 'MYZB-LAPTOP'
+| where process_commandline has 'password'
+```
+<br>
+
+**Answer: Get-ChildItem -Path C:\Users\anbath\Documents\* -Include *password* -Recurse**<br><br>
+
+
 **Q2. **<br>
 
 **Answer: **<br><br>
