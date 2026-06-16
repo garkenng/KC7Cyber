@@ -13,6 +13,41 @@ Ready to become a KQL detective and continue the investigation?
 
 Type let’s do this to begin your KQL training.
 
-**Q.**<br><br>
+**Q1. Type let’s do this to begin your KQL training.**<br><br>
+
+**Answer: **<br><br>
+
+
+**Q2.**<br><br>
+
+**Answer: **<br><br>
+**Q3.**<br><br>
+
+**Answer: **<br><br>
+**Q4.**<br><br>
+
+**Answer: **<br><br>
+**Q5.**<br><br>
+
+**Answer: **<br><br>
+**Q6.**<br><br>
+
+**Answer: **<br><br>
+**Q7.**<br><br>
+
+**Answer: **<br><br>
+**Q8.**<br><br>
+
+**Answer: **<br><br>
+**Q9.**<br><br>
+
+**Answer: **<br><br>
+**Q10.**<br><br>
+
+**Answer: **<br><br>
+**Q11.**<br><br>
+
+**Answer: **<br><br>
+**Q12.**<br><br>
 
 **Answer: **<br><br>
