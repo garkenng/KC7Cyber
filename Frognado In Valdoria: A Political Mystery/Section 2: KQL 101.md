@@ -107,11 +107,34 @@ PassiveDns
 
 **Q10. How many distinct URLs did employees with the first name Dorothy visit?**<br><br>
 
-**Answer: **<br><br>
+```
+let dorothy_ips =   
+    Employees
+    | where name has "Dorothy"
+    | distinct ip_addr;
+OutboundNetworkEvents
+| where src_ip in (dorothy_ips)
+| distinct url
+| count 
+```
+<br>
 
-**Q11.**<br><br>
+**Answer: 419**<br><br>
 
-**Answer: **<br><br>
-**Q12.**<br><br>
+**Q11. How many authentication attempts did we see to the accounts of employees with the first name Dorothy?**<br><br>
 
-**Answer: **<br><br>
+```
+let dorothy_ips =   
+    Employees
+    | where name contains "Dorothy"
+    | distinct username;
+AuthenticationEvents
+| where username  in (dorothy_ips)
+```
+<br>
+
+**Answer: 490**<br><br>
+
+**Q12. Type ready for more to continue to the next part of the investigation.**<br><br>
+
+**Answer: ready for more**<br><br>
