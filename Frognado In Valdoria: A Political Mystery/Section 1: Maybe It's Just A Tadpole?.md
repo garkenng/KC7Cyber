@@ -146,25 +146,61 @@ PassiveDns
 
 **Q14. What version of Firefox is the threat actor using?**<br>
 
-**Answer: **<br><br>
-**Q15. **<br>
+```
+let TA_ips =
+PassiveDns
+| where domain == 'newdevelopmentupdates.org'
+| distinct ip;
+AuthenticationEvents
+| where src_ip in (TA_ips)
+| where username == 'anbath'
+```
+<br>
+
+**Answer: 3.6.11**<br><br>
+
+**Q15. What is Anita’s email address?**<br>
+
+```
+Employees
+| where name == 'Anita Bath'
+| distinct email_addr
+```
+<br>
+
+**Answer: anita_bath@framtidxdevcorp.com**<br><br>
+
+**Q16. What is the subject of the email she received?**<br>
+
+```
+let TA_domains =
+PassiveDns
+| where domain == 'newdevelopmentupdates.org'
+| distinct ip
+| lookup PassiveDns on ip
+| distinct domain;
+Email
+| where recipient == 'anita_bath@framtidxdevcorp.com'
+| where link has_any(TA_domains)
+```
+<br>
+
+**Answer: Web Server Credentials Update**<br><br>
+
+
+**Q17. What is the link attached to that email?**<br>
 
 **Answer: **<br><br>
-**Q16. **<br>
+
+**Q18. **<br>
 
 **Answer: **<br><br>
-**Q2. **<br>
+**Q19. **<br>
 
 **Answer: **<br><br>
-**Q2. **<br>
+**Q20. **<br>
 
 **Answer: **<br><br>
-**Q2. **<br>
-
-**Answer: **<br><br>
-**Q2. **<br>
-
-**Answer: **<br><br>
-**Q2. **<br>
+**Q21. **<br>
 
 **Answer: **<br><br>
