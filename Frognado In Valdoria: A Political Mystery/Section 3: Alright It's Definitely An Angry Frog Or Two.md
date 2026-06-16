@@ -35,16 +35,19 @@ Email
 **Answer: Important: Architectural Plan Changes**<br><br>
 
 **Q3. Which domain is the page hosted on?**<br><br>
+From previous query.<br>
 
-**Answer: **<br><br>
+**Answer: greenprojectnews.net**<br><br>
 
-**Q4.**<br><br>
+**Q4. What type of phishing attack is this?**<br><br>
 
-**Answer:**<br><br>
-**Q5.**<br><br>
+**Answer: spear phishing**<br><br>
 
-**Answer:**<br><br>
-**Q.**<br><br>
+**Q5. How many distinct pages on the company’s website did the threat actor browse to?**<br><br>
+
+**Answer: 78**<br><br>
+
+**Q6.**<br><br>
 
 **Answer:**<br><br>
 **Q.**<br><br>
