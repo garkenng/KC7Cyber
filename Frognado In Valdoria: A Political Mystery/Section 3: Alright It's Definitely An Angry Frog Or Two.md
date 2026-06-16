@@ -25,17 +25,23 @@ Employees
 
 **Q2. You check to see if the Chief Architects received emails from the same internal address you found when investigating Anita. What is the subject of these emails?**<br><br>
 
+```
+Email
+| where recipient == "sofia_lindgren@framtidxdevcorp.com"
+| where sender == "alex_johnson@framtidxdevcorp.com"
+```
+<br>
 
+**Answer: Important: Architectural Plan Changes**<br><br>
+
+**Q3. Which domain is the page hosted on?**<br><br>
 
 **Answer: **<br><br>
 
-**Q3. What is the subject of these emails?**<br><br>
+**Q4.**<br><br>
 
 **Answer:**<br><br>
-**Q.**<br><br>
-
-**Answer:**<br><br>
-**Q.**<br><br>
+**Q5.**<br><br>
 
 **Answer:**<br><br>
 **Q.**<br><br>
