@@ -32,7 +32,7 @@ Employees
 
 **Answer: 3**<br><br>
 
-**Q1. **<br><br>
+**Q3. Challenge 2: Calculate click rate. Join phishing emails with click events to find who clicked. What percentage of emails resulted in a click? (Round to nearest whole number)**<br><br>
 
 **Answer: **<br><br>
 
