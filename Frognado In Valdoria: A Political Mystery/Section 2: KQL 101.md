@@ -94,12 +94,21 @@ OutboundNetworkEvents
 
 **Q9. How many distinct domains in the PassiveDns records contain the word green?**<br><br>
 
+```
+PassiveDns
+| where domain contains "green"
+| distinct domain
+| count 
+```
+<br>
+
 **Answer: 11**<br><br>
 
 
-**Q10.**<br><br>
+**Q10. How many distinct URLs did employees with the first name Dorothy visit?**<br><br>
 
 **Answer: **<br><br>
+
 **Q11.**<br><br>
 
 **Answer: **<br><br>
