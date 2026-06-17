@@ -59,7 +59,14 @@ From previous query.<br><br>
 
 **Q7. What domain was the file downloaded from?**<br><br>
 
-**Answer: **<br><br>
+```
+OutboundNetworkEvents
+| where src_ip == "10.10.0.174"
+| where url contains "New_Healthcare_Protocols.docm"
+```
+<br>
+
+**Answer:  takeyatimecarepartners.com**<br><br>
 
 **Q8.**<br><br>
 
