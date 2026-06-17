@@ -137,7 +137,7 @@ Get-ChildItem -Path C:\Users\jokarlsson\Documents\Emails\* -Include *.eml, *.msg
 ```
 <br>
 
-**Answer: C:\Users\jokarlsson\Documents\StolenEmails**<br><br>
+**Answer: C:\Users\jokarlsson\Documents\StolenEmails\\**<br><br>
 
 **Q10. What command did they use to do this?**<br><br>
 
