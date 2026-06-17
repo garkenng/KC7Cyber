@@ -68,19 +68,32 @@ OutboundNetworkEvents
 
 **Answer:  takeyatimecarepartners.com**<br><br>
 
-**Q8.**<br><br>
+**Q8. Which legitimate Azure Crest partner's domain is the threat actor attempting to mimic?**<br><br>
+From the training guide on website, there is a reference to emergencycarepartners.com. This address is similar to takeyatimecarepartners.com as discovered in question 7.<br><br>
 
-**Answer: **<br><br>
+**Answer:  emergencycarepartners.com**<br><br>
 
-**Q9.**<br><br>
+**Q9. What is Jerry's email address?**<br><br>
 
-**Answer: **<br><br>
+```
+Employees
+| where name contains "Jerry"
+```
+<br>
 
-**Q10.**<br><br>
+**Answer: jerry_jones@azurecresthospital.med**<br><br>
 
-**Answer: **<br><br>
+**Q10. How many emails did Jerry Jones receive?**<br><br>
 
-**Q11.**<br><br>
+```
+Email
+| where recipient == "jerry_jones@azurecresthospital.med"
+```
+<br>
+
+**Answer: 23**<br><br>
+
+**Q11. When did Jerry receive the email that contained a link to the quarantined file? (paste the full timestamp)**<br><br>
 
 **Answer: **<br><br>
 
