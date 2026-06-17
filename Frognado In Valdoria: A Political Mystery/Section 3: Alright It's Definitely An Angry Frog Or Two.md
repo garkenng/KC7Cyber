@@ -102,15 +102,40 @@ AuthenticationEvents
 **Answer: 6/27/2024, 10:41:38 AM**<br><br>
 
 **Q9. What is the first Powershell cmdlet used to delete something from Erik and Sofia’s machines?**<br><br>
+To delete a file from powershell cmdlet, the command would be 'Remove-Item'. Lets find an entry for that on their machines.<br><br>
 
-**Answer:**<br><br>
+```
+ProcessEvents
+| where hostname in ("LRJP-DESKTOP", "VJVS-MACHINE")
+| where process_commandline contains "Remove-Item "
+```
+<br>
 
-**Q10.**<br><br>
+Two results are returned. One for each user / machine.<br><br>
 
-**Answer:**<br><br>
-**Q11.**<br><br>
+```
+Remove-Item C:\Users\solindgren\Documents\SuperImportantMallProjectArchitecturalPlans.docx
+```
+<br>
 
-**Answer:**<br><br>
+**Answer: Remove-Item**<br><br>
+
+**Q10. What is the name of the file that was deleted?**<br><br>
+
+**Answer: SuperImportantMallProjectArchitecturalPlans.docx**<br><br>
+
+**Q11. What is the name of the file they downloaded?**<br><br>
+
+```
+ProcessEvents
+| where hostname in ("LRJP-DESKTOP", "VJVS-MACHINE")
+| where process_name contains "powershell"
+```
+<br>
+
+**Answer:  fake_plans.docx**<br><br>
+
+
 **Q12.**<br><br>
 
 **Answer:**<br><br>
