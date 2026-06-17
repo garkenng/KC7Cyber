@@ -36,13 +36,21 @@ Employees
 
 **Answer: Jerry Jones**<br><br>
 
-**Q.**<br><br>
+**Q4. What is that employee's role at Azure Crest Hospital?**<br><br>
+From previous query.<br><br>
 
-**Answer: **<br><br>
+**Answer: Resident Doctors**<br><br>
 
-**Q.**<br><br>
+**Q5. When was this file created on the doctor's computer? (paste the full timestamp)**<br><br>
 
-**Answer: **<br><br>
+```
+FileCreationEvents
+| where filename == "New_Healthcare_Protocols.docm"
+| where hostname == "ZQHM-LAPTOP"
+```
+<br>
+
+**Answer: 3/14/2024, 10:38:36 AM**<br><br>
 
 **Q.**<br><br>
 
