@@ -175,23 +175,24 @@ Email
 
 **Answer: 6**<br><br>
 
-**Q13. **<br><br>
+**Q13. What is the mayor looking forward to?**<br><br>
 
 
 **Answer: **<br><br>
-**Q. **<br><br>
+
+**Q14. **<br><br>
 
 
 **Answer: **<br><br>
-**Q. **<br><br>
+**Q15. **<br><br>
 
 
 **Answer: **<br><br>
-**Q. **<br><br>
+**Q16. **<br><br>
 
 
 **Answer: **<br><br>
-**Q. **<br><br>
+**Q17. **<br><br>
 
 
 **Answer: **<br><br>
