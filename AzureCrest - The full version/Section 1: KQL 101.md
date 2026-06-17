@@ -1,5 +1,4 @@
 ## AzureCrest - The full version: Section 1: KQL 101<br>
-### **Section 1**<br>
 ### **Summary**<br>
 Welcome to Azure Crest Hospital!
 <br><br>
