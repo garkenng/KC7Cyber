@@ -95,29 +95,47 @@ Email
 
 **Q11. When did Jerry receive the email that contained a link to the quarantined file? (paste the full timestamp)**<br><br>
 
-**Answer: **<br><br>
+```
+Email
+| where recipient == "jerry_jones@azurecresthospital.med"
+| where link contains "New_Healthcare_Protocols.docm"
+```
+<br>
 
-**Q12.**<br><br>
+**Answer: 3/14/2024, 10:27:39 AM**<br><br>
 
-**Answer: **<br><br>
+**Q12. What is the sender's address for that email?**<br><br>
+From previous query.<br><br>
 
-**Q13.**<br><br>
+**Answer: medstaffinfo@hospitalcomm.org**<br><br>
 
-**Answer: **<br><br>
+**Q13. What 'reply to' address is used?**<br><br>
+From question 11.<br><br>
 
-**Q.**<br><br>
+**Answer: healthupdate@gmail.com**<br><br>
 
-**Answer: **<br><br>
+**Q14. What is the subject of the email?**<br><br>
+From question 11.<br><br>
 
-**Q.**<br><br>
+**Answer: [EXTERNAL] FW: 🚑 Attention Required: Urgent Pediatric Health Procedure Update 🌈**<br><br>
 
-**Answer: **<br><br>
+**Q15. When did Jerry receive that email? (paste the full timestamp)**<br><br>
 
-**Q.**<br><br>
+```
+Email
+| where recipient == "jerry_jones@azurecresthospital.med"
+| where sender == "healthupdate@gmail.com"
+```
+<br>
 
-**Answer: **<br><br>
+**Answer: 3/6/2024, 11:49:48 AM**<br><br>
 
-**Q.**<br><br>
+**Q16. What is filename seen in the link?**<br><br>
+From previous query, under link column.<br><br>
 
-**Answer: **<br><br>
+**Answer: Pediatric_Care_Update.docm**<br><br>
+
+**Q17. Type RIP to receive credit.**<br><br>
+
+**Answer: RIP**<br><br>
 
