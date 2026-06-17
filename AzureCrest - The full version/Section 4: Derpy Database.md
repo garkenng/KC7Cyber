@@ -7,3 +7,70 @@ We received a security alert a few days ago that a file with the word 'healthcar
 
 
 **Answer: @killchain**<br><br>
+
+
+**Q.**<br><br>
+
+
+**Answer: **<br><br>
+
+**Q.**<br><br>
+
+
+**Answer: **<br><br>
+**Q.**<br><br>
+
+
+**Answer: **<br><br>
+**Q.**<br><br>
+
+
+**Answer: **<br><br>
+**Q.**<br><br>
+
+
+**Answer: **<br><br>
+**Q.**<br><br>
+
+
+**Answer: **<br><br>
+**Q.**<br><br>
+
+
+**Answer: **<br><br>
+**Q.**<br><br>
+
+
+**Answer: **<br><br>
+**Q.**<br><br>
+
+
+**Answer: **<br><br>
+**Q.**<br><br>
+
+
+**Answer: **<br><br>
+**Q.**<br><br>
+
+
+**Answer: **<br><br>
+**Q.**<br><br>
+
+
+**Answer: **<br><br>
+**Q.**<br><br>
+
+
+**Answer: **<br><br>
+**Q.**<br><br>
+
+
+**Answer: **<br><br>
+**Q.**<br><br>
+
+
+**Answer: **<br><br>
+**Q.**<br><br>
+
+
+**Answer: **<br><br>
