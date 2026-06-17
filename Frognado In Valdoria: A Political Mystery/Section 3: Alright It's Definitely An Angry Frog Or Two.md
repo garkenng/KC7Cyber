@@ -150,12 +150,17 @@ The Invoke-Web is a powershell cmdlet to send requests to web pages / services.<
 
 **Q13. What Powershell cmdlet did the attackers use to rename the downloaded file?**<br><br>
 
-**Answer:**<br><br>
+```
+Rename-Item -Path C:\Users\erbjorn\Documents\fake_plans.docx -NewName SuperImportantMallProjectArchitecturalPlans.docx
+```
+<br>
 
+**Answer: Rename-Item**<br><br>
 
-**Q14.**<br><br>
+**Q14. What was the file renamed to?**<br><br>
 
-**Answer:**<br><br>
-**Q15.**<br><br>
+**Answer: SuperImportantMallProjectArchitecturalPlans.docx**<br><br>
 
-**Answer:**<br><br>
+**Q15. According to MITRE, what kind of impact is this an example of?**<br><br>
+
+**Answer: Data Manipulation**<br><br>
