@@ -53,10 +53,11 @@ FileCreationEvents
 **Answer: 3/14/2024, 10:38:36 AM**<br><br>
 
 **Q6. What process did we see create this file? (process name)**<br><br>
+From previous query.<br><br>
 
-**Answer: **<br><br>
+**Answer: chrome.exe**<br><br>
 
-**Q.**<br><br>
+**Q7.**<br><br>
 
 **Answer: **<br><br>
 
