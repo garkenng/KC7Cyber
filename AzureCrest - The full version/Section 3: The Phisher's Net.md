@@ -42,10 +42,13 @@ Email
 **Answer: 17**<br><br>
 
 
-**Q4.**<br><br>
+**Q4. How many distinct domains were used in this batch of emails?**<br><br>
 
 
 **Answer: **<br><br>
+
+
+
 **Q.**<br><br>
 
 
