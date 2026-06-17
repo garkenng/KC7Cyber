@@ -222,13 +222,34 @@ $chunkSize = 10;
 
 **Q17. The hacktivists sent the chunks to an email address they control. What is that email address?**<br><br>
 
+```
+Email
+| where subject contains "chunk"
+```
+<br>
 
-**Answer: **<br><br>
-**Q. **<br><br>
+Subject line for one result.<br><br>
+
+```
+Confidential Documents: Email Chunk [1]
+```
+<br>
+
+**Answer: htuortwodahs@yopmail.com**<br><br>
 
 
-**Answer: **<br><br>
-**Q. **<br><br>
+**Q18. Who is the other recipient?**<br><br>
+
+```
+Email
+| where subject contains "Confidential Documents" 
+| where recipient !has "htuortwodahs@yopmail.com"
+```
+<br>
+
+**Answer: nene.leaks@valdoriantimes.com**<br><br>
+
+**Q19. What is the subject of the emails sent to the editor?**<br><br>
 
 
 **Answer: **<br><br>
