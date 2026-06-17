@@ -250,10 +250,11 @@ Email
 **Answer: nene.leaks@valdoriantimes.com**<br><br>
 
 **Q19. What is the subject of the emails sent to the editor?**<br><br>
+From previous query.<br><br>
+
+**Answer: Confidential Documents: Scandalous Emails Exposed on Mall Project!!!!!**<br><br>
+
+**Q20. Type slurp to finish the module.**<br><br>
 
 
-**Answer: **<br><br>
-**Q. **<br><br>
-
-
-**Answer: **<br><br>
+**Answer: slurp**<br><br>
