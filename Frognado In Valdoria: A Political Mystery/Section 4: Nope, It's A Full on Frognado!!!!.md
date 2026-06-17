@@ -186,15 +186,41 @@ From query in question 12.<br><br>
 **Answer: https://www.whyyoushoudntcareaboutnature.com**<br><br>
 
 
-**Q15. **<br><br>
+**Q15. When did this happen?**<br><br>
 
+```
+ProcessEvents
+| where hostname == "BLVR-MACHINE"
+| where timestamp > datetime(6/26/2024, 2:34:22 PM)
+```
+<br>
 
-**Answer: **<br><br>
-**Q16. **<br><br>
+```
+$emails = Get-ChildItem -Path C:\\Users\\jokarlsson\\Documents\\q\\*.eml;
+$chunks = [System.Collections.Generic.List[System.Collections.Generic.List[System.IO.FileInfo]]]::new();
+$chunkSize = 10;
+for ($i = 0; $i -lt $emails.Count; $i += $chunkSize) {
+  $chunks.Add($emails[$i..($i + $chunkSize - 1)]);
+}
+foreach ($chunk in $chunks) {
+  $chunk | Compress-Archive -DestinationPath "C:\\Users\\jokarlsson\\Documents\\Chunk$($chunks.IndexOf($chunk)).zip";
+}
+```
+<br>
 
+**Answer: 7/8/2024, 2:41:47 PM**<br><br>
 
-**Answer: **<br><br>
-**Q17. **<br><br>
+**Q16. How many chunks were the archive divided into?**<br><br>
+From previous answer.<br><br>
+
+```
+$chunkSize = 10;
+```
+<br>
+
+**Answer: 10**<br><br>
+
+**Q17. The hacktivists sent the chunks to an email address they control. What is that email address?**<br><br>
 
 
 **Answer: **<br><br>
