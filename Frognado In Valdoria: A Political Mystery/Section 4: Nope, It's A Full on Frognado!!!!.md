@@ -114,20 +114,21 @@ http://newdevelopmentupdates.org/public/signin?username=jokarlsson&password=****
 **Q8. When did the threat actor log in to Johanna’s machine?**<br><br>
 
 
-**Answer: **<br><br>
-**Q. **<br><br>
+**Answer: 6/27/2024, 12:40:59 PM**<br><br>
+
+**Q9. **<br><br>
 
 
 **Answer: **<br><br>
-**Q. **<br><br>
+**Q10. **<br><br>
 
 
 **Answer: **<br><br>
-**Q. **<br><br>
+**Q11. **<br><br>
 
 
 **Answer: **<br><br>
-**Q. **<br><br>
+**Q12. **<br><br>
 
 
 **Answer: **<br><br>
