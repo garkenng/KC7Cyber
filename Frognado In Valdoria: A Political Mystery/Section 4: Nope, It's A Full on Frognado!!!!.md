@@ -21,28 +21,77 @@ Employees
 **Answer: Developer**<br><br>
 
 
-**Q. **<br><br>
+**Q2. How many internal phishing emails were sent from Alex’s email address?**<br><br>
+Use the Phising domains from previous sections.<br><br>
+
+```
+Email
+| where sender == "alex_johnson@framtidxdevcorp.com"
+| where link contains "newdevelopmentupdates.org" or link contains  "greenprojectnews.net"
+```
+<br>
+
+**Answer: 7**<br><br>
+
+**Q3. How many distinct roles were targeted by the spearphishing emails?**<br><br>
+
+```
+let DistinctRoles = 
+    Email
+    | where sender == "alex_johnson@framtidxdevcorp.com"
+    | where link contains "newdevelopmentupdates.org" or link contains  "greenprojectnews.net"
+    | distinct recipient;
+Employees
+| where email_addr in (DistinctRoles)
+| distinct role
+```
+<br>
 
 
-**Answer: **<br><br>
-
-**Q. **<br><br>
+**Answer: 4**<br><br>
 
 
-**Answer: **<br><br>
-**Q. **<br><br>
+**Q4. **<br><br>
+Previous query showed role of CEO.<br><br>
+
+```
+Employees
+| where role == "CEO"
+```
+<br>
+
+**Answer: Johanna Karlsson**<br><br>
 
 
-**Answer: **<br><br>
-**Q. **<br><br>
+**Q5. What was the subject of the mail targeting the person found in Q4?**<br><br>
+
+```
+Email
+| where sender == "alex_johnson@framtidxdevcorp.com"
+| where recipient == "johanna_karlsson@framtidxdevcorp.com"
+```
+<br>
+
+**Answer: Urgent: Security Update Required**<br><br>
+
+**Q6. What are they trying to find out about the person from Q4?**<br><br>
+
+```
+InboundNetworkEvents
+| where url contains "CEO"
+|  where referrer contains "https:framtidxdevcorp.com"
+```
+<br>
+
+```
+https://framtidxdevcorp.com/search%3DCEO%2527s%2Bdark%2Bsecrets
+```
+<br>
 
 
-**Answer: **<br><br>
-**Q. **<br><br>
+**Answer: dark secrets**<br><br>
 
-
-**Answer: **<br><br>
-**Q. **<br><br>
+**Q7. Did Johanna type in her credentials? yes/no.**<br><br>
 
 
 **Answer: **<br><br>
