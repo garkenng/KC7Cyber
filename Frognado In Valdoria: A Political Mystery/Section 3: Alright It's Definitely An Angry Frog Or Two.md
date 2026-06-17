@@ -132,16 +132,27 @@ ProcessEvents
 | where process_name contains "powershell"
 ```
 <br>
+Looking through the result, there is one result that appears to be of interest.<br><br>
+
+```
+Invoke-WebRequest -Uri https://newdevelopmentupdates.org/fake_plans.docx -OutFile C:\Users\erbjorn\Documents\fake_plans.docx
+```
+<br>
+
+The Invoke-Web is a powershell cmdlet to send requests to web pages / services.<br><br>
 
 **Answer:  fake_plans.docx**<br><br>
 
 
-**Q12.**<br><br>
+**Q12. Which domain hosted that file?**<br><br>
+
+**Answer: newdevelopmentupdates.org**<br><br>
+
+**Q13. What Powershell cmdlet did the attackers use to rename the downloaded file?**<br><br>
 
 **Answer:**<br><br>
-**Q13.**<br><br>
 
-**Answer:**<br><br>
+
 **Q14.**<br><br>
 
 **Answer:**<br><br>
