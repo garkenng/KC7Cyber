@@ -14,9 +14,87 @@ You take a sip of your coffee and start to type a new query.
 
 ```
 Employees
-| where role == "Chief Architect"
-| where name !contains "Erik"
+| where name == "Alex Johnson"
 ```
 <br>
 
-**Answer: Sofia Lindgren**<br><br>
+**Answer: Developer**<br><br>
+
+
+**Q. **<br><br>
+
+
+**Answer: **<br><br>
+
+**Q. **<br><br>
+
+
+**Answer: **<br><br>
+**Q. **<br><br>
+
+
+**Answer: **<br><br>
+**Q. **<br><br>
+
+
+**Answer: **<br><br>
+**Q. **<br><br>
+
+
+**Answer: **<br><br>
+**Q. **<br><br>
+
+
+**Answer: **<br><br>
+**Q. **<br><br>
+
+
+**Answer: **<br><br>
+**Q. **<br><br>
+
+
+**Answer: **<br><br>
+**Q. **<br><br>
+
+
+**Answer: **<br><br>
+**Q. **<br><br>
+
+
+**Answer: **<br><br>
+**Q. **<br><br>
+
+
+**Answer: **<br><br>
+**Q. **<br><br>
+
+
+**Answer: **<br><br>
+**Q. **<br><br>
+
+
+**Answer: **<br><br>
+**Q. **<br><br>
+
+
+**Answer: **<br><br>
+**Q. **<br><br>
+
+
+**Answer: **<br><br>
+**Q. **<br><br>
+
+
+**Answer: **<br><br>
+**Q. **<br><br>
+
+
+**Answer: **<br><br>
+**Q. **<br><br>
+
+
+**Answer: **<br><br>
+**Q. **<br><br>
+
+
+**Answer: **<br><br>
