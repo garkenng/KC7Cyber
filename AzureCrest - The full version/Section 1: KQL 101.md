@@ -117,12 +117,14 @@ OutboundNetworkEvents
 **Answer: 119**<br><br>
 
 
-**Q11. **<br><br>
+**Q11. How many authentication attempts did we see to the accounts of employees with the first name Mary?**<br><br>
 
-**Answer: **<br><br>
-**Q12. **<br><br>
+**Answer: 180**<br><br>
 
-**Answer: **<br><br>
+
+**Q12. Enter "ready" to earn credit for this question.**<br><br>
+
+**Answer: ready**<br><br>
 **Q13. **<br><br>
 
 **Answer: **<br><br>
