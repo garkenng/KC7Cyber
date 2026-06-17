@@ -151,15 +151,31 @@ ProcessEvents
 
 **Answer: Compress-Archive -Path C:\Users\jokarlsson\Documents\StolenEmails\* -DestinationPath C:\Users\jokarlsson\Documents\StolenEmails.zip**<br><br>
 
-**Q11. **<br><br>
+**Q11. Those must have been some very important emails… Let’s see if you can find which one they were interested in. Johanna seems to have had a few email exchange with a very specific person. What is the email address of that person?**<br><br>
+
+```
+Email
+| where sender == "johanna_karlsson@framtidxdevcorp.com"
+| summarize NumOfEmails = count() by recipient
+```
+<br>
+The top result shows Erik Stevens.<br><br>
+
+**Answer: erik.stevens@valdoriapublicworks.gov**<br><br>
 
 
-**Answer: **<br><br>
-**Q12. **<br><br>
+**Q12. How many emails total can you find between them?**<br><br>
 
+```
+Email
+| where (sender has "johanna_karlsson@framtidxdevcorp.com" and recipient == "erik.stevens@valdoriapublicworks.gov") 
+    or (sender has "erik.stevens@valdoriapublicworks.gov" and recipient == "johanna_karlsson@framtidxdevcorp.com")
+```
+<br>
 
-**Answer: **<br><br>
-**Q. **<br><br>
+**Answer: 6**<br><br>
+
+**Q13. **<br><br>
 
 
 **Answer: **<br><br>
