@@ -113,17 +113,44 @@ http://newdevelopmentupdates.org/public/signin?username=jokarlsson&password=****
 
 **Q8. When did the threat actor log in to Johanna’s machine?**<br><br>
 
+```
+AuthenticationEvents
+| where username == "jokarlsson" 
+| where timestamp > datetime(6/26/2024, 2:34:22 PM)
+```
+<br>
 
 **Answer: 6/27/2024, 12:40:59 PM**<br><br>
 
-**Q9. **<br><br>
+**Q9. In which folder did they collect the incriminating files?**<br><br>
 
+```
+ProcessEvents
+| where hostname == "BLVR-MACHINE"
+| where process_name contains "powershell"
+| where timestamp > datetime(6/26/2024, 2:34:22 PM)
+```
+<br>
 
-**Answer: **<br><br>
-**Q10. **<br><br>
+```
+Get-ChildItem -Path C:\Users\jokarlsson\Documents\Emails\* -Include *.eml, *.msg -Recurse | Copy-Item -Destination C:\Users\jokarlsson\Documents\StolenEmails\
+```
+<br>
 
+**Answer: C:\Users\jokarlsson\Documents\StolenEmails\**<br><br>
 
-**Answer: **<br><br>
+**Q10. What command did they use to do this?**<br><br>
+
+```
+ProcessEvents
+| where hostname == "BLVR-MACHINE"
+| where process_name contains "powershell"
+| where timestamp > datetime(6/26/2024, 2:34:22 PM)
+```
+<br>
+
+**Answer: Compress-Archive -Path C:\Users\jokarlsson\Documents\StolenEmails\* -DestinationPath C:\Users\jokarlsson\Documents\StolenEmails.zip**<br><br>
+
 **Q11. **<br><br>
 
 
