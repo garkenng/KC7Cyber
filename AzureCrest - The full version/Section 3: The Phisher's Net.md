@@ -15,3 +15,8 @@ In the previous section, we identified a series of suspicious files with a healt
 
 **Answer: 40**<br><br>
 
+**Q.**<br><br>
+
+
+**Answer: **<br><br>
+
