@@ -51,7 +51,7 @@ Employees
 **Answer: 4**<br><br>
 
 
-**Q4. **<br><br>
+**Q4. What is the name of the very important person who was targeted?**<br><br>
 Previous query showed role of CEO.<br><br>
 
 ```
@@ -93,9 +93,25 @@ https://framtidxdevcorp.com/search%3DCEO%2527s%2Bdark%2Bsecrets
 
 **Q7. Did Johanna type in her credentials? yes/no.**<br><br>
 
+```
+OutboundNetworkEvents
+| where src_ip == "10.10.0.6"
+| where url contains "http://newdevelopmentupdates.org/public/signin"
+```
+<br>
 
-**Answer: **<br><br>
-**Q. **<br><br>
+Second result that is retrieved is below and shows the username and password entered. 
+
+```
+http://newdevelopmentupdates.org/public/signin?username=jokarlsson&password=**********
+```
+<br>
+
+**Answer: yes**<br><br>
+
+
+
+**Q8. When did the threat actor log in to Johanna’s machine?**<br><br>
 
 
 **Answer: **<br><br>
