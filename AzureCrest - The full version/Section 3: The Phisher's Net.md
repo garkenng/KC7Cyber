@@ -9,13 +9,15 @@ In the previous section, we identified a series of suspicious files with a healt
 **Q1. How many Azure Crest employees received emails containing a link to the previously identified (.docm) files?**<br><br>
 
 ```
-
+Email
+| where link contains ".docm"
+| distinct recipient
 ```
 <br>
 
 **Answer: 40**<br><br>
 
-**Q.**<br><br>
+**Q2. How many distinct subjects did the threat actors use in this batch of emails?**<br><br>
 
 
 **Answer: **<br><br>
