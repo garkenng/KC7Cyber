@@ -18,11 +18,19 @@ Email
 **Answer: 40**<br><br>
 
 **Q2. How many distinct subjects did the threat actors use in this batch of emails?**<br><br>
+Need to filter out any forwarded emails.<br><br>
 
+```
+Email
+| where link contains ".docm"
+| where subject !contains "FW:"
+| distinct subject
+```
+<br>
 
-**Answer: **<br><br>
+**Answer: 7**<br><br>
 
-**Q.**<br><br>
+**Q3. How many distinct links did the threat actors use in this batch of emails?**<br><br>
 
 
 **Answer: **<br><br>
