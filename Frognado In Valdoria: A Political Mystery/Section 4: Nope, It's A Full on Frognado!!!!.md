@@ -181,9 +181,9 @@ From previous query subject lines.<br><br>
 **Answer: We're going to make so much freaking money!**<br><br>
 
 **Q14. What is the link Johanna shared with the mayor in her last email?**<br><br>
+From query in question 12.<br><br>
 
-
-**Answer: **<br><br>
+**Answer: https://www.whyyoushoudntcareaboutnature.com**<br><br>
 
 
 **Q15. **<br><br>
