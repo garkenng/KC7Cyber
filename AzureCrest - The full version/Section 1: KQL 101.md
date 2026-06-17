@@ -125,9 +125,3 @@ OutboundNetworkEvents
 **Q12. Enter "ready" to earn credit for this question.**<br><br>
 
 **Answer: ready**<br><br>
-**Q13. **<br><br>
-
-**Answer: **<br><br>
-**Q. **<br><br>
-
-**Answer: **<br><br>
