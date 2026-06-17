@@ -6,15 +6,35 @@ We received a security alert a few days ago that a file with the word 'healthcar
 
 **Q1. What is the name of the file that was quarantined?**<br><br>
 
+```
+SecurityAlerts
+| where description contains "healthcare"
+```
+<br>
+
+First result, under the column indictor:<br><br>
+
+```
+[{'hostname': 'ZQHM-LAPTOP', 'filename': 'New_Healthcare_Protocols.docm', 'sha256': '9195246412dc64c15e429887cac945bbde13c249d25dad01c7245219d1ac021a'}]
+```
+<br>
+
 **Answer: New_Healthcare_Protocols.docm**<br><br>
 
-**Q.**<br><br>
+**Q2. What is the hostname of the computer that contained this file?**<br><br>
+From previous query.<br><br>
 
-**Answer: **<br><br>
+**Answer: ZQHM-LAPTOP**<br><br>
 
-**Q.**<br><br>
+**Q3. What is the name of the employee that this computer belongs to?**<br><br>
 
-**Answer: **<br><br>
+```
+Employees
+| where hostname == "ZQHM-LAPTOP"
+```
+<br>
+
+**Answer: Jerry Jones**<br><br>
 
 **Q.**<br><br>
 
