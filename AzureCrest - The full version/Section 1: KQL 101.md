@@ -91,10 +91,32 @@ PassiveDns
 
 **Q9. What IPs did the domain “bit.ly” resolve to (enter any one of them)?**<br><br>
 
-**Answer: **<br><br>
-**Q10. **<br><br>
+```
+PassiveDns
+| where domain == "bit.ly"
+| distinct ip
+```
+<br>
 
-**Answer: **<br><br>
+**Answer: 134.177.143.174**<br><br>
+
+**Q10. How many distinct URLs did employees with the first name "Mary" Visit?**<br><br>
+
+```
+let mary_ips = 
+Employees
+| where name has "Mary"
+| distinct ip_addr;
+OutboundNetworkEvents
+| where src_ip in (mary_ips)
+| distinct url
+| count
+```
+<br>
+
+**Answer: 119**<br><br>
+
+
 **Q11. **<br><br>
 
 **Answer: **<br><br>
