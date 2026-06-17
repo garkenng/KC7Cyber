@@ -64,13 +64,32 @@ Email
 
 **Answer: 236**<br><br>
 
-**Q7. **<br><br>
+**Q7. How many distinct websites did “Penny Pincher” visit?**<br><br>
 
-**Answer: **<br><br>
-**Q8. **<br><br>
+```
+OutboundNetworkEvents
+| where src_ip == "10.10.0.1"
+| distinct url
+| count 
+```
+<br>
 
-**Answer: **<br><br>
-**Q9. **<br><br>
+**Answer: 68**<br><br>
+
+
+**Q8. How many distinct domains in the PassiveDns records contain the word “health”?**<br><br>
+
+```
+PassiveDns
+| where domain contains "health"
+| distinct domain
+| count
+```
+<br>
+
+**Answer: 28**<br><br>
+
+**Q9. What IPs did the domain “bit.ly” resolve to (enter any one of them)?**<br><br>
 
 **Answer: **<br><br>
 **Q10. **<br><br>
