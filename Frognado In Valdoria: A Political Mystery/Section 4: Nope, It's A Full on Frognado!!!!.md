@@ -149,7 +149,7 @@ ProcessEvents
 ```
 <br>
 
-**Answer: Compress-Archive -Path C:\Users\jokarlsson\Documents\StolenEmails\* -DestinationPath C:\Users\jokarlsson\Documents\StolenEmails.zip**<br><br>
+**Answer: Compress-Archive -Path C:\Users\jokarlsson\Documents\StolenEmails\** -DestinationPath C:\Users\jokarlsson\Documents\StolenEmails.zip**<br><br>
 
 **Q11. Those must have been some very important emails… Let’s see if you can find which one they were interested in. Johanna seems to have had a few email exchange with a very specific person. What is the email address of that person?**<br><br>
 
