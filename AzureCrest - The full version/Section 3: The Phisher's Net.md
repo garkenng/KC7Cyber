@@ -32,9 +32,17 @@ Email
 
 **Q3. How many distinct links did the threat actors use in this batch of emails?**<br><br>
 
+```
+Email
+| where link contains ".docm"
+| distinct link
+```
+<br>
 
-**Answer: **<br><br>
-**Q.**<br><br>
+**Answer: 17**<br><br>
+
+
+**Q4.**<br><br>
 
 
 **Answer: **<br><br>
