@@ -16,14 +16,15 @@ Your mission is crucial: to detect and thwart any cyber threats against Azure Cr
 
 **Answer: ready**<br><br>
 
-**Q. **<br><br>
+**Q2. Type "done" to earn credit for this question.**<br><br>
+
+**Answer: done**<br><br>
+
+**Q3. **<br><br>
 
 **Answer: **<br><br>
 
-**Q. **<br><br>
-
-**Answer: **<br><br>
-**Q. **<br><br>
+**Q4. **<br><br>
 
 **Answer: **<br><br>
 **Q. **<br><br>
