@@ -91,10 +91,25 @@ ROT13.<br><br>
 
 **Answer: https://azurecresthospital.med/news/research/why-pay-for-expensive-erp-systems-when-you-can-run-your-own**<br><br>
 
-**Q18. cmFicS1mdi1ndi1sbmotcnVnLXRhdm12YWJ2Z2h5YmlyZS1mdi1nZnJlcC1yZWhtbi1qYnUvdXBlbnJmcmUvZmpyYS9xcnoueW5ndmNmYnVnZnJlcHJlaG1uLy9dOltmY2trdQ==
-**<br><br>
+**Q18.cmFicS1mdi1ndi1sbmotcnVnLXRhdm12YWJ2Z2h5YmlyZS1mdi1nZnJlcC1yZWhtbi1qYnUvdXBlbnJmcmUvZmpyYS9xcnoueW5ndmNmYnVnZnJlcHJlaG1uLy9dOltmY2trdQ==**<br><br>
+From Base64.<br><br>
 
-**Answer: **<br><br>
+```
+rabq-fv-gv-lnj-rug-tavmvabvghybire-fv-gfrep-rehmn-jbu/upenrfre/fjra/qrz.yngvcfbugfreprehmn//]:[fckku
+```
+<br>
+
+Reverse.<br><br>
+
+```
+ukkcf[:]//nmherperfgubfcvgny.zrq/arjf/erfrnepu/ubj-nmher-perfg-vf-eribyhgvbavmvat-gur-jnl-vg-vf-qbar
+```
+<br>
+ROT13.<br><br>
+
+Adjust the answer as the 'tt' in 'https' resolved to 'xx'.<br><br>
+
+**Answer: https[:]//azurecresthospital.med/news/research/how-azure-crest-is-revolutionizing-the-way-it-is-done**<br><br>
 
 **Q19. **<br><br>
 
