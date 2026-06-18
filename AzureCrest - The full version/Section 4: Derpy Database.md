@@ -81,20 +81,31 @@ https://azurecresthospital.med/internal_share/medical_records/pediatric
 
 **Answer: pediatric**<br><br>
 
-**Q8.**<br><br>
+**Q8. Which employee did the threat actor ultimately decide to target?**<br><br>
+
+```
+https://azurecresthospital.med/search=Roy+Trenemman+Azure+Crest
+```
+<br>
+
+**Answer: Roy Trenneman**<br><br>
+
+**Q9. What is that employee's role?**<br><br>
+
+```
+Employees
+| where name == "Roy Trenneman"
+```
+<br>
+
+**Answer: Database Administrator**<br><br>
+
+**Q10. What is the timestamp of the email that the threat actor sent to that employee?**<br><br>
 
 
-**Answer: **<br><br>
+**Answer: 3/4/2024, 10:52:18 AM**<br><br>
 
-**Q9.**<br><br>
-
-
-**Answer: **<br><br>
-**Q.**<br><br>
-
-
-**Answer: **<br><br>
-**Q.**<br><br>
+**Q11.**<br><br>
 
 
 **Answer: **<br><br>
