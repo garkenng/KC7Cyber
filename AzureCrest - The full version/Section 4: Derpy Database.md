@@ -63,8 +63,9 @@ https://azurecresthospital.med/news/roy-trenemman-joins-azure-crest-to-save-mone
 **Q6. What article did Azure Crest publish about building one's own stuff instead of paying for it? (provide the full url)**<br><br>
 
 
-**Answer: **<br><br>
-**Q.**<br><br>
+**Answer: https://azurecresthospital.med/news/research/why-running-your-own-erp-systems-is-a-good-idea**<br><br>
+
+**Q7. What specific type of medical records was the Threat Actor attempting to access on Azure Crest Hospital’s internal share?**<br><br>
 
 
 **Answer: **<br><br>
