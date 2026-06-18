@@ -73,15 +73,22 @@ let ClickedOnLinks =
 
 **Answer: 37**<br><br>
 
-**Q6.**<br><br>
+**Q6. How many records are there for either of these files being on Azure Crest employee computers?**<br><br>
 
+```
+FileCreationEvents
+| where filename contains "Pediatric_Care_Update.docm" or filename contains  "New_Healthcare_Protocols.docm"
+```
+<br>
 
-**Answer: **<br><br>
-**Q.**<br><br>
+**Answer: 38**<br><br>
 
+**Q7. What is the timestamp for the first time one of these files was created?**<br><br>
+From previous query.<br><br>
 
-**Answer: **<br><br>
-**Q.**<br><br>
+**Answer: 3/1/2024, 11:58:33 AM**<br><br>
+
+**Q8.**<br><br>
 
 
 **Answer: **<br><br>
