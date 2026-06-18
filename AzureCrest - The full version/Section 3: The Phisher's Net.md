@@ -129,8 +129,22 @@ ProcessEvents
 
 **Q12. What is the IP address that putty.exe uses to establish it's SSH connection?**<br><br>
 
+```
+ProcessEvents
+| where process_commandline contains "putty.exe"
+| where hostname == "P3EX-DESKTOP"
+```
+<br>
 
-**Answer: **<br><br>
+From the process command line column:<br><br>
+
+```
+cmd.exe /c C:\ProgramData\Heartburn\putty.exe -ssh 93.142.203.80 -l have_ya_tried -pw turning_it_off_and_on_again
+```
+<br>
+
+
+**Answer: 93.142.203.80**<br><br>
 
 
 **Q13.**<br><br>
