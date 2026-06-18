@@ -45,7 +45,7 @@ Email
 **Q4. How many distinct domains were used in this batch of emails?**<br><br>
 
 
-**Answer: **<br><br>
+**Answer: 4**<br><br>
 
 
 
