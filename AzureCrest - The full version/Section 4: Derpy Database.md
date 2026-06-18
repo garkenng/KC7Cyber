@@ -102,22 +102,45 @@ Employees
 
 **Q10. What is the timestamp of the email that the threat actor sent to that employee?**<br><br>
 
+```
+Email
+| where recipient == "roy_trenneman@azurecresthospital.med"
+| where sender == "medstaffinfo@hospitalcomm.org" or sender == "healthupdate@gmail.com"
+```
+<br>
 
 **Answer: 3/4/2024, 10:52:18 AM**<br><br>
 
-**Q11.**<br><br>
+**Q11. Did that employee click on the link? (yes/no)**<br><br>
+
+```
+OutboundNetworkEvents
+| where src_ip == "10.10.0.2"
+| where url == "http://unhealthyrecordsystems.tech/images/images/New_Healthcare_Protocols.docm"
+```
+<br>
+One result is returned, so the link was clicked.<br><br>
+
+**Answer: yes**<br><br>
+
+**Q12. What is the timestamp for when the docm file was created on Roy's machine?**<br><br>
+
+```
+FileCreationEvents
+| where hostname == "SUPER-DB-SERVER-9000"
+| where filename contains ".docm"
+```
+<br>
+
+**Answer: 3/4/2024, 11:28:57 AM**<br><br>
+
+**Q13. What is the name of the first malicious file created by the threat actor in the user's Temp folder?**<br><br>
 
 
 **Answer: **<br><br>
-**Q.**<br><br>
 
 
-**Answer: **<br><br>
-**Q.**<br><br>
-
-
-**Answer: **<br><br>
-**Q.**<br><br>
+**Q14.**<br><br>
 
 
 **Answer: **<br><br>
