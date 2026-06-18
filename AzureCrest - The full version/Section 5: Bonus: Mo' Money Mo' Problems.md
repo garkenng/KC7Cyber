@@ -18,13 +18,13 @@
 
 **Q5. Which encryption algorithm is commonly used for securing web traffic, especially in HTTPS connections?**<br><br>
 
-**Answer: **<br><br>
+**Answer: TLS**<br><br>
 
-**Q. <br><br>
+**Q6. What is the CVE ID for the RCE vulnerability that was disclosed in the PaperCut application in early 2023?**<br><br>
 
-**Answer: **<br><br>
+**Answer: CVE-2023-27350**<br><br>
 
-**Q. <br><br>
+**Q7. In this kind of attack, an adversary floods a network or server with excessive traffic to disrupt its normal operation. What is it called?**<br><br>
 
 **Answer: **<br><br>
 
