@@ -28,7 +28,7 @@
 
 **Answer: DDoS**<br><br>
 
-**Q8. In July 2022, hackers affiliated with which nation conducted a destructive cyber attack against government organizations in Albania?<br><br>
+**Q8. In July 2022, hackers affiliated with which nation conducted a destructive cyber attack against government organizations in Albania?**<br><br>
 
 **Answer: Iran**<br><br>
 
@@ -56,14 +56,12 @@
 
 **Answer: cyber kill chain**<br><br>
 
-**Q15. aHR0cHM6Ly9henVyZWNyZXN0aG9zcGl0YWwubWVkL25ld3MvcmVzZWFyY2gvcm95LXRyZW5lbW1vbi1pbnZlbnRzLW5ldy1hcmNoaXRlY3R1cmUtZGF0YWJhc2Utc3lzdGVtcw==
-**<br><br>
+**Q15.aHR0cHM6Ly9henVyZWNyZXN0aG9zcGl0YWwubWVkL25ld3MvcmVzZWFyY2gvcm95LXRyZW5lbW1vbi1pbnZlbnRzLW5ldy1hcmNoaXRlY3R1cmUtZGF0YWJhc2Utc3lzdGVtcw==**<br><br>
 From Base64.
 
 **Answer: https://azurecresthospital.med/news/research/roy-trenemmon-invents-new-architecture-database-systems**<br><br>
 
-**Q16. YWVkaS1kb29nLWEtc2ktc21ldHN5cy1wcmUtbndvLXJ1b3ktZ25pbm51ci15aHcvaGNyYWVzZXIvc3dlbi9kZW0ubGF0aXBzb2h0c2VyY2VydXphLy86c3B0dGg=
-**<br><br>
+**Q16. YWVkaS1kb29nLWEtc2ktc21ldHN5cy1wcmUtbndvLXJ1b3ktZ25pbm51ci15aHcvaGNyYWVzZXIvc3dlbi9kZW0ubGF0aXBzb2h0c2VyY2VydXphLy86c3B0dGg=**<br><br>
 From Base64.
 
 ```
