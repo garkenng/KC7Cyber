@@ -177,11 +177,25 @@ ProcessEvents
 
 **Answer: mommawemadeit**<br><br>
 
-**Q16.**<br><br>
+**Q16. What extension has been added to the files to indicate that they have been encrypted?**<br><br>
+Using the timestamp from the previous question, see what extension name is when files were encrypted.<br><br>
 
+```
+FileCreationEvents
+| where timestamp > datetime(4/2/2024, 11:31:47 AM)
+```
+<br>
 
-**Answer: **<br><br>
-**Q.**<br><br>
+Taking the first result.<br><br>
+
+```
+C:\Users\rotrenneman\Downloads\billion.odt.scholopendra
+```
+<br>
+
+**Answer: .scholopendra**<br><br>
+
+**Q17. What is the name of the new wallpaper?**<br><br>
 
 
 **Answer: **<br><br>
