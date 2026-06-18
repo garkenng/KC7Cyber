@@ -163,11 +163,26 @@ ProcessEvents
 
 **Answer: 17**<br><br>
 
-**Q.**<br><br>
+**Q15. What username is used to initiate the SSH connection?**<br><br>
+
+```
+ProcessEvents
+| extend IPAddresses = extract_all(@"((?:[0-9]{1,3}\.){3}[0-9]{1,3})", process_commandline)[0]
+| where process_commandline contains "ssh"
+```
+<br>
+
+Taking the first:<br><br>
+
+```
+cmd.exe /c C:\ProgramData\Heartburn\putty.exe -ssh 131.92.62.82 -l have_ya_tried -pw turning_it_off_and_on_again
+```
+<br>
 
 
-**Answer: **<br><br>
-**Q.**<br><br>
+**Answer: have_ya_tried**<br><br>
+
+**Q16.**<br><br>
 
 
 **Answer: **<br><br>
