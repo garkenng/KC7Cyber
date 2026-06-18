@@ -116,15 +116,24 @@ C:\ProgramData\Heartburn\secretsdump.exe
 
 **Answer: 3**<br><br>
 
-**Q11.**<br><br>
+**Q11. What command was used to extract the additional files from the zip file into the same directory where it was located?**<br><br>
+
+```
+ProcessEvents
+| where process_commandline contains "heartburn.zip"
+| where process_name == "cmd.exe"
+```
+<br>
+
+**Answer: cmd.exe /c Expand-Archive -Path C: \ProgramData\heartburn.zip -DestinationPath C:\ProgramData\Heartburn**<br><br>
+
+**Q12. What is the IP address that putty.exe uses to establish it's SSH connection?**<br><br>
 
 
 **Answer: **<br><br>
-**Q.**<br><br>
 
 
-**Answer: **<br><br>
-**Q.**<br><br>
+**Q13.**<br><br>
 
 
 **Answer: **<br><br>
