@@ -113,7 +113,8 @@ Adjust the answer, as the 'tt' in 'https' resolved to 'xx'.<br><br>
 
 **Q19. Z3p5dnEteWctb2JsZXV1eXgtamJzeWstdG1mcS1pdGVid3UtenktdWFpdHVvdS14dmktenF5LXZzeW8tenN2L2Zrdm1pdWl2L3VxaXovamlhLmJtdGV4dXlmdHVpdmtpdnNubS8vOnV4dHRm**<br><br>
 
-**Answer: **<br><br>
+**Answer: https://azurecresthospital.med/news/research/run-your-own-erp-systems-on-sqlite-what-could-possibly-go-wrong**<br<br>
+
 
 **Q20. **<br><br>
 
