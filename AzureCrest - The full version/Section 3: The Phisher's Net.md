@@ -100,15 +100,23 @@ FileCreationEvents
 **Answer: heartburn.zip**<br><br>
 
 **Q9. What is the directory path that contains this new file?**<br><br>
+From previous query.<br><br>
 
+**Answer: C:\ProgramData\Heartburn\heartburn.zip**<br><br>
 
-**Answer: **<br><br>
+**Q10. On that machine, how many additional files are created in the same directory?**<br><br>
+3 additional files were created after the heartburn.zip.<br><br>
 
-**Q10.**<br><br>
+```
+C:\ProgramData\Heartburn\anydesk.exe
+C:\ProgramData\Heartburn\putty.exe
+C:\ProgramData\Heartburn\secretsdump.exe
+```
+<br>
 
+**Answer: 3**<br><br>
 
-**Answer: **<br><br>
-**Q.**<br><br>
+**Q11.**<br><br>
 
 
 **Answer: **<br><br>
