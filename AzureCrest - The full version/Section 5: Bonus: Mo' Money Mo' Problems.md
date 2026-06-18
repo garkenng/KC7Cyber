@@ -89,22 +89,21 @@ uggcf://nmherperfgubfcvgny.zrq/arjf/erfrnepu/jul-cnl-sbe-rkcrafvir-rec-flfgrzf-j
 
 ROT13.<br><br>
 
-
 **Answer: https://azurecresthospital.med/news/research/why-pay-for-expensive-erp-systems-when-you-can-run-your-own**<br><br>
 
-**Q. **<br><br>
+**Q18. **<br><br>
 
 **Answer: **<br><br>
 
-**Q. **<br><br>
+**Q19. **<br><br>
 
 **Answer: **<br><br>
 
-**Q. **<br><br>
+**Q20. **<br><br>
 
 **Answer: **<br><br>
 
-**Q. **<br><br>
+**Q21. **<br><br>
 
 **Answer: **<br><br>
 
