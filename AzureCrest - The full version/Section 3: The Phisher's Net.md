@@ -211,6 +211,11 @@ net localgroup administrators
 
 **Q18. How many of our employee computers have been compromised?**<br><br>
 
+```
+FileCreationEvents
+| where filename contains "heartburn"
+```
+<br>
 
 **Answer: 35**<br><br>
 
