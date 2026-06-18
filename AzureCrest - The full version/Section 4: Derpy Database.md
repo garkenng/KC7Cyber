@@ -9,11 +9,42 @@
 
 **Answer: Reconnaissance**<br><br>
 
-**Q3.**<br><br>
+**Q3. How many records are there of the threat actor browsing the Azure Crest Hospital's website?**<br><br>
+First is to look for url with the keyword search in, to see what searches have been carried out on the hospital website.<br><br>
+
+```
+InboundNetworkEvents
+| where url contains "search"
+```
+<br>
+
+Looking at the different user agents, one agent is of interest.<br><br>
+
+```
+Opera/9.63.(Windows CE; lb-LU) Presto/2.9.161 Version/12.00
+```
+<br>
+
+Run search for inbound traffic with that user agent.<br><br>
+
+```
+InboundNetworkEvents
+| where user_agent == "Opera/9.63.(Windows CE; lb-LU) Presto/2.9.161 Version/12.00"
+```
+<br>
+
+Looking through the url column, the threat actor is searching for information which not deemed normal.<br><br>
+
+```
+How many money does Azure Crest Hospital have
+Azure Crest Hospital financial statements
+```
+<br>
+
+**Answer: 32**<br><br>
 
 
-**Answer: **<br><br>
-**Q.**<br><br>
+**Q4.**<br><br>
 
 
 **Answer: **<br><br>
