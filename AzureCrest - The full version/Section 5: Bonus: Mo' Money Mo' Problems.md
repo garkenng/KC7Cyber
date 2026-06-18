@@ -73,8 +73,24 @@ Reverse the string.<br><br>
 **Answer: https://azurecresthospital.med/news/research/why-running-your-own-erp-systems-is-a-good-idea**<br><br>
 
 **Q17. YWpiLWVoYmwtYWhlLWFucC1oYmwtYXJ1ai1menJnZmxmLWNlci1yaXZmYXJja3ItZWJzLWxuYy1sdWovdXBlbnJmcmUvZmpyYS9xcnoueW5ndmNmYnVnZnJlcHJlaG1uLy86ZmNnZ3U=**<br><br>
+From Base64.<br><br>
 
-**Answer: **<br><br>
+```
+ajb-ehbl-ahe-anp-hbl-aruj-fzrgflf-cer-rivfarckr-ebs-lnc-luj/upenrfre/fjra/qrz.yngvcfbugfreprehmn//:fcggu
+```
+<br>
+
+Reverse string.<br><br>
+
+```
+uggcf://nmherperfgubfcvgny.zrq/arjf/erfrnepu/jul-cnl-sbe-rkcrafvir-rec-flfgrzf-jura-lbh-pna-eha-lbhe-bja
+```
+<br>
+
+ROT13.<br><br>
+
+
+**Answer: https://azurecresthospital.med/news/research/why-pay-for-expensive-erp-systems-when-you-can-run-your-own**<br><br>
 
 **Q. **<br><br>
 
