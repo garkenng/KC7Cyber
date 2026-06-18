@@ -44,15 +44,23 @@ Azure Crest Hospital financial statements
 **Answer: 32**<br><br>
 
 
-**Q4.**<br><br>
+**Q4. What article did they read about personnel changes at the hospital? (provide full url)**<br><br>
+Looking through links visited on hospital website.<br><br>
+
+**Answer: https://azurecresthospital.med/news/half-of-it-department-fired**<br><br>
+
+**Q5. Which employee was hired as part of an effort to reduce costs?**<br><br>
+Looking through links visited on hospital website.<br><br>
+
+```
+https://azurecresthospital.med/news/roy-trenemman-joins-azure-crest-to-save-money-on-erp-systems
+```
+<br>
+
+**Answer: Roy Trenneman**<br><br>
 
 
-**Answer: **<br><br>
-**Q.**<br><br>
-
-
-**Answer: **<br><br>
-**Q.**<br><br>
+**Q6. What article did Azure Crest publish about building one's own stuff instead of paying for it? (provide the full url)**<br><br>
 
 
 **Answer: **<br><br>
