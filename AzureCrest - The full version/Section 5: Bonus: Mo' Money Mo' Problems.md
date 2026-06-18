@@ -28,39 +28,41 @@
 
 **Answer: DDoS**<br><br>
 
-**Q8. <br><br>
+**Q8. In July 2022, hackers affiliated with which nation conducted a destructive cyber attack against government organizations in Albania?<br><br>
 
-**Answer: **<br><br>
+**Answer: Iran**<br><br>
 
-**Q. **<br><br>
+**Q9. What name did Mandiant give to the wiper malware used in the attacks against Albania?**<br><br>
 
-**Answer: **<br><br>
+**Answer: ZEROCLEAR**<br><br>
 
-**Q. **<br><br>
+**Q10. What is the name of the endpoint security solution that continuously monitors end-user devices to detect and respond to malicious threats?**<br><br>
 
-**Answer: **<br><br>
+**Answer: EDR**<br><br>
 
-**Q. **<br><br>
+**Q11. What is the name of the process through which cyber defenders identify the party responsible for a cyber attack?**<br><br>
 
-**Answer: **<br><br>
+**Answer: attribution**<br><br>
 
-**Q. **<br><br>
+**Q12. Who is the host of the SANS threat analysis rundown (STAR) podcast?**<br><br>
 
-**Answer: **<br><br>
+**Answer: Katie Nickels**<br><br>
 
-**Q. **<br><br>
+**Q13. When did Microsoft publish the Expert Profile on Simeon Kakpovi?**<br><br>
 
-**Answer: **<br><br>
+**Answer: May 19, 2023**<br><br>
 
-**Q. **<br><br>
+**Q14. The "KC" in KC7 is a reference to this common cybersecurity framework that describes the steps an adversary must go through to be successful.**<br><br>
 
-**Answer: **<br><br>
+**Answer: cyber kill chain**<br><br>
 
-**Q. **<br><br>
+**Q15. aHR0cHM6Ly9henVyZWNyZXN0aG9zcGl0YWwubWVkL25ld3MvcmVzZWFyY2gvcm95LXRyZW5lbW1vbi1pbnZlbnRzLW5ldy1hcmNoaXRlY3R1cmUtZGF0YWJhc2Utc3lzdGVtcw==
+**<br><br>
+From Base64.
 
-**Answer: **<br><br>
+**Answer: https://azurecresthospital.med/news/research/roy-trenemmon-invents-new-architecture-database-systems**<br><br>
 
-**Q. **<br><br>
+**Q16. **<br><br>
 
 **Answer: **<br><br>
 
