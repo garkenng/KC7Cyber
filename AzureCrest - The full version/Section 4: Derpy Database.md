@@ -136,19 +136,48 @@ FileCreationEvents
 
 **Q13. What is the name of the first malicious file created by the threat actor in the user's Temp folder?**<br><br>
 
+```
+FileCreationEvents
+| where hostname == "SUPER-DB-SERVER-9000"
+| where path contains "temp"
+| where timestamp > datetime(3/4/2024, 11:28:57 AM)
+```
+<br>
 
-**Answer: **<br><br>
+**Answer: dbhunter.exe**<br><br>
 
 
-**Q14.**<br><br>
+**Q14. What types of files does dbhunter.exe search for upon execution? (enter any one of them)**<br><br>
 
+```
+ProcessEvents
+| where process_name == "dbhunter.exe"
+```
+<br>
 
-**Answer: **<br><br>
-**Q.**<br><br>
+```
+dbhunter.exe --search --filetype .db .sql .mdb --output C:\\In\\found_databases.txt
+```
+<br>
 
+**Answer: .db**<br><br>
 
-**Answer: **<br><br>
-**Q.**<br><br>
+**Q15. What password is used to encrypt the compressed file containing Roy's meme collection?**<br><br>
+
+```
+ProcessEvents
+| where process_commandline contains ".mdb"
+```
+<br>
+
+```
+7z.exe a -t7z C:\\Out\\Roys_Meme_Collection.7z C:\\Out\\*meme*.mdb -p mommawemadeit
+```
+<br>
+
+**Answer: mommawemadeit**<br><br>
+
+**Q16.**<br><br>
 
 
 **Answer: **<br><br>
