@@ -26,61 +26,61 @@
 
 **Q7. In this kind of attack, an adversary floods a network or server with excessive traffic to disrupt its normal operation. What is it called?**<br><br>
 
-**Answer: **<br><br>
+**Answer: DDoS**<br><br>
 
-**Q. <br><br>
-
-**Answer: **<br><br>
-
-**Q. <br><br>
+**Q8. <br><br>
 
 **Answer: **<br><br>
 
-**Q. <br><br>
+**Q. **<br><br>
 
 **Answer: **<br><br>
 
-**Q. <br><br>
+**Q. **<br><br>
 
 **Answer: **<br><br>
 
-**Q. <br><br>
+**Q. **<br><br>
 
 **Answer: **<br><br>
 
-**Q. <br><br>
+**Q. **<br><br>
 
 **Answer: **<br><br>
 
-**Q. <br><br>
+**Q. **<br><br>
 
 **Answer: **<br><br>
 
-**Q. <br><br>
+**Q. **<br><br>
 
 **Answer: **<br><br>
 
-**Q. <br><br>
+**Q. **<br><br>
 
 **Answer: **<br><br>
 
-**Q. <br><br>
+**Q. **<br><br>
 
 **Answer: **<br><br>
 
-**Q. <br><br>
+**Q. **<br><br>
 
 **Answer: **<br><br>
 
-**Q. <br><br>
+**Q. **<br><br>
 
 **Answer: **<br><br>
 
-**Q. <br><br>
+**Q. **<br><br>
 
 **Answer: **<br><br>
 
-**Q. <br><br>
+**Q. **<br><br>
+
+**Answer: **<br><br>
+
+**Q. **<br><br>
 
 **Answer: **<br><br>
 
