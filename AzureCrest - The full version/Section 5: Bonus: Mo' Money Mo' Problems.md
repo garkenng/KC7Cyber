@@ -91,7 +91,7 @@ ROT13.<br><br>
 
 **Answer: https://azurecresthospital.med/news/research/why-pay-for-expensive-erp-systems-when-you-can-run-your-own**<br><br>
 
-**Q18.cmFicS1mdi1ndi1sbmotcnVnLXRhdm12YWJ2Z2h5YmlyZS1mdi1nZnJlcC1yZWhtbi1qYnUvdXBlbnJmcmUvZmpyYS9xcnoueW5ndmNmYnVnZnJlcHJlaG1uLy9dOltmY2trdQ==**<br><br>
+**Q18. cmFicS1mdi1ndi1sbmotcnVnLXRhdm12YWJ2Z2h5YmlyZS1mdi1nZnJlcC1yZWhtbi1qYnUvdXBlbnJmcmUvZmpyYS9xcnoueW5ndmNmYnVnZnJlcHJlaG1uLy9dOltmY2trdQ==**<br><br>
 From Base64.<br><br>
 
 ```
