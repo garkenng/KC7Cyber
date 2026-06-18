@@ -88,15 +88,23 @@ From previous query.<br><br>
 
 **Answer: 3/1/2024, 11:58:33 AM**<br><br>
 
-**Q8.**<br><br>
+**Q8. What is the name of the file that is created after the suspicious file is downloaded?*<br><br>
+
+```
+FileCreationEvents
+| where hostname == "P3EX-DESKTOP"
+| where timestamp > datetime(3/1/2024, 11:58:33 AM)
+```
+<br>
+
+**Answer: heartburn.zip**<br><br>
+
+**Q9. What is the directory path that contains this new file?**<br><br>
 
 
 **Answer: **<br><br>
-**Q.**<br><br>
 
-
-**Answer: **<br><br>
-**Q.**<br><br>
+**Q10.**<br><br>
 
 
 **Answer: **<br><br>
