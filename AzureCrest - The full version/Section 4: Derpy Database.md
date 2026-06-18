@@ -67,13 +67,26 @@ https://azurecresthospital.med/news/roy-trenemman-joins-azure-crest-to-save-mone
 
 **Q7. What specific type of medical records was the Threat Actor attempting to access on Azure Crest Hospital’s internal share?**<br><br>
 
+```
+InboundNetworkEvents
+| where url contains "medical"
+```
+<br>
+
+```
+https://azurecresthospital.med/search=pediatric+patient+medical+history
+https://azurecresthospital.med/internal_share/medical_records/pediatric
+```
+<br>
+
+**Answer: pediatric**<br><br>
+
+**Q8.**<br><br>
+
 
 **Answer: **<br><br>
-**Q.**<br><br>
 
-
-**Answer: **<br><br>
-**Q.**<br><br>
+**Q9.**<br><br>
 
 
 **Answer: **<br><br>
