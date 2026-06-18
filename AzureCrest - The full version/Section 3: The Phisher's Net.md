@@ -182,11 +182,12 @@ cmd.exe /c C:\ProgramData\Heartburn\putty.exe -ssh 131.92.62.82 -l have_ya_tried
 
 **Answer: have_ya_tried**<br><br>
 
-**Q16.**<br><br>
+**Q16. What is the password used to initiate the SSH connection?**<br><br>
 
 
 **Answer: **<br><br>
-**Q.**<br><br>
+
+**Q17.**<br><br>
 
 
 **Answer: **<br><br>
