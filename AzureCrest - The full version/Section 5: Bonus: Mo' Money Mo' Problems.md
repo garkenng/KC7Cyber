@@ -62,11 +62,19 @@ From Base64.
 
 **Answer: https://azurecresthospital.med/news/research/roy-trenemmon-invents-new-architecture-database-systems**<br><br>
 
-**Q16. **<br><br>
+**Q16. YWVkaS1kb29nLWEtc2ktc21ldHN5cy1wcmUtbndvLXJ1b3ktZ25pbm51ci15aHcvaGNyYWVzZXIvc3dlbi9kZW0ubGF0aXBzb2h0c2VyY2VydXphLy86c3B0dGg=
+**<br><br>
+From Base64.
 
-**Answer: **<br><br>
+```
+aedi-doog-a-si-smetsys-pre-nwo-ruoy-gninnur-yhw/hcraeser/swen/dem.latipsohtserceruza//:sptth
+```
+<br>
+Reverse the string.<br><br>
 
-**Q. **<br><br>
+**Answer: https://azurecresthospital.med/news/research/why-running-your-own-erp-systems-is-a-good-idea**<br><br>
+
+**Q17. YWpiLWVoYmwtYWhlLWFucC1oYmwtYXJ1ai1menJnZmxmLWNlci1yaXZmYXJja3ItZWJzLWxuYy1sdWovdXBlbnJmcmUvZmpyYS9xcnoueW5ndmNmYnVnZnJlcHJlaG1uLy86ZmNnZ3U=**<br><br>
 
 **Answer: **<br><br>
 
