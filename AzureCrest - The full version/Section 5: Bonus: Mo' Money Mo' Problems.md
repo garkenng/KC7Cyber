@@ -4,19 +4,19 @@
 
 **Answer: T1648**<br><br>
 
-**Q2. Enter the MITRE ATT&CK ID corresponding to this technique. In this technique, adversaries execute their own malicious payloads by manipulating the way the operating system runs programs.<br><br>
+**Q2. Enter the MITRE ATT&CK ID corresponding to this technique. In this technique, adversaries execute their own malicious payloads by manipulating the way the operating system runs programs.**<br><br>
 
 **Answer: T1574**<br><br>
 
-**Q3. This cybersecurity personality likes to impose cost on adversaries. What's his username on X/Twitter?<br><br>
+**Q3. This cybersecurity personality likes to impose cost on adversaries. What's his username on X/Twitter?**<br><br>
 
 **Answer: @ImposeCost**<br><br>
 
-**Q4. What is the name of the malware used by North Korean cyber actors in an attack against the Kudankulam Nuclear Power Plant in India?<br><br>
+**Q4. What is the name of the malware used by North Korean cyber actors in an attack against the Kudankulam Nuclear Power Plant in India?**<br><br>
 
 **Answer: dtrack**<br><br>
 
-**Q5. Which encryption algorithm is commonly used for securing web traffic, especially in HTTPS connections?<br><br>
+**Q5. Which encryption algorithm is commonly used for securing web traffic, especially in HTTPS connections?**<br><br>
 
 **Answer: **<br><br>
 
