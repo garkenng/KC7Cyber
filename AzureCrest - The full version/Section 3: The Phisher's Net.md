@@ -153,8 +153,16 @@ cmd.exe /c C:\ProgramData\Heartburn\putty.exe -ssh 93.142.203.80 -l have_ya_trie
 
 **Q14. How many unique IP addresses were used to initiate similar SSH connections?**<br><br>
 
+```
+ProcessEvents
+| extend IPAddresses = extract_all(@"((?:[0-9]{1,3}\.){3}[0-9]{1,3})", process_commandline)[0]
+| where process_commandline contains "ssh"
+| distinct tostring(IPAddresses)
+```
+<br>
 
-**Answer: **<br><br>
+**Answer: 17**<br><br>
+
 **Q.**<br><br>
 
 
