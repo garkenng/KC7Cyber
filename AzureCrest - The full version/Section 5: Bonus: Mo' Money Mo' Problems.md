@@ -107,11 +107,11 @@ ukkcf[:]//nmherperfgubfcvgny.zrq/arjf/erfrnepu/ubj-nmher-perfg-vf-eribyhgvbavmva
 <br>
 ROT13.<br><br>
 
-Adjust the answer as the 'tt' in 'https' resolved to 'xx'.<br><br>
+Adjust the answer, as the 'tt' in 'https' resolved to 'xx'.<br><br>
 
 **Answer: https[:]//azurecresthospital.med/news/research/how-azure-crest-is-revolutionizing-the-way-it-is-done**<br><br>
 
-**Q19. **<br><br>
+**Q19. Z3p5dnEteWctb2JsZXV1eXgtamJzeWstdG1mcS1pdGVid3UtenktdWFpdHVvdS14dmktenF5LXZzeW8tenN2L2Zrdm1pdWl2L3VxaXovamlhLmJtdGV4dXlmdHVpdmtpdnNubS8vOnV4dHRm**<br><br>
 
 **Answer: **<br><br>
 
