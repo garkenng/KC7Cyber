@@ -58,9 +58,22 @@ Email
 
 **Q5. How many employees clicked on the email links?**<br><br>
 
+```
+let ClickedOnLinks = 
+    Email
+    | where link contains "Pediatric_Care_Update.docm" or link contains  "New_Healthcare_Protocols.docm" 
+    | where sender == "medstaffinfo@hospitalcomm.org" or sender == "healthupdate@gmail.com"
+    | distinct link;
+    OutboundNetworkEvents
+    | where url in (ClickedOnLinks)
+    | distinct src_ip
+    | count
+```
+<br>
 
-**Answer: **<br><br>
-**Q.**<br><br>
+**Answer: 37**<br><br>
+
+**Q6.**<br><br>
 
 
 **Answer: **<br><br>
