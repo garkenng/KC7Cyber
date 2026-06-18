@@ -197,5 +197,16 @@ C:\Users\rotrenneman\Downloads\billion.odt.scholopendra
 
 **Q17. What is the name of the new wallpaper?**<br><br>
 
+```
+FileCreationEvents
+| where hostname == "SUPER-DB-SERVER-9000"
+| where filename contains ".jpg"
+```
+<br>
 
-**Answer: **<br><br>
+```
+C:\In\ItWentWrong.jpg
+```
+<br>
+
+**Answer: ItWentWrong.jpg**<br><br>
