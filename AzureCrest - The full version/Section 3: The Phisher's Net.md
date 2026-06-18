@@ -44,6 +44,13 @@ Email
 
 **Q4. How many distinct domains were used in this batch of emails?**<br><br>
 
+```
+Email
+| where link contains ".docm"
+| extend domain = parse_url(link).Host
+| distinct tostring(domain)
+```
+<br>
 
 **Answer: 4**<br><br>
 
