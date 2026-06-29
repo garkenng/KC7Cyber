@@ -139,7 +139,7 @@ OutboundNetworkEvents
 
 
 **Q11. Which Backdoors & Breaches initial compromise card was played here?**<br>
-**Answer: **<br><br>
+**Answer: Phish **<br><br>
 
 
 **Q12. Enter Happy Trails to complete this investigation.**<br>
