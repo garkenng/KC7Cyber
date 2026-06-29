@@ -54,7 +54,7 @@ From previous query.<br><br>
 **Q7. What command was used to download this file?**<br><br>
 Query from question 4.<br><br>
 
-**Answer: curl -o C:\ProgramData\SCADA_Malicious_Commands.txt **<br><br>
+**Answer: curl -o C:\ProgramData\SCADA_Malicious_Commands.txt**<br><br>
 
 **Q8. A destructive tool was used to wipe data and cause the SCADA systems to shut down. 🫨 What is the name of the executable that was used to do this?**<br><br>
 The last result from the query from question 4.<br><br>
