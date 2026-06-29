@@ -1,5 +1,4 @@
 ## Cowboy Couture: A Steampunk Space Adventure: Section 2: All About The Dataz?<br>
-### **Summary**<br>
 
 **Q1. Which table would tell us if John Strand received a suspicious email?**<br>
 
@@ -19,5 +18,5 @@
 
 **Q5. Which table would you look in to see if that malicious file was detected on John Strand's machine?**<br>
 
-**Answer: **<br><br>
+**Answer: SecurityAlerts**<br><br>
 
