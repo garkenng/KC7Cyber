@@ -51,17 +51,37 @@ Employees
 
 **Q6. What is John Strand's hostname?**<br><br>
 From previous query.<br><br>
+
 **Answer: PFW2-DESKTOP**<br><br>
 
-**Q. **<br><br>
-**Answer: **<br><br>
+**Q7. What is John Strand's email address?**<br><br>
+From query in question 5.<br><br>
 
-**Q. **<br><br>
-**Answer: **<br><br>
+**Answer: john_strand@celestialcowboycouture.com**<br><br>
 
-**Q. **<br><br>
-**Answer: **<br><br>
+**Q8. How many emails did John Strand receive?**<br><br>
 
-**Q. **<br><br>
-**Answer: **<br><br>
+```
+Email
+|where recipient == "john_strand@celestialcowboycouture.com"
+| count
+```
+<br>
+
+**Answer: 25**<br><br>
+
+**Q9. How many distinct commands were run on John Strand's machine?**<br><br>
+
+```
+ProcessEvents
+| where hostname == "PFW2-DESKTOP"
+|distinct process_commandline
+```
+<br>
+
+**Answer: 148**<br><br>
+
+**Q10. Do a take 10 on any table and enter mosey on to continue.**<br><br>
+
+**Answer: mosey on**<br><br>
 
