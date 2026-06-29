@@ -22,23 +22,36 @@ Stay tuned for further updates.
 
 **Answer: Grid Lock**<br><br>
 
-**Q. **<br><br>
+**Q3. Enter Mission Accepted to continue.**<br><br>
 
-**Answer: **<br><br>
+**Answer: Mission Accepted**<br><br>
 
-**Q. **<br><br>
+**Q4. How many results are there for processes that contain SCADA in the commandline?**<br><br>
 
-**Answer: **<br><br>
+```
+ProcessEvents
+| where process_commandline contains "SCADA"
+```
+<br>
 
-**Q. **<br><br>
+**Answer: 5**<br><br>
 
-**Answer: **<br><br>
+**Q5. What is the name of the executable that was used to perform this scan?**<br><br>
+The first result returned.<br><br>
 
-**Q. **<br><br>
+```
+C:\ProgramData\ICSScanner.exe --scan --network 192.168.0.0/16 --type SCADA --output C:\ProgramData\SCADA_IPs.txt
+```
+<br>
 
-**Answer: **<br><br>
+**Answer: ICSScanner.exe**<br><br>
 
-**Q. **<br><br>
+**Q6. Paste the full timestamp for when this process was executed.**<br><br>
+From previous query.<br><br>
+
+**Answer: 9/9/2024, 11:17:44 AM**<br><br>
+
+**Q7. What command was used to download this file?**<br><br>
 
 **Answer: **<br><br>
 
