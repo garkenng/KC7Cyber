@@ -18,9 +18,9 @@ Stay tuned for further updates.
 **Answer: Power Up**<br><br>
 
 
-**Q. **<br><br>
+**Q2. Enter Grid Lock to continue.**<br><br>
 
-**Answer: **<br><br>
+**Answer: Grid Lock**<br><br>
 
 **Q. **<br><br>
 
