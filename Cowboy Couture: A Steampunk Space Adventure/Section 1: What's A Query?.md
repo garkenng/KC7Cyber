@@ -40,10 +40,18 @@ Employees
 **Answer: Underwear Model**<br><br>
 
 **Q5. What is John Strand's IP Address?**<br><br>
-**Answer: **<br><br>
 
-**Q. **<br><br>
-**Answer: **<br><br>
+```
+Employees
+| where name == "John Strand"
+```
+<br>
+
+**Answer: 10.10.0.3**<br><br>
+
+**Q6. What is John Strand's hostname?**<br><br>
+From previous query.<br><br>
+**Answer: PFW2-DESKTOP**<br><br>
 
 **Q. **<br><br>
 **Answer: **<br><br>
