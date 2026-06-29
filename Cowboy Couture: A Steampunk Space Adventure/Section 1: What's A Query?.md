@@ -9,8 +9,30 @@ Your job is to uncover how these cybercriminals stole valuable information. By i
 
 **Answer: giddy up**<br><br>
 
-**Q2. **<br><br>
+**Q2. What is the name of the Director of Happiness?**<br><br>
 **Answer: **<br><br>
 
 **Q. **<br><br>
 **Answer: **<br><br>
+
+**Q. **<br><br>
+**Answer: **<br><br>
+
+**Q. **<br><br>
+**Answer: **<br><br>
+
+**Q. **<br><br>
+**Answer: **<br><br>
+
+**Q. **<br><br>
+**Answer: **<br><br>
+
+**Q. **<br><br>
+**Answer: **<br><br>
+
+**Q. **<br><br>
+**Answer: **<br><br>
+
+**Q. **<br><br>
+**Answer: **<br><br>
+
