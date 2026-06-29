@@ -51,20 +51,96 @@ From previous query.<br><br>
 **Answer: CEO**<br><br>
 
 **Q5. Enter the timestamp for when the attacker established persisitence.**<br>
+
+```
+ProcessEvents
+|where hostname == "JHTJ-DESKTOP"
+| where timestamp between 
+        (datetime(2024-09-19T06:25:59Z) .. datetime(2024-09-20T15:25:27Z))
+```
+<br>
+
+One result is of interest.<br><br>
+
+```
+net user backdooradmin CowboyBandits123! /add && 
+net localgroup administrators backdooradmin /add && 
+echo "User 'backdooradmin' added to Administrators group."
+```
+<br>
+
+**Answer: 9/20/2024, 4:39:09 AM**<br><br>
+
+
+**Q6. How many domains does the 192.124.249.15 IP resolve to?**<br>
+
+```
+PassiveDns
+| where ip == "192.124.249.15"
+| distinct domain
+```
+<br>
+
+**Answer: 2**<br><br>
+
+
+**Q7. What newly uncovered IP resolves to the secure-celestial.com domain?**<br>
+
+```
+ PassiveDns
+ | where domain in ("secure-celestial.com",
+   "celestialcowboy-support.com")
+```
+<br>
+
+**Answer: 142.250.191.78**<br><br>
+
+
+**Q8. What is the name of the next domain that you've uncovered?**<br>
+
+```
+let all_ips = PassiveDns
+|where domain in ("secure-celestial.com", 
+    "celestialcowboy-support.com")
+|distinct ip;
+PassiveDns
+| where ip in (all_ips)
+|distinct domain
+```
+<br>
+
+**Answer: cccouture-hr-update.com**<br><br>
+
+
+**Q9. Is there any evidence of network traffic to any of those domains? (Yes/No)**<br>
+
+```
+OutboundNetworkEvents
+| where url has_any ("cccouture-hr-update.com", 
+ "celestialcowboy-support.com",
+ "secure-celestial.com")
+```
+<br>
+
+**Answer: Yes**<br><br>
+
+
+**Q10. What is the subject of the email sent to Megan Lucia?**<br>
+
+```
+ Email
+ | where link has_any ("cccouture-hr-update.com", 
+ "celestialcowboy-support.com",
+ "secure-celestial.com")
+```
+<br>
+
+**Answer: URGENT: From your CEO - Immediate Action Required: You are getting promoted Cowboy!!!!**<br><br>
+
+
+**Q11. Which Backdoors & Breaches initial compromise card was played here?**<br>
 **Answer: **<br><br>
 
 
-**Q. **<br>
-**Answer: **<br><br>
-**Q. **<br>
-**Answer: **<br><br>
-**Q. **<br>
-**Answer: **<br><br>
-**Q. **<br>
-**Answer: **<br><br>
-**Q. **<br>
-**Answer: **<br><br>
-**Q. **<br>
-**Answer: **<br><br>
-**Q. **<br>
-**Answer: **<br><br>
+**Q12. Enter Happy Trails to complete this investigation.**<br>
+**Answer: Happy Trails**<br><br>
