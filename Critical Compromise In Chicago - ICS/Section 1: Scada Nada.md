@@ -90,11 +90,17 @@ for /F 'tokens=1' %i in (C:\\ProgramData\\SCADA_IPs.txt) do (
 
 **Answer: Sandworm**<br><br>
 
-**Q. **<br><br>
+**Q12. What is the timestamp for the first time BlackEnergy was observed running in the command line on any host in our environment?**<br><br>
 
-**Answer: **<br><br>
+```
+ProcessEvents
+| where process_commandline contains "blackenergy"
+```
+<br>
 
-**Q. **<br><br>
+**Answer: 8/29/2024, 8:28:45 AM**<br><br>
+
+**Q13. On how many hosts was BlackEnergy present?**<br><br>
 
 **Answer: **<br><br>
 
