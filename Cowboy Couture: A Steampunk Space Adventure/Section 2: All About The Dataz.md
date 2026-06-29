@@ -5,19 +5,19 @@
 
 **Answer: Email**<br><br>
 
-**Q2.**<br>
+**Q2. Which table would tell us if he went to his bank website to see how much money he had?**<br>
 
-**Answer: **<br><br>
+**Answer: OutboundNetworkEvents**<br><br>
 
-**Q3.**<br>
+**Q3. Which table would tell us if John Strand saved a malicious file on his computer?**<br>
 
-**Answer: **<br><br>
+**Answer: FileCreationEvents**<br><br>
 
-**Q4.**<br>
+**Q4. Which table would tell us if John Strand opened that malicious file that was saved on his computer?**<br>
 
-**Answer: **<br><br>
+**Answer: ProcessEvents**<br><br>
 
-**Q5.**<br>
+**Q5. Which table would you look in to see if that malicious file was detected on John Strand's machine?**<br>
 
 **Answer: **<br><br>
 
