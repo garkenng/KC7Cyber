@@ -102,21 +102,36 @@ ProcessEvents
 
 **Q13. On how many hosts was BlackEnergy present?**<br><br>
 
-**Answer: **<br><br>
+```
+ProcessEvents
+| where process_commandline contains "blackenergy"
+| distinct hostname
+```
+<br>
 
-**Q. **<br><br>
+**Answer: 1**<br><br>
 
-**Answer: **<br><br>
+**Q14. What is the hostname where BlackEnergy was found?**<br><br>
+From previous question.<br><br>
 
-**Q. **<br><br>
+**Answer: BDC0-DESKTOP**<br><br>
 
-**Answer: **<br><br>
+**Q15. What is the name of the employee that BDC0-DESKTOP belongs to?**<br><br>
 
-**Q. **<br><br>
+```
+Employees
+| where hostname == "BDC0-DESKTOP"
+```
+<br>
 
-**Answer: **<br><br>
+**Answer: Jibby Saetang**<br><br>
 
-**Q. **<br><br>
+**Q16. What is the employee's role?**<br><br>
+From previous question.<br><br>
+
+**Answer: SCADA Operator**<br><br>
+
+**Q17. What is the name of the file that the user downloaded, which is likely related to BlackEnergy?**<br><br>
 
 **Answer: **<br><br>
 
