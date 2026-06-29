@@ -1,4 +1,4 @@
-##Critical Compromise In Chicago - ICS: Section 1: Scada Nada<br>
+## Critical Compromise In Chicago - ICS: Section 1: Scada Nada<br>
 ### **Summary**<br>
 BREAKING NEWS!: Massive Power Outage Disrupts One of the Country’s Premier Cybersecurity Conferences!
 <br><br>
