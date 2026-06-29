@@ -20,14 +20,40 @@ AuthenticationEvents
 **Answer: 2**<br><br>
 
 **Q3. What is the username for the other employee that this IP was used to log into?**<br>
+
+```
+AuthenticationEvents
+| where src_ip == "192.124.249.15" and result == "Successful Login"
+```
+<br>
+
+Two hostnames are returned.<br><br>
+
+```
+JHTJ-DESKTOP
+ITCK-MACHINE
+```
+<br>
+Run search for the username for hostname JHTJ-DESKTOP.<br><br>
+
+```
+Employees
+| where hostname == "JHTJ-DESKTOP"
+```
+<br>
+
+**Answer: jahartley**<br><br>
+
+
+**Q4. What is this employee's role?**<br>
+From previous query.<br><br>
+
+**Answer: CEO**<br><br>
+
+**Q5. Enter the timestamp for when the attacker established persisitence.**<br>
 **Answer: **<br><br>
 
 
-**Q4. **<br>
-**Answer: **<br><br>
-
-**Q5. **<br>
-**Answer: **<br><br>
 **Q. **<br>
 **Answer: **<br><br>
 **Q. **<br>
