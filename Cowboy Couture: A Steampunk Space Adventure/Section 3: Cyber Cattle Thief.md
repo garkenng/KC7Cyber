@@ -122,11 +122,22 @@ Appears the output is in reverse. Can reverse the output in Cyberchef.<br><br>
 
 **Q10. What database table contains evidence of employee logins?**<br>
 
-**Answer: **<br><br>
+**Answer: AuthenticationEvents**<br><br>
 
-**Q.**<br>
+**Q11. Paste the timestamp for when that anomalous login occurred.**<br>
 
-**Answer: **<br><br>
-**Q.**<br>
+```
+AuthenticationEvents
+| where username == "melucia"
+|where result == "Successful Login"
+```
+<br>
 
-**Answer: **<br><br>
+The source IP address and user agent are different from the other results.<br><br>
+
+**Answer: 9/23/2024, 6:58:54 AM**<br><br>
+
+**Q12. What is the source IP used for that login?**<br>
+From previous query.<br><br>
+
+**Answer: 192.124.249.15**<br><br>
