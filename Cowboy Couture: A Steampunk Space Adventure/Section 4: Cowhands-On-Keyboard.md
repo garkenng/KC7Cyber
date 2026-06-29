@@ -9,13 +9,24 @@ Then, you remember some of the questions you answered earlier in this training m
 **Answer: Anyone can do it!**<br><br>
 
 **Q2. How many succesful logins were made from that IP?**<br>
+
+```
+AuthenticationEvents
+| where src_ip == "192.124.249.15" and result == "Successful Login"
+| count
+```
+<br>
+
+**Answer: 2**<br><br>
+
+**Q3. What is the username for the other employee that this IP was used to log into?**<br>
 **Answer: **<br><br>
 
-**Q3. **<br>
+
+**Q4. **<br>
 **Answer: **<br><br>
-**Q. **<br>
-**Answer: **<br><br>
-**Q. **<br>
+
+**Q5. **<br>
 **Answer: **<br><br>
 **Q. **<br>
 **Answer: **<br><br>
