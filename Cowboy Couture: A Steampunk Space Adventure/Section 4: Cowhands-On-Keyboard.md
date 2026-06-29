@@ -139,6 +139,7 @@ OutboundNetworkEvents
 
 
 **Q11. Which Backdoors & Breaches initial compromise card was played here?**<br>
+
 **Answer: Phish **<br><br>
 
 
