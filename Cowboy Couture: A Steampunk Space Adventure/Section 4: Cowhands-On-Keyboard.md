@@ -6,4 +6,28 @@ Then, you remember some of the questions you answered earlier in this training m
 <br><br>
 
 **Q1. Enter Anyone can do it! to continue**<br>
+**Answer: Anyone can do it!**<br><br>
+
+**Q2. How many succesful logins were made from that IP?**<br>
+**Answer: **<br><br>
+
+**Q3. **<br>
+**Answer: **<br><br>
+**Q. **<br>
+**Answer: **<br><br>
+**Q. **<br>
+**Answer: **<br><br>
+**Q. **<br>
+**Answer: **<br><br>
+**Q. **<br>
+**Answer: **<br><br>
+**Q. **<br>
+**Answer: **<br><br>
+**Q. **<br>
+**Answer: **<br><br>
+**Q. **<br>
+**Answer: **<br><br>
+**Q. **<br>
+**Answer: **<br><br>
+**Q. **<br>
 **Answer: **<br><br>
