@@ -130,11 +130,11 @@ From previous question.<br><br>
 
 **Q17. What is the name of the file that the user downloaded, which is likely related to BlackEnergy?**<br><br>
 
-**Answer: **<br><br>
+**Answer: Urgent_Cyber_Threat_Alert.zip**<br><br>
 
-**Q. **<br><br>
+**Q18. **<br><br>
 
-**Answer: **<br><br>
+**Answer: 2024-08-29T08:28:01Z**<br><br>
 
 **Q. **<br><br>
 
