@@ -55,8 +55,25 @@ The majority of the emails were sent by thresher_libero@hotmail.com.<br><br>
 **Answer: thresher_libero@hotmail.com**<br><br>
 
 **Q3. What threat actor controlled IP was used to log in to the most accounts?**<br><br>
+Referring back to question 17 in section 1, Joseph Eisenman was the user who was originally compromised. Run a search for this username in authentication events to see the IP address they are using.<br><br>
+
+```
+AuthenticationEvents
+| where username == "joeisenman"
+```
+<br>
+
+Scrolling through the results, there is one user agent that stands out.<br><br>
+
+```
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1; rv:1.9.5.20) Gecko/2021-05-22 21:31:56 Firefox/10.0
+```
+<br>
+The threat actor is likely associated with this result.<br><br>
 
 **Answer: 87.250.252.242**<br><br>
+
+
 **Q4. **<br><br>
 
 **Answer: **<br><br>
