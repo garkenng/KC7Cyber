@@ -12,6 +12,15 @@ Now it's time for you to find out how they did it. Are you up for the challenge?
 **Answer: Phish and Chips**<br><br>
 
 **Q2. Which sender address did the threat actor use to target the highest number of employees?**<br><br>
+Run a search for recipient employees and with the subject used in the original phishing email. <br><br>
+
+```
+Email
+| where subject contains "Grid Security Update Required"
+| where recipient contains "chicagopowergrid"
+```
+<br>
+
 
 **Answer: thresher_libero@hotmail.com**<br><br>
 
