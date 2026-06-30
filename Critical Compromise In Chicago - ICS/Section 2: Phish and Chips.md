@@ -7,4 +7,12 @@ You’ve traced the malicious file back to a user interaction, but this was much
 Now it's time for you to find out how they did it. Are you up for the challenge?
 <br><br>
 
-Enter Phish and Chips to continue.
+**Q1. Enter Phish and Chips to continue.**<br><br>
+
+**Answer: Phish and Chip**<br><br>
+
+**Q. **<br><br>
+
+**Answer: **<br><br>
+
+
