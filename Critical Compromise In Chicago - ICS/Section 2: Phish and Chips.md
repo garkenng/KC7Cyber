@@ -9,7 +9,7 @@ Now it's time for you to find out how they did it. Are you up for the challenge?
 
 **Q1. Enter Phish and Chips to continue.**<br><br>
 
-**Answer: Phish and Chip**<br><br>
+**Answer: Phish and Chips**<br><br>
 
 **Q2. Which sender address did the threat actor use to target the highest number of employees?**<br><br>
 
