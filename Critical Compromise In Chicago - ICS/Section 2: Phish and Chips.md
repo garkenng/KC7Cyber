@@ -20,13 +20,43 @@ Email
 | where recipient contains "chicagopowergrid"
 ```
 <br>
+The results show 4 email addresses that could have potentially emailed employees.<br><br>
 
+```
+joseph_eisenman@chicagopowergrid.com
+thresher_libero@hotmail.com
+elizabeth_nunmaker@chicagopowergrid.com
+chopping_asbestosis@verizon.com
+```
+<br>
+Run a search on Email table using the above addresses as sender.<br><br>
+
+```
+Email
+| where sender in ("joseph_eisenman@chicagopowergrid.com", "thresher_libero@hotmail.com", "elizabeth_nunmaker@chicagopowergrid.com", "chopping_asbestosis@verizon.com")
+| where recipient contains "chicagopowergrid"
+```
+<br>
+Searching through the results, a subject line seems of interest.<br><br>
+
+```
+[EXTERNAL] Critical: Severe Security Breach Detected - Immediate Action Required
+```
+<br>
+Run a search with that subject line.<br><br>
+
+```
+Email
+| where subject == "[EXTERNAL] Critical: Severe Security Breach Detected - Immediate Action Required"
+```
+<br>
+The majority of the emails were sent by thresher_libero@hotmail.com.<br><br>
 
 **Answer: thresher_libero@hotmail.com**<br><br>
 
-**Q3. **<br><br>
+**Q3. What threat actor controlled IP was used to log in to the most accounts?**<br><br>
 
-**Answer: **<br><br>
+**Answer: 87.250.252.242**<br><br>
 **Q4. **<br><br>
 
 **Answer: **<br><br>
