@@ -11,7 +11,32 @@ Now it's time for you to find out how they did it. Are you up for the challenge?
 
 **Answer: Phish and Chip**<br><br>
 
-**Q. **<br><br>
+**Q2. **<br><br>
+
+**Answer: **<br><br>
+
+**Q3. **<br><br>
+
+**Answer: **<br><br>
+**Q4. **<br><br>
+
+**Answer: **<br><br>
+**Q5. **<br><br>
+
+**Answer: **<br><br>
+**Q6. **<br><br>
+
+**Answer: **<br><br>
+**Q7. **<br><br>
+
+**Answer: **<br><br>
+**Q8. **<br><br>
+
+**Answer: **<br><br>
+**Q9. **<br><br>
+
+**Answer: **<br><br>
+**Q10. **<br><br>
 
 **Answer: **<br><br>
 
