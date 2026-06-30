@@ -129,14 +129,44 @@ From previous question.<br><br>
 **Answer: SCADA Operator**<br><br>
 
 **Q17. What is the name of the file that the user downloaded, which is likely related to BlackEnergy?**<br><br>
+Look for emails around when Blackenergy.exe was found.<br><br>
+
+```
+Email
+| where recipient == "jibby_saetang@chicagopowergrid.com"
+| where timestamp >= datetime(8/29/2024)
+```
+<br>
+Email sent by joseph_eisenman@chicagopowergrid.com. The link is below.<br><br>
+
+```
+http://chicagogridupdates.com/published/public/files/images/Urgent_Cyber_Threat_Alert.zip
+```
+<br>
+This zip file look suspicious.<br><br>
 
 **Answer: Urgent_Cyber_Threat_Alert.zip**<br><br>
 
-**Q18. **<br><br>
+**Q18. What is the timestamp for when the user downloaded that file?**<br><br>
+
+```
+OutboundNetworkEvents
+| where src_ip == "10.10.0.8"
+| where timestamp >= datetime(8/29/2024)
+```
+<br>
 
 **Answer: 2024-08-29T08:28:01Z**<br><br>
 
-**Q. **<br><br>
+**Q19. What is the SHA256 hash of the file created immediately after the downloaded file?**<br><br>
+
+```
+FileCreationEvents
+| where hostname == 'BDC0-DESKTOP'
+| where timestamp >= datetime(2024-08-29T08:28:01Z)
+| take 2
+```
+<br>
 
 **Answer: **<br><br>
 
