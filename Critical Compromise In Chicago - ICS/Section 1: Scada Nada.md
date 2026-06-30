@@ -168,17 +168,36 @@ FileCreationEvents
 ```
 <br>
 
-**Answer: **<br><br>
+**Answer: 1dc1dbfc1d636fed5cebe43787a7abf2df4fbb51e1beaec34ba72dd5152edc81**<br><br>
 
-**Q. **<br><br>
+**Q20. What process shows the user opening the zip file? (paste the full command)**<br><br>
 
-**Answer: **<br><br>
+```
+ProcessEvents
+| where process_commandline contains "urgent"
+```
+<br>
 
-**Q. **<br><br>
+**Answer: Explorer.exe "C:\Users\jisaetang\Downloads\Urgent_Cyber_Threat_Alert.zip"**<br><br>
 
-**Answer: **<br><br>
+**Q21. What is the name of the domain that BlackEnergy beacons to after execution?**<br><br>
 
-**Q. **<br><br>
+```
+ProcessEvents
+| where process_commandline contains "energy"
+```
+<br>
 
-**Answer: **<br><br>
+Shorty after the BlackEnergy.exe was opened it connected to the domain below.<br><br>
+
+```
+BlackEnergy.exe --beacon-interval 10 --c2 chicagogridupdates.com --scan 192.168.1.0/24
+```
+<br>
+
+**Answer: chicagogridupdates.com **<br><br>
+
+**Q22. To find out why, enter Unmask the Phish.**<br><br>
+
+**Answer: Unmask the Phish**<br><br>
 
