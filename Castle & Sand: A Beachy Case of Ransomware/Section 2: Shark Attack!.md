@@ -15,9 +15,16 @@ Oh no! Castle&Sand has been hit with ransomware!!! They posted a ransom note and
 
 **Q3. Should this be something you post publicly about? Yes or no?**<br><br>
 
-**Answer: **<br><br>
+**Answer: No**<br><br>
 
-**Q.**<br><br>
+**Q4. The ransom note filename was called PAY_UP_OR_SWIM_WITH_THE_FISHES.txt. How many notes appeared in Castle&Sand's environment?**<br><br>
+
+```
+FileCreationEvents
+| where filename == "PAY_UP_OR_SWIM_WITH_THE_FISHES.txt"
+| count 
+```
+<br>
 
 **Answer: **<br><br>
 
