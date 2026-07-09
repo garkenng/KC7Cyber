@@ -218,11 +218,21 @@ PassiveDns
 
 **Answer: 4**<br><br>
 
-**Q21. How many records returned from your query?**<br><br>
+**Q21. Let's take all of the IP addresses from the two domains and search them against network events on Castle&Sand's website. How many records returned from your query?**<br><br>
 
-**Answer: **<br><br>
+```
+let NetworkEvents = PassiveDns
+| where domain contains "jawfin.com" or domain contains "sharkfin"
+| distinct ip;
+InboundNetworkEvents
+| where src_ip in (NetworkEvents)
+```
+<br>
 
-**Q.**<br><br>
+
+**Answer: 39**<br><br>
+
+**Q22.**<br><br>
 
 **Answer: **<br><br>
 
