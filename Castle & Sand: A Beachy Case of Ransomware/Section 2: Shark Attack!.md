@@ -131,14 +131,6 @@ Employees
 
 **Answer: Preston Lane**<br><br>
 
-**Q.**<br><br>
-
-**Answer: **<br><br>
-
-**Q.**<br><br>
-
-**Answer: **<br><br>
-
 **Q12. When did the file appear on that user's machine? (copy and paste the full timestamp)**<br><br>
 
 ```
@@ -171,6 +163,14 @@ FileCreationEvents
 **Answer: 15**<br><br>
 
 **Q16. How many unique domains did employees download this file from?**<br><br>
+
+**Answer: **<br><br>
+
+**Q.**<br><br>
+
+**Answer: **<br><br>
+
+**Q.**<br><br>
 
 **Answer: **<br><br>
 
