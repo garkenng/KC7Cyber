@@ -292,9 +292,18 @@ Email
 
 **Q28. Take all of the distinct sender or reply_to emails from the last question. How many emails total are associated with these email addresses?**<br><br>
 
-**Answer: **<br><br>
+```
+let EmailAddresses = Email
+| where sender == "legal.sand@verizon.com"
+| distinct reply_to;
+Email
+| where sender in (EmailAddresses) or reply_to in (EmailAddresses)
+```
+<br>
 
-**Q.**<br><br>
+**Answer: 40**<br><br>
+
+**Q29. How many unique domains did the email addresses use in their emails?**<br><br>
 
 **Answer: **<br><br>
 
