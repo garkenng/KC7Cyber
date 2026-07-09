@@ -77,13 +77,39 @@ Email
 
 **Q6. How many unique websites did “Cristin Genao” visit?**<br><br>
 
-**Answer: **<br><br>
+<p>
+  Find the IP address for Cristin Genao
+</p>
 
-**Q7. **<br><br>
+```
+Employees
+| where name == "Cristin Genao"
+```
+<br>
 
-**Answer: **<br><br>
+```
+OutboundNetworkEvents
+| where src_ip == "10.10.0.141"
+| distinct url
+| count
+```
+<br>
 
-**Q8. **<br><br>
+**Answer: 45**<br><br>
+
+**Q7. How many distinct domains in the PassiveDns records contain the word “shark”?**<br><br>
+
+```
+PassiveDns
+| where domain contains "shark"
+| distinct domain
+| count
+```
+<br>
+
+**Answer: 13**<br><br>
+
+**Q8. What IPs did the domain “sharkfin.com” resolve to (enter any one of them)?**<br><br>
 
 **Answer: **<br><br>
 
