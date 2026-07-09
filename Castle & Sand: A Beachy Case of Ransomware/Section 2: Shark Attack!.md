@@ -268,17 +268,29 @@ Email
 
 **Q25. When was the earliest email sent?**<br><br>
 
-**Answer: **<br><br>
+```
+Email
+| where link contains "jawfin" or link contains "sharkfin"
+```
+<br>
 
-**Q.**<br><br>
+**Answer: 2023-05-25 16:33:09+00:00**<br><br>
 
-**Answer: **<br><br>
+**Q26. Who was the sender?**<br><br>
 
-**Q.**<br><br>
+**Answer: legal.sand@verizon.com**<br><br>
 
-**Answer: **<br><br>
+**Q27. How many emails total did that sender send to Castle&Sand employees?**<br><br>
 
-**Q.**<br><br>
+```
+Email
+| where sender == "legal.sand@verizon.com"
+```
+<br>
+
+**Answer: 23**<br><br>
+
+**Q28. How many emails total are associated with these email addresses?**<br><br>
 
 **Answer: **<br><br>
 
