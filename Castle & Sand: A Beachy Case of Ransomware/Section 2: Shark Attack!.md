@@ -247,13 +247,26 @@ InboundNetworkEvents
 
 **Q23. Let's search the actor IPs against AuthenticationEvents to see if they logged into any user machines or email accounts. How many records did you get back?**<br><br>
 
-**Answer: **<br><br>
+```
+AuthenticationEvents
+| where src_ip == "157.242.169.232"
+```
+<br>
 
-**Q.**<br><br>
+**Answer: 0**<br><br>
 
-**Answer: **<br><br>
+**Q24. Let's look for the malicious domains in Emails. How many records did you get back?**<br><br>
 
-**Q.**<br><br>
+```
+Email
+| where link contains "jawfin" or link contains "sharkfin"
+| count
+```
+<br>
+
+**Answer: 14**<br><br>
+
+**Q25. When was the earliest email sent?**<br><br>
 
 **Answer: **<br><br>
 
