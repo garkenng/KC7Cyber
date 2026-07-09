@@ -196,15 +196,29 @@ PassiveDns
 
 **Answer: 6**<br><br>
 
-**Q19.**<br><br>
+**Q19. Which IP address is closest in time to when the file was created of the employee's machine?**<br><br>
+
+```
+PassiveDns
+| where timestamp > datetime(05-25-2023 16:40)
+| where domain contains "jawfin.com"
+```
+<br>
 
 **Answer: **<br><br>
 
-**Q.**<br><br>
+**Q20. There was another domain found from Q16. How many unique IPs did that domain resolve to?**<br><br>
 
-**Answer: **<br><br>
+```
+PassiveDns
+| where domain contains "sharkfin"
+| distinct ip
+```
+<br>
 
-**Q.**<br><br>
+**Answer: 4**<br><br>
+
+**Q21. How many records returned from your query?**<br><br>
 
 **Answer: **<br><br>
 
