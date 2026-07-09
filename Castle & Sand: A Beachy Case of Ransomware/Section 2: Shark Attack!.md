@@ -290,7 +290,7 @@ Email
 
 **Answer: 23**<br><br>
 
-**Q28. How many emails total are associated with these email addresses?**<br><br>
+**Q28. Take all of the distinct sender or reply_to emails from the last question. How many emails total are associated with these email addresses?**<br><br>
 
 **Answer: **<br><br>
 
