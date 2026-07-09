@@ -205,7 +205,7 @@ PassiveDns
 ```
 <br>
 
-**Answer: **<br><br>
+**Answer: 193.248.75.126**<br><br>
 
 **Q20. There was another domain found from Q16. How many unique IPs did that domain resolve to?**<br><br>
 
