@@ -121,7 +121,18 @@ PassiveDns
 
 **Q9. How many unique URLs were browsed by employees named “Karen”?**<br><br>
 
-**Answer: **<br><br>
+```
+let KarenIPs = 
+Employees
+| where name contains "Karen"
+| distinct ip_addr;
+OutboundNetworkEvents
+| where src_ip in (KarenIPs)
+| distinct url
+```
+<br>
+
+**Answer: 151**<br><br>
 
 
 
