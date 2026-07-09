@@ -28,9 +28,15 @@ Employees
 
 **Answer: 1500**<br><br>
 
-**Q3. **<br><br>
+**Q3. Which employee has the IP address: 10.10.2.1?**<br><br>
 
-**Answer: **<br><br>
+```
+Employees
+| where ip_addr == "10.10.2.1"
+```
+<br>
+
+**Answer: Preston Lane**<br><br>
 
 **Q4. **<br><br>
 
