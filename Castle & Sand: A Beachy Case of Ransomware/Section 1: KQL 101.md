@@ -111,9 +111,15 @@ PassiveDns
 
 **Q8. What IPs did the domain “sharkfin.com” resolve to (enter any one of them)?**<br><br>
 
-**Answer: **<br><br>
+```
+PassiveDns
+| where domain contains "sharkfin.com"
+```
+<br>
 
-**Q9. **<br><br>
+**Answer: 180.5.6.199**<br><br>
+
+**Q9. How many unique URLs were browsed by employees named “Karen”?**<br><br>
 
 **Answer: **<br><br>
 
