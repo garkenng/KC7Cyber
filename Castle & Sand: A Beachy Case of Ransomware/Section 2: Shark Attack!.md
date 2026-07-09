@@ -232,11 +232,20 @@ InboundNetworkEvents
 
 **Answer: 39**<br><br>
 
-**Q22.**<br><br>
+**Q22. When was the first time we saw any of these actor IP addresses from Q21 against Castle&Sand's network?**<br><br>
 
-**Answer: **<br><br>
+```
+let ActorIP = PassiveDns
+| where domain contains "jawfin.com" or domain contains "sharkfin"
+| distinct ip;
+InboundNetworkEvents
+| where src_ip in (ActorIP)
+```
+<br>
 
-**Q.**<br><br>
+**Answer: 2023-05-20 03:11:57+00:00**<br><br>
+
+**Q23. Let's search the actor IPs against AuthenticationEvents to see if they logged into any user machines or email accounts. How many records did you get back?**<br><br>
 
 **Answer: **<br><br>
 
