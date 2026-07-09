@@ -164,9 +164,16 @@ FileCreationEvents
 
 **Q16. How many unique domains did employees download this file from?**<br><br>
 
-**Answer: **<br><br>
+```
+OutboundNetworkEvents
+| where url contains "Chomping-Schedule_Changes.xlsx" 
+| distinct url
+```
+<br>
 
-**Q.**<br><br>
+**Answer: 2**<br><br>
+
+**Q17. Based on the employee we've been tracking from Question 11, which domain did they download the file from?**<br><br>
 
 **Answer: **<br><br>
 
