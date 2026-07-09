@@ -71,15 +71,31 @@ Employees
 
 **Answer: 25**<br><br>
 
-**Q.**<br><br>
+**Q8. One of the IT employees has an IP address that ends in .46. What is that employee's name?**<br><br>
 
-**Answer: **<br><br>
+```
+Employees
+| where ip_addr contains ".46"
+| where role has "IT"
+```
+<br>
 
-**Q.**<br><br>
+**Answer: Simeon Kakpovi**<br><br>
 
-**Answer: **<br><br>
+**Q9. How many security alerts involved the different hosts?**<br><br>
 
-**Q.**<br><br>
+```
+let impact_hosts = FileCreationEvents
+| where filename == 'PAY_UP_OR_SWIM_WITH_THE_FISHES.txt'
+| distinct hostname;
+SecurityAlerts
+| where description has_any (impact_hosts)
+```
+<br>
+
+**Answer: 652**<br><br>
+
+**Q10. How many Security Alerts reference the hostnames of helpdesk employees that received ransom notes?**<br><br>
 
 **Answer: **<br><br>
 
