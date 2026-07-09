@@ -175,13 +175,28 @@ OutboundNetworkEvents
 
 **Q17. Based on the employee we've been tracking from Question 11, which domain did they download the file from?**<br><br>
 
-**Answer: **<br><br>
+```
+OutboundNetworkEvents
+| where src_ip == "10.10.2.1"
+| where url contains "Chomping-Schedule_Changes"
+```
+<br>
 
-**Q.**<br><br>
+**Answer: jawfin.com**<br><br>
 
-**Answer: **<br><br>
+**Q18. How many unique IP addresses did the domain resolve to?**<br><br>
 
-**Q.**<br><br>
+```
+PassiveDns
+| where domain contains "jawfin.com"
+| distinct ip
+| count
+```
+<br>
+
+**Answer: 6**<br><br>
+
+**Q19.**<br><br>
 
 **Answer: **<br><br>
 
