@@ -141,21 +141,36 @@ Employees
 
 **Q12. When did the file appear on that user's machine? (copy and paste the full timestamp)**<br><br>
 
-**Answer: **<br><br>
+```
+FileCreationEvents
+| where hostname == "6S7W-MACHINE"
+| where path has "Chomping-Schedule_Changes.xlsx"
+```
+<br>
 
-**Q.**<br><br>
+**Answer: 2023-05-26 09:26:15+00:00**<br><br>
 
-**Answer: **<br><br>
+**Q13. What's the SHA256 hash of that file?**<br><br>
 
-**Q.**<br><br>
+**Answer: 71daa56c10f7833848a09cf8160ab5d79da2dd2477b6b3791675e6a8d1635016*<br><br>
 
-**Answer: **<br><br>
+**Q14. What application created that file?**<br><br>
 
-**Q.**<br><br>
+**Answer: firefox.exe**<br><br>
 
-**Answer: **<br><br>
+**Q15. How many unique hosts had files with that exact name on their systems?**<br><br>
 
-**Q.**<br><br>
+```
+FileCreationEvents
+| where path contains "Chomping-Schedule_Changes.xlsx"
+| distinct hostname
+| count
+```
+<br>
+
+**Answer: 15**<br><br>
+
+**Q16. How many unique domains did employees download this file from?**<br><br>
 
 **Answer: **<br><br>
 
