@@ -51,7 +51,7 @@ Employees
 <br>
 
 <p>
-  Use the email address in the emails table.
+  Use the email address in the email table.
 </p>
 
 ```
@@ -63,11 +63,19 @@ Email
 
 **Answer: 26**<br><br>
 
-**Q5. **<br><br>
+**Q5. How many distinct senders were seen in the email logs from sunandsandtrading.com?**<br><br>
 
-**Answer: **<br><br>
+```
+Email
+| where sender has "sunandsandtrading.com"
+| distinct sender
+| count
+```
+<br>
 
-**Q6. **<br><br>
+**Answer: 2146**<br><br>
+
+**Q6. How many unique websites did “Cristin Genao” visit?**<br><br>
 
 **Answer: **<br><br>
 
