@@ -97,7 +97,20 @@ SecurityAlerts
 
 **Q10. How many Security Alerts reference the hostnames of helpdesk employees that received ransom notes?**<br><br>
 
-**Answer: **<br><br>
+```
+let impact_hosts = FileCreationEvents
+| where filename == 'PAY_UP_OR_SWIM_WITH_THE_FISHES.txt'
+| distinct hostname;
+let helpdesk_hostnames = Employees
+| where hostname in (impact_hosts)
+| where role contains "IT Helpdesk"
+| distinct hostname;
+SecurityAlerts
+| where description has_any (helpdesk_hostnames)
+```
+<br>
+
+**Answer: 27**<br><br>
 
 **Q.**<br><br>
 
