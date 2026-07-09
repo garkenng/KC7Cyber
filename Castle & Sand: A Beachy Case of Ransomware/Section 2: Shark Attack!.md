@@ -112,7 +112,22 @@ SecurityAlerts
 
 **Answer: 27**<br><br>
 
-**Q11. Who owns the machine that was flagged on that alert? (provide their name)**<br><br>
+**Q11. Let's look for any anomalies in the alerts that look different from the other alerts and might be shark-themed like the ransomware. You should find one. Who owns the machine that was flagged on that alert? (provide their name)**<br><br>
+
+<p>
+  One result stands out. Under the description.
+</p>
+
+```
+A suspicious file was quarantined on host 6S7W-MACHINE: Chomping-Schedule_Changes.xlsx
+```
+<br>
+
+```
+Employees
+| where hostname == "6S7W-MACHINE"
+```
+<br>
 
 **Answer: Preston Lane**<br><br>
 
@@ -124,7 +139,7 @@ SecurityAlerts
 
 **Answer: **<br><br>
 
-**Q.**<br><br>
+**Q12. When did the file appear on that user's machine? (copy and paste the full timestamp)**<br><br>
 
 **Answer: **<br><br>
 
