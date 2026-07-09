@@ -26,19 +26,50 @@ FileCreationEvents
 ```
 <br>
 
-**Answer: **<br><br>
+**Answer: 774**<br><br>
 
-**Q.**<br><br>
+**Q5. How many distinct hostnames had the ransom note?**<br><br>
 
-**Answer: **<br><br>
+```
+FileCreationEvents
+| where filename == "PAY_UP_OR_SWIM_WITH_THE_FISHES.txt"
+| distinct hostname 
+| count
+```
+<br>
 
-**Q.**<br><br>
+**Answer: 774**<br><br>
 
-**Answer: **<br><br>
+**Q6. How many distinct employee roles were affected by the ransomware attack?**<br><br>
 
-**Q.**<br><br>
+```
+let DistinctRoles =
+FileCreationEvents
+| where filename == "PAY_UP_OR_SWIM_WITH_THE_FISHES.txt"
+| distinct hostname;
+Employees
+| where hostname in (DistinctRoles)
+| distinct role
+```
+<br>
 
-**Answer: **<br><br>
+**Answer: 18**<br><br>
+
+**Q7. How many unique hostnames belong to IT employees?**<br><br>
+
+```
+let DistinctRoles =
+FileCreationEvents
+| where filename == "PAY_UP_OR_SWIM_WITH_THE_FISHES.txt"
+| distinct hostname;
+Employees
+| where hostname in (DistinctRoles)
+| where role has "IT"
+| distinct hostname
+```
+<br>
+
+**Answer: 25**<br><br>
 
 **Q.**<br><br>
 
