@@ -1,6 +1,5 @@
 ## Castle & Sand: A Beachy Case of Ransomware: Section 1: KQL 101<br>
 ### **Summary**<br>
-
 <p>
 Castle&Sand is a leading beach gear company with stores across many locations. Known for high-quality, innovative products and expert staff, it offers a top-tier shopping experience. Its focus on customer satisfaction, trend-setting design, and welcoming stores makes it a trusted destination for beachgoers.
 
@@ -19,11 +18,15 @@ Do a take 10 on all the other tables to see what kind of data they contain.
 
 **Answer: done**<br><br>
 
+**Q2. How many employees are in the company?**<br><br>
 
+```
+Employees
+| count
+```
+<br>
 
-**Q2. **<br><br>
-
-**Answer: **<br><br>
+**Answer: 1500**<br><br>
 
 **Q3. **<br><br>
 
