@@ -1,17 +1,19 @@
 ## Castle & Sand: A Beachy Case of Ransomware: Section 1: KQL 101<br>
 ### **Summary**<br>
+
+<p>
 Castle&Sand is a leading beach gear company with stores across many locations. Known for high-quality, innovative products and expert staff, it offers a top-tier shopping experience. Its focus on customer satisfaction, trend-setting design, and welcoming stores makes it a trusted destination for beachgoers.
-<br><br>
+
 🥳 Today is your first day as a Junior Security Operations Center (SOC) Analyst with our company. Your primary job responsibility is to defend Castle&Sand and our employees from malicious cyber actors.
-<br><br>
+
 Remember The training guide will teach you how to answer the KQL101 questions.
-<br><br>
+
 Let's get started with a KQL 101. You can skip it if you've done this before.
-<br><br>
+
 The Employees table contains information about all the employees in our organization. In this case, we can see that the organization is named “Castle&Sand” and the domain is “castleandsand.com”.
-<br><br>
+
 Do a take 10 on all the other tables to see what kind of data they contain.
-<br><br>
+</p>
 
 **Q1. Type done here when finished to earn your first 10 points!**<br><br>
 
