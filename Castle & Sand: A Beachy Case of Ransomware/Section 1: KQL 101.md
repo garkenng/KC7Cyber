@@ -46,11 +46,22 @@ Need to look for Jacqueline Henderson email address first.
 
 ```
 Employees
-| where name contains "Jacqueline"
+| where name contains "Jacqueline Henderson"
 ```
 <br>
 
-**Answer: **<br><br>
+<p>
+  Use the email address in the emails table.
+</p>
+
+```
+Email
+| where recipient == "jacqueline_henderson@castleandsand.com"
+| count
+```
+<br>
+
+**Answer: 26**<br><br>
 
 **Q5. **<br><br>
 
