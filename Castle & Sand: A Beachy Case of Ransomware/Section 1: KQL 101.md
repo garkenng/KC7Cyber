@@ -38,7 +38,17 @@ Employees
 
 **Answer: Preston Lane**<br><br>
 
-**Q4. **<br><br>
+**Q4. How many emails did Jacqueline Henderson receive?**<br><br>
+
+<p>
+Need to look for Jacqueline Henderson email address first.
+</p>
+
+```
+Employees
+| where name contains "Jacqueline"
+```
+<br>
 
 **Answer: **<br><br>
 
