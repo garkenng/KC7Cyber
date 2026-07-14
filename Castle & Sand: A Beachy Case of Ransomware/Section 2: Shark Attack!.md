@@ -305,9 +305,21 @@ Email
 
 **Q29. How many unique domains did the email addresses use in their emails?**<br><br>
 
-**Answer: **<br><br>
+```
+let EmailAddresses = Email
+| where sender == "legal.sand@verizon.com"
+| distinct reply_to;
+Email
+| where sender in (EmailAddresses) or reply_to in (EmailAddresses)
+| extend Parsed = parse_url(link)
+| extend Domain = tostring(Parsed.Host)
+| distinct Domain
+```
+<br>
 
-**Q.**<br><br>
+**Answer: 6**<br><br>
+
+**Q30.**<br><br>
 
 **Answer: **<br><br>
 
