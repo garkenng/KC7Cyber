@@ -319,9 +319,9 @@ Email
 
 **Answer: 6**<br><br>
 
-**Q30.**<br><br>
+**Q30. How many distinct IP addresses total were used by all of the domains identified in Q29?**<br><br>
 
-**Answer: **<br><br>
+**Answer: 15**<br><br>
 
 **Q.**<br><br>
 
