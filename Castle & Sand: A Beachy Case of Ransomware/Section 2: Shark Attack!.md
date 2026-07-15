@@ -397,7 +397,7 @@ FileCreationEvents
 
 **Answer: 34**<br><br>
 
-**Q34. When was the first file observed?**<br><br>
+**Q34. When was the first file observed?**<br>
 
 From previous query.<br>
 
