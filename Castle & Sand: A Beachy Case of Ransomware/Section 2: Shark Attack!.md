@@ -144,7 +144,7 @@ FileCreationEvents
 
 **Q13. What's the SHA256 hash of that file?**<br><br>
 
-**Answer: 71daa56c10f7833848a09cf8160ab5d79da2dd2477b6b3791675e6a8d1635016*<br><br>
+**Answer: 71daa56c10f7833848a09cf8160ab5d79da2dd2477b6b3791675e6a8d1635016**<br><br>
 
 **Q14. What application created that file?**<br><br>
 
