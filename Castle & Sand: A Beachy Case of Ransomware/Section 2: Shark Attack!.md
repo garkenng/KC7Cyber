@@ -361,23 +361,39 @@ No results are returned from the query.<br>
 
 **Answer: 0**<br><br>
 
-**Q.**<br><br>
+**Q32. Looking at these emails (from question 28), how many unique filenames were served by these domains?**<br><br>
+
+```
+```
+let EmailAddresses = Email
+| where sender == "legal.sand@verizon.com"
+| distinct reply_to;
+Email
+| where sender in (EmailAddresses) or reply_to in (EmailAddresses)
+| distinct link
+| extend ParsedLink = parse_path(link)
+| project FileName = ParsedLink.Filename
+| distinct tostring(FileName)
+```
+<br>
+
+**Answer: 5**<br><br>
+
+**Q33. How many files with these names were created on employee host machines?**<br><br>
+
+
 
 **Answer: **<br><br>
 
-**Q.**<br><br>
+**Q34.**<br><br>
 
 **Answer: **<br><br>
 
-**Q.**<br><br>
+**Q35.**<br><br>
 
 **Answer: **<br><br>
 
-**Q.**<br><br>
-
-**Answer: **<br><br>
-
-**Q.**<br><br>
+**Q36.**<br><br>
 
 **Answer: **<br><br>
 
