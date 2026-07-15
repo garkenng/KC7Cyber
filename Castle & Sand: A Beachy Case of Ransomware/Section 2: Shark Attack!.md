@@ -403,13 +403,13 @@ From previous query.<br>
 
 **Answer: 2023-05-25 16:43:20+00:00**<br><br>
 
-**Q35.**<br><br>
+**Q35. How many records total are associated with the identified host machines from Q33?**<br><br>
 
-**Answer: **<br><br>
+**Answer: 16391**<br><br>
 
-**Q36.**<br><br>
+**Q36. How many records total do you have now?**<br><br>
 
-**Answer: **<br><br>
+**Answer: 5818**<br><br>
 
 **Q.**<br><br>
 
