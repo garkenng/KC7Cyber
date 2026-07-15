@@ -340,7 +340,26 @@ PassiveDns
 
 **Q31. How many user accounts did these IPs log into?**<br><br>
 
-**Answer: **<br><br>
+```
+let EmailAddresses = Email
+| where sender == "legal.sand@verizon.com"
+| distinct reply_to;
+let UniqueDomans = Email
+| where sender in (EmailAddresses) or reply_to in (EmailAddresses)
+| extend Parsed = parse_url(link)
+| extend Domain = tostring(Parsed.Host)
+| distinct Domain;
+let UniqueIPs = PassiveDns
+| where domain in (UniqueDomans)
+| distinct ip;
+AuthenticationEvents
+| where src_ip in (UniqueIPs)
+```
+<br>
+
+No results are returned from the query.<br>
+
+**Answer: 0**<br><br>
 
 **Q.**<br><br>
 
