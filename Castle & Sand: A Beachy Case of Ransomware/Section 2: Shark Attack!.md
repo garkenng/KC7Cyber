@@ -364,7 +364,6 @@ No results are returned from the query.<br>
 **Q32. Looking at these emails (from question 28), how many unique filenames were served by these domains?**<br><br>
 
 ```
-```
 let EmailAddresses = Email
 | where sender == "legal.sand@verizon.com"
 | distinct reply_to;
@@ -381,13 +380,28 @@ Email
 
 **Q33. How many files with these names were created on employee host machines?**<br><br>
 
+```
+let EmailAddresses = Email
+| where sender == "legal.sand@verizon.com"
+| distinct reply_to;
+let EmailFileName = Email
+| where sender in (EmailAddresses) or reply_to in (EmailAddresses)
+| distinct link
+| extend ParsedLink = parse_path(link)
+| project FileName = ParsedLink.Filename
+| distinct tostring(FileName);
+FileCreationEvents
+| where filename in (EmailFileName)
+```
+<br>
 
+**Answer: 34**<br><br>
 
-**Answer: **<br><br>
+**Q34. When was the first file observed?**<br><br>
 
-**Q34.**<br><br>
+From previous query.<br>
 
-**Answer: **<br><br>
+**Answer: 2023-05-25 16:43:20+00:00**<br><br>
 
 **Q35.**<br><br>
 
