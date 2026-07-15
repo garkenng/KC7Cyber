@@ -321,9 +321,24 @@ Email
 
 **Q30. How many distinct IP addresses total were used by all of the domains identified in Q29?**<br><br>
 
+```
+let EmailAddresses = Email
+| where sender == "legal.sand@verizon.com"
+| distinct reply_to;
+let UniqueDomans = Email
+| where sender in (EmailAddresses) or reply_to in (EmailAddresses)
+| extend Parsed = parse_url(link)
+| extend Domain = tostring(Parsed.Host)
+| distinct Domain;
+PassiveDns
+| where domain in (UniqueDomans)
+| distinct ip
+```
+<br>
+
 **Answer: 15**<br><br>
 
-**Q.**<br><br>
+**Q31. How many user accounts did these IPs log into?**<br><br>
 
 **Answer: **<br><br>
 
