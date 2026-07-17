@@ -433,9 +433,9 @@ ProcessEvents
 
 **Answer: 5818**<br><br>
 
-**Q.**<br><br>
+**Q37. Let's look at the first few records. There's some suspicious powershell activity that occurs near the beginning.**<br><br>
 
-**Answer: **<br><br>
+**Answer: 220.35.180.137**<br><br>
 
 **Q.**<br><br>
 
