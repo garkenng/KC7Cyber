@@ -407,7 +407,29 @@ From previous query.<br>
 
 **Answer: 16391**<br><br>
 
-**Q36. How many records total do you have now?**<br><br>
+**Q36. Using your query from Q35, set a new query where the timestamp is greater than the first time you saw the file in Q34.. How many records total do you have now?**<br><br>
+
+```
+let EmailAddresses = 
+Email
+| where sender == "legal.sand@verizon.com"
+| distinct reply_to;
+let EmailFileName = 
+Email
+| where sender in (EmailAddresses) or reply_to in (EmailAddresses)
+| distinct link
+| extend ParsedLink = parse_path(link)
+| project FileName = ParsedLink.Filename
+| distinct tostring(FileName);
+let BadFileNames =
+FileCreationEvents
+| where filename in (EmailFileName)
+| distinct hostname;
+ProcessEvents
+| where hostname has_any (BadFileNames)
+| where timestamp > datetime(2023-05-25T16:43:20.000Z)
+```
+<br>
 
 **Answer: 5818**<br><br>
 
