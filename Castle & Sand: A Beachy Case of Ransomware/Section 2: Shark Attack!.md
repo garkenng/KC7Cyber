@@ -492,11 +492,11 @@ ProcessEvents
 
 **Answer: 31**<br><br>
 
-**Q.**<br><br>
+**Q42. How many hosts did that powershell command execute on?**<br><br>
 
-**Answer: **<br><br>
+**Answer: 31**<br><br>
 
-**Q.**<br><br>
+**Q43.**<br><br>
 
 **Answer: **<br><br>
 
